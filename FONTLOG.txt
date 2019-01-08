@@ -1,0 +1,28 @@
+FONTLOG
+GunjalaGondi
+============
+
+This file provides detailed information on the GunjalaGondi font.
+This information should be distributed along with the GunjalaGondi font and any derivative works.
+
+Basic Font Information
+----------------------
+
+Font to cover the Gunjala Gondi script.
+
+ChangeLog
+---------
+(This should list both major and minor changes, most recent first.)
+
+04 Apr 2017 (S. Sridhar Murthy) GunjalaGondi font version 0.100
+- Initial release
+
+Acknowledgements
+----------------
+(If you make modifications be sure to add your
+name (N), email (E), web-address (W) and description (D).
+This list is sorted by last name in alphabetical order.)
+
+N: S. Sridhar Murthy
+E: mudrika_sridhar@yahoo.com
+D: Designer
