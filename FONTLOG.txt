@@ -14,6 +14,8 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+Unreleased
+- Updated licensing for SIL additions and modifications
 04 Apr 2017 (S. Sridhar Murthy) GunjalaGondi font version 0.100
 - Initial release
 
@@ -22,6 +24,9 @@ Acknowledgements
 (If you make modifications be sure to add your
 name (N), email (E), web-address (W) and description (D).
 This list is sorted by last name in alphabetical order.)
+
+N: Bobby de Vos
+D: Font engineer
 
 N: S. Sridhar Murthy
 E: mudrika_sridhar@yahoo.com
