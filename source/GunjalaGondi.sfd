@@ -18616,7 +18616,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u11D84
+StartChar: u11D84.copy
 Encoding: 93 73092 93
 Width: 1314
 GlyphClass: 2
@@ -28205,7 +28205,7 @@ EndSplineSet
 Ligature2: "'half' Half Forms in Devanagari lookup 0 subtable" u11D83 u11D97
 EndChar
 
-StartChar: u11D84.half
+StartChar: u11D84.half.copy
 Encoding: 125 -1 125
 Width: 1193
 GlyphClass: 2
@@ -43156,7 +43156,7 @@ EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 2 subtable" u11D8B u11D83
 EndChar
 
-StartChar: u11D84_u11D8A
+StartChar: u11D84_u11D8A.copy
 Encoding: 168 -1 168
 Width: 1945
 GlyphClass: 2
@@ -43704,7 +43704,7 @@ EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 1 subtable" u11D84 u11D8A
 EndChar
 
-StartChar: u11D84_u11D8B
+StartChar: u11D84_u11D8B.copy
 Encoding: 169 -1 169
 Width: 1988
 GlyphClass: 2
