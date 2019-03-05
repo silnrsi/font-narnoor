@@ -16,7 +16,7 @@ getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 BUILDLABEL = "alpha"
 
 # Set up the FTML tests
-ftmlTest('tests/ftml-padauk.xsl', fonts=['../test/reference/Narnoor-Regular.ttf'], addfontindex=1, fontmode='collect')
+ftmlTest('tools/ftml-padauk.xsl', fonts=['../test/reference/Narnoor-Regular.ttf'], addfontindex=1, fontmode='collect')
 
 # set the build and test parameters
 TESTSTRING = u'\U00011D6C'
