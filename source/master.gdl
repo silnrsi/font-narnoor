@@ -1,6 +1,6 @@
 table(glyph)
-cOmatras = (g11d92, g11d93, g11d94);
-cEmatras = (g11d8f, g11d90, g11d91);
+cOmatras = (g11d93, g11d94);
+cEmatras = (g11d90, g11d91);
 endtable
 
 table(substitution)

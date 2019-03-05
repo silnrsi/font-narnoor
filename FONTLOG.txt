@@ -1,9 +1,9 @@
 FONTLOG
-GunjalaGondi
-============
+Narnoor
+=======
 
-This file provides detailed information on the GunjalaGondi font.
-This information should be distributed along with the GunjalaGondi font and any derivative works.
+This file provides detailed information on the Narnoor font.
+This information should be distributed along with the Narnoor font and any derivative works.
 
 Basic Font Information
 ----------------------
@@ -15,6 +15,13 @@ ChangeLog
 (This should list both major and minor changes, most recent first.)
 
 Unreleased
+- Fix test data and font to remove codepoints from
+  - PUA
+  - outside the Gunjala Gondi block
+  - unassigned with the the Gunjala Gondi block
+- Rename glyphs and encode correctly (hopefully)
+- Convert glyphs to Postscript curves
+- Added test data, build system, and font smarts
 - Updated licensing for SIL additions and modifications
 04 Apr 2017 (S. Sridhar Murthy) GunjalaGondi font version 0.100
 - Initial release

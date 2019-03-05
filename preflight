@@ -1,0 +1,3 @@
+#!/bin/sh
+
+psfnormalize -v 3 -p checkfix=fix source/Narnoor-Regular.ufo

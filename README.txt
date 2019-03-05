@@ -1,11 +1,10 @@
 README
-GunjalaGondi
-============
+Narnoor
+=======
 
-Thank you for your interest in the GunjalaGondi font
-from CDAST, University of Hyderabad, Hyderabad.
+Thank you for your interest in the Narnoor font from SIL International.
 
-GunjalaGondi font is released under the SIL Open Font License.
+Narnoor font is released under the SIL Open Font License.
 
 See the OFL and OFL-FAQ for details of the SIL Open Font License.
 See the FONTLOG for information on this and previous releases.
