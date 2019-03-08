@@ -272,8 +272,10 @@
   <string>u11D_71_u11D_8A_.glif</string>
   <key>u11D71_u11D8B</key>
   <string>u11D_71_u11D_8B_.glif</string>
-  <key>u11D71_u11D97_u11F37</key>
-  <string>u11D_71_u11D_97_u11F_37.glif</string>
+  <key>u11D71_u11D97_u11D81</key>
+  <string>u11D_71_u11D_97_u11D_81.glif</string>
+  <key>u11D71_u11D97_u11D89</key>
+  <string>u11D_71_u11D_97_u11D_89.glif</string>
   <key>u11D72</key>
   <string>u11D_72.glif</string>
   <key>u11D72.half</key>
@@ -398,8 +400,6 @@
   <string>u11D_80_u11D_8A_.glif</string>
   <key>u11D80_u11D8B</key>
   <string>u11D_80_u11D_8B_.glif</string>
-  <key>u11D80_u11D97_u11F1E</key>
-  <string>u11D_80_u11D_97_u11F_1E_.glif</string>
   <key>u11D81</key>
   <string>u11D_81.glif</string>
   <key>u11D81.half</key>
