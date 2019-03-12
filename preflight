@@ -1,3 +1,5 @@
 #!/bin/sh
 
 psfnormalize -v 3 -p checkfix=fix source/Narnoor-Regular.ufo
+psfsetglyphorder -i source/glyph_data.csv source/Narnoor-Regular.ufo
+psfsetpsnames -i source/glyph_data.csv source/Narnoor-Regular.ufo

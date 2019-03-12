@@ -24,7 +24,9 @@ TESTSTRING = u'\U00011D6C'
 # set up the build parameters from the designspace file(s)
 for dspace in ('Roman',):
     designspace('source/' + FAMILY + dspace + '.designspace',
-                target = "${DS:FILENAME_BASE}.ttf",
+                target = process('${DS:FILENAME_BASE}.ttf',
+                    cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
+                ),
                 graphite = gdl("generated/${DS:FILENAME_BASE}.gdl",
                              master='source/master.gdl',
                              make_params="-l last -p 1",
