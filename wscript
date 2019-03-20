@@ -35,6 +35,6 @@ for dspace in ('Roman',):
                 script = ['gong'],
                 ap = 'generated/' + '${DS:FILENAME_BASE}.xml',
                 # classes = 'source/' + 'classes.xml',
-                fret = fret(params='-s A4')
-                # woff = woff(params='-v ' + VERSION + ' -m ../source/foo-WOFF-metadata.xml'),
+                fret = fret(params='-s A4'),
+                woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml')
     )
