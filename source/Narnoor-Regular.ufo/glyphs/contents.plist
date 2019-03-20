@@ -142,6 +142,8 @@
   <string>n.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
+  <key>nonmarkingreturn</key>
+  <string>nonmarkingreturn.glif</string>
   <key>numbersign</key>
   <string>numbersign.glif</string>
   <key>o</key>
@@ -566,8 +568,12 @@
   <string>uni0970.glif</string>
   <key>uni200C</key>
   <string>uni200C_.glif</string>
+  <key>uni200C.visable</key>
+  <string>uni200C_.visable.glif</string>
   <key>uni200D</key>
   <string>uni200D_.glif</string>
+  <key>uni200D.visable</key>
+  <string>uni200D_.visable.glif</string>
   <key>uni20A8</key>
   <string>uni20A_8.glif</string>
   <key>uni25CC</key>
