@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni200D.visable" format="2">
-  <advance width="0"/>
-  <unicode hex="200D"/>
+<glyph name="uni200D.visible" format="2">
   <outline>
     <contour>
       <point x="220" y="1387" type="line"/>

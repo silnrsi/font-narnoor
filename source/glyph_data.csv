@@ -102,9 +102,9 @@ u0964,uni0964,99,0964
 u0965,uni0965,100,0965
 uni0970,uni0970,101,0970
 uni200C,uni200C,102,200C
-uni200C.visable,uni200C.visable,103,200C
+uni200C.visible,uni200C.visible,103,
 uni200D,uni200D,104,200D
-uni200D.visable,uni200D.visable,105,200D
+uni200D.visible,uni200D.visible,105,
 endash,endash,106,2013
 emdash,emdash,107,2014
 quoteleft,quoteleft,108,2018
