@@ -1,0 +1,3 @@
+#!/bin/sh
+
+psfglyphs2ufo source/NarnoorRoman.glyphs source
