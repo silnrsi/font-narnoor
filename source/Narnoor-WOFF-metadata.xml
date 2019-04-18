@@ -17,6 +17,8 @@
       (This should list both major and minor changes, most recent first.)
       
       Unreleased
+      - Extra Latin glyphs (mostly outside of ASCII) are from
+      Charis SIL (https://software.sil.org/charis/) scaled 110%
       - Fix test data and font to remove codepoints from
       - PUA
       - outside the Gunjala Gondi block

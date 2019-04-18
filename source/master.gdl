@@ -1,3 +1,6 @@
+// Glyph definitions and rules for codepage 1252 composites
+#include "cp1252.gdl"
+
 table(glyph)
 cOmatras = (g11d93, g11d94);
 cEmatras = (g11d90, g11d91);

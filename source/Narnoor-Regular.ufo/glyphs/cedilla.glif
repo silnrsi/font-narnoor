@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedilla" format="2">
+  <advance width="515"/>
+  <unicode hex="00B8"/>
+  <outline>
+    <component base="CombCedilla" xOffset="867"/>
+  </outline>
+</glyph>

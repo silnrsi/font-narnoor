@@ -42,7 +42,7 @@ Additions and modifications copyright (c) 2015-2019 SIL International (http://ww
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2019/03/26 17:13:48</string>
+  <string>2019/04/18 13:31:53</string>
   <key>openTypeHheaAscender</key>
   <integer>2691</integer>
   <key>openTypeHheaDescender</key>
@@ -168,11 +168,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
-  </array>
-  <key>openTypeOS2FamilyClass</key>
-  <array>
-    <integer>0</integer>
-    <integer>0</integer>
+    <integer>29</integer>
   </array>
   <key>openTypeOS2Panose</key>
   <array>
@@ -219,10 +215,22 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <array>
     <integer>0</integer>
     <integer>1</integer>
+    <integer>2</integer>
+    <integer>3</integer>
+    <integer>5</integer>
+    <integer>6</integer>
+    <integer>7</integer>
     <integer>15</integer>
     <integer>31</integer>
+    <integer>33</integer>
+    <integer>35</integer>
     <integer>38</integer>
     <integer>45</integer>
+    <integer>57</integer>
+    <integer>62</integer>
+    <integer>67</integer>
+    <integer>69</integer>
+    <integer>91</integer>
   </array>
   <key>openTypeOS2VendorID</key>
   <string>SIL </string>
@@ -246,8 +254,6 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <integer>-123</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>20</integer>
-  <key>postscriptWeightName</key>
-  <string>Book</string>
   <key>styleMapFamilyName</key>
   <string>Narnoor Regular</string>
   <key>styleMapStyleName</key>

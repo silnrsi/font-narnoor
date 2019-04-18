@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ringcomb" format="2">
+  <outline>
+    <component base="RingAbv" xOffset="-876"/>
+  </outline>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ModTriangularColon" format="2">
+  <advance width="571"/>
+  <unicode hex="02D0"/>
+  <outline>
+    <contour>
+      <point x="475" y="1078" type="line"/>
+      <point x="96" y="1078" type="line"/>
+      <point x="208" y="721" type="line"/>
+      <point x="363" y="721" type="line"/>
+    </contour>
+    <contour>
+      <point x="475" y="0" type="line"/>
+      <point x="363" y="356" type="line"/>
+      <point x="208" y="356" type="line"/>
+      <point x="96" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

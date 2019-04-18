@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GrCapDelta" format="2">
+  <advance width="1433"/>
+  <outline>
+    <contour>
+      <point x="1423" y="0" type="line"/>
+      <point x="762" y="1609" type="line"/>
+      <point x="13" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1119" y="125" type="line"/>
+      <point x="181" y="125" type="line"/>
+      <point x="679" y="1188" type="line"/>
+    </contour>
+  </outline>
+</glyph>
