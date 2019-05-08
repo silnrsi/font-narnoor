@@ -430,6 +430,8 @@
   <string>igrave.glif</string>
   <key>infinity</key>
   <string>infinity.glif</string>
+  <key>inr</key>
+  <string>inr.glif</string>
   <key>integral</key>
   <string>integral.glif</string>
   <key>j</key>
@@ -552,6 +554,8 @@
   <string>ring.glif</string>
   <key>ringcomb</key>
   <string>ringcomb.glif</string>
+  <key>rs</key>
+  <string>rs.glif</string>
   <key>s</key>
   <string>s.glif</string>
   <key>scaron</key>
@@ -976,8 +980,6 @@
   <string>uni200D_.glif</string>
   <key>uni200D.visible</key>
   <string>uni200D_.visible.glif</string>
-  <key>uni20A8</key>
-  <string>uni20A_8.glif</string>
   <key>uni25CC</key>
   <string>uni25C_C_.glif</string>
   <key>v</key>
