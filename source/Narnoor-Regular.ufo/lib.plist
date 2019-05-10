@@ -278,8 +278,9 @@
     <string>guilsinglright</string>
     <string>fraction</string>
     <string>wj</string>
-    <string>uni20A8</string>
+    <string>rs</string>
     <string>Euro</string>
+    <string>inr</string>
     <string>trademark</string>
     <string>Ohm</string>
     <string>partialdiff</string>
@@ -596,8 +597,12 @@
     <string>uniFB01</string>
     <key>fl</key>
     <string>uniFB02</string>
+    <key>inr</key>
+    <string>uni20B9</string>
     <key>nbsp</key>
     <string>uni00A0</string>
+    <key>rs</key>
+    <string>uni20A8</string>
     <key>u0964</key>
     <string>uni0964</string>
     <key>u0965</key>

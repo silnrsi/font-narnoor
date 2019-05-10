@@ -1,0 +1,4 @@
+#!/bin/sh
+
+psffixffglifs -p checkfix=fix source/Narnoor-Regular.ufo
+./preflight
