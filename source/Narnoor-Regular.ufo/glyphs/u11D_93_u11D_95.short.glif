@@ -54,12 +54,6 @@
       <point x="888" y="1559"/>
     </contour>
     <contour>
-      <point x="729" y="1320" type="move"/>
-    </contour>
-    <contour>
-      <point x="600" y="1320" type="move"/>
-    </contour>
-    <contour>
       <point x="447" y="752" type="curve"/>
       <point x="415" y="720"/>
       <point x="390" y="688"/>
