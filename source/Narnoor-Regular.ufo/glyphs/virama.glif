@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="virama" format="2">
+  <unicode hex="11D97"/>
+  <outline>
+    <contour>
+      <point x="-277" y="-30" type="line"/>
+      <point x="91" y="-317" type="line"/>
+      <point x="8" y="-421" type="line"/>
+      <point x="-360" y="-134" type="line"/>
+    </contour>
+  </outline>
+</glyph>

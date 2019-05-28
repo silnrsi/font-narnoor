@@ -2,20 +2,20 @@
 #include "cp1252.gdl"
 
 table(glyph)
-cOmatras = (g11d93, g11d94);
-cEmatras = (g11d90, g11d91);
+cOmatras = (g_oomatra, g_aumatra);
+cEmatras = (g_eematra, g_aimatra);
 endtable
 
 table(substitution)
 pass(1)
-cno_half g11d97 > chalf:(1 2) _;
-cligno_11D95 g11d95 > clig11D95:(1 2) _;
-cligno_11D8A g11d8a > clig11D8A:(1 2) _;
-cligno_11D8B g11d8b > clig11D8B:(1 2) _;
-cligno_11D8A > clig11D8A / _ cOmatras;
-cOmatras > cEmatras / clig11D8A _ ;
-/* cligno_11D93 g11d93 > clig11D93:(1 2) _; we don't need these ligatures at all */
-/* cligno_11D94 g11d94 > clig11D94:(1 2) _; we don't need these ligatures at all */
-cno_half > chalf / _ g11d8a;
+cno_half g_virama > chalf:(1 2) _;
+cligno_anusvara g_anusvara > cliganusvara:(1 2) _;
+cligno_aamatra g_aamatra > cligaamatra:(1 2) _;
+cligno_imatra g_imatra > cligimatra:(1 2) _;
+cligno_aamatra > cligaamatra / _ cOmatras;
+cOmatras > cEmatras / cligaamatra _ ;
+/* cligno_oomatra oomatra > cligoomatra:(1 2) _; we don't need these ligatures at all */
+/* cligno_aumatra aumatra > cligaumatra:(1 2) _; we don't need these ligatures at all */
+cno_half > chalf / _ g_aamatra;
 endpass
 endtable
