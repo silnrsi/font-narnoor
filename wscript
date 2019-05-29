@@ -27,6 +27,11 @@ for dspace in ('Roman',):
                 target = process('${DS:FILENAME_BASE}.ttf',
                     cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
                 ),
+                opentype = fea("generated/${DS:FILENAME_BASE}.fea",
+                    master = 'source/master.feax',
+                    make_params = '',
+                    params = '',
+                    ),
                 graphite = gdl("generated/${DS:FILENAME_BASE}.gdl",
                              master='source/master.gdl',
                              make_params="-l last -p 1",

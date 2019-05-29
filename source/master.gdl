@@ -8,14 +8,22 @@ endtable
 
 table(substitution)
 pass(1)
+
+// For debugging the string "RenderingUnknown" will be rendered as "RenderingGraphite"
+// if the app is using Graphite to render the text.
+codepoint("U") codepoint("n") codepoint("k") codepoint("n") codepoint("o") codepoint("w") codepoint("n") _ >
+codepoint("G") codepoint("r") codepoint("a") codepoint("p") codepoint("h") codepoint("i") codepoint("t") codepoint("e"):16  /
+    codepoint("R") codepoint("e") codepoint("n") codepoint("d") codepoint("e") codepoint("r") codepoint("i") codepoint("n") codepoint("g")  _ _ _ _ _ _ _ _;
+
 cno_half g_virama > chalf:(1 2) _;
 cligno_anusvara g_anusvara > cliganusvara:(1 2) _;
 cligno_aamatra g_aamatra > cligaamatra:(1 2) _;
 cligno_imatra g_imatra > cligimatra:(1 2) _;
 cligno_aamatra > cligaamatra / _ cOmatras;
 cOmatras > cEmatras / cligaamatra _ ;
-/* cligno_oomatra oomatra > cligoomatra:(1 2) _; we don't need these ligatures at all */
-/* cligno_aumatra aumatra > cligaumatra:(1 2) _; we don't need these ligatures at all */
+// we don't need these ligatures at all
+// cligno_oomatra oomatra > cligoomatra:(1 2) _;
+// cligno_aumatra aumatra > cligaumatra:(1 2) _;
 cno_half > chalf / _ g_aamatra;
 endpass
 endtable
