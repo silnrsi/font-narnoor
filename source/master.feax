@@ -6,59 +6,59 @@ languagesystem DFLT dflt;
 # For debugging the string "RenderingUnknown" will be rendered as "RenderingOpenType"
 # if the app is using OpenType to render the text.
 lookup FontCheck_Unknow {
-    lookupflag IgnoreMarks;
-        sub [U n k o w ] by [O p e T y];
+  lookupflag IgnoreMarks;
+    sub [U n k o w ] by [O p e T y];
 } FontCheck_Unknow;
 
 lookup FontCheck_n {
-    lookupflag IgnoreMarks;
-        sub n by p e;
+  lookupflag IgnoreMarks;
+    sub n by p e;
 } FontCheck_n;
 
 lookup FontCheck {
-    lookupflag IgnoreMarks;
-        sub [R] e n d e r i n g
-            U' lookup FontCheck_Unknow
-            n' lookup FontCheck_Unknow
-            k' lookup FontCheck_Unknow
-            n'
-            o' lookup FontCheck_Unknow
-            w' lookup FontCheck_Unknow
-            n' lookup FontCheck_n;
+  lookupflag IgnoreMarks;
+    sub [R] e n d e r i n g
+      U' lookup FontCheck_Unknow
+      n' lookup FontCheck_Unknow
+      k' lookup FontCheck_Unknow
+      n'
+      o' lookup FontCheck_Unknow
+      w' lookup FontCheck_Unknow
+      n' lookup FontCheck_n;
 } FontCheck;
 
 lookup OnePass {
-    lookupflag IgnoreMarks;
-        sub @cno_half' virama' by @c_half;
-        #sub @cno_anusvara' anusvara' by @c_anusvara;
-        #sub @cno_aamatra' aamatra' by @C_aamatra;
-        #sub @cno_imatra' imatra' by @C_imatra;
-        #sub @cno_aamatra' @cOmatras by @c_aamatra;
-        #sub @cOmatras' @c_aamatra by @cEmatras;
-        # we don't need these ligatures at all
-        # sub @cno_oomatra' oomatra' by @c_oomatra:(1 2) _;
-        # sub @cno_aumatra' aumatra' by @_cumatra:(1 2) _;
-        sub @cno_half' aamatra by @c_half;
+  lookupflag IgnoreMarks;
+    sub @cno_half' virama' by @c_half;
+    #sub @cno_anusvara' anusvara' by @c_anusvara;
+    #sub @cno_aamatra' aamatra' by @C_aamatra;
+    #sub @cno_imatra' imatra' by @C_imatra;
+    #sub @cno_aamatra' @cOmatras by @c_aamatra;
+    #sub @cOmatras' @c_aamatra by @cEmatras;
+    # we don't need these ligatures at all
+    # sub @cno_oomatra' oomatra' by @c_oomatra:(1 2) _;
+    # sub @cno_aumatra' aumatra' by @_cumatra:(1 2) _;
+    sub @cno_half' aamatra by @c_half;
 } OnePass;
 
 lookup mAPs {
-    lookupflag IgnoreMarks;
-        pos base @M mark @_M;
+  lookupflag IgnoreMarks;
+    pos base @M mark @_M;
 } mAPs;
 
 lookup urAPs {
-    lookupflag IgnoreMarks;
-        pos base @UR mark @_UR;
+  lookupflag IgnoreMarks;
+    pos base @UR mark @_UR;
 } urAPs;
 
 lookup uAPs {
-    lookupflag IgnoreMarks;
-        pos base @U mark @_U;
+  lookupflag IgnoreMarks;
+    pos base @U mark @_U;
 } uAPs;
 
 lookup lAPs {
-    lookupflag IgnoreMarks;
-        pos base @L mark @_L;
+  lookupflag IgnoreMarks;
+    pos base @L mark @_L;
 } lAPs;
 
 feature ccmp {
