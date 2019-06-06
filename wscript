@@ -29,7 +29,7 @@ for dspace in ('Roman',):
                 ),
                 opentype = fea("generated/${DS:FILENAME_BASE}.fea",
                     master = 'source/master.feax',
-                    make_params = '',
+                    make_params = '-L last',
                     params = '',
                     ),
                 graphite = gdl("generated/${DS:FILENAME_BASE}.gdl",

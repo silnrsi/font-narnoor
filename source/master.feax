@@ -1,5 +1,7 @@
 languagesystem DFLT dflt;
 
+@cons = @cligno_aamatra;
+@matras = [aamatra imatra iimatra umatra uumatra eematra aimatra oomatra aumatra];
 @cOmatras = [oomatra aumatra];
 @cEmatras = [eematra aimatra];
 
@@ -28,36 +30,45 @@ lookup FontCheck {
 } FontCheck;
 
 lookup OnePass {
-  lookupflag IgnoreMarks;
+  lookupflag 0;
     sub @cno_half' virama' by @c_half;
-    #sub @cno_anusvara' anusvara' by @c_anusvara;
-    #sub @cno_aamatra' aamatra' by @C_aamatra;
-    #sub @cno_imatra' imatra' by @C_imatra;
-    #sub @cno_aamatra' @cOmatras by @c_aamatra;
-    #sub @cOmatras' @c_aamatra by @cEmatras;
+    sub @cligno_anusvara' anusvara' by @clig_anusvara;
+    sub @cligno_aamatra' aamatra' by @clig_aamatra;
+    sub @cligno_imatra' imatra' by @clig_imatra;
+    sub @cligno_aamatra' @cOmatras by @clig_aamatra;
+    sub @clig_aamatra @cOmatras' by @cEmatras;
     # we don't need these ligatures at all
-    # sub @cno_oomatra' oomatra' by @c_oomatra:(1 2) _;
-    # sub @cno_aumatra' aumatra' by @_cumatra:(1 2) _;
+    # sub @cligno_oomatra' oomatra' by @clig_oomatra;
+    # sub @cligno_aumatra' aumatra' by @clig_aumatra;
     sub @cno_half' aamatra by @c_half;
 } OnePass;
 
+lookup RightGuard {
+do  for c = @cons;
+    for m = @matras;
+    let v = (ADVx(m) - APx(m, "_M")) - (ADVx(c) - APx(c, "M"));
+    if v > 0; {
+        pos $c' $v $m;
+      }
+} RightGuard;
+
 lookup mAPs {
-  lookupflag IgnoreMarks;
+  lookupflag 0;
     pos base @M mark @_M;
 } mAPs;
 
 lookup urAPs {
-  lookupflag IgnoreMarks;
+  lookupflag 0;
     pos base @UR mark @_UR;
 } urAPs;
 
 lookup uAPs {
-  lookupflag IgnoreMarks;
+  lookupflag 0;
     pos base @U mark @_U;
 } uAPs;
 
 lookup lAPs {
-  lookupflag IgnoreMarks;
+  lookupflag 0;
     pos base @L mark @_L;
 } lAPs;
 
@@ -65,6 +76,10 @@ feature ccmp {
     lookup FontCheck;
     lookup OnePass;
 } ccmp;
+
+feature kern {
+    lookup RightGuard;
+} kern;
 
 feature mark {
     lookup mAPs;
