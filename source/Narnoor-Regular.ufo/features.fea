@@ -1,239 +1,678 @@
-languagesystem deva dflt;
-languagesystem deva zz01;
 
+# Main Classes
+@GDEF_bases = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B BulletOperator C Ccedilla CombBreve CombCaron CombCedilla CombCircum CombDiaer CombMacron CombOgonek D Delta E Eacute Ecircumflex Edieresis Egrave EmQuad EmSpace EnQuad EnSpace Eth Euro F FigureSpace FourPerEmSpace G GrCapDelta GrCapOmega GrCapPi H HairSpace HorizBar Hyphen HyphenMinus HyphenSoft HyphenationPt I Iacute Icircumflex Idieresis Igrave J K L LftToRtMrk LineSep LtnCapD LtnCapEsh M ModTriangularColon N NarrowNoBreakSpace NonBreakingHyphen Ntilde O OE Oacute ObjectReplChar Ocircumflex Odieresis Ograve Ohm Oslash Otilde P ParagraphSeparator PuncSpace Q R ReplChar RingAbv RtToLftMrk S Scaron SixPerEmSpace SmTilde SupOne SupThree SupTwo T ThinSpace Thorn ThreePerEmSpace U Uacute Ucircumflex Udieresis Ugrave V VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 W X Y Yacute Ydieresis Z Zcaron a aacute aavowel abbreviationsign acircumflex acute acutecomb adieresis ae agrave aivowel ampersand approxequal aring asciicircum asciitilde asterisk at atilde auvowel avowel avowel.chandrabindu b ba ba.half ba_aamatra ba_imatra backslash bar bha bha.half bha_aamatra bha_imatra braceleft braceright bracketleft bracketright breve brokenbar bullet c ca ca.half ca_aamatra ca_imatra caron caroncomb ccedilla cedilla cedillacomb cent cgj cha cha.half cha_aamatra cha_imatra circumflex circumflexcomb colon comma copyright currency d da da.half da_aamatra da_imatra dagger daggerdbl danda dandadbl dda dda.half dda_aamatra dda_imatra ddha ddha.half ddha_aamatra ddha_imatra degree dha dha.half dha_aamatra dha_imatra diaeresiscomb dieresis divide dollar dotaccent dotlessi dottedcircle e eacute ecircumflex edieresis eevowel eevowel.short egrave eight eightgong ellipsis emdash endash equal eth exclam exclamdown f fi figuredash five fivegong fl florin four fourgong fraction g ga ga.half ga_aamatra ga_imatra germandbls gha gha.half gha_aamatra gha_imatra grave gravecomb greater greaterequal guillemotleft guillemotright guilsinglleft guilsinglright h ha ha.half ha_aamatra ha_imatra hungarumlaut hyphen i iacute icircumflex idieresis igrave iivowel infinity inr integral ivowel j ja ja.half ja_aamatra ja_imatra jha jha.half jha_aamatra jha_imatra k ka ka.half ka_aamatra ka_imatra ka_virama_jha ka_virama_sa kha kha.half kha_aamatra l la la.dot la.half la.half.dot la_aamatra la_imatra less lessequal lla lla.half lla_aamatra lla_imatra logicalnot lozenge m ma ma.half ma_aamatra ma_imatra macron minus mu multiply n na na.half na_aamatra na_imatra nbsp nga nga.dot nga.half nga.half.dot nga_aamatra nga_imatra nine ninegong nonmarkingreturn notequal ntilde numbersign o oacute ocircumflex odieresis oe ogonek ograve om one onegong onehalf onequarter oovowel oovowel.short ordfeminine ordmasculine oslash otilde p pa pa.half pa_aamatra pa_imatra paragraph parenleft parenright partialdiff percent period periodcentered perthousand pha pha.half pha_aamatra pha_imatra pi plus plusminus product q question questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r ra ra.dot ra.half ra.half.dot ra_aamatra ra_imatra ra_umatra.dot ra_uumatra.dot radical registered ring ringcomb rs s sa sa.2dots sa.dot sa.half sa.half.2dots sa.half.dot sa_aamatra sa_imatra scaron section semicolon seven sevengong six sixgong slash space sterling summation t ta ta.half ta_aamatra ta_imatra tha tha.half tha_aamatra tha_imatra thorn three threegong threequarters tilde tildecomb trademark tta tta.half tta_aamatra tta_imatra ttha ttha.half ttha_aamatra ttha_imatra two twogong u uacute ucircumflex udieresis ugrave underscore uuvowel uvowel v va va.half va_aamatra va_imatra virama visarga w wj x y ya ya.half ya_aamatra ya_imatra yacute ydieresis yen z zcaron zero zerogong zwj zwj.visible zwnbsp zwnj zwnj.visible zwsp];
+@GDEF_marks = [aamatra aimatra aimatra_anusvara anusvara aumatra eematra eematra.short eematra_anusvara eematra_anusvara.short iimatra iimatra_anusvara imatra imatra.short kha_imatra oomatra oomatra.short oomatra_anusvara.short umatra uumatra virama.alt];
+@c_2dots = [sa.2dots sa.half.2dots];
+@cno_2dots = [sa sa.half];
+@c_alt = [virama.alt];
+@cno_alt = [virama];
+@c_chandrabindu = [avowel.chandrabindu];
+@cno_chandrabindu = [avowel];
+@c_dot = [la.dot la.half.dot nga.dot nga.half.dot ra.dot ra.half.dot sa.dot sa.half.dot];
+@cno_dot = [la la.half nga nga.half ra ra.half sa sa.half];
+@c_half = [ba.half bha.half ca.half cha.half da.half dda.half ddha.half dha.half ga.half gha.half ha.half ja.half jha.half ka.half kha.half la.half lla.half ma.half na.half nga.half pa.half pha.half ra.half sa.half ta.half tha.half tta.half ttha.half va.half ya.half];
+@cno_half = [ba bha ca cha da dda ddha dha ga gha ha ja jha ka kha la lla ma na nga pa pha ra sa ta tha tta ttha va ya];
+@c_short = [eematra.short eematra_anusvara.short eevowel.short imatra.short oomatra.short oovowel.short];
+@cno_short = [eematra eematra_anusvara eevowel imatra oomatra oovowel];
+@c_visible = [zwj.visible zwnj.visible];
+@cno_visible = [zwj zwnj];
+@clig_aamatra = [ba_aamatra bha_aamatra ca_aamatra cha_aamatra da_aamatra dda_aamatra ddha_aamatra dha_aamatra ga_aamatra gha_aamatra ha_aamatra ja_aamatra jha_aamatra ka_aamatra kha_aamatra la_aamatra lla_aamatra ma_aamatra na_aamatra nga_aamatra pa_aamatra pha_aamatra ra_aamatra sa_aamatra ta_aamatra tha_aamatra tta_aamatra ttha_aamatra va_aamatra ya_aamatra];
+@clig_anusvara = [aimatra_anusvara eematra_anusvara iimatra_anusvara];
+@clig_imatra = [ba_imatra bha_imatra ca_imatra cha_imatra da_imatra dda_imatra ddha_imatra dha_imatra ga_imatra gha_imatra ha_imatra ja_imatra jha_imatra ka_imatra kha_imatra la_imatra lla_imatra ma_imatra na_imatra nga_imatra pa_imatra pha_imatra ra_imatra sa_imatra ta_imatra tha_imatra tta_imatra ttha_imatra va_imatra ya_imatra];
+@cligno_aamatra = [ba bha ca cha da dda ddha dha ga gha ha ja jha ka kha la lla ma na nga pa pha ra sa ta tha tta ttha va ya];
+@cligno_anusvara = [aimatra eematra iimatra];
+@cligno_imatra = [ba bha ca cha da dda ddha dha ga gha ha ja jha ka kha la lla ma na nga pa pha ra sa ta tha tta ttha va ya];
 
-# GSUB 
+# Positioning classes and statements
 
+# AP: _M
+markClass aamatra <anchor -4 1320> @_M;
+markClass [aimatra eematra] <anchor -201 1319> @_M;
+markClass aimatra_anusvara <anchor -182 1319> @_M;
+markClass [aumatra oomatra] <anchor -21 1320> @_M;
+markClass eematra.short <anchor -226 1320> @_M;
+markClass eematra_anusvara <anchor -202 1319> @_M;
+markClass eematra_anusvara.short <anchor -160 1323> @_M;
+markClass [iimatra iimatra_anusvara] <anchor -284 1315> @_M;
+markClass [imatra kha_imatra] <anchor -108 1315> @_M;
+markClass imatra.short <anchor -206 1309> @_M;
+markClass [oomatra.short oomatra_anusvara.short] <anchor -19 1320> @_M;
+markClass umatra <anchor -260 1320> @_M;
+markClass uumatra <anchor -258 1320> @_M;
 
-lookup halfHalfFormsinDevanagarilookup0 {
-  lookupflag 0;
-    sub \u11D71 \u11D97  by \u11D71.half;
-    sub \u11D72 \u11D97  by \u11D72.half;
-    sub \u11D76 \u11D97  by \u11D76.half;
-    sub \u11D77 \u11D97  by \u11D77.half;
-    sub \u11D84 \u11D97  by \u11D84.half;
-    sub \u11D7B \u11D97  by \u11D7B.half;
-    sub \u11D7C \u11D97  by \u11D7C.half;
-    sub \u11D80 \u11D97  by \u11D80.half;
-    sub \u11D81 \u11D97  by \u11D81.half;
-    sub \u11D7D \u11D97  by \u11D7D.half;
-    sub \u11D7E \u11D97  by \u11D7E.half;
-    sub \u11D82 \u11D97  by \u11D82.half;
-    sub \u11D83 \u11D97  by \u11D83.half;
-    sub \u11D84 \u11D97  by \u11D84.half.copy;
-    sub \u11D73 \u11D97  by \u11D73.half;
-    sub \u11D74 \u11D97  by \u11D74.half;
-    sub \u11D78 \u11D97  by \u11D78.half;
-    sub \u11D79 \u11D97  by \u11D79.half;
-    sub \u11D7A \u11D97  by \u11D7A.half;
-    sub \u11D85 \u11D97  by \u11D85.half;
-    sub \u11D86 \u11D97  by \u11D86.half;
-    sub \u11D6E \u11D97  by \u11D6E.half;
-    sub \u11D70 \u11D97  by \u11D70.half;
-    sub \u11D6C \u11D97  by \u11D6C.half;
-    sub \u11D88 \u11D97  by \u11D88.half;
-    sub \u11D75 \u11D97  by \u11D75.half;
-    sub \u11D6D \u11D97  by \u11D6D.half;
-    sub \u11F36.noNeed \u11D97  by \u11D89.half;
-    sub \u11D87 \u11D97  by \u11D87.half;
-} halfHalfFormsinDevanagarilookup0;
+# AP: _U
+markClass [aimatra aimatra_anusvara anusvara eematra eematra_anusvara umatra uumatra] <anchor 0 0> @_U;
 
-lookup pstsPostBaseSubstitutionsinDevanagarilookup1 {
-  lookupflag 0;
-  markClass [\u11D95 ] <anchor 0 0> @UR;
-  pos ligature [\u11D71_u11D8B ] <anchor 2856 0> mark @UR;
-} pstsPostBaseSubstitutionsinDevanagarilookup1;
+# AP: _UR
+markClass anusvara <anchor 0 0> @_UR;
 
-lookup presPreBaseSubstitutionsinDevanagarilookup2 {
-  lookupflag 0;
-    sub \u11D8B \u11D71  by \u11D71_u11D8B;
-    sub \u11D8B \u11D72  by \u11D72_u11D8B;
-    sub \u11D8B \u11D76  by \u11D76_u11D8B;
-    sub \u11D8B \u11D77  by \u11D77_u11D8B;
-    sub \u11D8B \u11D84  by \u11D84_u11D8B;
-    sub \u11D8B \u11D7B  by \u11D7B_u11D8B;
-    sub \u11D8B \u11D7C  by \u11D7C_u11D8B;
-    sub \u11D8B \u11D80  by \u11D80_u11D8B;
-    sub \u11D8B \u11D81  by \u11D81_u11D8B;
-    sub \u11D8B \u11D7D  by \u11D7D_u11D8B;
-    sub \u11D8B \u11D7E  by \u11D7E_u11D8B;
-    sub \u11D8B \u11D82  by \u11D82_u11D8B;
-    sub \u11D8B \u11D83  by \u11D83_u11D8B;
-    sub \u11D8B \u11D84  by \u11D84_u11D8B.copy;
-    sub \u11D8B \u11D73  by \u11D73_u11D8B;
-    sub \u11D8B \u11D74  by \u11D74_u11D8B;
-    sub \u11D8B \u11D78  by \u11D78_u11D8B;
-    sub \u11D8B \u11D79  by \u11D79_u11D8B;
-    sub \u11D8B \u11D7A  by \u11D7A_u11D8B;
-    sub \u11D8B \u11D85  by \u11D85_u11D8B;
-    sub \u11D8B \u11D86  by \u11D86_u11D8B;
-    sub \u11D8B \u11D6E  by \u11D6E_u11D8B;
-    sub \u11D8B \u11D6F  by \u11D6F_u11D8B;
-    sub \u11D8B \u11D70  by \u11D70_u11D8B;
-    sub \u11D8B \u11D88  by \u11D88_u11D8B;
-    sub \u11D8B \u11D75  by \u11D75_u11D8B;
-    sub \u11D8B \u11D6D  by \u11D6D_u11D8B;
-    sub \u11D8B \u11D89  by \u11D89_u11D8B;
-    sub \u11D8B \u11D87  by \u11D87_u11D8B;
-    sub \u11D8B \u11D6C  by \u11D6C_u11D8B;
-} presPreBaseSubstitutionsinDevanagarilookup2;
+# AP: L
+@L = [ba ba_aamatra bha bha_aamatra ca ca_aamatra cha cha_aamatra da da_aamatra dda dda_aamatra ddha ddha_aamatra dha dha_aamatra ga ga_aamatra gha gha_aamatra ha ha_aamatra ja ja_aamatra jha jha_aamatra ka ka_aamatra kha kha_aamatra la la.dot la_aamatra lla lla_aamatra ma ma_aamatra na na_aamatra nga nga_aamatra pa pa_aamatra pha pha_aamatra ra ra.dot ra_aamatra sa sa.dot sa_aamatra ta ta_aamatra tha tha_aamatra tta tta_aamatra ttha ttha_aamatra va va_aamatra ya ya_aamatra nga.dot nga.half.dot];
+# baseClass [ba ba_aamatra bha bha_aamatra ca ca_aamatra cha cha_aamatra da da_aamatra dda dda_aamatra ddha ddha_aamatra dha dha_aamatra ga ga_aamatra gha gha_aamatra ha ha_aamatra ja ja_aamatra jha jha_aamatra ka ka_aamatra kha kha_aamatra la la.dot la_aamatra lla lla_aamatra ma ma_aamatra na na_aamatra nga nga_aamatra pa pa_aamatra pha pha_aamatra ra ra.dot ra_aamatra sa sa.dot sa_aamatra ta ta_aamatra tha tha_aamatra tta tta_aamatra ttha ttha_aamatra va va_aamatra ya ya_aamatra] <anchor 0 0> @L;
+# baseClass [nga.dot nga.half.dot] <anchor 80 -40> @L;
 
-lookup abvsAboveBaseSubstitutionsinDevanagarilookup3 {
-  lookupflag 0;
-    sub \u11D90 \u11D95  by \u11D90_u11D95;
-    sub \u11D91 \u11D95  by \u11D91_u11D95;
-    sub \u11D8C \u11D95  by \u11D8C_u11D95;
-} abvsAboveBaseSubstitutionsinDevanagarilookup3;
+# AP: M
+@M = [ba ba_aamatra bha bha_aamatra ca ca_aamatra cha cha_aamatra da da_aamatra dda ddha dda_aamatra ddha.half ddha_aamatra dha dha_aamatra ga ga.half ga_aamatra ja_aamatra gha gha_aamatra ha pha ha_aamatra ja jha jha_aamatra ka ka.half ka_aamatra kha kha_aamatra la_aamatra la la.dot lla na lla_aamatra ma ma_aamatra na_aamatra nga nga.dot nga.half nga.half.dot nga_aamatra pa pa_aamatra pha_aamatra ra ra.dot ra_aamatra sa sa.dot sa_aamatra ta ta_aamatra tha tha_aamatra tta tta_aamatra ttha ttha_aamatra va va_aamatra ya ya_aamatra];
+# baseClass ba <anchor 1212 1318> @M;
+# baseClass ba_aamatra <anchor 1280 1318> @M;
+# baseClass bha <anchor 1929 1318> @M;
+# baseClass bha_aamatra <anchor 2396 1318> @M;
+# baseClass ca <anchor 1244 1318> @M;
+# baseClass ca_aamatra <anchor 1830 1318> @M;
+# baseClass cha <anchor 1207 1318> @M;
+# baseClass cha_aamatra <anchor 1324 1318> @M;
+# baseClass da <anchor 1772 1318> @M;
+# baseClass da_aamatra <anchor 2130 1318> @M;
+# baseClass [dda ddha] <anchor 1394 1318> @M;
+# baseClass dda_aamatra <anchor 1660 1318> @M;
+# baseClass ddha.half <anchor 1306 1318> @M;
+# baseClass ddha_aamatra <anchor 2000 1318> @M;
+# baseClass dha <anchor 1352 1318> @M;
+# baseClass dha_aamatra <anchor 1949 1318> @M;
+# baseClass ga <anchor 1419 1318> @M;
+# baseClass ga.half <anchor 1332 1318> @M;
+# baseClass [ga_aamatra ja_aamatra] <anchor 1990 1318> @M;
+# baseClass gha <anchor 1514 1318> @M;
+# baseClass gha_aamatra <anchor 1940 1318> @M;
+# baseClass [ha pha] <anchor 1832 1318> @M;
+# baseClass ha_aamatra <anchor 2313 1318> @M;
+# baseClass ja <anchor 1384 1318> @M;
+# baseClass jha <anchor 1674 1318> @M;
+# baseClass jha_aamatra <anchor 2113 1318> @M;
+# baseClass ka <anchor 1959 1322> @M;
+# baseClass ka.half <anchor 1916 1316> @M;
+# baseClass ka_aamatra <anchor 2420 1318> @M;
+# baseClass kha <anchor 1789 1318> @M;
+# baseClass [kha_aamatra la_aamatra] <anchor 2150 1318> @M;
+# baseClass [la la.dot] <anchor 1544 1318> @M;
+# baseClass [lla na] <anchor 1132 1318> @M;
+# baseClass lla_aamatra <anchor 1690 1318> @M;
+# baseClass ma <anchor 1392 1318> @M;
+# baseClass ma_aamatra <anchor 1947 1318> @M;
+# baseClass na_aamatra <anchor 1260 1318> @M;
+# baseClass [nga nga.dot] <anchor 1334 1318> @M;
+# baseClass [nga.half nga.half.dot] <anchor 1276 1318> @M;
+# baseClass nga_aamatra <anchor 1720 1318> @M;
+# baseClass pa <anchor 1882 1318> @M;
+# baseClass pa_aamatra <anchor 2309 1318> @M;
+# baseClass pha_aamatra <anchor 2280 1318> @M;
+# baseClass [ra ra.dot] <anchor 1402 1318> @M;
+# baseClass ra_aamatra <anchor 2043 1318> @M;
+# baseClass [sa sa.dot] <anchor 1632 1318> @M;
+# baseClass sa_aamatra <anchor 2020 1318> @M;
+# baseClass ta <anchor 1472 1318> @M;
+# baseClass ta_aamatra <anchor 2139 1318> @M;
+# baseClass tha <anchor 1952 1318> @M;
+# baseClass tha_aamatra <anchor 2372 1318> @M;
+# baseClass tta <anchor 1894 1319> @M;
+# baseClass tta_aamatra <anchor 2140 1318> @M;
+# baseClass ttha <anchor 1894 1318> @M;
+# baseClass ttha_aamatra <anchor 2200 1318> @M;
+# baseClass va <anchor 1127 1318> @M;
+# baseClass va_aamatra <anchor 1250 1318> @M;
+# baseClass ya <anchor 1482 1318> @M;
+# baseClass ya_aamatra <anchor 2250 1318> @M;
 
-lookup blwfBelowBaseFormsinDevanagarilookup5 {
-  lookupflag 0;
-    sub \u11D88 \u11D97  by \u11D88.half;
-} blwfBelowBaseFormsinDevanagarilookup5;
+# AP: U
+@U = [ba ba_aamatra dda_aamatra bha bha_aamatra ca ca_aamatra cha_aamatra cha da da_aamatra dda ddha ddha_aamatra ga_aamatra kha_aamatra dha dha_aamatra ra_aamatra sa_aamatra ga gha gha_aamatra ma_aamatra ha pha ha_aamatra ja ma ja_aamatra jha jha_aamatra tta_aamatra ka ka_aamatra kha la la.dot la_aamatra lla lla_aamatra na na_aamatra nga nga.dot nga_aamatra pa pa_aamatra pha_aamatra ra ra.dot sa sa.dot ta ta_aamatra tha tha_aamatra tta ttha ttha_aamatra va va_aamatra ya ya_aamatra];
+# baseClass ba <anchor 1431 0> @U;
+# baseClass [ba_aamatra dda_aamatra] <anchor 1911 0> @U;
+# baseClass bha <anchor 2079 0> @U;
+# baseClass bha_aamatra <anchor 2541 0> @U;
+# baseClass ca <anchor 1467 0> @U;
+# baseClass [ca_aamatra cha_aamatra] <anchor 1995 0> @U;
+# baseClass cha <anchor 1413 0> @U;
+# baseClass da <anchor 1962 0> @U;
+# baseClass da_aamatra <anchor 2289 0> @U;
+# baseClass dda <anchor 1611 0> @U;
+# baseClass ddha <anchor 1620 0> @U;
+# baseClass [ddha_aamatra ga_aamatra kha_aamatra] <anchor 2184 0> @U;
+# baseClass dha <anchor 1566 0> @U;
+# baseClass [dha_aamatra ra_aamatra sa_aamatra] <anchor 2142 0> @U;
+# baseClass ga <anchor 1638 0> @U;
+# baseClass gha <anchor 1719 0> @U;
+# baseClass [gha_aamatra ma_aamatra] <anchor 2100 0> @U;
+# baseClass [ha pha] <anchor 2043 0> @U;
+# baseClass ha_aamatra <anchor 2457 0> @U;
+# baseClass [ja ma] <anchor 1602 0> @U;
+# baseClass ja_aamatra <anchor 2226 0> @U;
+# baseClass jha <anchor 1890 0> @U;
+# baseClass [jha_aamatra tta_aamatra] <anchor 2310 0> @U;
+# baseClass ka <anchor 2169 0> @U;
+# baseClass ka_aamatra <anchor 2415 0> @U;
+# baseClass kha <anchor 2007 0> @U;
+# baseClass [la la.dot] <anchor 1750 0> @U;
+# baseClass la_aamatra <anchor 2331 0> @U;
+# baseClass lla <anchor 1341 0> @U;
+# baseClass lla_aamatra <anchor 1932 0> @U;
+# baseClass na <anchor 1350 0> @U;
+# baseClass na_aamatra <anchor 1869 0> @U;
+# baseClass [nga nga.dot] <anchor 1656 0> @U;
+# baseClass nga_aamatra <anchor 1974 0> @U;
+# baseClass pa <anchor 2097 0> @U;
+# baseClass pa_aamatra <anchor 2520 0> @U;
+# baseClass pha_aamatra <anchor 2394 0> @U;
+# baseClass [ra ra.dot] <anchor 1610 0> @U;
+# baseClass [sa sa.dot] <anchor 1854 0> @U;
+# baseClass ta <anchor 1692 0> @U;
+# baseClass ta_aamatra <anchor 2205 0> @U;
+# baseClass tha <anchor 2151 0> @U;
+# baseClass tha_aamatra <anchor 2499 0> @U;
+# baseClass [tta ttha] <anchor 2106 0> @U;
+# baseClass ttha_aamatra <anchor 2268 0> @U;
+# baseClass va <anchor 1335 0> @U;
+# baseClass va_aamatra <anchor 1806 0> @U;
+# baseClass ya <anchor 1710 0> @U;
+# baseClass ya_aamatra <anchor 2436 0> @U;
 
-feature half {
+# AP: UR
+@UR = [ka_imatra];
+# baseClass ka_imatra <anchor 2856 0> @UR;
 
- script deva;
-     language dflt ;
-      lookup halfHalfFormsinDevanagarilookup0;
-} half;
+# AP: _L
+markClass virama.alt <anchor -819 135> @_L;
+languagesystem DFLT dflt;
+@cons = @cligno_aamatra;
+@matras = [aamatra imatra iimatra umatra uumatra eematra aimatra oomatra aumatra];
+@cOmatras = [oomatra aumatra];
+@cEmatras = [eematra aimatra];
+# For debugging the string "RenderingUnknown" will be rendered as "RenderingOpenType"
+# if the app is using OpenType to render the text.
+lookup FontCheck_Unknow {
+    lookupflag IgnoreMarks;
+    sub [U n k o w] by [O p e T y];
+} FontCheck_Unknow;
 
-feature zz01 {
+lookup FontCheck_n {
+    lookupflag IgnoreMarks;
+    sub n by p e;
+} FontCheck_n;
 
- script deva;
-     language zz01 exclude_dflt;
-      lookup halfHalfFormsinDevanagarilookup0;
-} zz01;
+lookup FontCheck {
+    lookupflag IgnoreMarks;
+    sub [R] e n d e r i n g U' lookup FontCheck_Unknow n' lookup FontCheck_Unknow k' lookup FontCheck_Unknow n' o' lookup FontCheck_Unknow w' lookup FontCheck_Unknow n' lookup FontCheck_n;
+} FontCheck;
 
-feature psts {
+lookup OnePass {
+    lookupflag 0;
+    sub ba' virama' by ba.half;
+    sub bha' virama' by bha.half;
+    sub ca' virama' by ca.half;
+    sub cha' virama' by cha.half;
+    sub da' virama' by da.half;
+    sub dda' virama' by dda.half;
+    sub ddha' virama' by ddha.half;
+    sub dha' virama' by dha.half;
+    sub ga' virama' by ga.half;
+    sub gha' virama' by gha.half;
+    sub ha' virama' by ha.half;
+    sub ja' virama' by ja.half;
+    sub jha' virama' by jha.half;
+    sub ka' virama' by ka.half;
+    sub kha' virama' by kha.half;
+    sub la' virama' by la.half;
+    sub lla' virama' by lla.half;
+    sub ma' virama' by ma.half;
+    sub na' virama' by na.half;
+    sub nga' virama' by nga.half;
+    sub pa' virama' by pa.half;
+    sub pha' virama' by pha.half;
+    sub ra' virama' by ra.half;
+    sub sa' virama' by sa.half;
+    sub ta' virama' by ta.half;
+    sub tha' virama' by tha.half;
+    sub tta' virama' by tta.half;
+    sub ttha' virama' by ttha.half;
+    sub va' virama' by va.half;
+    sub ya' virama' by ya.half;
+    sub aimatra' anusvara' by aimatra_anusvara;
+    sub eematra' anusvara' by eematra_anusvara;
+    sub iimatra' anusvara' by iimatra_anusvara;
+    sub ba' aamatra' by ba_aamatra;
+    sub bha' aamatra' by bha_aamatra;
+    sub ca' aamatra' by ca_aamatra;
+    sub cha' aamatra' by cha_aamatra;
+    sub da' aamatra' by da_aamatra;
+    sub dda' aamatra' by dda_aamatra;
+    sub ddha' aamatra' by ddha_aamatra;
+    sub dha' aamatra' by dha_aamatra;
+    sub ga' aamatra' by ga_aamatra;
+    sub gha' aamatra' by gha_aamatra;
+    sub ha' aamatra' by ha_aamatra;
+    sub ja' aamatra' by ja_aamatra;
+    sub jha' aamatra' by jha_aamatra;
+    sub ka' aamatra' by ka_aamatra;
+    sub kha' aamatra' by kha_aamatra;
+    sub la' aamatra' by la_aamatra;
+    sub lla' aamatra' by lla_aamatra;
+    sub ma' aamatra' by ma_aamatra;
+    sub na' aamatra' by na_aamatra;
+    sub nga' aamatra' by nga_aamatra;
+    sub pa' aamatra' by pa_aamatra;
+    sub pha' aamatra' by pha_aamatra;
+    sub ra' aamatra' by ra_aamatra;
+    sub sa' aamatra' by sa_aamatra;
+    sub ta' aamatra' by ta_aamatra;
+    sub tha' aamatra' by tha_aamatra;
+    sub tta' aamatra' by tta_aamatra;
+    sub ttha' aamatra' by ttha_aamatra;
+    sub va' aamatra' by va_aamatra;
+    sub ya' aamatra' by ya_aamatra;
+    sub ba' imatra' by ba_imatra;
+    sub bha' imatra' by bha_imatra;
+    sub ca' imatra' by ca_imatra;
+    sub cha' imatra' by cha_imatra;
+    sub da' imatra' by da_imatra;
+    sub dda' imatra' by dda_imatra;
+    sub ddha' imatra' by ddha_imatra;
+    sub dha' imatra' by dha_imatra;
+    sub ga' imatra' by ga_imatra;
+    sub gha' imatra' by gha_imatra;
+    sub ha' imatra' by ha_imatra;
+    sub ja' imatra' by ja_imatra;
+    sub jha' imatra' by jha_imatra;
+    sub ka' imatra' by ka_imatra;
+    sub kha' imatra' by kha_imatra;
+    sub la' imatra' by la_imatra;
+    sub lla' imatra' by lla_imatra;
+    sub ma' imatra' by ma_imatra;
+    sub na' imatra' by na_imatra;
+    sub nga' imatra' by nga_imatra;
+    sub pa' imatra' by pa_imatra;
+    sub pha' imatra' by pha_imatra;
+    sub ra' imatra' by ra_imatra;
+    sub sa' imatra' by sa_imatra;
+    sub ta' imatra' by ta_imatra;
+    sub tha' imatra' by tha_imatra;
+    sub tta' imatra' by tta_imatra;
+    sub ttha' imatra' by ttha_imatra;
+    sub va' imatra' by va_imatra;
+    sub ya' imatra' by ya_imatra;
+    sub @cligno_aamatra' @cOmatras by @clig_aamatra;
+    sub @clig_aamatra @cOmatras' by @cEmatras;
+    # we don't need these ligatures at all
+    # sub @cligno_oomatra' oomatra' by @clig_oomatra;
+    # sub @cligno_aumatra' aumatra' by @clig_aumatra;
+    sub @cno_half' aamatra by @c_half;
+} OnePass;
 
- script deva;
-     language dflt ;
-      lookup pstsPostBaseSubstitutionsinDevanagarilookup1;
-      lookup pstsPostBaseSubstitutionsinDevanagarilookup10;
-} psts;
+lookup RightGuard {
+            pos ba' 667 aamatra;
+        pos ba' 643 imatra;
+        pos ba' 942 iimatra;
+        pos ba' 739 umatra;
+        pos ba' 738 uumatra;
+        pos ba' 695 oomatra;
+        pos ba' 705 aumatra;
+        pos bha' 659 aamatra;
+        pos bha' 635 imatra;
+        pos bha' 934 iimatra;
+        pos bha' 731 umatra;
+        pos bha' 730 uumatra;
+        pos bha' 687 oomatra;
+        pos bha' 697 aumatra;
+        pos ca' 599 aamatra;
+        pos ca' 575 imatra;
+        pos ca' 874 iimatra;
+        pos ca' 671 umatra;
+        pos ca' 670 uumatra;
+        pos ca' 627 oomatra;
+        pos ca' 637 aumatra;
+        pos cha' 611 aamatra;
+        pos cha' 587 imatra;
+        pos cha' 886 iimatra;
+        pos cha' 683 umatra;
+        pos cha' 682 uumatra;
+        pos cha' 639 oomatra;
+        pos cha' 649 aumatra;
+        pos da' 827 aamatra;
+        pos da' 803 imatra;
+        pos da' 1102 iimatra;
+        pos da' 899 umatra;
+        pos da' 898 uumatra;
+        pos da' 160 eematra;
+        pos da' 160 aimatra;
+        pos da' 855 oomatra;
+        pos da' 865 aumatra;
+        pos dda' 670 aamatra;
+        pos dda' 646 imatra;
+        pos dda' 945 iimatra;
+        pos dda' 742 umatra;
+        pos dda' 741 uumatra;
+        pos dda' 3 eematra;
+        pos dda' 3 aimatra;
+        pos dda' 698 oomatra;
+        pos dda' 708 aumatra;
+        pos ddha' 686 aamatra;
+        pos ddha' 662 imatra;
+        pos ddha' 961 iimatra;
+        pos ddha' 758 umatra;
+        pos ddha' 757 uumatra;
+        pos ddha' 19 eematra;
+        pos ddha' 19 aimatra;
+        pos ddha' 714 oomatra;
+        pos ddha' 724 aumatra;
+        pos dha' 662 aamatra;
+        pos dha' 638 imatra;
+        pos dha' 937 iimatra;
+        pos dha' 734 umatra;
+        pos dha' 733 uumatra;
+        pos dha' 690 oomatra;
+        pos dha' 700 aumatra;
+        pos ga' 646 aamatra;
+        pos ga' 622 imatra;
+        pos ga' 921 iimatra;
+        pos ga' 718 umatra;
+        pos ga' 717 uumatra;
+        pos ga' 674 oomatra;
+        pos ga' 684 aumatra;
+        pos gha' 662 aamatra;
+        pos gha' 638 imatra;
+        pos gha' 937 iimatra;
+        pos gha' 734 umatra;
+        pos gha' 733 uumatra;
+        pos gha' 690 oomatra;
+        pos gha' 700 aumatra;
+        pos ha' 672 aamatra;
+        pos ha' 648 imatra;
+        pos ha' 947 iimatra;
+        pos ha' 744 umatra;
+        pos ha' 743 uumatra;
+        pos ha' 5 eematra;
+        pos ha' 5 aimatra;
+        pos ha' 700 oomatra;
+        pos ha' 710 aumatra;
+        pos ja' 652 aamatra;
+        pos ja' 628 imatra;
+        pos ja' 927 iimatra;
+        pos ja' 724 umatra;
+        pos ja' 723 uumatra;
+        pos ja' 680 oomatra;
+        pos ja' 690 aumatra;
+        pos jha' 659 aamatra;
+        pos jha' 635 imatra;
+        pos jha' 934 iimatra;
+        pos jha' 731 umatra;
+        pos jha' 730 uumatra;
+        pos jha' 687 oomatra;
+        pos jha' 697 aumatra;
+        pos ka' 656 aamatra;
+        pos ka' 632 imatra;
+        pos ka' 931 iimatra;
+        pos ka' 728 umatra;
+        pos ka' 727 uumatra;
+        pos ka' 684 oomatra;
+        pos ka' 694 aumatra;
+        pos kha' 658 aamatra;
+        pos kha' 634 imatra;
+        pos kha' 933 iimatra;
+        pos kha' 730 umatra;
+        pos kha' 729 uumatra;
+        pos kha' 686 oomatra;
+        pos kha' 696 aumatra;
+        pos la' 670 aamatra;
+        pos la' 646 imatra;
+        pos la' 945 iimatra;
+        pos la' 742 umatra;
+        pos la' 741 uumatra;
+        pos la' 3 eematra;
+        pos la' 3 aimatra;
+        pos la' 698 oomatra;
+        pos la' 708 aumatra;
+        pos lla' 686 aamatra;
+        pos lla' 662 imatra;
+        pos lla' 961 iimatra;
+        pos lla' 758 umatra;
+        pos lla' 757 uumatra;
+        pos lla' 19 eematra;
+        pos lla' 19 aimatra;
+        pos lla' 714 oomatra;
+        pos lla' 724 aumatra;
+        pos ma' 662 aamatra;
+        pos ma' 638 imatra;
+        pos ma' 937 iimatra;
+        pos ma' 734 umatra;
+        pos ma' 733 uumatra;
+        pos ma' 690 oomatra;
+        pos ma' 700 aumatra;
+        pos na' 653 aamatra;
+        pos na' 629 imatra;
+        pos na' 928 iimatra;
+        pos na' 725 umatra;
+        pos na' 724 uumatra;
+        pos na' 681 oomatra;
+        pos na' 691 aumatra;
+        pos nga' 647 aamatra;
+        pos nga' 623 imatra;
+        pos nga' 922 iimatra;
+        pos nga' 719 umatra;
+        pos nga' 718 uumatra;
+        pos nga' 675 oomatra;
+        pos nga' 685 aumatra;
+        pos pa' 663 aamatra;
+        pos pa' 639 imatra;
+        pos pa' 938 iimatra;
+        pos pa' 735 umatra;
+        pos pa' 734 uumatra;
+        pos pa' 691 oomatra;
+        pos pa' 701 aumatra;
+        pos pha' 676 aamatra;
+        pos pha' 652 imatra;
+        pos pha' 951 iimatra;
+        pos pha' 748 umatra;
+        pos pha' 747 uumatra;
+        pos pha' 9 eematra;
+        pos pha' 9 aimatra;
+        pos pha' 704 oomatra;
+        pos pha' 714 aumatra;
+        pos ra' 668 aamatra;
+        pos ra' 644 imatra;
+        pos ra' 943 iimatra;
+        pos ra' 740 umatra;
+        pos ra' 739 uumatra;
+        pos ra' 1 eematra;
+        pos ra' 1 aimatra;
+        pos ra' 696 oomatra;
+        pos ra' 706 aumatra;
+        pos sa' 691 aamatra;
+        pos sa' 667 imatra;
+        pos sa' 966 iimatra;
+        pos sa' 763 umatra;
+        pos sa' 762 uumatra;
+        pos sa' 24 eematra;
+        pos sa' 24 aimatra;
+        pos sa' 719 oomatra;
+        pos sa' 729 aumatra;
+        pos ta' 667 aamatra;
+        pos ta' 643 imatra;
+        pos ta' 942 iimatra;
+        pos ta' 739 umatra;
+        pos ta' 738 uumatra;
+        pos ta' 695 oomatra;
+        pos ta' 705 aumatra;
+        pos tha' 665 aamatra;
+        pos tha' 641 imatra;
+        pos tha' 940 iimatra;
+        pos tha' 737 umatra;
+        pos tha' 736 uumatra;
+        pos tha' 693 oomatra;
+        pos tha' 703 aumatra;
+        pos tta' 659 aamatra;
+        pos tta' 635 imatra;
+        pos tta' 934 iimatra;
+        pos tta' 731 umatra;
+        pos tta' 730 uumatra;
+        pos tta' 687 oomatra;
+        pos tta' 697 aumatra;
+        pos ttha' 659 aamatra;
+        pos ttha' 635 imatra;
+        pos ttha' 934 iimatra;
+        pos ttha' 731 umatra;
+        pos ttha' 730 uumatra;
+        pos ttha' 687 oomatra;
+        pos ttha' 697 aumatra;
+        pos va' 688 aamatra;
+        pos va' 664 imatra;
+        pos va' 963 iimatra;
+        pos va' 760 umatra;
+        pos va' 759 uumatra;
+        pos va' 21 eematra;
+        pos va' 21 aimatra;
+        pos va' 716 oomatra;
+        pos va' 726 aumatra;
+        pos ya' 656 aamatra;
+        pos ya' 632 imatra;
+        pos ya' 931 iimatra;
+        pos ya' 728 umatra;
+        pos ya' 727 uumatra;
+        pos ya' 684 oomatra;
+        pos ya' 694 aumatra;
 
-feature zz02 {
+} RightGuard;
 
- script deva;
-     language zz01 exclude_dflt;
-      lookup pstsPostBaseSubstitutionsinDevanagarilookup1;
-} zz02;
+lookup mAPs {
+    lookupflag 0;
+    pos base ba <anchor 1212 1318> mark @_M;
+    pos base ba_aamatra <anchor 1280 1318> mark @_M;
+    pos base bha <anchor 1929 1318> mark @_M;
+    pos base bha_aamatra <anchor 2396 1318> mark @_M;
+    pos base ca <anchor 1244 1318> mark @_M;
+    pos base ca_aamatra <anchor 1830 1318> mark @_M;
+    pos base cha <anchor 1207 1318> mark @_M;
+    pos base cha_aamatra <anchor 1324 1318> mark @_M;
+    pos base da <anchor 1772 1318> mark @_M;
+    pos base da_aamatra <anchor 2130 1318> mark @_M;
+    pos base [dda ddha] <anchor 1394 1318> mark @_M;
+    pos base dda_aamatra <anchor 1660 1318> mark @_M;
+    pos base ddha.half <anchor 1306 1318> mark @_M;
+    pos base ddha_aamatra <anchor 2000 1318> mark @_M;
+    pos base dha <anchor 1352 1318> mark @_M;
+    pos base dha_aamatra <anchor 1949 1318> mark @_M;
+    pos base ga <anchor 1419 1318> mark @_M;
+    pos base ga.half <anchor 1332 1318> mark @_M;
+    pos base [ga_aamatra ja_aamatra] <anchor 1990 1318> mark @_M;
+    pos base gha <anchor 1514 1318> mark @_M;
+    pos base gha_aamatra <anchor 1940 1318> mark @_M;
+    pos base [ha pha] <anchor 1832 1318> mark @_M;
+    pos base ha_aamatra <anchor 2313 1318> mark @_M;
+    pos base ja <anchor 1384 1318> mark @_M;
+    pos base jha <anchor 1674 1318> mark @_M;
+    pos base jha_aamatra <anchor 2113 1318> mark @_M;
+    pos base ka <anchor 1959 1322> mark @_M;
+    pos base ka.half <anchor 1916 1316> mark @_M;
+    pos base ka_aamatra <anchor 2420 1318> mark @_M;
+    pos base kha <anchor 1789 1318> mark @_M;
+    pos base [kha_aamatra la_aamatra] <anchor 2150 1318> mark @_M;
+    pos base [la la.dot] <anchor 1544 1318> mark @_M;
+    pos base [lla na] <anchor 1132 1318> mark @_M;
+    pos base lla_aamatra <anchor 1690 1318> mark @_M;
+    pos base ma <anchor 1392 1318> mark @_M;
+    pos base ma_aamatra <anchor 1947 1318> mark @_M;
+    pos base na_aamatra <anchor 1260 1318> mark @_M;
+    pos base [nga nga.dot] <anchor 1334 1318> mark @_M;
+    pos base [nga.half nga.half.dot] <anchor 1276 1318> mark @_M;
+    pos base nga_aamatra <anchor 1720 1318> mark @_M;
+    pos base pa <anchor 1882 1318> mark @_M;
+    pos base pa_aamatra <anchor 2309 1318> mark @_M;
+    pos base pha_aamatra <anchor 2280 1318> mark @_M;
+    pos base [ra ra.dot] <anchor 1402 1318> mark @_M;
+    pos base ra_aamatra <anchor 2043 1318> mark @_M;
+    pos base [sa sa.dot] <anchor 1632 1318> mark @_M;
+    pos base sa_aamatra <anchor 2020 1318> mark @_M;
+    pos base ta <anchor 1472 1318> mark @_M;
+    pos base ta_aamatra <anchor 2139 1318> mark @_M;
+    pos base tha <anchor 1952 1318> mark @_M;
+    pos base tha_aamatra <anchor 2372 1318> mark @_M;
+    pos base tta <anchor 1894 1319> mark @_M;
+    pos base tta_aamatra <anchor 2140 1318> mark @_M;
+    pos base ttha <anchor 1894 1318> mark @_M;
+    pos base ttha_aamatra <anchor 2200 1318> mark @_M;
+    pos base va <anchor 1127 1318> mark @_M;
+    pos base va_aamatra <anchor 1250 1318> mark @_M;
+    pos base ya <anchor 1482 1318> mark @_M;
+    pos base ya_aamatra <anchor 2250 1318> mark @_M;
+} mAPs;
 
-feature pres {
+lookup urAPs {
+    lookupflag 0;
+    pos base ka_imatra <anchor 2856 0> mark @_UR;
+} urAPs;
 
- script deva;
-     language dflt ;
-      lookup presPreBaseSubstitutionsinDevanagarilookup2;
-      lookup presPreBaseSubstitutionsinDevanagarilookup4;
-      lookup presPreBaseSubstitutionsinDevanagarilookup7;
-      lookup presPreBaseSubstitutionsinDevanagarilookup8;
-      lookup presPreBaseSubstitutionsinDevanagarilookup9;
-} pres;
+lookup uAPs {
+    lookupflag 0;
+    pos base ba <anchor 1431 0> mark @_U;
+    pos base [ba_aamatra dda_aamatra] <anchor 1911 0> mark @_U;
+    pos base bha <anchor 2079 0> mark @_U;
+    pos base bha_aamatra <anchor 2541 0> mark @_U;
+    pos base ca <anchor 1467 0> mark @_U;
+    pos base [ca_aamatra cha_aamatra] <anchor 1995 0> mark @_U;
+    pos base cha <anchor 1413 0> mark @_U;
+    pos base da <anchor 1962 0> mark @_U;
+    pos base da_aamatra <anchor 2289 0> mark @_U;
+    pos base dda <anchor 1611 0> mark @_U;
+    pos base ddha <anchor 1620 0> mark @_U;
+    pos base [ddha_aamatra ga_aamatra kha_aamatra] <anchor 2184 0> mark @_U;
+    pos base dha <anchor 1566 0> mark @_U;
+    pos base [dha_aamatra ra_aamatra sa_aamatra] <anchor 2142 0> mark @_U;
+    pos base ga <anchor 1638 0> mark @_U;
+    pos base gha <anchor 1719 0> mark @_U;
+    pos base [gha_aamatra ma_aamatra] <anchor 2100 0> mark @_U;
+    pos base [ha pha] <anchor 2043 0> mark @_U;
+    pos base ha_aamatra <anchor 2457 0> mark @_U;
+    pos base [ja ma] <anchor 1602 0> mark @_U;
+    pos base ja_aamatra <anchor 2226 0> mark @_U;
+    pos base jha <anchor 1890 0> mark @_U;
+    pos base [jha_aamatra tta_aamatra] <anchor 2310 0> mark @_U;
+    pos base ka <anchor 2169 0> mark @_U;
+    pos base ka_aamatra <anchor 2415 0> mark @_U;
+    pos base kha <anchor 2007 0> mark @_U;
+    pos base [la la.dot] <anchor 1750 0> mark @_U;
+    pos base la_aamatra <anchor 2331 0> mark @_U;
+    pos base lla <anchor 1341 0> mark @_U;
+    pos base lla_aamatra <anchor 1932 0> mark @_U;
+    pos base na <anchor 1350 0> mark @_U;
+    pos base na_aamatra <anchor 1869 0> mark @_U;
+    pos base [nga nga.dot] <anchor 1656 0> mark @_U;
+    pos base nga_aamatra <anchor 1974 0> mark @_U;
+    pos base pa <anchor 2097 0> mark @_U;
+    pos base pa_aamatra <anchor 2520 0> mark @_U;
+    pos base pha_aamatra <anchor 2394 0> mark @_U;
+    pos base [ra ra.dot] <anchor 1610 0> mark @_U;
+    pos base [sa sa.dot] <anchor 1854 0> mark @_U;
+    pos base ta <anchor 1692 0> mark @_U;
+    pos base ta_aamatra <anchor 2205 0> mark @_U;
+    pos base tha <anchor 2151 0> mark @_U;
+    pos base tha_aamatra <anchor 2499 0> mark @_U;
+    pos base [tta ttha] <anchor 2106 0> mark @_U;
+    pos base ttha_aamatra <anchor 2268 0> mark @_U;
+    pos base va <anchor 1335 0> mark @_U;
+    pos base va_aamatra <anchor 1806 0> mark @_U;
+    pos base ya <anchor 1710 0> mark @_U;
+    pos base ya_aamatra <anchor 2436 0> mark @_U;
+} uAPs;
 
-feature zz03 {
+lookup lAPs {
+    lookupflag 0;
+    pos base [ba ba_aamatra bha bha_aamatra ca ca_aamatra cha cha_aamatra da da_aamatra dda dda_aamatra ddha ddha_aamatra dha dha_aamatra ga ga_aamatra gha gha_aamatra ha ha_aamatra ja ja_aamatra jha jha_aamatra ka ka_aamatra kha kha_aamatra la la.dot la_aamatra lla lla_aamatra ma ma_aamatra na na_aamatra nga nga_aamatra pa pa_aamatra pha pha_aamatra ra ra.dot ra_aamatra sa sa.dot sa_aamatra ta ta_aamatra tha tha_aamatra tta tta_aamatra ttha ttha_aamatra va va_aamatra ya ya_aamatra] <anchor 0 0> mark @_L;
+    pos base [nga.dot nga.half.dot] <anchor 80 -40> mark @_L;
+} lAPs;
 
- script deva;
-     language zz01 exclude_dflt;
-      lookup presPreBaseSubstitutionsinDevanagarilookup2;
-} zz03;
+feature ccmp {
+    lookup FontCheck;
+    lookup OnePass;
+} ccmp;
 
-feature abvs {
+feature kern {
+    lookup RightGuard;
+} kern;
 
- script deva;
-     language dflt ;
-      lookup abvsAboveBaseSubstitutionsinDevanagarilookup3;
-} abvs;
-
-feature zz04 {
-
- script deva;
-     language zz01 exclude_dflt;
-      lookup abvsAboveBaseSubstitutionsinDevanagarilookup3;
-} zz04;
-
-feature blwf {
-
- script deva;
-     language dflt ;
-      lookup blwfBelowBaseFormsinDevanagarilookup5;
-} blwf;
-
-feature zz06 {
-
- script deva;
-     language zz01 exclude_dflt;
-      lookup blwfBelowBaseFormsinDevanagarilookup5;
-} zz06;
-
-# GPOS 
-
-
-lookup abvmAboveBaseMarkinDevanagarilookup0 {
-  lookupflag 0;
-  markClass [\u11D95 \u11D8D \u11D8E \u11D90 \u11D91 \u11D90_u11D95 \u11D91_u11D95 ] <anchor 0 0> @U;
-  markClass [\u11F3C ] <anchor -819 135> @L;
-  pos base [\u11D71 \u11D72 \u11D76 \u11D77 \u11D84 \u11D7B \u11D7C \u11D80 \u11D81 \u11D7D \u11D7E \u11D82 \u11D83 \u11D84.copy \u11D73 \u11D74 \u11D78 \u11D79 \u11D7A \u11D85 \u11D86 \u11D6E \u11D6F \u11D70 \u11D6C \u11D88 \u11D75 \u11D6D \u11D89 \u11D87 \u11D71_u11D8A \u11D72_u11D8A \u11D76_u11D8A \u11D77_u11D8A \u11D84_u11D8A \u11D7B_u11D8A \u11D7C_u11D8A \u11D80_u11D8A \u11D81_u11D8A \u11D7D_u11D8A \u11D7E_u11D8A \u11D82_u11D8A \u11D83_u11D8A \u11D84_u11D8A.copy \u11D73_u11D8A \u11D74_u11D8A \u11D78_u11D8A \u11D79_u11D8A \u11D7A_u11D8A \u11D85_u11D8A \u11D86_u11D8A \u11D6E_u11D8A \u11D6F_u11D8A \u11D70_u11D8A \u11D88_u11D8A \u11D75_u11D8A \u11D6D_u11D8A \u11D89_u11D8A \u11D87_u11D8A \u11D6C_u11D8A \u11F31 \u11D7F \u11F36 ] <anchor 0 0> mark @L
-	<anchor 2169 0> mark @U;
-  pos base [\u11F1E \u11F1E.half ] <anchor 80 -40> mark @L
-	<anchor 1656 0> mark @U;
-} abvmAboveBaseMarkinDevanagarilookup0;
-
-feature abvm {
-
- script deva;
-     language dflt ;
-      lookup abvmAboveBaseMarkinDevanagarilookup0;
-} abvm;
-
-feature zz01 {
-
- script deva;
-     language zz01 exclude_dflt;
-      lookup abvmAboveBaseMarkinDevanagarilookup0;
-} zz01;
-#Mark attachment classes (defined in GDEF, used in lookupflags)
-
-@GDEF_Simple = [\.notdef \NULL \u000D \space \exclam \quotedbl \numbersign \percent 
-	\ampersand \quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen 
-	\period \slash \zero \one \two \three \four \five \six \seven \eight \nine \colon 
-	\semicolon \less \equal \greater \question \at \bracketleft \backslash 
-	\bracketright \asciicircum \underscore \braceleft \bar \braceright \asciitilde 
-	\endash \emdash \quoteleft \quoteright \divide \minus \multiply \u0964 \u0965 
-	\u11DA0 \u11DA1 \u11DA2 \u11DA3 \u11DA4 \u11DA5 \u11DA6 \u11DA7 \u11DA8 \u11DA9 
-	\uni0970 \u11D98 \uni20A8 \u11D96 \u11D60 \u11D61 \u11D62 \u11D63 \u11D64 \u11D65 
-	\u11D67 \u11D68 \u11D6A \u11D6B \u11D97 \u11F0B \u11F0C \u11D71 \u11D72 \u11D76 
-	\u11D77 \u11D84 \u11D7B \u11D7C \u11D80 \u11D81 \u11D7D \u11D7E \u11D82 \u11D83 
-	\u11D84.copy \u11D73 \u11D74 \u11D78 \u11D79 \u11D7A \u11D85 \u11D86 \u11D6E 
-	\u11D6F \u11D70 \u11D6C \u11D88 \u11D75 \u11D6D \u11D89 \u11D87 
-	\u11D71_u11D97_u11F37 \u11D80_u11D97_u11F1E \u11D71.half \u11D72.half 
-	\u11D76.half \u11D77.half \u11D84.half \u11D7B.half \u11D7C.half \u11D80.half 
-	\u11D81.half \u11D7D.half \u11D7E.half \u11D82.half \u11D83.half 
-	\u11D84.half.copy \u11D73.half \u11D74.half \u11D78.half \u11D79.half 
-	\u11D7A.half \u11D85.half \u11D86.half \u11D6E.half \u11D6F.half \u11D70.half 
-	\u11D6C.half \u11D88.half \u11D75.half \u11D6D.half \u11D89.half \u11D87.half 
-	\u11D71_u11D8A \u11D71_u11D8B \u11D72_u11D8A \u11D72_u11D8B \u11D76_u11D8A 
-	\u11D76_u11D8B \u11D77_u11D8A \u11D77_u11D8B \u11D84_u11D8A \u11D84_u11D8B 
-	\u11D7B_u11D8A \u11D7B_u11D8B \u11D7C_u11D8A \u11D7C_u11D8B \u11D80_u11D8A 
-	\u11D80_u11D8B \u11D81_u11D8A \u11D81_u11D8B \u11D7D_u11D8A \u11D7D_u11D8B 
-	\u11D7E_u11D8A \u11D7E_u11D8B \u11D82_u11D8A \u11D82_u11D8B \u11D83_u11D8A 
-	\u11D83_u11D8B \u11D84_u11D8A.copy \u11D84_u11D8B.copy \u11D73_u11D8A 
-	\u11D73_u11D8B \u11D74_u11D8A \u11D74_u11D8B \u11D78_u11D8A \u11D78_u11D8B 
-	\u11D79_u11D8A \u11D79_u11D8B \u11D7A_u11D8A \u11D7A_u11D8B \u11D85_u11D8A 
-	\u11D85_u11D8B \u11D86_u11D8A \u11D86_u11D8B \u11D6E_u11D8A \u11D6E_u11D8B 
-	\u11D6F_u11D8A \u11D6F_u11D8B \u11D70_u11D8A \u11D70_u11D8B \u11D88_u11D8A 
-	\u11D88_u11D8B \u11D75_u11D8A \u11D75_u11D8B \u11D6D_u11D8A \u11D6D_u11D8B 
-	\u11D89_u11D8A \u11D89_u11D8B \u11D87_u11D8A \u11D87_u11D8B \u11D6C_u11D8A 
-	\u11D6C_u11D8B \u11D8B.short \u11D8A \u11D8B \u11D8C \uni200C \uni200D \uni25CC 
-	\u11D66 \u11D69 \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \a \b \c 
-	\d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \dollar \glyph356 \z 
-	\u11D8C_u11D95 \u201C \u201D \u11F1E \u11F31 \u11D7F \u11F36 \u11F37 
-	\u11F1E.half \u11F31.half \u11D7F.half \u11F36.half \u11F37.half \u11F43 
-	\u11F44 ];
-@GDEF_Mark = [\u11D95 \u11F3C \u11D8D \u11D8E \u11D90 \u11D91 \u11D93 \u11D94 
-	\u11D90_u11D95 \u11D91_u11D95 \u11D8F \u11D92 \u11D8F_u11D95 \u11D92_u11D95 ];
+feature mark {
+    lookup mAPs;
+    lookup urAPs;
+    lookup uAPs;
+    lookup lAPs;
+} mark;
 
 table GDEF {
-  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
-
+    GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
 } GDEF;
-
