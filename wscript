@@ -13,7 +13,6 @@ DESC_SHORT = "Font for the Gunjala Gondi script"
 
 # Get version and authorship information from Regular UFO (canonical metadata); must be first function call:
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
-BUILDLABEL = "alpha"
 
 # Set up the FTML tests
 ftmlTest('tools/ftml-padauk.xsl', fonts=['../test/reference/Narnoor-Regular.ttf'], addfontindex=1, fontmode='collect')

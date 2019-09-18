@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Narnoor.0.100" />
+  <uniqueid id="org.sil.fonts.Narnoor.1.000" />
   <vendor name="SIL International" url="http://scripts.sil.org/" />
   <credits>
     <credit
@@ -16,7 +16,8 @@
       ---------
       (This should list both major and minor changes, most recent first.)
       
-      Unreleased
+      24 Sep 2019 (SIL International) Narnoor font version 1.000
+      - Added OpenType font smarts
       - Extra Latin glyphs (mostly outside of ASCII) are from
       Charis SIL (https://software.sil.org/charis/) scaled 110%
       - Fix test data and font to remove codepoints from
@@ -25,9 +26,9 @@
       - unassigned with the the Gunjala Gondi block
       - Rename glyphs and encode correctly (hopefully)
       - Convert glyphs to Postscript curves
-      - Added test data, build system, and font smarts
+      - Added test data, build system, and Graphite font smarts
       - Updated licensing for SIL additions and modifications
-      04 Apr 2017 (S. Sridhar Murthy) GunjalaGondi font version 0.100
+      04 Apr 2017 (S. Sridhar Murthy) GunjalaGondi font version 1.002
       - Initial release
     </text>
   </description>

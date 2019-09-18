@@ -42,7 +42,7 @@ Additions and modifications copyright (c) 2015-2019 SIL International (http://ww
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2019/05/28 15:21:41</string>
+  <string>2019/09/04 12:57:33</string>
   <key>openTypeHheaAscender</key>
   <integer>2691</integer>
   <key>openTypeHheaDescender</key>
@@ -164,7 +164,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Narnoor Regular: 2019</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.100</string>
+  <string>Version 1.000</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -265,9 +265,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>
-  <integer>0</integer>
+  <integer>1</integer>
   <key>versionMinor</key>
-  <integer>100</integer>
+  <integer>0</integer>
   <key>xHeight</key>
   <integer>1132</integer>
 </dict>
