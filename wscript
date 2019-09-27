@@ -20,20 +20,24 @@ ftmlTest('tools/ftml-padauk.xsl', fonts=['../test/reference/Narnoor-Regular.ttf'
 # set the build and test parameters
 TESTSTRING = u'\U00011D6C'
 
+OMITAPS = '--omitaps "_U,U"'
+generated = 'generated/'
+
 # set up the build parameters from the designspace file(s)
 for dspace in ('Roman',):
     designspace('source/' + FAMILY + dspace + '.designspace',
                 target = process('${DS:FILENAME_BASE}.ttf',
                     cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
                 ),
-                opentype = fea("generated/${DS:FILENAME_BASE}.fea",
+                opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
+                    mapfile = generated + '${DS:FILENAME_BASE}.map',
                     master = 'source/master.feax',
-                    make_params = '-L last',
+                    make_params = OMITAPS + ' -L last',
                     params = '',
                     ),
-                graphite = gdl("generated/${DS:FILENAME_BASE}.gdl",
+                graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',
                              master='source/master.gdl',
-                             make_params="-l last -p 1",
+                             make_params=OMITAPS + ' -l last -p 1',
                              params='-e gdlerr-${DS:FILENAME_BASE}.txt',
                              depends=[]),
                 script = ['gong'],

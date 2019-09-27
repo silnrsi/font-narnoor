@@ -62,11 +62,6 @@ lookup urAPs {
     pos base @UR mark @_UR;
 } urAPs;
 
-lookup uAPs {
-  lookupflag 0;
-    pos base @U mark @_U;
-} uAPs;
-
 lookup lAPs {
   lookupflag 0;
     pos base @L mark @_L;
@@ -84,7 +79,6 @@ feature kern {
 feature mark {
     lookup mAPs;
     lookup urAPs;
-    lookup uAPs;
     lookup lAPs;
 } mark;
 
