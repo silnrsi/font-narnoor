@@ -14,7 +14,7 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-24 Sep 2019 (SIL International) Narnoor font version 1.000
+01 Oct 2019 (SIL International) Narnoor font version 1.000
 - Added OpenType font smarts
 - Extra Latin glyphs (mostly outside of ASCII) are from
   Charis SIL (https://software.sil.org/charis/) scaled 110%
