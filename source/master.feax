@@ -52,6 +52,11 @@ do  for c = @cons;
       }
 } RightGuard;
 
+lookup lAPs {
+  lookupflag 0;
+    pos base @L mark @_L;
+} lAPs;
+
 lookup mAPs {
   lookupflag 0;
     pos base @M mark @_M;
@@ -61,11 +66,6 @@ lookup urAPs {
   lookupflag 0;
     pos base @UR mark @_UR;
 } urAPs;
-
-lookup lAPs {
-  lookupflag 0;
-    pos base @L mark @_L;
-} lAPs;
 
 feature ccmp {
     lookup FontCheck;
@@ -77,9 +77,9 @@ feature kern {
 } kern;
 
 feature mark {
+    lookup lAPs;
     lookup mAPs;
     lookup urAPs;
-    lookup lAPs;
 } mark;
 
 table GDEF {
