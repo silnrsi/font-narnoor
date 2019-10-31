@@ -1,0 +1,55 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[]
+
+\section{Samples}
+
+\subsection{Name}
+
+\proof{Narnoor - Gondi lipi 𑵺𑶊𑶈𑶗𑵺𑶎𑶈 - 𑵶𑶓𑶕𑶂𑶋 𑵵𑶋𑶅𑶋 RenderingUnknown}
+
+\proof[size="10,11,12,16",heading=Body text]{𑵺𑶊𑶈𑶗𑵺𑶎𑶈 - 𑵶𑶓𑶕𑶂𑶋 𑵵𑶋𑶅𑶋}
+
+\proof[size="18,24,30,36",heading=Heading text]{𑵺𑶊𑶈𑶗𑵺𑶎𑶈 - 𑵶𑶓𑶕𑶂𑶋 𑵵𑶋𑶅𑶋}
+
+\section{Patterns}
+
+\pattern[chars="I",reps="𑵠𑵬",heading=Sample mixed script]{aIB}
+
+\patterngroup[name="vowels"]{𑵡𑵢}
+\patterngroup[name="cons"]{𑵭𑵮}
+\patterngroup[name="matras"]{𑶋}
+\pattern[chars="e,k,o,u",reps="group_vowels,group_cons,group_vowels,group_cons",heading=Lowercase]{text_az}
+\pattern[chars="E,K,O,U",reps="group_vowels,group_cons,group_vowels,group_cons",heading=Uppercase]{text_AZ}
+\pattern[chars="C,M",reps="group_cons,group_matras",heading=Some matra combinations]{𑵣CM𑵯}
+
+\patterngroup[name="digits"]{𑶠𑶡𑶢𑶣𑶤𑶥𑶦𑶧𑶨𑶩}
+\pattern[chars="@",reps="group_digits",heading=Digits]{𑶠@𑶡@𑶢@𑶣@𑶤@𑶥@𑶦@𑶧@𑶨@𑶩}
+
+\pattern[chars="¡,¿",reps="।,॥",heading=Punctuation]{text_punct}
+
+\section{Generated}
+
+\subsection{Latin text}
+\pangrams
+\lorem[words=100]
+
+\subsection{Adhesion}
+\adhesion[characters=𑵵𑶋𑶅𑶋, dict="../tests/wordlist.txt"]
+
+\subsection{Glyphs}
+\repertoire
+
+\subsection{ASCII}
+\unicharchart[type=range,start=0020,end=007F]
+
+\subsection{Punctuation}
+\unicharchart[type=range,start=2010,end=201F]
+
+\subsection{Latin-1}
+\unicharchart[type=range,start=00A0,end=00FF]
+
+\subsection{Characters}
+\unicharchart[type=range,start=11D60,end=11DAF]
+
+\end{document}
