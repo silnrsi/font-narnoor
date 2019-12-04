@@ -40,9 +40,9 @@ for dspace in ('Roman',):
                              make_params=OMITAPS + ' -l last -p 1',
                              params='-e gdlerr-${DS:FILENAME_BASE}.txt',
                              depends=[]),
-                script = ['gong'],
+                classes = 'source/' + 'classes.xml',
                 ap = 'generated/' + '${DS:FILENAME_BASE}.xml',
-                # classes = 'source/' + 'classes.xml',
-                fret = fret(params='-r -oi'),
-                woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml')
+                woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
+                script = ['gong'],
+                fret = fret(params='-oi')
     )

@@ -1,11 +1,6 @@
 // Glyph definitions and rules for codepage 1252 composites
 #include "cp1252.gdl"
 
-table(glyph)
-cOmatras = (g_oomatra, g_aumatra);
-cEmatras = (g_eematra, g_aimatra);
-endtable
-
 table(substitution)
 pass(1)
 

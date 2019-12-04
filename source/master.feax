@@ -2,8 +2,6 @@ languagesystem DFLT dflt;
 
 @cons = @cligno_aamatra;
 @matras = [aamatra imatra iimatra umatra uumatra eematra aimatra oomatra aumatra];
-@cOmatras = [oomatra aumatra];
-@cEmatras = [eematra aimatra];
 
 # For debugging the string "RenderingUnknown" will be rendered as "RenderingOpenType"
 # if the app is using OpenType to render the text.
