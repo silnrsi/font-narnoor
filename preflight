@@ -1,7 +1,14 @@
 #!/bin/sh
 
+# This normalization will also run check and fix routines
 psfnormalize -v 3 -p checkfix=fix source/Narnoor-Regular.ufo
-psfsetglyphorder -i source/glyph_data.csv source/Narnoor-Regular.ufo
+
+# Apply glyph data to Regular UFO
 psfsetpsnames -i source/glyph_data.csv source/Narnoor-Regular.ufo
-psfmakewoffmetadata -n Narnoor -i org.sil.fonts --populateufowoff --force source/Narnoor-Regular.ufo
-# psfmakefea -o source/*.ufo/features.fea -i source/master.feax -L last source/*.ufo
+psfsetglyphorder -i source/glyph_data.csv source/Narnoor-Regular.ufo
+
+# Create WOFF metadata file
+psfmakewoffmetadata -n Narnoor -i org.sil.fonts source/Narnoor-Regular.ufo # --populateufowoff --force
+
+# Update FEA in UFO
+# psfmakefea -o source/Narnoor-Regular.ufo/features.fea -i source/master.feax -L last source/Narnoor-Regular.ufo

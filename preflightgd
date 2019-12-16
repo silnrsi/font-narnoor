@@ -1,4 +1,0 @@
-#!/bin/sh
-
-$HOME/script/tools/ufo2glyphdata.py $HOME/pub/doc/Adobe/agl-aglfn/aglfn.txt source/Narnoor-Regular.ufo source/glyph_data.csv
-./preflight

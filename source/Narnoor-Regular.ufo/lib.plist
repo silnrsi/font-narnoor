@@ -5,7 +5,7 @@
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
-  <false/>
+  <integer>0</integer>
   <key>com.schriftgestaltung.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.disablesLastChange</key>
@@ -498,6 +498,29 @@
     <string>sevengong</string>
     <string>eightgong</string>
     <string>ninegong</string>
+    <string>CombBreve</string>
+    <string>CombCaron</string>
+    <string>CombCedilla</string>
+    <string>CombCircum</string>
+    <string>CombDiaer</string>
+    <string>CombMacron</string>
+    <string>CombOgonek</string>
+    <string>GrCapDelta</string>
+    <string>GrCapOmega</string>
+    <string>GrCapPi</string>
+    <string>HyphenMinus</string>
+    <string>LtnCapD</string>
+    <string>LtnCapEsh</string>
+    <string>RingAbv</string>
+    <string>SmTilde</string>
+    <string>acutecomb</string>
+    <string>caroncomb</string>
+    <string>cedillacomb</string>
+    <string>circumflexcomb</string>
+    <string>diaeresiscomb</string>
+    <string>gravecomb</string>
+    <string>ringcomb</string>
+    <string>tildecomb</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
