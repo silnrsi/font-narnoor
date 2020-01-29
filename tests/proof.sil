@@ -1,55 +1,38 @@
 \begin[class=fontproof]{document}
 \bidi-off
 \setTestFont[]
-
-\section{Samples}
-
-\subsection{Name}
-
-\proof{Narnoor - Gondi lipi 𑵺𑶊𑶈𑶗𑵺𑶎𑶈 - 𑵶𑶓𑶕𑶂𑶋 𑵵𑶋𑶅𑶋 RenderingUnknown}
-
-\proof[size="10,11,12,16",heading=Body text]{𑵺𑶊𑶈𑶗𑵺𑶎𑶈 - 𑵶𑶓𑶕𑶂𑶋 𑵵𑶋𑶅𑶋}
-
-\proof[size="18,24,30,36",heading=Heading text]{𑵺𑶊𑶈𑶗𑵺𑶎𑶈 - 𑵶𑶓𑶕𑶂𑶋 𑵵𑶋𑶅𑶋}
-
-\section{Patterns}
-
-\pattern[chars="I",reps="𑵠𑵬",heading=Sample mixed script]{aIB}
-
-\patterngroup[name="vowels"]{𑵡𑵢}
-\patterngroup[name="cons"]{𑵭𑵮}
-\patterngroup[name="matras"]{𑶋}
-\pattern[chars="e,k,o,u",reps="group_vowels,group_cons,group_vowels,group_cons",heading=Lowercase]{text_az}
-\pattern[chars="E,K,O,U",reps="group_vowels,group_cons,group_vowels,group_cons",heading=Uppercase]{text_AZ}
-\pattern[chars="C,M",reps="group_cons,group_matras",heading=Some matra combinations]{𑵣CM𑵯}
-
+\section{Font Samples}
+\proof{Narnoor – Gunjala Gondi lipi 𑵺𑶊𑶈𑵺𑶎𑶈 - 𑵶𑶍𑶕𑶀𑶊𑵵𑶊 𑵶𑶓𑶕𑶂𑶋 𑵵𑶋𑶅𑶋 RenderingUnknown}
+\proof[size="6,8,10,12,16",heading=Body text]{𑵢𑵸 𑵰𑶊𑵭𑶊 𑵱𑶓𑵬𑶗𑵳𑶍𑶈𑶊 𑵶𑶍𑶕𑶀𑶊𑵵𑶊 𑵵𑶋𑶅𑶋 𑵡𑶕𑵸.}
+\proof[size="18,24,30,36",heading=Heading text]{𑵰𑶊𑵭𑶊 𑵮𑶊𑶉𑶊 𑵮𑶑 𑵻𑶓𑵱𑶓𑵽 𑵰𑶕𑵳𑶊}
+\proof[heading=Independent Vowels and Consonants]{𑵠 𑵡 𑵢 𑵣 𑵤 𑵥 𑵧 𑵨 𑵪 𑵫 | 𑵬 𑵭 𑵮 𑵯 𑵰 𑵱 𑵲 𑵳 𑵴 𑵵 𑵶 𑵷 𑵸 𑵹 𑵺 𑵻 𑵼 𑵽 𑵾 𑵿 𑶀 𑶁 𑶂 𑶃 𑶄 𑶅 𑶆 𑶇 𑶈 𑶉}
+\pattern[chars="I",reps="𑵠𑵵𑵬𑵣𑵥𑵪",heading=Sample of mixed scripts]{aIB}
+\patterngroup[name="vowels"]{𑵠𑵡𑵢𑵣𑵤𑵥𑵧𑵨𑵪𑵫}
+\patterngroup[name="consgong"]{𑵬𑵭𑵮𑵯𑵰𑵱𑵲𑵳𑵴𑵵𑵶𑵷𑵸𑵹𑵺𑵻𑵼𑵽𑵾𑵿𑶀𑶁𑶂𑶃𑶄𑶅𑶆𑶇𑶈𑶉}
+\patterngroup[name="consindic"]{𑵱𑵲𑵶𑵷𑶄𑵻𑵼𑶀𑶁𑵽𑵾𑶂𑶃𑵳𑵴𑵸𑵹𑵺𑶅𑶆𑵮𑵯𑵰𑵬𑶈𑵵𑵿𑵭𑶉𑶇}
+\patterngroup[name="matras"]{‌𑶊𑶋𑶌𑶍𑶎𑶐𑶑𑶓𑶔}
+\pattern[chars="C,M",reps="group_consgong,group_matras",heading=Consonant-matra combinations (Gunjala script order)]{CM}
+\pattern[chars="C,M",reps="group_consindic,group_matras",heading=Consonant-matra combinations (Traditional Indic order)]{CM}
 \patterngroup[name="digits"]{𑶠𑶡𑶢𑶣𑶤𑶥𑶦𑶧𑶨𑶩}
 \pattern[chars="@",reps="group_digits",heading=Digits]{𑶠@𑶡@𑶢@𑶣@𑶤@𑶥@𑶦@𑶧@𑶨@𑶩}
-
+\pi[digits=100]
 \pattern[chars="¡,¿",reps="।,॥",heading=Punctuation]{text_punct}
-
-\section{Generated}
-
+\subsection{Sample Gondi Words}
+\adhesion[characters=𑵠𑵡𑵢𑵣𑵤𑵥𑵧𑵨𑵪𑵫𑵱𑵶𑵻𑶀𑶁𑵽𑵾𑶂𑶃𑵳𑵴𑵸𑵹𑵺𑶅𑶆𑵮𑵯𑵰𑵬𑶈𑵵𑵿𑵭𑶉𑶇𑶊𑶋𑶌𑶍𑶎𑶐𑶑𑶓𑶔,dict="../tests/wordlist.txt",words=400]
 \subsection{Latin text}
-\pangrams
 \lorem[words=100]
-
-\subsection{Adhesion}
-\adhesion[characters=𑵵𑶋𑶅𑶋, dict="../tests/wordlist.txt"]
-
-\subsection{Glyphs}
+\subsection{All Glyphs in Narnoor font}
 \repertoire
-
-\subsection{ASCII}
-\unicharchart[type=range,start=0020,end=007F]
+\subsection{Gunjala Gondi Characters}
+\unicharchart[type=range,start=11D60,end=11DA9,columns="10",rows="8"]
 
 \subsection{Punctuation}
-\unicharchart[type=range,start=2010,end=201F]
+\unicharchart[type=range,start=2010,end=201F,columns="8",rows="2"]
+
+\subsection{ASCII}
+\unicharchart[type=range,start=0020,end=007F,columns="8"]
 
 \subsection{Latin-1}
-\unicharchart[type=range,start=00A0,end=00FF]
-
-\subsection{Characters}
-\unicharchart[type=range,start=11D60,end=11DAF]
+\unicharchart[type=range,start=00A0,end=00FF,columns="8"]
 
 \end{document}
