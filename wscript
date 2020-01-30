@@ -15,7 +15,7 @@ DESC_SHORT = "Font for the Gunjala Gondi script"
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 
 # Set up the FTML tests
-ftmlTest('tools/ftml-padauk.xsl', fonts=['../test/reference/Narnoor-Regular.ttf'], addfontindex=1, fontmode='collect')
+ftmlTest('tools/ftml-list.xsl')
 
 # set the build and test parameters
 TESTSTRING = u'\U00011D6C'

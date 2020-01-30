@@ -6,7 +6,6 @@
 \proof[size="6,8,10,12,16",heading=Body text]{𑵢𑵸 𑵰𑶊𑵭𑶊 𑵱𑶓𑵬𑶗𑵳𑶍𑶈𑶊 𑵶𑶍𑶕𑶀𑶊𑵵𑶊 𑵵𑶋𑶅𑶋 𑵡𑶕𑵸.}
 \proof[size="18,24,30,36",heading=Heading text]{𑵰𑶊𑵭𑶊 𑵮𑶊𑶉𑶊 𑵮𑶑 𑵻𑶓𑵱𑶓𑵽 𑵰𑶕𑵳𑶊}
 \proof[heading=Independent Vowels and Consonants]{𑵠 𑵡 𑵢 𑵣 𑵤 𑵥 𑵧 𑵨 𑵪 𑵫 | 𑵬 𑵭 𑵮 𑵯 𑵰 𑵱 𑵲 𑵳 𑵴 𑵵 𑵶 𑵷 𑵸 𑵹 𑵺 𑵻 𑵼 𑵽 𑵾 𑵿 𑶀 𑶁 𑶂 𑶃 𑶄 𑶅 𑶆 𑶇 𑶈 𑶉}
-\pattern[chars="I",reps="𑵠𑵵𑵬𑵣𑵥𑵪",heading=Sample of mixed scripts]{aIB}
 \patterngroup[name="vowels"]{𑵠𑵡𑵢𑵣𑵤𑵥𑵧𑵨𑵪𑵫}
 \patterngroup[name="consgong"]{𑵬𑵭𑵮𑵯𑵰𑵱𑵲𑵳𑵴𑵵𑵶𑵷𑵸𑵹𑵺𑵻𑵼𑵽𑵾𑵿𑶀𑶁𑶂𑶃𑶄𑶅𑶆𑶇𑶈𑶉}
 \patterngroup[name="consindic"]{𑵱𑵲𑵶𑵷𑶄𑵻𑵼𑶀𑶁𑵽𑵾𑶂𑶃𑵳𑵴𑵸𑵹𑵺𑶅𑶆𑵮𑵯𑵰𑵬𑶈𑵵𑵿𑵭𑶉𑶇}
