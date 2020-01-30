@@ -17,6 +17,9 @@
       (This should list both major and minor changes, most recent first.)
       
       01 Oct 2019 (SIL International) Narnoor font version 1.000
+      - An extra attachment point class caused builds to be be non-deterministic,
+      so that attachment point class is now excluded from the font build.
+      06 Jun 2019 (SIL International) Narnoor font version 0.100
       - Added OpenType font smarts
       - Extra Latin glyphs (mostly outside of ASCII) are from
       Charis SIL (https://software.sil.org/charis/) scaled 110%
@@ -35,7 +38,9 @@
   <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
     <text lang="en">
       Original font copyright (c) 2014-2017 CDAST, University of Hyderabad, Hyderabad (cdast@uohyd.ernet.in).
-      Additions and modifications copyright (c) 2015-2019 SIL International (http://www.sil.org/).
+      Additions and modifications copyright (c) 2015-2020 SIL International (http://www.sil.org/).
+      Additional Latin glyphs are Copyright (c) 1997-2019, SIL International (http://www.sil.org/)
+      with Reserved Font Names "Charis" and "SIL".
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1.
       This license is copied below, and is also available with a FAQ at:
@@ -133,7 +138,9 @@
   <copyright>
     <text lang="en">
       Original font copyright (c) 2014-2017 CDAST, University of Hyderabad, Hyderabad (cdast@uohyd.ernet.in).
-      Additions and modifications copyright (c) 2015-2019 SIL International (http://www.sil.org/).
+      Additions and modifications copyright (c) 2015-2020 SIL International (http://www.sil.org/).
+      Additional Latin glyphs are Copyright (c) 1997-2019, SIL International (http://www.sil.org/)
+      with Reserved Font Names "Charis" and "SIL".
     </text>
   </copyright>
   <trademark>
