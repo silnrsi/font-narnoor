@@ -1,10 +1,8 @@
-#!/usr/bin/python2
-# encoding: utf-8
-# this is a smith configuration file - http://scripts.sil.org/smith
+#!/usr/bin/python3
+# this is a smith configuration file
 
-# set some default output folders (most are already set by default)
+# override the default folders
 DOCDIR = ["documentation", "web"]
-STANDARDS = 'tests/reference'
 
 # set the font name and description
 APPNAME = 'Narnoor'
@@ -13,14 +11,12 @@ DESC_SHORT = "Font for the Gunjala Gondi script"
 
 # Get version and authorship information from Regular UFO (canonical metadata); must be first function call:
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
+# BUILDLABEL = 'beta1'
 
 # Set up the FTML tests
-ftmlTest('tools/ftml-list.xsl')
+ftmlTest('tools/ftml-smith.xsl')
 
-# set the build and test parameters
-TESTSTRING = u'\U00011D6C'
-
-OMITAPS = '--omitaps "_U,U"'
+omitaps = '--omitaps "_U,U"'
 generated = 'generated/'
 
 # set up the build parameters from the designspace file(s)
@@ -32,17 +28,17 @@ for dspace in ('Roman',):
                 opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
                     mapfile = generated + '${DS:FILENAME_BASE}.map',
                     master = 'source/master.feax',
-                    make_params = OMITAPS + ' -L last',
+                    make_params = omitaps + ' -L last',
                     params = '',
                     ),
                 graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',
                              master='source/master.gdl',
-                             make_params=OMITAPS + ' -l last -p 1',
+                             make_params=omitaps + ' -l last -p 1',
                              params='-e gdlerr-${DS:FILENAME_BASE}.txt',
                              depends=[]),
                 classes = 'source/' + 'classes.xml',
                 ap = 'generated/' + '${DS:FILENAME_BASE}.xml',
                 woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
                 script = ['gong'],
-                fret = fret(params='-oi')
+                pdf = fret(params='-oi')
     )
