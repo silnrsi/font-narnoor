@@ -5,10 +5,12 @@ Narnoor
 This file provides detailed information on the Narnoor font.
 This information should be distributed along with the Narnoor font and any derivative works.
 
+
 Basic Font Information
 ----------------------
 
 Font to cover the Gunjala Gondi script.
+
 
 ChangeLog
 ---------
@@ -32,6 +34,25 @@ ChangeLog
 04 Apr 2017 (S. Sridhar Murthy) GunjalaGondi font version 1.002
 - Initial release
 
+
+Information for Contributors
+----------------------------
+We welcome contributions to this font project, such as new glyphs, enhanced
+smart font code, or bug fixes. The best way to begin the process is to file an
+issue in the Github project (https://github.com/silnrsi/font-narnoor/issues)
+or respond to an existing issue and express your interest. Then we can begin
+to correspond with you regarding what all might be required and discuss how to
+best submit your contributions.
+
+To enable us to accept contributions in a way that honors your contribution
+and respects your copyright while preserving long-term flexibility for open
+source licensing, you would also need to agree to the SIL International
+Contributor License Agreement for Font Software (v1.0) prior to sending us
+your contribution. To read more about this requirement and find out how to
+submit the required form, please visit the CLA information page
+(https://software.sil.org/fontcla).
+
+
 Acknowledgements
 ----------------
 (If you make modifications be sure to add your
@@ -39,8 +60,15 @@ name (N), email (E), web-address (W) and description (D).
 This list is sorted by last name in alphabetical order.)
 
 N: Bobby de Vos
+E: fonts@sil.org
+W: https://software.sil.org/narnoor/
 D: Font engineer
 
 N: S. Sridhar Murthy
 E: mudrika_sridhar@yahoo.com
 D: Designer
+
+The Narnoor project is maintained by SIL International.
+
+For more information please visit the Narnoor page on SIL International's
+Computers and Writing systems website: https://software.sil.org/narnoor/
