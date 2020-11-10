@@ -5,12 +5,18 @@
   <credits>
     <credit
       name="Bobby de Vos"
+      url="https://software.sil.org/narnoor/"
       role="Font engineer"
+    />
+    <credit
+      name="S. Sridhar Murthy"
+      role="Designer"
     />
   </credits>
   <description>
     <text lang="en">
       Font to cover the Gunjala Gondi script.
+      
       
       ChangeLog
       ---------
