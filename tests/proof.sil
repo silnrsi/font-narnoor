@@ -16,6 +16,8 @@
 \pattern[chars="@",reps="group_digits",heading=Digits]{𑶠@𑶡@𑶢@𑶣@𑶤@𑶥@𑶦@𑶧@𑶨@𑶩}
 \pi[digits=100]
 \pattern[chars="¡,¿",reps="।,॥",heading=Punctuation]{text_punct}
+\subsection{Spaces}
+\proof{H H H H H H H H H H0H H.H H H H H}
 \subsection{Sample Gondi Words}
 \adhesion[characters=𑵠𑵡𑵢𑵣𑵤𑵥𑵧𑵨𑵪𑵫𑵱𑵶𑵻𑶀𑶁𑵽𑵾𑶂𑶃𑵳𑵴𑵸𑵹𑵺𑶅𑶆𑵮𑵯𑵰𑵬𑶈𑵵𑵿𑵭𑶉𑶇𑶊𑶋𑶌𑶍𑶎𑶐𑶑𑶓𑶔,dict="../tests/wordlist.txt",words=400]
 \subsection{Latin text}
