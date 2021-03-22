@@ -38,7 +38,8 @@ for dspace in ('Roman',):
                              depends=[]),
                 classes = 'source/' + 'classes.xml',
                 ap = 'generated/' + '${DS:FILENAME_BASE}.xml',
-                woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
+                woff = woff('woff/${DS:FILENAME_BASE}',
+                    metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
                 script = ['gong'],
                 pdf = fret(params='-oi')
     )
