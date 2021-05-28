@@ -38,6 +38,7 @@ for dspace in ('Roman',):
                              depends=[]),
                 classes = 'source/' + 'classes.xml',
                 ap = 'generated/' + '${DS:FILENAME_BASE}.xml',
+                version = VERSION,
                 woff = woff('woff/${DS:FILENAME_BASE}',
                     metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
                 script = ['gong'],
