@@ -2,6 +2,8 @@
 <glyph name="ra_uumatra.dot" format="2">
   <advance width="2306"/>
   <outline>
+    <component base="uumatra" xOffset="1620"/>
+    <component base="ra"/>
     <contour>
       <point x="1264" y="192" type="curve" smooth="yes"/>
       <point x="1264" y="237"/>
@@ -28,7 +30,5 @@
       <point x="1276" y="108"/>
       <point x="1264" y="146"/>
     </contour>
-    <component base="uumatra" xOffset="1620"/>
-    <component base="ra"/>
   </outline>
 </glyph>
