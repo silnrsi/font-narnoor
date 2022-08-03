@@ -45,16 +45,17 @@ def doit(args):
 
     # Override default base (25CC) for displaying combining marks:
     builder.diacBase = 0x11D6C   # ya
+    dotted_circle = 0x25CC
 
     # Specify block of primary script
     block = range(0x11D60, 0x11DA9+1)
 
     # Useful ranges of codepoints
     uids = sorted(builder.uids())
-    virama = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Invisible_Stacker'][0]
     vowels = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Vowel_Independent']
     consonants = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Consonant']
     matras = [uid for uid in uids if 'VOWEL SIGN' in get_ucd(uid, 'na')]
+    virama = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Invisible_Stacker'][0]
     digits = [uid for uid in uids if builder.char(uid).general == 'Nd' and uid in block]
     punct = [uid for uid in uids if get_ucd(uid, 'gc').startswith('P')]
 
@@ -148,24 +149,19 @@ def doit(args):
             builder.render(section, ftml)
             ftml.closeTest()
 
-    nukta = 0x1133B
-    below_marks = (0x0323, nukta, 0x1133C)  # 0x1CDC, 0x1CDD, 0x1CDE, 0x1CDF
-    above_marks = (0x0307, 0x0B82, 0x0BCD)  # 0x1CDA
-    marks = below_marks + above_marks
-
     if test.lower().startswith("diac"):
         # Diac attachment:
 
         # Representative base and diac chars:
         repDiac = list(filter(lambda x: x in builder.uids(), (0x11D95, 0x11D96)))
-        repBase = list(filter(lambda x: x in builder.uids(), (0x11D6C, 0x11D71)))
+        repBase = list(filter(lambda x: x in builder.uids(), (0x11D6C, 0x11D71, dotted_circle)))
 
         ftml.startTestGroup('Representative diacritics on all bases that take diacritics')
         for uid in uids:
             # ignore bases outside of the primary script:
             if uid not in block: continue
             c = builder.char(uid)
-            # Always process Lo, but others only if that take marks:
+            # Always process Lo, but others only if they take marks:
             if c.general == 'Lo' or c.isBase:
                 for diac in repDiac:
                     setBackgroundColor((uid,diac))
@@ -192,7 +188,7 @@ def doit(args):
     if test.lower().startswith("matras"):
         # Combinations with matras:
         ftml.startTestGroup('Consonants with matras')
-        for c in consonants:
+        for c in consonants + [dotted_circle]:
             for m in matras:
                 builder.render((c,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()

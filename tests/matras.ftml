@@ -136,5 +136,9 @@
       <comment>sa</comment>
       <string>\u011D89\u011D8A \u011D89\u011D8B \u011D89\u011D8C \u011D89\u011D8D \u011D89\u011D8E \u011D89\u011D90 \u011D89\u011D91 \u011D89\u011D93 \u011D89\u011D94</string>
     </test>
+    <test label="25CC">
+      <comment>dottedcircle</comment>
+      <string>\u0025CC\u011D8A \u0025CC\u011D8B \u0025CC\u011D8C \u0025CC\u011D8D \u0025CC\u011D8E \u0025CC\u011D90 \u0025CC\u011D91 \u0025CC\u011D93 \u0025CC\u011D94</string>
+    </test>
   </testgroup>
 </ftml>

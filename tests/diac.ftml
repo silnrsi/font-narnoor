@@ -226,22 +226,22 @@ U+11D95">
     <test label="U+11D6C
 U+11D90">
       <comment>ya eematra</comment>
-      <string>\u011D6C\u011D90 \u011D71\u011D90</string>
+      <string>\u011D6C\u011D90 \u011D71\u011D90 \u0025CC\u011D90</string>
     </test>
     <test label="U+11D6C
 U+11D91">
       <comment>ya aimatra</comment>
-      <string>\u011D6C\u011D91 \u011D71\u011D91</string>
+      <string>\u011D6C\u011D91 \u011D71\u011D91 \u0025CC\u011D91</string>
     </test>
     <test label="U+11D6C
 U+11D95">
       <comment>ya anusvara</comment>
-      <string>\u011D6C\u011D95 \u011D71\u011D95</string>
+      <string>\u011D6C\u011D95 \u011D71\u011D95 \u0025CC\u011D95</string>
     </test>
     <test label="U+11D6C
 U+11D97">
       <comment>ya virama</comment>
-      <string>\u011D6C\u011D97 \u011D71\u011D97</string>
+      <string>\u011D6C\u011D97 \u011D71\u011D97 \u0025CC\u011D97</string>
     </test>
   </testgroup>
 </ftml>
