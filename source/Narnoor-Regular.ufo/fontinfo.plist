@@ -44,7 +44,7 @@ with Reserved Font Names "Charis" and "SIL".
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2022/08/03 10:51:55</string>
+  <string>2022/08/03 14:33:33</string>
   <key>openTypeHheaAscender</key>
   <integer>2691</integer>
   <key>openTypeHheaDescender</key>
@@ -276,6 +276,38 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <integer>1</integer>
   <key>versionMinor</key>
   <integer>0</integer>
+  <key>woffMetadataCredits</key>
+  <dict>
+    <key>credits</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>Bobby de Vos</string>
+        <key>role</key>
+        <string>Font engineer</string>
+        <key>url</key>
+        <string>https://software.sil.org/narnoor/</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>S. Sridhar Murthy</string>
+        <key>role</key>
+        <string>Designer</string>
+      </dict>
+    </array>
+  </dict>
+  <key>woffMetadataDescription</key>
+  <dict>
+    <key>text</key>
+    <array>
+      <dict>
+        <key>text</key>
+        <string>The Gunjala Gondi script is used by the Gondi (Adilabad) language of South Asia. This script has been in Unicode since Unicode 11 but dates back to 1750. It was named after Gunjala, the village where Professor Jayadhir Tirumal Rao, a visiting professor at the Centre for Dalit and Adivasi Studies and Translation (CDAST), discovered an ancient hand-written manuscript. CDAST is a department of Hyderabad Central University (HCU) in India, where scholars are working to increase use of the Gunjala Gondi script, also known as Koytura Gunjala lipi. Teaching materials and textbooks are now in use in schools in the Gondi-speaking villages of Adilabad District. Narnoor is a Unicode font based on typographer S. Sridhara Murthy's original font for the Gunjala script. With the generous permission of CDAST at HCU we have re-engineered and released this font under the SIL Open Font License (OFL). The name “Narnoor” reflects the name of the mandal in Adilabad district of Telangana, where the Gunjala Gondi script is actively being revived.</string>
+      </dict>
+    </array>
+    <key>url</key>
+    <string>https://software.sil.org/narnoor/</string>
+  </dict>
   <key>xHeight</key>
   <integer>1132</integer>
 </dict>

@@ -13,32 +13,9 @@
       role="Designer"
     />
   </credits>
-  <description>
+  <description url="https://software.sil.org/narnoor/">
     <text lang="en">
-      Font to cover the Gunjala Gondi script.
-      
-      
-      ChangeLog
-      ---------
-      (This should list both major and minor changes, most recent first.)
-      
-      01 Oct 2019 (SIL International) Narnoor font version 1.000
-      - An extra attachment point class caused builds to be be non-deterministic,
-      so that attachment point class is now excluded from the font build.
-      06 Jun 2019 (SIL International) Narnoor font version 0.100
-      - Added OpenType font smarts
-      - Extra Latin glyphs (mostly outside of ASCII) are from
-      Charis SIL (https://software.sil.org/charis/) scaled 110%
-      - Fix test data and font to remove codepoints from
-      - PUA
-      - outside the Gunjala Gondi block
-      - unassigned with the the Gunjala Gondi block
-      - Rename glyphs and encode correctly (hopefully)
-      - Convert glyphs to Postscript curves
-      - Added test data, build system, and Graphite font smarts
-      - Updated licensing for SIL additions and modifications
-      04 Apr 2017 (S. Sridhar Murthy) GunjalaGondi font version 1.002
-      - Initial release
+      The Gunjala Gondi script is used by the Gondi (Adilabad) language of South Asia. This script has been in Unicode since Unicode 11 but dates back to 1750. It was named after Gunjala, the village where Professor Jayadhir Tirumal Rao, a visiting professor at the Centre for Dalit and Adivasi Studies and Translation (CDAST), discovered an ancient hand-written manuscript. CDAST is a department of Hyderabad Central University (HCU) in India, where scholars are working to increase use of the Gunjala Gondi script, also known as Koytura Gunjala lipi. Teaching materials and textbooks are now in use in schools in the Gondi-speaking villages of Adilabad District. Narnoor is a Unicode font based on typographer S. Sridhara Murthy's original font for the Gunjala script. With the generous permission of CDAST at HCU we have re-engineered and released this font under the SIL Open Font License (OFL). The name “Narnoor” reflects the name of the mandal in Adilabad district of Telangana, where the Gunjala Gondi script is actively being revived.
     </text>
   </description>
   <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">

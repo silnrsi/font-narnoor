@@ -8,7 +8,7 @@ psfsetpsnames -i source/glyph_data.csv source/Narnoor-Regular.ufo
 psfsetglyphorder -i source/glyph_data.csv source/Narnoor-Regular.ufo
 
 # Create WOFF metadata file
-psfmakewoffmetadata -n Narnoor -i org.sil.fonts source/Narnoor-Regular.ufo # --populateufowoff --force
+psfmakewoffmetadata -n Narnoor -i org.sil.fonts source/Narnoor-Regular.ufo
 
 # Update FEA in UFO
 psfmakefea -o source/Narnoor-Regular.ufo/features.fea -i source/master.feax -L last -c source/classes.xml source/Narnoor-Regular.ufo
