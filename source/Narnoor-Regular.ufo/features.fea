@@ -54,7 +54,7 @@ markClass anusvara <anchor 0 0> @_UR;
 # baseClass [nga.dot nga.half.dot] <anchor 80 -40> @L;
 
 # AP: M
-@M = [ba ba_aamatra bha bha_aamatra ca ca_aamatra cha cha_aamatra da da_aamatra dda ddha dda_aamatra ddha.half ddha_aamatra dha dha_aamatra ga ga.half ga_aamatra ja_aamatra gha gha_aamatra ha pha ha_aamatra ja jha jha_aamatra ka ka.half ka_aamatra kha kha_aamatra la_aamatra la la.dot lla na lla_aamatra ma ma_aamatra na_aamatra nga nga.dot nga.half nga.half.dot nga_aamatra pa pa_aamatra pha_aamatra ra ra.dot ra_aamatra sa sa.dot sa_aamatra ta ta_aamatra tha tha_aamatra tta tta_aamatra ttha ttha_aamatra va va_aamatra ya ya_aamatra];
+@M = [ba ba_aamatra bha bha_aamatra ca ca_aamatra cha cha_aamatra da da_aamatra dda ddha dda_aamatra ddha.half ddha_aamatra dha dha_aamatra dottedcircle ga ga.half ga_aamatra ja_aamatra gha gha_aamatra ha pha ha_aamatra ja jha jha_aamatra ka ka.half ka_aamatra kha kha_aamatra la_aamatra la la.dot lla na lla_aamatra ma ma_aamatra na_aamatra nga nga.dot nga.half nga.half.dot nga_aamatra pa pa_aamatra pha_aamatra ra ra.dot ra_aamatra sa sa.dot sa_aamatra ta ta_aamatra tha tha_aamatra tta tta_aamatra ttha ttha_aamatra va va_aamatra ya ya_aamatra];
 # baseClass ba <anchor 1212 1318> @M;
 # baseClass ba_aamatra <anchor 1280 1318> @M;
 # baseClass bha <anchor 1929 1318> @M;
@@ -71,6 +71,7 @@ markClass anusvara <anchor 0 0> @_UR;
 # baseClass ddha_aamatra <anchor 2000 1318> @M;
 # baseClass dha <anchor 1352 1318> @M;
 # baseClass dha_aamatra <anchor 1949 1318> @M;
+# baseClass dottedcircle <anchor 1206 1239> @M;
 # baseClass ga <anchor 1419 1318> @M;
 # baseClass ga.half <anchor 1332 1318> @M;
 # baseClass [ga_aamatra ja_aamatra] <anchor 1990 1318> @M;
@@ -168,7 +169,8 @@ markClass anusvara <anchor 0 0> @_UR;
 # baseClass ya_aamatra <anchor 2436 0> @U;
 
 # AP: UR
-@UR = [ka_imatra];
+@UR = [dottedcircle ka_imatra];
+# baseClass dottedcircle <anchor 1206 132> @UR;
 # baseClass ka_imatra <anchor 2856 0> @UR;
 
 # AP: _L
@@ -554,6 +556,7 @@ lookup mAPs {
     pos base ddha_aamatra <anchor 2000 1318> mark @_M;
     pos base dha <anchor 1352 1318> mark @_M;
     pos base dha_aamatra <anchor 1949 1318> mark @_M;
+    pos base dottedcircle <anchor 1206 1239> mark @_M;
     pos base ga <anchor 1419 1318> mark @_M;
     pos base ga.half <anchor 1332 1318> mark @_M;
     pos base [ga_aamatra ja_aamatra] <anchor 1990 1318> mark @_M;
@@ -601,6 +604,7 @@ lookup mAPs {
 
 lookup urAPs {
     lookupflag 0;
+    pos base dottedcircle <anchor 1206 132> mark @_UR;
     pos base ka_imatra <anchor 2856 0> mark @_UR;
 } urAPs;
 

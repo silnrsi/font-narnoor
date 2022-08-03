@@ -2,6 +2,8 @@
 <glyph name="dottedcircle" format="2">
   <advance width="1305"/>
   <unicode hex="25CC"/>
+  <anchor x="1206" y="1239" name="M"/>
+  <anchor x="1206" y="132" name="UR"/>
   <outline>
     <contour>
       <point x="1131" y="972" type="curve"/>
