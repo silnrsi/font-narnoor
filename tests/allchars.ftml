@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
+    <fontscale>200</fontscale>
+    <fontsrc label="RefGR">url(../references/Narnoor-Regular.ttf)</fontsrc>
+    <fontsrc label="GR">url(../results/Narnoor-Regular.ttf)</fontsrc>
+    <fontsrc label="OT">url(../results/tests/ftml/fonts/Narnoor-Regular_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="Noto">url(../references/NotoSansGunjalaGondi-Regular.ttf)</fontsrc>
+    <title>AllChars auto</title>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="Encoded characters">
+    <test label="U+0020">
+      <comment>space</comment>
+      <string>\u00F130 \u00F131 ! " # $ % &amp; ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~</string>
+    </test>
+    <test label="U+00A0">
+      <comment>nbsp</comment>
+      <string>\u00F130\u0000A0\u00F131 \u0000A1 \u0000A2 \u0000A3 \u0000A4 \u0000A5 \u0000A6 \u0000A7 \u0000A8 \u0000A9 \u0000AA \u0000AB \u0000AC \u0000AD \u0000AE \u0000AF \u0000B0 \u0000B1 \u0000B2 \u0000B3 \u0000B4 \u0000B5 \u0000B6 \u0000B7 \u0000B8 \u0000B9 \u0000BA \u0000BB \u0000BC \u0000BD \u0000BE \u0000BF \u0000C0 \u0000C1 \u0000C2 \u0000C3 \u0000C4 \u0000C5 \u0000C6 \u0000C7 \u0000C8 \u0000C9 \u0000CA \u0000CB \u0000CC \u0000CD \u0000CE \u0000CF \u0000D0 \u0000D1 \u0000D2 \u0000D3 \u0000D4 \u0000D5 \u0000D6 \u0000D7 \u0000D8 \u0000D9 \u0000DA \u0000DB \u0000DC \u0000DD \u0000DE \u0000DF \u0000E0 \u0000E1 \u0000E2 \u0000E3 \u0000E4 \u0000E5 \u0000E6 \u0000E7 \u0000E8 \u0000E9 \u0000EA \u0000EB \u0000EC \u0000ED \u0000EE \u0000EF \u0000F0 \u0000F1 \u0000F2 \u0000F3 \u0000F4 \u0000F5 \u0000F6 \u0000F7 \u0000F8 \u0000F9 \u0000FA \u0000FB \u0000FC \u0000FD \u0000FE \u0000FF</string>
+    </test>
+    <test label="U+0131">
+      <comment>dotlessi</comment>
+      <string>\u000131</string>
+    </test>
+    <test label="U+0152">
+      <comment>OE</comment>
+      <string>\u000152 \u000153</string>
+    </test>
+    <test label="U+0160">
+      <comment>Scaron</comment>
+      <string>\u000160 \u000161</string>
+    </test>
+    <test label="U+0178">
+      <comment>Ydieresis</comment>
+      <string>\u000178</string>
+    </test>
+    <test label="U+017D">
+      <comment>Zcaron</comment>
+      <string>\u00017D \u00017E</string>
+    </test>
+    <test label="U+0192">
+      <comment>florin</comment>
+      <string>\u000192</string>
+    </test>
+    <test label="U+02C6">
+      <comment>circumflex</comment>
+      <string>\u0002C6 \u0002C7</string>
+    </test>
+    <test label="U+02D0">
+      <comment>ModTriangularColon</comment>
+      <string>\u0002D0</string>
+    </test>
+    <test label="U+02D8">
+      <comment>breve</comment>
+      <string>\u0002D8 \u0002D9 \u0002DA \u0002DB \u0002DC \u0002DD</string>
+    </test>
+    <test label="U+034F">
+      <comment>cgj</comment>
+      <string>\u011D6C\u00034F</string>
+    </test>
+    <test label="U+03C0">
+      <comment>pi</comment>
+      <string>\u0003C0</string>
+    </test>
+    <test label="U+0964">
+      <comment>danda</comment>
+      <string>\u000964 \u000965</string>
+    </test>
+    <test label="U+0970">
+      <comment>abbreviationsign</comment>
+      <string>\u000970</string>
+    </test>
+    <test label="U+2000">
+      <comment>EnQuad</comment>
+      <string>\u00F130\u002000\u00F131 \u00F130\u002001\u00F131 \u00F130\u002002\u00F131 \u00F130\u002003\u00F131 \u00F130\u002004\u00F131 \u00F130\u002005\u00F131 \u00F130\u002006\u00F131 \u00F130\u002007\u00F131 \u00F130\u002008\u00F131 \u00F130\u002009\u00F131 \u00F130\u00200A\u00F131 \u00200B \u00200C \u00200D \u00200E \u00200F \u002010 \u002011 \u002012 \u002013 \u002014 \u002015</string>
+    </test>
+    <test label="U+2018">
+      <comment>quoteleft</comment>
+      <string>\u002018 \u002019 \u00201A</string>
+    </test>
+    <test label="U+201C">
+      <comment>quotedblleft</comment>
+      <string>\u00201C \u00201D \u00201E</string>
+    </test>
+    <test label="U+2020">
+      <comment>dagger</comment>
+      <string>\u002020 \u002021 \u002022</string>
+    </test>
+    <test label="U+2026">
+      <comment>ellipsis</comment>
+      <string>\u002026 \u002027 \u00F130\u002028\u00F131 \u00F130\u002029\u00F131</string>
+    </test>
+    <test label="U+202F">
+      <comment>NarrowNoBreakSpace</comment>
+      <string>\u00F130\u00202F\u00F131 \u002030</string>
+    </test>
+    <test label="U+2039">
+      <comment>guilsinglleft</comment>
+      <string>\u002039 \u00203A</string>
+    </test>
+    <test label="U+2044">
+      <comment>fraction</comment>
+      <string>\u002044</string>
+    </test>
+    <test label="U+2060">
+      <comment>wj</comment>
+      <string>\u002060</string>
+    </test>
+    <test label="U+20A8">
+      <comment>rs</comment>
+      <string>\u0020A8</string>
+    </test>
+    <test label="U+20AC">
+      <comment>Euro</comment>
+      <string>\u0020AC</string>
+    </test>
+    <test label="U+20B9">
+      <comment>inr</comment>
+      <string>\u0020B9</string>
+    </test>
+    <test label="U+2122">
+      <comment>trademark</comment>
+      <string>\u002122</string>
+    </test>
+    <test label="U+2126">
+      <comment>Ohm</comment>
+      <string>\u002126</string>
+    </test>
+    <test label="U+2202">
+      <comment>partialdiff</comment>
+      <string>\u002202</string>
+    </test>
+    <test label="U+2206">
+      <comment>Delta</comment>
+      <string>\u002206</string>
+    </test>
+    <test label="U+220F">
+      <comment>product</comment>
+      <string>\u00220F</string>
+    </test>
+    <test label="U+2211">
+      <comment>summation</comment>
+      <string>\u002211 \u002212</string>
+    </test>
+    <test label="U+2219">
+      <comment>BulletOperator</comment>
+      <string>\u002219 \u00221A</string>
+    </test>
+    <test label="U+221E">
+      <comment>infinity</comment>
+      <string>\u00221E</string>
+    </test>
+    <test label="U+222B">
+      <comment>integral</comment>
+      <string>\u00222B</string>
+    </test>
+    <test label="U+2248">
+      <comment>approxequal</comment>
+      <string>\u002248</string>
+    </test>
+    <test label="U+2260">
+      <comment>notequal</comment>
+      <string>\u002260</string>
+    </test>
+    <test label="U+2264">
+      <comment>lessequal</comment>
+      <string>\u002264 \u002265</string>
+    </test>
+    <test label="U+25CA">
+      <comment>lozenge</comment>
+      <string>\u0025CA</string>
+    </test>
+    <test label="U+25CC">
+      <comment>dottedcircle</comment>
+      <string>\u0025CC</string>
+    </test>
+    <test label="U+FB01">
+      <comment>fi</comment>
+      <string>\u00FB01 \u00FB02</string>
+    </test>
+    <test label="U+FE00">
+      <comment>VS1</comment>
+      <string>\u011D6C\u00FE00 \u011D6C\u00FE01 \u011D6C\u00FE02 \u011D6C\u00FE03 \u011D6C\u00FE04 \u011D6C\u00FE05 \u011D6C\u00FE06 \u011D6C\u00FE07 \u011D6C\u00FE08 \u011D6C\u00FE09 \u011D6C\u00FE0A \u011D6C\u00FE0B \u011D6C\u00FE0C \u011D6C\u00FE0D \u011D6C\u00FE0E \u011D6C\u00FE0F</string>
+    </test>
+    <test label="U+FEFF">
+      <comment>zwnbsp</comment>
+      <string>\u00FEFF</string>
+    </test>
+    <test label="U+FFFC">
+      <comment>ObjectReplChar</comment>
+      <string>\u00FFFC \u00FFFD</string>
+    </test>
+    <test label="U+11D60">
+      <comment>avowel</comment>
+      <string>\u011D60 \u011D61 \u011D62 \u011D63 \u011D64 \u011D65</string>
+    </test>
+    <test label="U+11D67">
+      <comment>eevowel</comment>
+      <string>\u011D67 \u011D68</string>
+    </test>
+    <test label="U+11D6A">
+      <comment>oovowel</comment>
+      <string>\u011D6A \u011D6B \u011D6C \u011D6D \u011D6E \u011D6F \u011D70 \u011D71 \u011D72 \u011D73 \u011D74 \u011D75 \u011D76 \u011D77 \u011D78 \u011D79 \u011D7A \u011D7B \u011D7C \u011D7D \u011D7E \u011D7F \u011D80 \u011D81 \u011D82 \u011D83 \u011D84 \u011D85 \u011D86 \u011D87 \u011D88 \u011D89 \u011D8A \u011D8B \u011D8C \u011D8D \u011D8E</string>
+    </test>
+    <test label="U+11D90">
+      <comment>eematra</comment>
+      <string>\u011D6C\u011D90 \u011D6C\u011D91</string>
+    </test>
+    <test label="U+11D93">
+      <comment>oomatra</comment>
+      <string>\u011D93 \u011D94 \u011D6C\u011D95 \u011D96 \u011D6C\u011D97 \u011D98</string>
+    </test>
+    <test label="U+11DA0">
+      <comment>zerogong</comment>
+      <string>\u011DA0 \u011DA1 \u011DA2 \u011DA3 \u011DA4 \u011DA5 \u011DA6 \u011DA7 \u011DA8 \u011DA9</string>
+    </test>
+  </testgroup>
+  <testgroup label="Specials &amp; ligatures from glyph_data">
+    <test label="U+11D6C
+U+11D8A">
+      <comment>ya aamatra</comment>
+      <string>\u011D6C\u011D8A</string>
+    </test>
+    <test label="U+11D6C
+U+11D8B">
+      <comment>ya imatra</comment>
+      <string>\u011D6C\u011D8B</string>
+    </test>
+    <test label="U+11D6D
+U+11D8A">
+      <comment>va aamatra</comment>
+      <string>\u011D6D\u011D8A</string>
+    </test>
+    <test label="U+11D6D
+U+11D8B">
+      <comment>va imatra</comment>
+      <string>\u011D6D\u011D8B</string>
+    </test>
+    <test label="U+11D6E
+U+11D8A">
+      <comment>ba aamatra</comment>
+      <string>\u011D6E\u011D8A</string>
+    </test>
+    <test label="U+11D6E
+U+11D8B">
+      <comment>ba imatra</comment>
+      <string>\u011D6E\u011D8B</string>
+    </test>
+    <test label="U+11D6F
+U+11D8A">
+      <comment>bha aamatra</comment>
+      <string>\u011D6F\u011D8A</string>
+    </test>
+    <test label="U+11D6F
+U+11D8B">
+      <comment>bha imatra</comment>
+      <string>\u011D6F\u011D8B</string>
+    </test>
+    <test label="U+11D70
+U+11D8A">
+      <comment>ma aamatra</comment>
+      <string>\u011D70\u011D8A</string>
+    </test>
+    <test label="U+11D70
+U+11D8B">
+      <comment>ma imatra</comment>
+      <string>\u011D70\u011D8B</string>
+    </test>
+    <test label="U+11D71
+U+11D8A">
+      <comment>ka aamatra</comment>
+      <string>\u011D71\u011D8A</string>
+    </test>
+    <test label="U+11D71
+U+11D8B">
+      <comment>ka imatra</comment>
+      <string>\u011D71\u011D8B</string>
+    </test>
+    <test label="U+11D71
+U+11D97
+U+11D81">
+      <comment>ka virama jha</comment>
+      <string>\u011D71\u011D97\u011D81</string>
+    </test>
+    <test label="U+11D71
+U+11D97
+U+11D89">
+      <comment>ka virama sa</comment>
+      <string>\u011D71\u011D97\u011D89</string>
+    </test>
+    <test label="U+11D72
+U+11D8A">
+      <comment>kha aamatra</comment>
+      <string>\u011D72\u011D8A</string>
+    </test>
+    <test label="U+11D72
+U+11D8B">
+      <comment>kha imatra</comment>
+      <string>\u011D72\u011D8B</string>
+    </test>
+    <test label="U+11D73
+U+11D8A">
+      <comment>ta aamatra</comment>
+      <string>\u011D73\u011D8A</string>
+    </test>
+    <test label="U+11D73
+U+11D8B">
+      <comment>ta imatra</comment>
+      <string>\u011D73\u011D8B</string>
+    </test>
+    <test label="U+11D74
+U+11D8A">
+      <comment>tha aamatra</comment>
+      <string>\u011D74\u011D8A</string>
+    </test>
+    <test label="U+11D74
+U+11D8B">
+      <comment>tha imatra</comment>
+      <string>\u011D74\u011D8B</string>
+    </test>
+    <test label="U+11D75
+U+11D8A">
+      <comment>la aamatra</comment>
+      <string>\u011D75\u011D8A</string>
+    </test>
+    <test label="U+11D75
+U+11D8B">
+      <comment>la imatra</comment>
+      <string>\u011D75\u011D8B</string>
+    </test>
+    <test label="U+11D76
+U+11D8A">
+      <comment>ga aamatra</comment>
+      <string>\u011D76\u011D8A</string>
+    </test>
+    <test label="U+11D76
+U+11D8B">
+      <comment>ga imatra</comment>
+      <string>\u011D76\u011D8B</string>
+    </test>
+    <test label="U+11D77
+U+11D8A">
+      <comment>gha aamatra</comment>
+      <string>\u011D77\u011D8A</string>
+    </test>
+    <test label="U+11D77
+U+11D8B">
+      <comment>gha imatra</comment>
+      <string>\u011D77\u011D8B</string>
+    </test>
+    <test label="U+11D78
+U+11D8A">
+      <comment>da aamatra</comment>
+      <string>\u011D78\u011D8A</string>
+    </test>
+    <test label="U+11D78
+U+11D8B">
+      <comment>da imatra</comment>
+      <string>\u011D78\u011D8B</string>
+    </test>
+    <test label="U+11D79
+U+11D8A">
+      <comment>dha aamatra</comment>
+      <string>\u011D79\u011D8A</string>
+    </test>
+    <test label="U+11D79
+U+11D8B">
+      <comment>dha imatra</comment>
+      <string>\u011D79\u011D8B</string>
+    </test>
+    <test label="U+11D7A
+U+11D8A">
+      <comment>na aamatra</comment>
+      <string>\u011D7A\u011D8A</string>
+    </test>
+    <test label="U+11D7A
+U+11D8B">
+      <comment>na imatra</comment>
+      <string>\u011D7A\u011D8B</string>
+    </test>
+    <test label="U+11D7B
+U+11D8A">
+      <comment>ca aamatra</comment>
+      <string>\u011D7B\u011D8A</string>
+    </test>
+    <test label="U+11D7B
+U+11D8B">
+      <comment>ca imatra</comment>
+      <string>\u011D7B\u011D8B</string>
+    </test>
+    <test label="U+11D7C
+U+11D8A">
+      <comment>cha aamatra</comment>
+      <string>\u011D7C\u011D8A</string>
+    </test>
+    <test label="U+11D7C
+U+11D8B">
+      <comment>cha imatra</comment>
+      <string>\u011D7C\u011D8B</string>
+    </test>
+    <test label="U+11D7D
+U+11D8A">
+      <comment>tta aamatra</comment>
+      <string>\u011D7D\u011D8A</string>
+    </test>
+    <test label="U+11D7D
+U+11D8B">
+      <comment>tta imatra</comment>
+      <string>\u011D7D\u011D8B</string>
+    </test>
+    <test label="U+11D7E
+U+11D8A">
+      <comment>ttha aamatra</comment>
+      <string>\u011D7E\u011D8A</string>
+    </test>
+    <test label="U+11D7E
+U+11D8B">
+      <comment>ttha imatra</comment>
+      <string>\u011D7E\u011D8B</string>
+    </test>
+    <test label="U+11D7F
+U+11D8A">
+      <comment>lla aamatra</comment>
+      <string>\u011D7F\u011D8A</string>
+    </test>
+    <test label="U+11D7F
+U+11D8B">
+      <comment>lla imatra</comment>
+      <string>\u011D7F\u011D8B</string>
+    </test>
+    <test label="U+11D80
+U+11D8A">
+      <comment>ja aamatra</comment>
+      <string>\u011D80\u011D8A</string>
+    </test>
+    <test label="U+11D80
+U+11D8B">
+      <comment>ja imatra</comment>
+      <string>\u011D80\u011D8B</string>
+    </test>
+    <test label="U+11D81
+U+11D8A">
+      <comment>jha aamatra</comment>
+      <string>\u011D81\u011D8A</string>
+    </test>
+    <test label="U+11D81
+U+11D8B">
+      <comment>jha imatra</comment>
+      <string>\u011D81\u011D8B</string>
+    </test>
+    <test label="U+11D82
+U+11D8A">
+      <comment>dda aamatra</comment>
+      <string>\u011D82\u011D8A</string>
+    </test>
+    <test label="U+11D82
+U+11D8B">
+      <comment>dda imatra</comment>
+      <string>\u011D82\u011D8B</string>
+    </test>
+    <test label="U+11D83
+U+11D8A">
+      <comment>ddha aamatra</comment>
+      <string>\u011D83\u011D8A</string>
+    </test>
+    <test label="U+11D83
+U+11D8B">
+      <comment>ddha imatra</comment>
+      <string>\u011D83\u011D8B</string>
+    </test>
+    <test label="U+11D84
+U+11D8A">
+      <comment>nga aamatra</comment>
+      <string>\u011D84\u011D8A</string>
+    </test>
+    <test label="U+11D84
+U+11D8B">
+      <comment>nga imatra</comment>
+      <string>\u011D84\u011D8B</string>
+    </test>
+    <test label="U+11D85
+U+11D8A">
+      <comment>pa aamatra</comment>
+      <string>\u011D85\u011D8A</string>
+    </test>
+    <test label="U+11D85
+U+11D8B">
+      <comment>pa imatra</comment>
+      <string>\u011D85\u011D8B</string>
+    </test>
+    <test label="U+11D86
+U+11D8A">
+      <comment>pha aamatra</comment>
+      <string>\u011D86\u011D8A</string>
+    </test>
+    <test label="U+11D86
+U+11D8B">
+      <comment>pha imatra</comment>
+      <string>\u011D86\u011D8B</string>
+    </test>
+    <test label="U+11D87
+U+11D8A">
+      <comment>ha aamatra</comment>
+      <string>\u011D87\u011D8A</string>
+    </test>
+    <test label="U+11D87
+U+11D8B">
+      <comment>ha imatra</comment>
+      <string>\u011D87\u011D8B</string>
+    </test>
+    <test label="U+11D88
+U+11D8A">
+      <comment>ra aamatra</comment>
+      <string>\u011D88\u011D8A</string>
+    </test>
+    <test label="U+11D88
+U+11D8B">
+      <comment>ra imatra</comment>
+      <string>\u011D88\u011D8B</string>
+    </test>
+    <test label="U+11D89
+U+11D8A">
+      <comment>sa aamatra</comment>
+      <string>\u011D89\u011D8A</string>
+    </test>
+    <test label="U+11D89
+U+11D8B">
+      <comment>sa imatra</comment>
+      <string>\u011D89\u011D8B</string>
+    </test>
+    <test label="U+11D8C
+U+11D95">
+      <comment>iimatra anusvara</comment>
+      <string>\u011D8C\u011D95</string>
+    </test>
+    <test label="U+11D90
+U+11D95">
+      <comment>eematra anusvara</comment>
+      <string>\u011D6C\u011D90\u011D95</string>
+    </test>
+    <test label="U+11D91
+U+11D95">
+      <comment>aimatra anusvara</comment>
+      <string>\u011D6C\u011D91\u011D95</string>
+    </test>
+  </testgroup>
+  <testgroup label="Proof">
+    <test label="U+11D60
+U+11D61
+U+11D62
+U+11D63
+U+11D64
+U+11D65
+U+11D67
+U+11D68
+U+11D6A
+U+11D6B">
+      <comment>avowel aavowel ivowel iivowel uvowel uuvowel eevowel aivowel oovowel auvowel</comment>
+      <string>\u011D60\u011D61\u011D62\u011D63\u011D64\u011D65\u011D67\u011D68\u011D6A\u011D6B</string>
+    </test>
+    <test label="U+11D6C
+U+11D6D
+U+11D6E
+U+11D6F
+U+11D70
+U+11D71
+U+11D72
+U+11D73
+U+11D74
+U+11D75
+U+11D76
+U+11D77
+U+11D78
+U+11D79
+U+11D7A
+U+11D7B
+U+11D7C
+U+11D7D
+U+11D7E
+U+11D7F
+U+11D80
+U+11D81
+U+11D82
+U+11D83
+U+11D84
+U+11D85
+U+11D86
+U+11D87
+U+11D88
+U+11D89">
+      <comment>ya va ba bha ma ka kha ta tha la ga gha da dha na ca cha tta ttha lla ja jha dda ddha nga pa pha ha ra sa</comment>
+      <string>\u011D6C\u011D6D\u011D6E\u011D6F\u011D70\u011D71\u011D72\u011D73\u011D74\u011D75\u011D76\u011D77\u011D78\u011D79\u011D7A\u011D7B\u011D7C\u011D7D\u011D7E\u011D7F\u011D80\u011D81\u011D82\u011D83\u011D84\u011D85\u011D86\u011D87\u011D88\u011D89</string>
+    </test>
+    <test label="U+11D8A
+U+11D8B
+U+11D8C
+U+11D8D
+U+11D8E
+U+11D90
+U+11D91
+U+11D93
+U+11D94">
+      <comment>aamatra imatra iimatra umatra uumatra eematra aimatra oomatra aumatra</comment>
+      <string>\u011D8A\u011D8B\u011D8C\u011D8D\u011D8E\u011D90\u011D91\u011D93\u011D94</string>
+    </test>
+    <test label="U+11DA0
+U+11DA1
+U+11DA2
+U+11DA3
+U+11DA4
+U+11DA5
+U+11DA6
+U+11DA7
+U+11DA8
+U+11DA9">
+      <comment>zerogong onegong twogong threegong fourgong fivegong sixgong sevengong eightgong ninegong</comment>
+      <string>\u011DA0\u011DA1\u011DA2\u011DA3\u011DA4\u011DA5\u011DA6\u011DA7\u011DA8\u011DA9</string>
+    </test>
+    <test label="U+0021
+U+0022
+U+0023
+U+0025
+U+0026
+U+0027
+U+0028
+U+0029
+U+002A
+U+002C
+U+002D
+U+002E
+U+002F
+U+003A
+U+003B
+U+003F
+U+0040
+U+005B
+U+005C
+U+005D
+U+005F
+U+007B
+U+007D
+U+00A1
+U+00A7
+U+00AB
+U+00B6
+U+00B7
+U+00BB
+U+00BF
+U+0964
+U+0965
+U+0970
+U+2010
+U+2011
+U+2012
+U+2013
+U+2014
+U+2015
+U+2018
+U+2019
+U+201A
+U+201C
+U+201D
+U+201E
+U+2020
+U+2021
+U+2022
+U+2026
+U+2027
+U+2030
+U+2039
+U+203A">
+      <comment>exclam quotedbl numbersign percent ampersand quotesingle parenleft parenright asterisk comma hyphen period slash colon semicolon question at bracketleft backslash bracketright underscore braceleft braceright exclamdown section guillemotleft paragraph periodcentered guillemotright questiondown danda dandadbl abbreviationsign Hyphen NonBreakingHyphen figuredash endash emdash HorizBar quoteleft quoteright quotesinglbase quotedblleft quotedblright quotedblbase dagger daggerdbl bullet ellipsis HyphenationPt perthousand guilsinglleft guilsinglright</comment>
+      <string>!"#%&amp;'()*,-./:;?@[\]_{}\u0000A1\u0000A7\u0000AB\u0000B6\u0000B7\u0000BB\u0000BF\u000964\u000965\u000970\u002010\u002011\u002012\u002013\u002014\u002015\u002018\u002019\u00201A\u00201C\u00201D\u00201E\u002020\u002021\u002022\u002026\u002027\u002030\u002039\u00203A</string>
+    </test>
+  </testgroup>
+</ftml>

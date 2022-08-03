@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
+    <fontscale>200</fontscale>
+    <fontsrc label="RefGR">url(../references/Narnoor-Regular.ttf)</fontsrc>
+    <fontsrc label="GR">url(../results/Narnoor-Regular.ttf)</fontsrc>
+    <fontsrc label="OT">url(../results/tests/ftml/fonts/Narnoor-Regular_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="Noto">url(../references/NotoSansGunjalaGondi-Regular.ttf)</fontsrc>
+    <title>Diac auto</title>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="Representative diacritics on all bases that take diacritics">
+    <test label="U+11D60
+U+11D95">
+      <comment>avowel anusvara</comment>
+      <string>\u011D60\u011D95 \u011D60\u011D96</string>
+    </test>
+    <test label="U+11D61
+U+11D95">
+      <comment>aavowel anusvara</comment>
+      <string>\u011D61\u011D95 \u011D61\u011D96</string>
+    </test>
+    <test label="U+11D62
+U+11D95">
+      <comment>ivowel anusvara</comment>
+      <string>\u011D62\u011D95 \u011D62\u011D96</string>
+    </test>
+    <test label="U+11D63
+U+11D95">
+      <comment>iivowel anusvara</comment>
+      <string>\u011D63\u011D95 \u011D63\u011D96</string>
+    </test>
+    <test label="U+11D64
+U+11D95">
+      <comment>uvowel anusvara</comment>
+      <string>\u011D64\u011D95 \u011D64\u011D96</string>
+    </test>
+    <test label="U+11D65
+U+11D95">
+      <comment>uuvowel anusvara</comment>
+      <string>\u011D65\u011D95 \u011D65\u011D96</string>
+    </test>
+    <test label="U+11D67
+U+11D95">
+      <comment>eevowel anusvara</comment>
+      <string>\u011D67\u011D95 \u011D67\u011D96</string>
+    </test>
+    <test label="U+11D68
+U+11D95">
+      <comment>aivowel anusvara</comment>
+      <string>\u011D68\u011D95 \u011D68\u011D96</string>
+    </test>
+    <test label="U+11D6A
+U+11D95">
+      <comment>oovowel anusvara</comment>
+      <string>\u011D6A\u011D95 \u011D6A\u011D96</string>
+    </test>
+    <test label="U+11D6B
+U+11D95">
+      <comment>auvowel anusvara</comment>
+      <string>\u011D6B\u011D95 \u011D6B\u011D96</string>
+    </test>
+    <test label="U+11D6C
+U+11D95">
+      <comment>ya anusvara</comment>
+      <string>\u011D6C\u011D95 \u011D6C\u011D96</string>
+    </test>
+    <test label="U+11D6D
+U+11D95">
+      <comment>va anusvara</comment>
+      <string>\u011D6D\u011D95 \u011D6D\u011D96</string>
+    </test>
+    <test label="U+11D6E
+U+11D95">
+      <comment>ba anusvara</comment>
+      <string>\u011D6E\u011D95 \u011D6E\u011D96</string>
+    </test>
+    <test label="U+11D6F
+U+11D95">
+      <comment>bha anusvara</comment>
+      <string>\u011D6F\u011D95 \u011D6F\u011D96</string>
+    </test>
+    <test label="U+11D70
+U+11D95">
+      <comment>ma anusvara</comment>
+      <string>\u011D70\u011D95 \u011D70\u011D96</string>
+    </test>
+    <test label="U+11D71
+U+11D95">
+      <comment>ka anusvara</comment>
+      <string>\u011D71\u011D95 \u011D71\u011D96</string>
+    </test>
+    <test label="U+11D72
+U+11D95">
+      <comment>kha anusvara</comment>
+      <string>\u011D72\u011D95 \u011D72\u011D96</string>
+    </test>
+    <test label="U+11D73
+U+11D95">
+      <comment>ta anusvara</comment>
+      <string>\u011D73\u011D95 \u011D73\u011D96</string>
+    </test>
+    <test label="U+11D74
+U+11D95">
+      <comment>tha anusvara</comment>
+      <string>\u011D74\u011D95 \u011D74\u011D96</string>
+    </test>
+    <test label="U+11D75
+U+11D95">
+      <comment>la anusvara</comment>
+      <string>\u011D75\u011D95 \u011D75\u011D96</string>
+    </test>
+    <test label="U+11D76
+U+11D95">
+      <comment>ga anusvara</comment>
+      <string>\u011D76\u011D95 \u011D76\u011D96</string>
+    </test>
+    <test label="U+11D77
+U+11D95">
+      <comment>gha anusvara</comment>
+      <string>\u011D77\u011D95 \u011D77\u011D96</string>
+    </test>
+    <test label="U+11D78
+U+11D95">
+      <comment>da anusvara</comment>
+      <string>\u011D78\u011D95 \u011D78\u011D96</string>
+    </test>
+    <test label="U+11D79
+U+11D95">
+      <comment>dha anusvara</comment>
+      <string>\u011D79\u011D95 \u011D79\u011D96</string>
+    </test>
+    <test label="U+11D7A
+U+11D95">
+      <comment>na anusvara</comment>
+      <string>\u011D7A\u011D95 \u011D7A\u011D96</string>
+    </test>
+    <test label="U+11D7B
+U+11D95">
+      <comment>ca anusvara</comment>
+      <string>\u011D7B\u011D95 \u011D7B\u011D96</string>
+    </test>
+    <test label="U+11D7C
+U+11D95">
+      <comment>cha anusvara</comment>
+      <string>\u011D7C\u011D95 \u011D7C\u011D96</string>
+    </test>
+    <test label="U+11D7D
+U+11D95">
+      <comment>tta anusvara</comment>
+      <string>\u011D7D\u011D95 \u011D7D\u011D96</string>
+    </test>
+    <test label="U+11D7E
+U+11D95">
+      <comment>ttha anusvara</comment>
+      <string>\u011D7E\u011D95 \u011D7E\u011D96</string>
+    </test>
+    <test label="U+11D7F
+U+11D95">
+      <comment>lla anusvara</comment>
+      <string>\u011D7F\u011D95 \u011D7F\u011D96</string>
+    </test>
+    <test label="U+11D80
+U+11D95">
+      <comment>ja anusvara</comment>
+      <string>\u011D80\u011D95 \u011D80\u011D96</string>
+    </test>
+    <test label="U+11D81
+U+11D95">
+      <comment>jha anusvara</comment>
+      <string>\u011D81\u011D95 \u011D81\u011D96</string>
+    </test>
+    <test label="U+11D82
+U+11D95">
+      <comment>dda anusvara</comment>
+      <string>\u011D82\u011D95 \u011D82\u011D96</string>
+    </test>
+    <test label="U+11D83
+U+11D95">
+      <comment>ddha anusvara</comment>
+      <string>\u011D83\u011D95 \u011D83\u011D96</string>
+    </test>
+    <test label="U+11D84
+U+11D95">
+      <comment>nga anusvara</comment>
+      <string>\u011D84\u011D95 \u011D84\u011D96</string>
+    </test>
+    <test label="U+11D85
+U+11D95">
+      <comment>pa anusvara</comment>
+      <string>\u011D85\u011D95 \u011D85\u011D96</string>
+    </test>
+    <test label="U+11D86
+U+11D95">
+      <comment>pha anusvara</comment>
+      <string>\u011D86\u011D95 \u011D86\u011D96</string>
+    </test>
+    <test label="U+11D87
+U+11D95">
+      <comment>ha anusvara</comment>
+      <string>\u011D87\u011D95 \u011D87\u011D96</string>
+    </test>
+    <test label="U+11D88
+U+11D95">
+      <comment>ra anusvara</comment>
+      <string>\u011D88\u011D95 \u011D88\u011D96</string>
+    </test>
+    <test label="U+11D89
+U+11D95">
+      <comment>sa anusvara</comment>
+      <string>\u011D89\u011D95 \u011D89\u011D96</string>
+    </test>
+    <test label="U+11D98
+U+11D95">
+      <comment>om anusvara</comment>
+      <string>\u011D98\u011D95 \u011D98\u011D96</string>
+    </test>
+  </testgroup>
+  <testgroup label="All diacritics on representative bases">
+    <test label="U+11D6C
+U+11D90">
+      <comment>ya eematra</comment>
+      <string>\u011D6C\u011D90 \u011D71\u011D90</string>
+    </test>
+    <test label="U+11D6C
+U+11D91">
+      <comment>ya aimatra</comment>
+      <string>\u011D6C\u011D91 \u011D71\u011D91</string>
+    </test>
+    <test label="U+11D6C
+U+11D95">
+      <comment>ya anusvara</comment>
+      <string>\u011D6C\u011D95 \u011D71\u011D95</string>
+    </test>
+    <test label="U+11D6C
+U+11D97">
+      <comment>ya virama</comment>
+      <string>\u011D6C\u011D97 \u011D71\u011D97</string>
+    </test>
+  </testgroup>
+</ftml>

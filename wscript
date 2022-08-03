@@ -41,6 +41,6 @@ for dspace in ('Roman',):
                 version = VERSION,
                 woff = woff('woff/${DS:FILENAME_BASE}',
                     metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
-                script = ['gong'],
+                script = ['DFLT', 'gong'],
                 pdf = fret(params='-oi')
     )
