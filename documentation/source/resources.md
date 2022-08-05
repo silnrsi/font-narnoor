@@ -21,7 +21,7 @@ See [Character set support](charset.md) for details of the Unicode characters su
 
 The Narnoor font has been tested to work on Microsoft Word, Microsoft Edge, Notepad, LibreOffice, Firefox, and Adobe InDesign. There may be some settings which must be modified in order for the font to work. For example, in Microsoft Word, go to the *Font / Advanced* menu and select *Ligatures / All*. In Adobe InDesign, select *Paragraph / Adobe World-Ready Paragraph Composer*.
 
-Narnoor is designed to work with Graphite or OpenType advanced font technologies. To take advantage of the advanced typographic capabilities of this font, you must be using applications that provide an adequate level of support for Graphite or OpenType.
+Narnoor is designed to work with [Graphite](https://graphite.sil.org/) or OpenType advanced font technologies. To take advantage of the advanced typographic capabilities of this font, you must be using applications that provide an adequate level of support for Graphite or OpenType.
 
 The font has been tested in Microsoft Word, Notepad, LibreOffice, and Adobe InDesign. It also works in Microsoft Edge and Firefox.
 

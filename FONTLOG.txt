@@ -5,15 +5,12 @@ Narnoor
 This file provides detailed information on the Narnoor font.
 This information should be distributed along with the Narnoor font and any derivative works.
 
+## About this project
 
-Basic Font Information
-----------------------
+This project is intended to provide a free and open font family for all current languages and writing systems that use the Gunjala Gondi script.
 
-Font to cover the Gunjala Gondi script.
+## ChangeLog
 
-
-ChangeLog
----------
 (This should list both major and minor changes, most recent first.)
 
 ### 01 Oct 2019 (SIL International) Narnoor font version 1.000
@@ -36,9 +33,8 @@ ChangeLog
 ### 04 Apr 2017 (S. Sridhar Murthy) GunjalaGondi font version 1.002
 - Initial release
 
+## Information for Contributors
 
-Information for Contributors
-----------------------------
 We welcome contributions to this font project, such as new glyphs, enhanced
 smart font code, or bug fixes. The best way to begin the process is to file an
 issue in the Github project (https://github.com/silnrsi/font-narnoor/issues)
@@ -54,15 +50,14 @@ your contribution. To read more about this requirement and find out how to
 submit the required form, please visit the CLA information page
 (https://software.sil.org/fontcla).
 
+## Acknowledgements
 
-Acknowledgements
-----------------
-(If you make modifications be sure to add your
-name (N), email (E), web-address (W) and description (D).
+(Here is where contributors can be acknowledged.
+If you make modifications be sure to add your name (N), email (E), web-address (W) and description (D).
 This list is sorted by last name in alphabetical order.)
 
 N: Bobby de Vos
-E: fonts@sil.org
+E: https://software.sil.org/narnoor/#contact
 W: https://software.sil.org/narnoor/
 D: Font engineer
 
@@ -70,7 +65,9 @@ N: S. Sridhar Murthy
 E: mudrika_sridhar@yahoo.com
 D: Designer
 
-The Narnoor project is maintained by SIL International.
+The Narnoor project is maintained by SIL International, a global,
+faith-based nonprofit that works with local communities around the world
+to develop language solutions that expand possibilities for a better life.
 
-For more information please visit the Narnoor page on SIL International's
-Computers and Writing systems website: https://software.sil.org/narnoor/
+For more information or support please visit:
+https://software.sil.org/narnoor/
