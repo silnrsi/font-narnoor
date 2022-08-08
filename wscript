@@ -16,7 +16,7 @@ getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 # Set up the FTML tests
 ftmlTest('tools/ftml-smith.xsl')
 
-omitaps = '--omitaps "_U,U"'
+omitaps = '--omitaps "_U U _L L"'
 generated = 'generated/'
 
 # set up the build parameters from the designspace file(s)

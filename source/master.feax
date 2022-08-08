@@ -50,10 +50,10 @@ do  for c = @cons;
       }
 } RightGuard;
 
-lookup lAPs {
-  lookupflag 0;
-    pos base @L mark @_L;
-} lAPs;
+# lookup lAPs {
+#   lookupflag 0;
+#     pos base @L mark @_L;
+# } lAPs;
 
 lookup mAPs {
   lookupflag 0;
@@ -75,7 +75,7 @@ feature kern {
 } kern;
 
 feature mark {
-    lookup lAPs;
+    # lookup lAPs;
     lookup mAPs;
     lookup urAPs;
 } mark;
