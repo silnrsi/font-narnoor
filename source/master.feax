@@ -1,4 +1,5 @@
 languagesystem DFLT dflt;
+#languagesystem gong dflt;
 
 @cons = @cligno_aamatra;
 @matras = [aamatra imatra iimatra umatra uumatra eematra aimatra oomatra aumatra];

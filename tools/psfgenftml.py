@@ -193,6 +193,12 @@ def doit(args):
                 builder.render((c,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
+        ftml.startTestGroup('Consonants with matras in a frame')
+        for c in consonants:
+            for m in matras:
+                builder.render((c,m,c), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
     # Write the output ftml file
     ftml.writeFile(args.output)
 

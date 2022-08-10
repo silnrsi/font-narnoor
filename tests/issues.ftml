@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="RefGR">url(../references/Narnoor-Regular.ttf)</fontsrc>
+    <fontsrc label="GR">url(../results/Narnoor-Regular.ttf)</fontsrc>
+    <fontsrc label="OT">url(../results/tests/ftml/fonts/Narnoor-Regular_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="Noto">url(../references/NotoSansGunjalaGondi-Regular.ttf)</fontsrc>
+    <title>Issues</title>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="name">
+    <test label="name name+virama">
+      <string>𑵺𑶊𑶈𑵺𑶎𑶈 𑵺𑶊𑶈𑶗𑵺𑶎𑶈</string>
+    </test>
+  </testgroup>
+  <testgroup label="clashes">
+    <test label="matras?">
+      <string>\u11d71\u11d8d\u11d7a \u11d88\u11d8d\u11d70 \u11d71\u11d8c\u11d89 \u11d89\u11d8d\u11d88 \u11d85\u11d8e\u11d88</string>
+    </test>
+  </testgroup>
+</ftml>
