@@ -282,18 +282,6 @@ U+11D8B">
       <comment>ka imatra</comment>
       <string>\u011D71\u011D8B</string>
     </test>
-    <test label="U+11D71
-U+11D97
-U+11D81">
-      <comment>ka virama jha</comment>
-      <string>\u011D71\u011D97\u011D81</string>
-    </test>
-    <test label="U+11D71
-U+11D97
-U+11D89">
-      <comment>ka virama sa</comment>
-      <string>\u011D71\u011D97\u011D89</string>
-    </test>
     <test label="U+11D72
 U+11D8A">
       <comment>kha aamatra</comment>
