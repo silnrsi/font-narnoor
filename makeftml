@@ -12,7 +12,7 @@ fi
 
 # configure tests
 tests="AllChars Diac Matras"
-urls='url(../references/Narnoor-Regular.ttf)=RefGR url(../results/Narnoor-Regular.ttf)=GR url(../results/tests/ftml/fonts/Narnoor-Regular_ot_DFLT.ttf)=OT url(../references/NotoSansGunjalaGondi-Regular.ttf)=Noto'
+urls='url(../references/Narnoor-Regular_ot_gong.ttf)=refGR url(../references/Narnoor-Regular.ttf)=refOT url(../results/Narnoor-Regular.ttf)=GR url(../results/tests/ftml/fonts/Narnoor-Regular_ot_gong.ttf)=OT url(../references/NotoSansGunjalaGondi-Regular.ttf)=Noto'
 ufo='source/Narnoor-Regular.ufo'
 
 # list all the fonts to test

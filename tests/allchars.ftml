@@ -4,9 +4,10 @@
   <head>
     <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
     <fontscale>200</fontscale>
-    <fontsrc label="RefGR">url(../references/Narnoor-Regular.ttf)</fontsrc>
+    <fontsrc label="refGR">url(../references/Narnoor-Regular_ot_gong.ttf)</fontsrc>
+    <fontsrc label="refOT">url(../references/Narnoor-Regular.ttf)</fontsrc>
     <fontsrc label="GR">url(../results/Narnoor-Regular.ttf)</fontsrc>
-    <fontsrc label="OT">url(../results/tests/ftml/fonts/Narnoor-Regular_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="OT">url(../results/tests/ftml/fonts/Narnoor-Regular_ot_gong.ttf)</fontsrc>
     <fontsrc label="Noto">url(../references/NotoSansGunjalaGondi-Regular.ttf)</fontsrc>
     <title>AllChars auto</title>
   </head>

@@ -1,5 +1,5 @@
 languagesystem DFLT dflt;
-#languagesystem gong dflt;
+languagesystem gong dflt;
 
 @cons = @cligno_aamatra;
 @matras = [aamatra imatra iimatra umatra uumatra eematra aimatra oomatra aumatra];
@@ -68,12 +68,15 @@ lookup urAPs {
 
 feature ccmp {
     lookup FontCheck;
-    lookup OnePass;
 } ccmp;
 
-feature kern {
+feature rlig {
+    lookup OnePass;
+} rlig;
+
+feature dist {
     lookup RightGuard;
-} kern;
+} dist;
 
 feature mark {
     # lookup lAPs;

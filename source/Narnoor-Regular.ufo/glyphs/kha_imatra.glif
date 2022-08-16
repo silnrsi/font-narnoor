@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kha_imatra" format="2">
   <advance width="2553"/>
-  <anchor x="-108" y="1315" name="_M"/>
   <outline>
     <contour>
       <point x="667" y="307" type="curve"/>
