@@ -3,8 +3,8 @@
 <ftml version="1.0">
   <head>
     <fontscale>200</fontscale>
-    <fontsrc label="refGR">url(../references/Narnoor-Regular_ot_gong.ttf)</fontsrc>
-    <fontsrc label="refOT">url(../references/Narnoor-Regular.ttf)</fontsrc>
+    <fontsrc label="refGR">url(../references/Narnoor-Regular.ttf)</fontsrc>
+    <fontsrc label="refOT">url(../references/Narnoor-Regular_ot_gong.ttf)</fontsrc>
     <fontsrc label="GR">url(../results/Narnoor-Regular.ttf)</fontsrc>
     <fontsrc label="OT">url(../results/tests/ftml/fonts/Narnoor-Regular_ot_gong.ttf)</fontsrc>
     <fontsrc label="Noto">url(../references/NotoSansGunjalaGondi-Regular.ttf)</fontsrc>
@@ -13,6 +13,11 @@
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
       <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="encoding">
+    <test label="renamed ligatures">
+      <string>\u11D71\u11D97\u11D89 \u11D71\u11D97\u11D81</string>
     </test>
   </testgroup>
   <testgroup label="name">
