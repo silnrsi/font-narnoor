@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dandadbl" format="2">
-  <advance width="1254"/>
+  <advance width="612"/>
   <unicode hex="0965"/>
   <outline>
     <contour>
-      <point x="992" y="-107" type="line"/>
-      <point x="816" y="-107" type="line"/>
-      <point x="816" y="1389" type="line"/>
-      <point x="992" y="1389" type="line"/>
+      <point x="484" y="-52" type="line"/>
+      <point x="398" y="-52" type="line"/>
+      <point x="398" y="678" type="line"/>
+      <point x="484" y="678" type="line"/>
     </contour>
     <contour>
-      <point x="592" y="-107" type="line"/>
-      <point x="416" y="-107" type="line"/>
-      <point x="416" y="1389" type="line"/>
-      <point x="592" y="1389" type="line"/>
+      <point x="289" y="-52" type="line"/>
+      <point x="203" y="-52" type="line"/>
+      <point x="203" y="678" type="line"/>
+      <point x="289" y="678" type="line"/>
     </contour>
   </outline>
 </glyph>
