@@ -16,15 +16,15 @@
 # Positioning classes and statements
 
 # AP: _M
-markClass aamatra <anchor -2 645> @_M;
+markClass aamatra <anchor -2 644> @_M;
 markClass [aimatra eematra] <anchor -98 644> @_M;
 markClass aimatra_anusvara <anchor -89 644> @_M;
-markClass [aumatra oomatra] <anchor -10 645> @_M;
+markClass [aumatra oomatra] <anchor -10 644> @_M;
 markClass eematra_anusvara <anchor -99 644> @_M;
-markClass [iimatra iimatra_anusvara] <anchor -139 642> @_M;
-markClass imatra <anchor -53 642> @_M;
-markClass umatra <anchor -127 645> @_M;
-markClass uumatra <anchor -126 645> @_M;
+markClass [iimatra iimatra_anusvara] <anchor -139 644> @_M;
+markClass imatra <anchor -53 644> @_M;
+markClass umatra <anchor -127 644> @_M;
+markClass uumatra <anchor -126 644> @_M;
 
 # AP: _U
 markClass [aimatra aimatra_anusvara anusvara eematra eematra_anusvara umatra uumatra] <anchor 0 0> @_U;
@@ -65,8 +65,8 @@ markClass anusvara <anchor 0 0> @_UR;
 # baseClass ja <anchor 676 644> @M;
 # baseClass jha <anchor 817 644> @M;
 # baseClass jha_aamatra <anchor 1032 644> @M;
-# baseClass ka <anchor 957 646> @M;
-# baseClass ka.half <anchor 936 643> @M;
+# baseClass ka <anchor 957 644> @M;
+# baseClass ka.half <anchor 936 644> @M;
 # baseClass ka_aamatra <anchor 1182 644> @M;
 # baseClass kha <anchor 874 644> @M;
 # baseClass [kha_aamatra la_aamatra] <anchor 1050 644> @M;
@@ -545,8 +545,8 @@ lookup mAPs {
     pos base ja <anchor 676 644> mark @_M;
     pos base jha <anchor 817 644> mark @_M;
     pos base jha_aamatra <anchor 1032 644> mark @_M;
-    pos base ka <anchor 957 646> mark @_M;
-    pos base ka.half <anchor 936 643> mark @_M;
+    pos base ka <anchor 957 644> mark @_M;
+    pos base ka.half <anchor 936 644> mark @_M;
     pos base ka_aamatra <anchor 1182 644> mark @_M;
     pos base kha <anchor 874 644> mark @_M;
     pos base [kha_aamatra la_aamatra] <anchor 1050 644> mark @_M;

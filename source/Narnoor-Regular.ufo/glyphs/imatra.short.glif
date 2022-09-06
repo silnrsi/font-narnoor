@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="imatra.short" format="2">
   <advance width="371"/>
-  <anchor x="-101" y="639" name="_M"/>
+  <anchor x="-101" y="644" name="_M"/>
   <outline>
     <contour>
       <point x="-65" y="644" type="curve"/>

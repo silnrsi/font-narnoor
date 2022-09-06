@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oomatra_anusvara.short" format="2">
   <advance width="566"/>
-  <anchor x="-9" y="645" name="_M"/>
+  <anchor x="-9" y="644" name="_M"/>
   <outline>
     <contour>
       <point x="434" y="769" type="curve" smooth="yes"/>
