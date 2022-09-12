@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nga_imatra" format="2">
-  <advance width="1080"/>
+  <advance width="1071"/>
   <outline>
     <contour>
       <point x="447" y="0" type="curve" smooth="yes"/>
@@ -34,8 +34,8 @@
       <point x="1004" y="600"/>
       <point x="1003" y="573"/>
       <point x="1003" y="599" type="curve"/>
-      <point x="1109" y="599" type="line"/>
-      <point x="1109" y="645" type="line"/>
+      <point x="1090" y="599" type="line"/>
+      <point x="1090" y="645" type="line"/>
       <point x="1000" y="645" type="line"/>
       <point x="982" y="759"/>
       <point x="938" y="858"/>

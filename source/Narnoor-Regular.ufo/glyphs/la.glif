@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="la" format="2">
-  <advance width="851"/>
+  <advance width="858"/>
   <unicode hex="11D75"/>
   <anchor x="0" y="0" name="L"/>
   <anchor x="754" y="644" name="M"/>
@@ -38,10 +38,10 @@
       <point x="694" y="463"/>
       <point x="786" y="520"/>
       <point x="790" y="599" type="curve"/>
-      <point x="886" y="599" type="line"/>
-      <point x="886" y="645" type="line"/>
-      <point x="-9" y="645" type="line"/>
-      <point x="-9" y="599" type="line"/>
+      <point x="877" y="599" type="line"/>
+      <point x="877" y="645" type="line"/>
+      <point x="-19" y="645" type="line"/>
+      <point x="-19" y="599" type="line"/>
       <point x="716" y="599" type="line"/>
       <point x="707" y="551"/>
       <point x="661" y="512"/>

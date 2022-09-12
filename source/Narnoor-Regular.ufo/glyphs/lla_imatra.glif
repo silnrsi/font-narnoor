@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lla_imatra" format="2">
-  <advance width="971"/>
+  <advance width="969"/>
   <outline>
     <contour>
       <point x="352" y="0" type="curve" smooth="yes"/>
@@ -36,8 +36,8 @@
       <point x="901" y="562"/>
       <point x="901" y="581"/>
       <point x="901" y="599" type="curve"/>
-      <point x="994" y="599" type="line"/>
-      <point x="994" y="645" type="line"/>
+      <point x="988" y="599" type="line"/>
+      <point x="988" y="645" type="line"/>
       <point x="897" y="645" type="line"/>
       <point x="889" y="745"/>
       <point x="838" y="861"/>
@@ -45,8 +45,8 @@
       <point x="586" y="861"/>
       <point x="524" y="768"/>
       <point x="515" y="645" type="curve"/>
-      <point x="-9" y="645" type="line"/>
-      <point x="-9" y="599" type="line"/>
+      <point x="-19" y="645" type="line"/>
+      <point x="-19" y="599" type="line"/>
       <point x="513" y="599" type="line"/>
       <point x="513" y="533" type="line" smooth="yes"/>
       <point x="513" y="497"/>

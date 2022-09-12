@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ca_imatra" format="2">
-  <advance width="1040"/>
+  <advance width="1029"/>
   <outline>
     <contour>
       <point x="415" y="-5" type="curve" smooth="yes"/>
@@ -34,8 +34,8 @@
       <point x="962" y="600"/>
       <point x="961" y="573"/>
       <point x="961" y="599" type="curve"/>
-      <point x="1055" y="599" type="line"/>
-      <point x="1055" y="645" type="line"/>
+      <point x="1048" y="599" type="line"/>
+      <point x="1048" y="645" type="line"/>
       <point x="958" y="645" type="line"/>
       <point x="940" y="759"/>
       <point x="896" y="858"/>

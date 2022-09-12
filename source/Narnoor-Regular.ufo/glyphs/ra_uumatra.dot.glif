@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ra_uumatra.dot" format="2">
-  <advance width="1126"/>
+  <advance width="1121"/>
   <outline>
     <component base="ra"/>
     <component base="uumatra" xOffset="791"/>

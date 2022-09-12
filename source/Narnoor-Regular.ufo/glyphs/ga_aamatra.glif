@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ga_aamatra" format="2">
-  <advance width="1070"/>
+  <advance width="1083"/>
   <anchor x="0" y="0" name="L"/>
   <anchor x="972" y="644" name="M"/>
   <anchor x="1066" y="0" name="U"/>

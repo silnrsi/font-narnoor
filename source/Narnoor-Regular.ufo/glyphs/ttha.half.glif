@@ -70,10 +70,10 @@
       <point x="808" y="70"/>
     </contour>
     <contour>
-      <point x="-9" y="599" type="line"/>
-      <point x="949" y="599" type="line"/>
-      <point x="949" y="645" type="line"/>
-      <point x="-9" y="645" type="line"/>
+      <point x="-19" y="599" type="line"/>
+      <point x="954" y="599" type="line"/>
+      <point x="954" y="645" type="line"/>
+      <point x="-19" y="645" type="line"/>
     </contour>
   </outline>
 </glyph>
