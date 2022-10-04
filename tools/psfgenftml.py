@@ -55,7 +55,6 @@ def doit(args):
     vowels = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Vowel_Independent']
     consonants = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Consonant']
     matras = [uid for uid in uids if 'VOWEL SIGN' in get_ucd(uid, 'na')]
-    virama = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Invisible_Stacker'][0]
     digits = [uid for uid in uids if builder.char(uid).general == 'Nd' and uid in block]
     punct = [uid for uid in uids if get_ucd(uid, 'gc').startswith('P')]
 
@@ -174,7 +173,7 @@ def doit(args):
 
         ftml.startTestGroup('All diacritics on representative bases')
         for uid in uids:
-            # ignore bases outside of the primary script:
+            # ignore marks outside of the primary script:
             if uid not in block: continue
             c = builder.char(uid)
             if c.general == 'Mn':
@@ -186,7 +185,6 @@ def doit(args):
                 ftml.closeTest()
 
     if test.lower().startswith("matras"):
-        # Combinations with matras:
         ftml.startTestGroup('Consonants with matras')
         for c in consonants + [dotted_circle]:
             for m in matras:
