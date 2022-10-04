@@ -3,11 +3,8 @@ title: Narnoor - Product Site
 fontversion: 1.000
 ---
 
-# Narnoor
-
 ![Narnoor - Banner](assets/images/narnoor_banner.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/wp/wp-content/uploads/2019/12/narnoor_banner.png -->
-<!-- <figcaption>Narnoor</figcaption> -->
 
 <h2 id="about">About</h2>
 
@@ -23,10 +20,6 @@ Gunjala Gondi (complete)|U+11D60..U+11DA9
 Devanagari|U+0965..U+0965
 
 A selection of characters from various other Unicode blocks is included in Narnoor. The font also includes the legacy Rupee Sign (U+20A8) and the Indian Rupee Sign (U+20B9) from the Currency Symbols block. Some characters from the General Punctuation block, such as various-sized spaces, are also supported.
-
-A selection of characters from various other Unicode blocks is included in Narnoor. The font also includes the legacy Rupee Sign (U+20A8) and the Indian Rupee Sign (U+20B9) from the Currency Symbols block. Some characters from the General Punctuation block, such as various-sized spaces, are also supported. A utility such as [SIL ViewGlyph](http://scripts.sil.org/ViewGlyph_home) can be used to examine the exact repertoire of this font.
-
-Inclusion of basic Latin repertoire is provided as a convenience, e.g., for use in menus or for displaying markup in text files. These fonts are not intended for extensive Latin script use.
 
 This [Type Sample](https://software.sil.org/downloads/r/narnoor/Narnoor-Font-Sample.pdf) document demonstrates the characters and a sample text.
 

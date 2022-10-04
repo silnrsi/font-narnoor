@@ -2,7 +2,7 @@ README
 Narnoor
 =======
 
-This project is intended to provide a free and open font family for all current languages and writing systems that use the Gunjala Gondi script.
+This project provides a free and open font for the Gunjala Gondi script.
 This project uses a UFO-based design and production workflow, with all sources in open formats and a completely open-source build toolkit.
 
 To download the fonts visit the [Narnoor downloads page](https://software.sil.org/narnoor/#downloads) or the [Github releases page](https://github.com/silnrsi/font-narnoor/releases).

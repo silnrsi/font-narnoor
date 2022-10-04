@@ -9,7 +9,7 @@ If you would like stay informed of updates to Narnoor and other SIL fonts, pleas
 
 Our font announcements are also available through Twitter [@silfonts](http://twitter.com/silfonts).
 
-## Current versions
+## Current version
 
 The latest version of the fonts is always available from the [Narnoor download page](https://software.sil.org/narnoor/#downloads) as a .zip archive for all major platforms.
 

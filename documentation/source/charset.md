@@ -4,6 +4,8 @@ fontversion: 1.000
 ---
 
 Narnoor support the Gunjala Gondi script, dandas from Devanagari, and a basic set of Latin characters.
+Inclusion of a basic Latin repertoire is provided as a convenience, e.g., for use in menus or for displaying markup in text files.
+These fonts are not intended for extensive Latin script use.
 
 ## Supported characters
 

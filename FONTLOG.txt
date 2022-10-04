@@ -7,7 +7,7 @@ This information should be distributed along with the Narnoor font and any deriv
 
 ## About this project
 
-This project is intended to provide a free and open font family for all current languages and writing systems that use the Gunjala Gondi script.
+This project provides a free and open font for the Gunjala Gondi script.
 
 ## ChangeLog
 
