@@ -13,6 +13,11 @@ This project provides a free and open font for the Gunjala Gondi script.
 
 (This should list both major and minor changes, most recent first.)
 
+### dd Oct 2022 (SIL International) Narnoor font version 2.000
+- Resolve Font Bakery issues
+- Remove Graphite shaping
+- Improve OpenType shaping in some applications
+- Improve Gunjala Gondi glyphs
 ### 01 Oct 2019 (SIL International) Narnoor font version 1.000
 - An extra attachment point class caused builds to be be non-deterministic,
   so that attachment point class is now excluded from the font build.
