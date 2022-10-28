@@ -1,6 +1,6 @@
 ---
 title: Narnoor - Documentation
-fontversion: 1.000
+fontversion: 2.000
 ---
 
 Thank you for your interest in the Narnoor font for the Gunjala Gondi script.

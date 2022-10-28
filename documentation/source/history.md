@@ -1,6 +1,6 @@
 ---
 title: Narnoor - Version History
-fontversion: 1.000
+fontversion: 2.000
 ---
 
 ### 01 Oct 2019 (SIL International) Narnoor font version 1.000

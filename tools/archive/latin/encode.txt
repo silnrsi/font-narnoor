@@ -1,0 +1,8 @@
+gravecmb,0300
+acutecmb,0301
+circumflexcmb,0302
+tildecmb,0303
+dieresiscmb,0308
+ringcmb,030A
+caroncmb,030C
+cedillacmb,0327

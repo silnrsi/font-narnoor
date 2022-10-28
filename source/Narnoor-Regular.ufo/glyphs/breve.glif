@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breve" format="2">
-  <advance width="326"/>
+  <advance width="542"/>
   <unicode hex="02D8"/>
+  <anchor x="271" y="509" name="_aboveLC"/>
+  <anchor x="271" y="706" name="aboveLC"/>
   <outline>
-    <component base="CombBreve" xOffset="460"/>
+    <component base="brevecmb" xOffset="271"/>
   </outline>
 </glyph>

@@ -8,7 +8,7 @@
   <string>3134</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/ya_imatra/space/va_imatra/space/ba_imatra/space/bha_imatra/space/ma_imatra/space/ka_imatra/space/kha_imatra/space/ta_imatra/space/tha_imatra/space/la_imatra/space/ga_imatra/space/gha_imatra/space/da_imatra/space/dha_imatra/space/na_imatra/space/ca_imatra/space/cha_imatra/space/tta_imatra/space/ttha_imatra/space/lla_imatra/space/ja_imatra/space/jha_imatra/space/dda_imatra/space/ddha_imatra/space/nga_imatra/space/pa_imatra/space/pha_imatra/space/ha_imatra/space/ra_imatra/space/sa_imatra/space/imatra</string>
+    <string>/ya_imatra/space.gong/va_imatra/space.gong/ba_imatra/space.gong/bha_imatra/space.gong/ma_imatra/space.gong/ka_imatra/space.gong/kha_imatra/space.gong/ta_imatra/space.gong/tha_imatra/space.gong/la_imatra/space.gong/ga_imatra/space.gong/gha_imatra/space.gong/da_imatra/space.gong/dha_imatra/space.gong/na_imatra/space.gong/ca_imatra/space.gong/cha_imatra/space.gong/tta_imatra/space.gong/ttha_imatra/space.gong/lla_imatra/space.gong/ja_imatra/space.gong/jha_imatra/space.gong/dda_imatra/space.gong/ddha_imatra/space.gong/nga_imatra/space.gong/pa_imatra/space.gong/pha_imatra/space.gong/ha_imatra/space.gong/ra_imatra/space.gong/sa_imatra/space.gong/imatra</string>
     <string>/ddha/ddha.half/ddha_aamatra/ddha_imatra 
 /nga/nga.half/nga_aamatra/nga_imatra 
 /pa/pa.half/pa_aamatra/pa_imatra 
@@ -16,13 +16,13 @@
 /ha/ha.half/ha_aamatra/ha_imatra 
 /ra/ra.half/ra_aamatra/ra_imatra 
 /sa/sa.half/sa_aamatra/sa_imatra</string>
-    <string>/aamatra/space/imatra/space/iimatra/space/iimatra_anusvara/space/umatra/space/uumatra/space/space/eematra/space/space/eematra_anusvara/space/space/aimatra/space/space/aimatra_anusvara/space 
-/oomatra/space/aumatra/space/om 
+    <string>/aamatra/space.gong/imatra/space.gong/iimatra/space.gong/iimatra_anusvara/space.gong/umatra/space.gong/uumatra/space.gong/space.gong/eematra/space.gong/space.gong/eematra_anusvara/space.gong/space.gong/aimatra/space.gong/space.gong/aimatra_anusvara/space.gong 
+/oomatra/space.gong/aumatra/space.gong/om 
 /zerogong/onegong/twogong/threegong/fourgong/fivegong/sixgong/sevengong/eightgong/ninegong 
-/eevowel.short/space/imatra.short/space/ka_virama_jha/ka_virama_sa 
+/eevowel.short/space.gong/imatra.short/space.gong/ka_virama_jha/ka_virama_sa 
 /la.dot/la.half.dot/nga.dot/nga.half.dot/oomatra.short/oomatra_anusvara.short/oovowel.short 
 /ra.dot/ra.half.dot/ra_umatra.dot/ra_uumatra.dot 
-/sa.2dots/space/sa.dot/sa.half.2dots/sa.half.dot</string>
+/sa.2dots/space.gong/sa.dot/sa.half.2dots/sa.half.dot</string>
     <string>/avowel/aavowel/ivowel/iivowel/eevowel/aivowel/oovowel/auvowel/avowel.chandrabindu/eevowel.short/oovowel.short</string>
     <string>/ma/ma.half/ma_aamatra/ma_imatra 
 /ka/ka.half/ka_aamatra/ka_imatra 
@@ -91,37 +91,62 @@
     <string>.null</string>
     <string>nonmarkingreturn</string>
     <string>space</string>
+    <string>space.latn</string>
     <string>exclam</string>
+    <string>exclam.latn</string>
     <string>quotedbl</string>
+    <string>quotedbl.latn</string>
     <string>numbersign</string>
+    <string>numbersign.latn</string>
     <string>dollar</string>
     <string>percent</string>
+    <string>percent.latn</string>
     <string>ampersand</string>
     <string>quotesingle</string>
+    <string>quotesingle.latn</string>
     <string>parenleft</string>
+    <string>parenleft.latn</string>
     <string>parenright</string>
+    <string>parenright.latn</string>
     <string>asterisk</string>
+    <string>asterisk.latn</string>
     <string>plus</string>
+    <string>plus.latn</string>
     <string>comma</string>
+    <string>comma.latn</string>
     <string>hyphen</string>
+    <string>hyphen.latn</string>
     <string>period</string>
+    <string>period.latn</string>
     <string>slash</string>
+    <string>slash.latn</string>
     <string>zero</string>
+    <string>zero.dnom</string>
     <string>one</string>
+    <string>one.dnom</string>
     <string>two</string>
+    <string>two.dnom</string>
     <string>three</string>
+    <string>three.dnom</string>
     <string>four</string>
+    <string>four.dnom</string>
     <string>five</string>
     <string>six</string>
     <string>seven</string>
     <string>eight</string>
     <string>nine</string>
     <string>colon</string>
+    <string>colon.latn</string>
     <string>semicolon</string>
+    <string>semicolon.latn</string>
     <string>less</string>
+    <string>less.latn</string>
     <string>equal</string>
+    <string>equal.latn</string>
     <string>greater</string>
+    <string>greater.latn</string>
     <string>question</string>
+    <string>question.latn</string>
     <string>at</string>
     <string>A</string>
     <string>B</string>
@@ -150,12 +175,18 @@
     <string>Y</string>
     <string>Z</string>
     <string>bracketleft</string>
+    <string>bracketleft.latn</string>
     <string>backslash</string>
+    <string>backslash.latn</string>
     <string>bracketright</string>
+    <string>bracketright.latn</string>
     <string>asciicircum</string>
+    <string>asciicircum.latn</string>
     <string>underscore</string>
+    <string>underscore.latn</string>
     <string>grave</string>
     <string>a</string>
+    <string>a.sups</string>
     <string>b</string>
     <string>c</string>
     <string>d</string>
@@ -170,6 +201,7 @@
     <string>m</string>
     <string>n</string>
     <string>o</string>
+    <string>o.sups</string>
     <string>p</string>
     <string>q</string>
     <string>r</string>
@@ -182,10 +214,14 @@
     <string>y</string>
     <string>z</string>
     <string>braceleft</string>
+    <string>braceleft.latn</string>
     <string>bar</string>
+    <string>bar.latn</string>
     <string>braceright</string>
+    <string>braceright.latn</string>
     <string>asciitilde</string>
-    <string>nbsp</string>
+    <string>asciitilde.latn</string>
+    <string>nbspace</string>
     <string>exclamdown</string>
     <string>cent</string>
     <string>sterling</string>
@@ -196,23 +232,23 @@
     <string>dieresis</string>
     <string>copyright</string>
     <string>ordfeminine</string>
-    <string>guillemotleft</string>
+    <string>guillemetleft</string>
     <string>logicalnot</string>
-    <string>HyphenSoft</string>
+    <string>softhyphen</string>
     <string>registered</string>
     <string>macron</string>
     <string>degree</string>
     <string>plusminus</string>
-    <string>SupTwo</string>
-    <string>SupThree</string>
+    <string>twosuperior</string>
+    <string>threesuperior</string>
     <string>acute</string>
     <string>mu</string>
     <string>paragraph</string>
     <string>periodcentered</string>
     <string>cedilla</string>
-    <string>SupOne</string>
+    <string>onesuperior</string>
     <string>ordmasculine</string>
-    <string>guillemotright</string>
+    <string>guillemetright</string>
     <string>onequarter</string>
     <string>onehalf</string>
     <string>threequarters</string>
@@ -241,6 +277,7 @@
     <string>Otilde</string>
     <string>Odieresis</string>
     <string>multiply</string>
+    <string>multiply.latn</string>
     <string>Oslash</string>
     <string>Ugrave</string>
     <string>Uacute</string>
@@ -273,6 +310,7 @@
     <string>otilde</string>
     <string>odieresis</string>
     <string>divide</string>
+    <string>divide.latn</string>
     <string>oslash</string>
     <string>ugrave</string>
     <string>uacute</string>
@@ -292,62 +330,83 @@
     <string>florin</string>
     <string>circumflex</string>
     <string>caron</string>
-    <string>ModTriangularColon</string>
     <string>breve</string>
     <string>dotaccent</string>
     <string>ring</string>
     <string>ogonek</string>
     <string>tilde</string>
     <string>hungarumlaut</string>
+    <string>gravecmb</string>
+    <string>gravecmb.cap</string>
+    <string>acutecmb</string>
+    <string>acutecmb.cap</string>
+    <string>circumflexcmb</string>
+    <string>circumflexcmb.cap</string>
+    <string>tildecmb</string>
+    <string>tildecmb.cap</string>
+    <string>dieresiscmb</string>
+    <string>dieresiscmb.cap</string>
+    <string>ringcmb</string>
+    <string>ringcmb.cap</string>
+    <string>caroncmb</string>
+    <string>caroncmb.cap</string>
+    <string>cedillacmb</string>
+    <string>cedillacmb.cap</string>
     <string>cgj</string>
+    <string>Omegagreek</string>
     <string>pi</string>
     <string>danda</string>
     <string>dandadbl</string>
     <string>abbreviationsign</string>
-    <string>EnQuad</string>
-    <string>EmQuad</string>
-    <string>EnSpace</string>
-    <string>EmSpace</string>
-    <string>ThreePerEmSpace</string>
-    <string>FourPerEmSpace</string>
-    <string>SixPerEmSpace</string>
-    <string>FigureSpace</string>
-    <string>PuncSpace</string>
-    <string>ThinSpace</string>
-    <string>HairSpace</string>
+    <string>enquad</string>
+    <string>emquad</string>
+    <string>enspace</string>
+    <string>emspace</string>
+    <string>threeperemspace</string>
+    <string>fourperemspace</string>
+    <string>sixperemspace</string>
+    <string>figurespace</string>
+    <string>punctuationspace</string>
+    <string>thinspace</string>
+    <string>hairspace</string>
     <string>zwsp</string>
     <string>zwnj</string>
     <string>zwj</string>
-    <string>LftToRtMrk</string>
-    <string>RtToLftMrk</string>
-    <string>Hyphen</string>
-    <string>NonBreakingHyphen</string>
+    <string>hyphentwo</string>
+    <string>nbhyphen</string>
     <string>figuredash</string>
     <string>endash</string>
+    <string>endash.latn</string>
     <string>emdash</string>
-    <string>HorizBar</string>
+    <string>emdash.latn</string>
+    <string>horizontalbar</string>
     <string>quoteleft</string>
+    <string>quoteleft.latn</string>
     <string>quoteright</string>
+    <string>quoteright.latn</string>
     <string>quotesinglbase</string>
     <string>quotedblleft</string>
+    <string>quotedblleft.latn</string>
     <string>quotedblright</string>
+    <string>quotedblright.latn</string>
     <string>quotedblbase</string>
     <string>dagger</string>
     <string>daggerdbl</string>
     <string>bullet</string>
     <string>ellipsis</string>
-    <string>HyphenationPt</string>
-    <string>LineSep</string>
-    <string>ParagraphSeparator</string>
-    <string>NarrowNoBreakSpace</string>
+    <string>hyphenationpoint</string>
+    <string>lineseparator</string>
+    <string>paragraphseparator</string>
+    <string>nnbspace</string>
     <string>perthousand</string>
     <string>guilsinglleft</string>
     <string>guilsinglright</string>
     <string>fraction</string>
     <string>wj</string>
-    <string>rs</string>
+    <string>foursuperior</string>
+    <string>rupee</string>
     <string>Euro</string>
-    <string>inr</string>
+    <string>inrupee</string>
     <string>trademark</string>
     <string>Ohm</string>
     <string>partialdiff</string>
@@ -355,7 +414,9 @@
     <string>product</string>
     <string>summation</string>
     <string>minus</string>
-    <string>BulletOperator</string>
+    <string>minus.latn</string>
+    <string>divisionslash</string>
+    <string>bulletoperator</string>
     <string>radical</string>
     <string>infinity</string>
     <string>integral</string>
@@ -363,8 +424,11 @@
     <string>notequal</string>
     <string>lessequal</string>
     <string>greaterequal</string>
+    <string>openbox</string>
     <string>lozenge</string>
     <string>dottedcircle</string>
+    <string>sidebearingleft</string>
+    <string>sidebearingright</string>
     <string>fi</string>
     <string>fl</string>
     <string>VS1</string>
@@ -384,8 +448,8 @@
     <string>VS15</string>
     <string>VS16</string>
     <string>zwnbsp</string>
-    <string>ObjectReplChar</string>
-    <string>ReplChar</string>
+    <string>objectReplacementCharacter</string>
+    <string>replacementCharacter</string>
     <string>avowel</string>
     <string>aavowel</string>
     <string>ivowel</string>
@@ -542,90 +606,18 @@
     <string>sevengong</string>
     <string>eightgong</string>
     <string>ninegong</string>
-    <string>CombBreve</string>
-    <string>CombCaron</string>
-    <string>CombCedilla</string>
-    <string>CombCircum</string>
-    <string>CombDiaer</string>
-    <string>CombMacron</string>
-    <string>CombOgonek</string>
-    <string>GrCapDelta</string>
-    <string>GrCapOmega</string>
-    <string>GrCapPi</string>
-    <string>HyphenMinus</string>
-    <string>LtnCapD</string>
-    <string>LtnCapEsh</string>
-    <string>RingAbv</string>
-    <string>SmTilde</string>
-    <string>acutecomb</string>
-    <string>caroncomb</string>
-    <string>cedillacomb</string>
-    <string>circumflexcomb</string>
-    <string>diaeresiscomb</string>
-    <string>gravecomb</string>
-    <string>ringcomb</string>
-    <string>tildecomb</string>
+    <string>brevecmb</string>
+    <string>dotaccentcmb</string>
+    <string>hungarumlautcmb</string>
+    <string>macroncmb</string>
+    <string>ogonekcmb</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
-    <key>BulletOperator</key>
-    <string>uni2219</string>
-    <key>EmQuad</key>
-    <string>uni2001</string>
-    <key>EmSpace</key>
-    <string>uni2003</string>
-    <key>EnQuad</key>
-    <string>uni2000</string>
-    <key>EnSpace</key>
-    <string>uni2002</string>
-    <key>FigureSpace</key>
-    <string>uni2007</string>
-    <key>FourPerEmSpace</key>
-    <string>uni2005</string>
-    <key>HairSpace</key>
-    <string>uni200A</string>
-    <key>HorizBar</key>
-    <string>uni2015</string>
-    <key>Hyphen</key>
-    <string>uni2010</string>
-    <key>HyphenSoft</key>
-    <string>uni00AD</string>
-    <key>HyphenationPt</key>
-    <string>uni2027</string>
-    <key>LftToRtMrk</key>
-    <string>uni200E</string>
-    <key>LineSep</key>
-    <string>uni2028</string>
-    <key>ModTriangularColon</key>
-    <string>uni02D0</string>
-    <key>NarrowNoBreakSpace</key>
-    <string>uni202F</string>
-    <key>NonBreakingHyphen</key>
-    <string>uni2011</string>
-    <key>ObjectReplChar</key>
-    <string>uniFFFC</string>
     <key>Ohm</key>
     <string>Omega</string>
-    <key>ParagraphSeparator</key>
-    <string>uni2029</string>
-    <key>PuncSpace</key>
-    <string>uni2008</string>
-    <key>ReplChar</key>
-    <string>uniFFFD</string>
-    <key>RtToLftMrk</key>
-    <string>uni200F</string>
-    <key>SixPerEmSpace</key>
-    <string>uni2006</string>
-    <key>SupOne</key>
-    <string>uni00B9</string>
-    <key>SupThree</key>
-    <string>uni00B3</string>
-    <key>SupTwo</key>
-    <string>uni00B2</string>
-    <key>ThinSpace</key>
-    <string>uni2009</string>
-    <key>ThreePerEmSpace</key>
-    <string>uni2004</string>
+    <key>Omegagreek</key>
+    <string>uni03A9</string>
     <key>VS1</key>
     <string>uniFE00</string>
     <key>VS10</key>
@@ -664,6 +656,10 @@
     <string>u11D61</string>
     <key>abbreviationsign</key>
     <string>uni0970</string>
+    <key>acutecmb</key>
+    <string>acutecomb</string>
+    <key>acutecmb.cap</key>
+    <string>acutecomb.cap</string>
     <key>aimatra</key>
     <string>u11D91</string>
     <key>aimatra_anusvara</key>
@@ -694,6 +690,8 @@
     <string>u11D6F_u11D8A</string>
     <key>bha_imatra</key>
     <string>u11D6F_u11D8B</string>
+    <key>bulletoperator</key>
+    <string>uni2219</string>
     <key>ca</key>
     <string>u11D7B</string>
     <key>ca.half</key>
@@ -702,6 +700,14 @@
     <string>u11D7B_u11D8A</string>
     <key>ca_imatra</key>
     <string>u11D7B_u11D8B</string>
+    <key>caroncmb</key>
+    <string>uni030C</string>
+    <key>caroncmb.cap</key>
+    <string>uni030C.cap</string>
+    <key>cedillacmb</key>
+    <string>uni0327</string>
+    <key>cedillacmb.cap</key>
+    <string>uni0327.cap</string>
     <key>cgj</key>
     <string>uni034F</string>
     <key>cha</key>
@@ -712,6 +718,10 @@
     <string>u11D7C_u11D8A</string>
     <key>cha_imatra</key>
     <string>u11D7C_u11D8B</string>
+    <key>circumflexcmb</key>
+    <string>uni0302</string>
+    <key>circumflexcmb.cap</key>
+    <string>uni0302.cap</string>
     <key>da</key>
     <string>u11D78</string>
     <key>da.half</key>
@@ -748,6 +758,12 @@
     <string>u11D79_u11D8A</string>
     <key>dha_imatra</key>
     <string>u11D79_u11D8B</string>
+    <key>dieresiscmb</key>
+    <string>uni0308</string>
+    <key>dieresiscmb.cap</key>
+    <string>uni0308.cap</string>
+    <key>divisionslash</key>
+    <string>uni2215</string>
     <key>dottedcircle</key>
     <string>uni25CC</string>
     <key>eematra</key>
@@ -758,14 +774,28 @@
     <string>u11D67</string>
     <key>eightgong</key>
     <string>u11DA8</string>
+    <key>emquad</key>
+    <string>uni2001</string>
+    <key>emspace</key>
+    <string>uni2003</string>
+    <key>enquad</key>
+    <string>uni2000</string>
+    <key>enspace</key>
+    <string>uni2002</string>
     <key>fi</key>
     <string>uniFB01</string>
+    <key>figurespace</key>
+    <string>uni2007</string>
     <key>fivegong</key>
     <string>u11DA5</string>
     <key>fl</key>
     <string>uniFB02</string>
     <key>fourgong</key>
     <string>u11DA4</string>
+    <key>fourperemspace</key>
+    <string>uni2005</string>
+    <key>foursuperior</key>
+    <string>uni2074</string>
     <key>ga</key>
     <string>u11D76</string>
     <key>ga.half</key>
@@ -782,6 +812,14 @@
     <string>u11D77_u11D8A</string>
     <key>gha_imatra</key>
     <string>u11D77_u11D8B</string>
+    <key>gravecmb</key>
+    <string>gravecomb</string>
+    <key>gravecmb.cap</key>
+    <string>gravecomb.cap</string>
+    <key>guillemetleft</key>
+    <string>guillemotleft</string>
+    <key>guillemetright</key>
+    <string>guillemotright</string>
     <key>ha</key>
     <string>u11D87</string>
     <key>ha.half</key>
@@ -790,6 +828,14 @@
     <string>u11D87_u11D8A</string>
     <key>ha_imatra</key>
     <string>u11D87_u11D8B</string>
+    <key>hairspace</key>
+    <string>uni200A</string>
+    <key>horizontalbar</key>
+    <string>uni2015</string>
+    <key>hyphenationpoint</key>
+    <string>uni2027</string>
+    <key>hyphentwo</key>
+    <string>uni2010</string>
     <key>iimatra</key>
     <string>u11D8C</string>
     <key>iimatra_anusvara</key>
@@ -798,7 +844,7 @@
     <string>u11D63</string>
     <key>imatra</key>
     <string>u11D8B</string>
-    <key>inr</key>
+    <key>inrupee</key>
     <string>uni20B9</string>
     <key>ivowel</key>
     <string>u11D62</string>
@@ -842,6 +888,8 @@
     <string>u11D75_u11D8A</string>
     <key>la_imatra</key>
     <string>u11D75_u11D8B</string>
+    <key>lineseparator</key>
+    <string>uni2028</string>
     <key>lla</key>
     <string>u11D7F</string>
     <key>lla.half</key>
@@ -866,7 +914,9 @@
     <string>u11D7A_u11D8A</string>
     <key>na_imatra</key>
     <string>u11D7A_u11D8B</string>
-    <key>nbsp</key>
+    <key>nbhyphen</key>
+    <string>uni2011</string>
+    <key>nbspace</key>
     <string>uni00A0</string>
     <key>nga</key>
     <string>u11D84</string>
@@ -878,14 +928,22 @@
     <string>u11D84_u11D8B</string>
     <key>ninegong</key>
     <string>u11DA9</string>
+    <key>nnbspace</key>
+    <string>uni202F</string>
+    <key>objectReplacementCharacter</key>
+    <string>uniFFFC</string>
     <key>om</key>
     <string>u11D98</string>
     <key>onegong</key>
     <string>u11DA1</string>
+    <key>onesuperior</key>
+    <string>uni00B9</string>
     <key>oomatra</key>
     <string>u11D93</string>
     <key>oovowel</key>
     <string>u11D6A</string>
+    <key>openbox</key>
+    <string>uni2423</string>
     <key>pa</key>
     <string>u11D85</string>
     <key>pa.half</key>
@@ -894,6 +952,8 @@
     <string>u11D85_u11D8A</string>
     <key>pa_imatra</key>
     <string>u11D85_u11D8B</string>
+    <key>paragraphseparator</key>
+    <string>uni2029</string>
     <key>pha</key>
     <string>u11D86</string>
     <key>pha.half</key>
@@ -902,6 +962,8 @@
     <string>u11D86_u11D8A</string>
     <key>pha_imatra</key>
     <string>u11D86_u11D8B</string>
+    <key>punctuationspace</key>
+    <string>uni2008</string>
     <key>ra</key>
     <string>u11D88</string>
     <key>ra.half</key>
@@ -910,7 +972,13 @@
     <string>u11D88_u11D8A</string>
     <key>ra_imatra</key>
     <string>u11D88_u11D8B</string>
-    <key>rs</key>
+    <key>replacementCharacter</key>
+    <string>uniFFFD</string>
+    <key>ringcmb</key>
+    <string>uni030A</string>
+    <key>ringcmb.cap</key>
+    <string>uni030A.cap</string>
+    <key>rupee</key>
     <string>uni20A8</string>
     <key>sa</key>
     <string>u11D89</string>
@@ -922,8 +990,16 @@
     <string>u11D89_u11D8B</string>
     <key>sevengong</key>
     <string>u11DA7</string>
+    <key>sidebearingleft</key>
+    <string>uniF130</string>
+    <key>sidebearingright</key>
+    <string>uniF131</string>
     <key>sixgong</key>
     <string>u11DA6</string>
+    <key>sixperemspace</key>
+    <string>uni2006</string>
+    <key>softhyphen</key>
+    <string>uni00AD</string>
     <key>ta</key>
     <string>u11D73</string>
     <key>ta.half</key>
@@ -940,8 +1016,18 @@
     <string>u11D74_u11D8A</string>
     <key>tha_imatra</key>
     <string>u11D74_u11D8B</string>
+    <key>thinspace</key>
+    <string>uni2009</string>
     <key>threegong</key>
     <string>u11DA3</string>
+    <key>threeperemspace</key>
+    <string>uni2004</string>
+    <key>threesuperior</key>
+    <string>uni00B3</string>
+    <key>tildecmb</key>
+    <string>tildecomb</string>
+    <key>tildecmb.cap</key>
+    <string>tildecomb.cap</string>
     <key>tta</key>
     <string>u11D7D</string>
     <key>tta.half</key>
@@ -960,6 +1046,8 @@
     <string>u11D7E_u11D8B</string>
     <key>twogong</key>
     <string>u11DA2</string>
+    <key>twosuperior</key>
+    <string>uni00B2</string>
     <key>umatra</key>
     <string>u11D8D</string>
     <key>uumatra</key>

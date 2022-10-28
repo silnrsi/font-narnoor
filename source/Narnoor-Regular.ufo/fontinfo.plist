@@ -9,8 +9,10 @@
   <key>copyright</key>
   <string>Original font copyright (c) 2014-2017 CDAST, University of Hyderabad, Hyderabad (cdast@uohyd.ernet.in).
 Additions and modifications copyright (c) 2015-2022 SIL International (http://www.sil.org/).
-Additional Latin glyphs are Copyright (c) 1997-2019, SIL International (http://www.sil.org/)
-with Reserved Font Names "Charis" and "SIL".
+Latin glyphs copyright (c) 2010, 2012, 2014, 2021 Adobe Systems Incorporated
+(http://www.adobe.com/), with Reserved Font Name 'Source'.
+Additional graphics glyphs copyright (c) 2004-2022, SIL International (http://www.sil.org/)
+with Reserved Font Names "Andika" and "SIL".
 </string>
   <key>descender</key>
   <integer>-237</integer>
@@ -44,7 +46,7 @@ with Reserved Font Names "Charis" and "SIL".
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2022/09/12 12:33:48</string>
+  <string>2022/10/27 18:13:22</string>
   <key>openTypeHheaAscender</key>
   <integer>1314</integer>
   <key>openTypeHheaDescender</key>
@@ -60,8 +62,10 @@ with Reserved Font Names "Charis" and "SIL".
   <key>openTypeNameLicense</key>
   <string>Original font copyright (c) 2014-2017 CDAST, University of Hyderabad, Hyderabad (cdast@uohyd.ernet.in).
 Additions and modifications copyright (c) 2015-2022 SIL International (http://www.sil.org/).
-Additional Latin glyphs are Copyright (c) 1997-2019, SIL International (http://www.sil.org/)
-with Reserved Font Names "Charis" and "SIL".
+Latin glyphs copyright (c) 2010, 2012, 2014, 2021 Adobe Systems Incorporated
+(http://www.adobe.com/), with Reserved Font Name 'Source'.
+Additional graphics glyphs copyright (c) 2004-2022, SIL International (http://www.sil.org/)
+with Reserved Font Names "Andika" and "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
@@ -168,7 +172,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Narnoor Regular: 2022</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.000</string>
+  <string>Version 2.000</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -254,6 +258,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <string>Narnoor-Regular</string>
   <key>postscriptFullName</key>
   <string>Narnoor Regular</string>
+  <key>postscriptStemSnapH</key>
+  <array/>
+  <key>postscriptStemSnapV</key>
+  <array/>
   <key>postscriptUnderlinePosition</key>
   <integer>-60</integer>
   <key>postscriptUnderlineThickness</key>
@@ -269,7 +277,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>unitsPerEm</key>
   <integer>1000</integer>
   <key>versionMajor</key>
-  <integer>1</integer>
+  <integer>2</integer>
   <key>versionMinor</key>
   <integer>0</integer>
   <key>woffMetadataCredits</key>

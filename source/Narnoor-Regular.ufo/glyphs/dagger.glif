@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dagger" format="2">
-  <advance width="547"/>
+  <advance width="454"/>
   <unicode hex="2020"/>
   <outline>
     <contour>
-      <point x="325" y="703" type="line"/>
-      <point x="273" y="786" type="line"/>
-      <point x="222" y="703" type="line"/>
-      <point x="266" y="549" type="line"/>
-      <point x="281" y="549" type="line"/>
-    </contour>
-    <contour>
-      <point x="532" y="526" type="line"/>
-      <point x="450" y="578" type="line"/>
-      <point x="296" y="534" type="line"/>
-      <point x="296" y="519" type="line"/>
-      <point x="450" y="476" type="line"/>
-    </contour>
-    <contour>
-      <point x="251" y="519" type="line"/>
-      <point x="251" y="534" type="line"/>
-      <point x="97" y="578" type="line"/>
-      <point x="15" y="526" type="line"/>
-      <point x="97" y="476" type="line"/>
-    </contour>
-    <contour>
-      <point x="329" y="322" type="line"/>
-      <point x="281" y="503" type="line"/>
-      <point x="266" y="503" type="line"/>
-      <point x="218" y="322" type="line"/>
-      <point x="266" y="-141" type="line"/>
-      <point x="281" y="-141" type="line"/>
+      <point x="192" y="-80" type="line"/>
+      <point x="262" y="-80" type="line"/>
+      <point x="257" y="491" type="line"/>
+      <point x="400" y="486" type="line"/>
+      <point x="400" y="557" type="line"/>
+      <point x="257" y="552" type="line"/>
+      <point x="262" y="712" type="line"/>
+      <point x="192" y="712" type="line"/>
+      <point x="197" y="552" type="line"/>
+      <point x="54" y="557" type="line"/>
+      <point x="54" y="486" type="line"/>
+      <point x="197" y="491" type="line"/>
     </contour>
   </outline>
 </glyph>

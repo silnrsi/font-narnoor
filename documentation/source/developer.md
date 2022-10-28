@@ -1,6 +1,6 @@
 ---
 title: Narnoor - Developer Information
-fontversion: 1.000
+fontversion: 2.000
 ---
 
 ## Welcome font developers!

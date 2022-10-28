@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Idieresis" format="2">
-  <advance width="366"/>
+  <advance width="263"/>
   <unicode hex="00CF"/>
   <outline>
     <component base="I"/>
-    <component base="diaeresiscomb" xOffset="475" yOffset="196"/>
+    <component base="dieresiscmb.cap" xOffset="131"/>
   </outline>
 </glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rupee" format="2">
+  <advance width="988"/>
+  <unicode hex="20A8"/>
+  <anchor x="788" y="509" name="aboveLC"/>
+  <anchor x="295" y="678" name="aboveUC"/>
+  <anchor x="792" y="0" name="baseLC"/>
+  <anchor x="792" y="-22" name="belowLC"/>
+  <outline>
+    <component base="R"/>
+    <component base="s" xOffset="569"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -360,8 +360,6 @@
   <string>ya_imatra.glif</string>
   <key>zerogong</key>
   <string>zerogong.glif</string>
-  <key>zwj.visible</key>
-  <string>zwj.visible.glif</string>
   <key>zwnj.visible</key>
   <string>zwnj.visible.glif</string>
 </dict>

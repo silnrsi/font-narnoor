@@ -1,35 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ring" format="2">
-  <advance width="260"/>
+  <advance width="542"/>
   <unicode hex="02DA"/>
+  <anchor x="271" y="509" name="_aboveLC"/>
   <outline>
-    <contour>
-      <point x="260" y="732" type="curve" smooth="yes"/>
-      <point x="260" y="804"/>
-      <point x="203" y="864"/>
-      <point x="130" y="864" type="curve" smooth="yes"/>
-      <point x="58" y="864"/>
-      <point x="0" y="804"/>
-      <point x="0" y="732" type="curve" smooth="yes"/>
-      <point x="0" y="661"/>
-      <point x="58" y="603"/>
-      <point x="130" y="603" type="curve" smooth="yes"/>
-      <point x="203" y="603"/>
-      <point x="260" y="661"/>
-    </contour>
-    <contour>
-      <point x="207" y="732" type="curve" smooth="yes"/>
-      <point x="207" y="690"/>
-      <point x="173" y="656"/>
-      <point x="130" y="656" type="curve" smooth="yes"/>
-      <point x="87" y="656"/>
-      <point x="53" y="690"/>
-      <point x="53" y="732" type="curve" smooth="yes"/>
-      <point x="53" y="775"/>
-      <point x="87" y="811"/>
-      <point x="130" y="811" type="curve" smooth="yes"/>
-      <point x="173" y="811"/>
-      <point x="207" y="775"/>
-    </contour>
+    <component base="ringcmb" xOffset="271"/>
   </outline>
 </glyph>

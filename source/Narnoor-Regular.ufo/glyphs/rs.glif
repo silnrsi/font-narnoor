@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rs" format="2">
-  <advance width="1135"/>
-  <unicode hex="20A8"/>
-  <outline>
-    <component base="R"/>
-    <component base="s" xOffset="688"/>
-  </outline>
-</glyph>
