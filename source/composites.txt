@@ -1,0 +1,2 @@
+rupee = R & s | 20A8
+Omegagreek = Ohm | 03A9
