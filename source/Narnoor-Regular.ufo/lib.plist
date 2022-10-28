@@ -5,10 +5,10 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3134</string>
+  <string>3133</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/ya_imatra/space.gong/va_imatra/space.gong/ba_imatra/space.gong/bha_imatra/space.gong/ma_imatra/space.gong/ka_imatra/space.gong/kha_imatra/space.gong/ta_imatra/space.gong/tha_imatra/space.gong/la_imatra/space.gong/ga_imatra/space.gong/gha_imatra/space.gong/da_imatra/space.gong/dha_imatra/space.gong/na_imatra/space.gong/ca_imatra/space.gong/cha_imatra/space.gong/tta_imatra/space.gong/ttha_imatra/space.gong/lla_imatra/space.gong/ja_imatra/space.gong/jha_imatra/space.gong/dda_imatra/space.gong/ddha_imatra/space.gong/nga_imatra/space.gong/pa_imatra/space.gong/pha_imatra/space.gong/ha_imatra/space.gong/ra_imatra/space.gong/sa_imatra/space.gong/imatra</string>
+    <string>/ya_imatra/va_imatra/ba_imatra/bha_imatra/ma_imatra/ka_imatra/kha_imatra/ta_imatra/tha_imatra/la_imatra/ga_imatra/gha_imatra/da_imatra/dha_imatra/na_imatra/ca_imatra/cha_imatra/tta_imatra/ttha_imatra/lla_imatra/ja_imatra/jha_imatra/dda_imatra/ddha_imatra/nga_imatra/pa_imatra/pha_imatra/ha_imatra/ra_imatra/sa_imatra/imatra</string>
     <string>/ddha/ddha.half/ddha_aamatra/ddha_imatra 
 /nga/nga.half/nga_aamatra/nga_imatra 
 /pa/pa.half/pa_aamatra/pa_imatra 
@@ -16,13 +16,13 @@
 /ha/ha.half/ha_aamatra/ha_imatra 
 /ra/ra.half/ra_aamatra/ra_imatra 
 /sa/sa.half/sa_aamatra/sa_imatra</string>
-    <string>/aamatra/space.gong/imatra/space.gong/iimatra/space.gong/iimatra_anusvara/space.gong/umatra/space.gong/uumatra/space.gong/space.gong/eematra/space.gong/space.gong/eematra_anusvara/space.gong/space.gong/aimatra/space.gong/space.gong/aimatra_anusvara/space.gong 
-/oomatra/space.gong/aumatra/space.gong/om 
+    <string>/aamatra/imatra/iimatra/iimatra_anusvara/umatra/uumatra/eematra/eematra_anusvara/aimatra/aimatra_anusvara 
+/oomatra/aumatra/om 
 /zerogong/onegong/twogong/threegong/fourgong/fivegong/sixgong/sevengong/eightgong/ninegong 
-/eevowel.short/space.gong/imatra.short/space.gong/ka_virama_jha/ka_virama_sa 
+/eevowel.short/imatra.short/ka_virama_jha/ka_virama_sa 
 /la.dot/la.half.dot/nga.dot/nga.half.dot/oomatra.short/oomatra_anusvara.short/oovowel.short 
 /ra.dot/ra.half.dot/ra_umatra.dot/ra_uumatra.dot 
-/sa.2dots/space.gong/sa.dot/sa.half.2dots/sa.half.dot</string>
+/sa.2dots/sa.dot/sa.half.2dots/sa.half.dot</string>
     <string>/avowel/aavowel/ivowel/iivowel/eevowel/aivowel/oovowel/auvowel/avowel.chandrabindu/eevowel.short/oovowel.short</string>
     <string>/ma/ma.half/ma_aamatra/ma_imatra 
 /ka/ka.half/ka_aamatra/ka_imatra 
@@ -50,6 +50,8 @@
 /ha/ha.half/ha_aamatra/ha_imatra 
 /ra/ra.half/ra_aamatra/ra_imatra 
 /sa/sa.half/sa_aamatra/sa_imatra</string>
+    <string>/figuredash</string>
+    <string>/kha -/kha/hyphentwo/kha/nbhyphen/kha 0/zerogong/figuredash/zerogong 0/kha/endash/kha/emdash/kha/horizontalbar/kha 0/zerogong/minus/zerogong 0/zerogong +/zerogong 0/kha</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
