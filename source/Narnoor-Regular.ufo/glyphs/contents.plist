@@ -166,6 +166,10 @@
   <string>Z_.glif</string>
   <key>Zcaron</key>
   <string>Z_caron.glif</string>
+  <key>_dot</key>
+  <string>_dot.glif</string>
+  <key>_imatra-hook</key>
+  <string>_imatra-hook.glif</string>
   <key>a</key>
   <string>a.glif</string>
   <key>a.sups</key>
