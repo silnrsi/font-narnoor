@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iimatra_anusvara" format="2">
-  <advance width="419"/>
-  <anchor x="-139" y="645" name="_M"/>
+  <advance width="431"/>
+  <anchor x="-137" y="645" name="_M"/>
   <outline>
     <component base="anusvara" xOffset="341" yOffset="-30"/>
     <component base="iimatra"/>

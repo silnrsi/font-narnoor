@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="imatra.short" format="2">
-  <advance width="371"/>
+  <advance width="373"/>
   <anchor x="-101" y="645" name="_M"/>
   <outline>
     <component base="_imatra-hook" xOffset="4" yOffset="215"/>
     <contour>
       <point x="-162" y="599" type="line"/>
-      <point x="390" y="599" type="line"/>
-      <point x="390" y="644" type="line"/>
+      <point x="392" y="599" type="line"/>
+      <point x="392" y="644" type="line"/>
       <point x="-162" y="644" type="line"/>
     </contour>
     <contour>
@@ -31,4 +31,10 @@
       <point x="245" y="846"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

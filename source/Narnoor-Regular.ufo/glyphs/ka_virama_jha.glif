@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ka_virama_jha" format="2">
-  <advance width="1544"/>
+  <advance width="1620"/>
   <outline>
     <component base="ja.half"/>
-    <component base="jha" xOffset="657"/>
+    <component base="jha" xOffset="701"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

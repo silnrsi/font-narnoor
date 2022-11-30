@@ -7,8 +7,8 @@
     <component base="_imatra-hook" xOffset="-76"/>
     <contour>
       <point x="-203" y="599" type="line"/>
-      <point x="325" y="599" type="line"/>
-      <point x="325" y="645" type="line"/>
+      <point x="312" y="599" type="line"/>
+      <point x="312" y="645" type="line"/>
       <point x="-203" y="645" type="line"/>
     </contour>
     <contour>

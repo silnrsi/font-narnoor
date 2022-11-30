@@ -5,4 +5,10 @@
     <component base="ra.half"/>
     <component base="_dot" xOffset="359" yOffset="58"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

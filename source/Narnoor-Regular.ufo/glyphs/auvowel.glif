@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="auvowel" format="2">
-  <advance width="1069"/>
+  <advance width="1092"/>
   <unicode hex="11D6B"/>
   <outline>
     <component base="aavowel"/>
-    <component base="aimatra" xOffset="811"/>
+    <component base="aimatra" xOffset="837"/>
   </outline>
 </glyph>

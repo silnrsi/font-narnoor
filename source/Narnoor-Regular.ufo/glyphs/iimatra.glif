@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iimatra" format="2">
-  <advance width="419"/>
+  <advance width="431"/>
   <unicode hex="11D8C"/>
-  <anchor x="-139" y="645" name="_M"/>
+  <anchor x="-137" y="645" name="_M"/>
   <outline>
     <contour>
       <point x="75" y="223" type="curve"/>
@@ -24,8 +24,8 @@
     </contour>
     <contour>
       <point x="-203" y="599" type="line"/>
-      <point x="438" y="599" type="line"/>
-      <point x="438" y="645" type="line"/>
+      <point x="450" y="599" type="line"/>
+      <point x="450" y="645" type="line"/>
       <point x="-203" y="645" type="line"/>
     </contour>
     <contour>
