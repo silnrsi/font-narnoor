@@ -4,6 +4,6 @@
   <unicode hex="11D6B"/>
   <outline>
     <component base="aavowel"/>
-    <component base="aimatra" xOffset="837"/>
+    <component base="aimatra" xOffset="834"/>
   </outline>
 </glyph>

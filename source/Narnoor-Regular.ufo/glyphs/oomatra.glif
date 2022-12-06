@@ -2,9 +2,9 @@
 <glyph name="oomatra" format="2">
   <advance width="414"/>
   <unicode hex="11D93"/>
-  <anchor x="-10" y="645" name="_M"/>
+  <anchor x="16" y="645" name="_M"/>
   <outline>
     <component base="aamatra"/>
-    <component base="eematra" xOffset="412"/>
+    <component base="eematra" xOffset="413"/>
   </outline>
 </glyph>

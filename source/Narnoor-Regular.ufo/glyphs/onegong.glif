@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onegong" format="2">
-  <advance width="514"/>
+  <advance width="517"/>
   <unicode hex="11DA1"/>
   <outline>
     <contour>
-      <point x="344" y="167" type="curve"/>
-      <point x="388" y="269" type="line"/>
-      <point x="347" y="316"/>
-      <point x="297" y="334"/>
-      <point x="243" y="334" type="curve" smooth="yes"/>
-      <point x="145" y="334"/>
-      <point x="73" y="258"/>
-      <point x="73" y="166" type="curve" smooth="yes"/>
-      <point x="73" y="54"/>
-      <point x="158" y="-4"/>
       <point x="244" y="-4" type="curve" smooth="yes"/>
       <point x="330" y="-4"/>
       <point x="417" y="55"/>
@@ -32,6 +22,16 @@
       <point x="245" y="261" type="curve" smooth="yes"/>
       <point x="295" y="261"/>
       <point x="344" y="230"/>
+      <point x="344" y="167" type="curve"/>
+      <point x="388" y="269" type="line"/>
+      <point x="347" y="316"/>
+      <point x="297" y="334"/>
+      <point x="243" y="334" type="curve" smooth="yes"/>
+      <point x="145" y="334"/>
+      <point x="73" y="258"/>
+      <point x="73" y="166" type="curve" smooth="yes"/>
+      <point x="73" y="54"/>
+      <point x="158" y="-4"/>
     </contour>
   </outline>
 </glyph>

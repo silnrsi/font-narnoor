@@ -4,26 +4,6 @@
   <outline>
     <component base="_imatra-hook" xOffset="607"/>
     <contour>
-      <point x="-19" y="599" type="line"/>
-      <point x="995" y="599" type="line"/>
-      <point x="995" y="645" type="line"/>
-      <point x="-19" y="645" type="line"/>
-    </contour>
-    <contour>
-      <point x="309" y="283" type="curve" smooth="yes"/>
-      <point x="355" y="283"/>
-      <point x="378" y="319"/>
-      <point x="378" y="354" type="curve" smooth="yes"/>
-      <point x="378" y="390"/>
-      <point x="355" y="425"/>
-      <point x="309" y="425" type="curve" smooth="yes"/>
-      <point x="262" y="425"/>
-      <point x="239" y="390"/>
-      <point x="239" y="354" type="curve" smooth="yes"/>
-      <point x="239" y="319"/>
-      <point x="262" y="283"/>
-    </contour>
-    <contour>
       <point x="309" y="-2" type="curve" smooth="yes"/>
       <point x="437" y="-2"/>
       <point x="563" y="90"/>
@@ -42,6 +22,26 @@
       <point x="55" y="276" type="line" smooth="yes"/>
       <point x="55" y="90"/>
       <point x="181" y="-2"/>
+    </contour>
+    <contour>
+      <point x="309" y="283" type="curve" smooth="yes"/>
+      <point x="355" y="283"/>
+      <point x="378" y="319"/>
+      <point x="378" y="354" type="curve" smooth="yes"/>
+      <point x="378" y="390"/>
+      <point x="355" y="425"/>
+      <point x="309" y="425" type="curve" smooth="yes"/>
+      <point x="262" y="425"/>
+      <point x="239" y="390"/>
+      <point x="239" y="354" type="curve" smooth="yes"/>
+      <point x="239" y="319"/>
+      <point x="262" y="283"/>
+    </contour>
+    <contour>
+      <point x="-19" y="599" type="line"/>
+      <point x="995" y="599" type="line"/>
+      <point x="995" y="645" type="line"/>
+      <point x="-19" y="645" type="line"/>
     </contour>
     <contour>
       <point x="848" y="298" type="curve"/>

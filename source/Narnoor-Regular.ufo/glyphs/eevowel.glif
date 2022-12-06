@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eevowel" format="2">
-  <advance width="746"/>
+  <advance width="765"/>
   <unicode hex="11D67"/>
   <outline>
     <component base="avowel"/>
-    <component base="eematra" xOffset="759"/>
+    <component base="eematra" xOffset="760"/>
   </outline>
 </glyph>
