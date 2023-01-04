@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oomatra_anusvara.short" format="2">
   <advance width="566"/>
-  <anchor x="-9" y="645" name="_M"/>
+  <anchor x="-9" y="645" name="C"/>
   <outline>
     <component base="aamatra"/>
     <component base="anusvara" xOffset="593" yOffset="-30"/>

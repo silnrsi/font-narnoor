@@ -56,35 +56,21 @@
     <string>.null</string>
     <string>nonmarkingreturn</string>
     <string>space</string>
-    <string>space.latn</string>
     <string>exclam</string>
-    <string>exclam.latn</string>
     <string>quotedbl</string>
-    <string>quotedbl.latn</string>
     <string>numbersign</string>
-    <string>numbersign.latn</string>
     <string>dollar</string>
     <string>percent</string>
-    <string>percent.latn</string>
     <string>ampersand</string>
     <string>quotesingle</string>
-    <string>quotesingle.latn</string>
     <string>parenleft</string>
-    <string>parenleft.latn</string>
     <string>parenright</string>
-    <string>parenright.latn</string>
     <string>asterisk</string>
-    <string>asterisk.latn</string>
     <string>plus</string>
-    <string>plus.latn</string>
     <string>comma</string>
-    <string>comma.latn</string>
     <string>hyphen</string>
-    <string>hyphen.latn</string>
     <string>period</string>
-    <string>period.latn</string>
     <string>slash</string>
-    <string>slash.latn</string>
     <string>zero</string>
     <string>zero.dnom</string>
     <string>one</string>
@@ -101,17 +87,11 @@
     <string>eight</string>
     <string>nine</string>
     <string>colon</string>
-    <string>colon.latn</string>
     <string>semicolon</string>
-    <string>semicolon.latn</string>
     <string>less</string>
-    <string>less.latn</string>
     <string>equal</string>
-    <string>equal.latn</string>
     <string>greater</string>
-    <string>greater.latn</string>
     <string>question</string>
-    <string>question.latn</string>
     <string>at</string>
     <string>A</string>
     <string>B</string>
@@ -140,15 +120,10 @@
     <string>Y</string>
     <string>Z</string>
     <string>bracketleft</string>
-    <string>bracketleft.latn</string>
     <string>backslash</string>
-    <string>backslash.latn</string>
     <string>bracketright</string>
-    <string>bracketright.latn</string>
     <string>asciicircum</string>
-    <string>asciicircum.latn</string>
     <string>underscore</string>
-    <string>underscore.latn</string>
     <string>grave</string>
     <string>a</string>
     <string>a.sups</string>
@@ -179,13 +154,9 @@
     <string>y</string>
     <string>z</string>
     <string>braceleft</string>
-    <string>braceleft.latn</string>
     <string>bar</string>
-    <string>bar.latn</string>
     <string>braceright</string>
-    <string>braceright.latn</string>
     <string>asciitilde</string>
-    <string>asciitilde.latn</string>
     <string>nbspace</string>
     <string>exclamdown</string>
     <string>cent</string>
@@ -242,7 +213,6 @@
     <string>Otilde</string>
     <string>Odieresis</string>
     <string>multiply</string>
-    <string>multiply.latn</string>
     <string>Oslash</string>
     <string>Ugrave</string>
     <string>Uacute</string>
@@ -275,7 +245,6 @@
     <string>otilde</string>
     <string>odieresis</string>
     <string>divide</string>
-    <string>divide.latn</string>
     <string>oslash</string>
     <string>ugrave</string>
     <string>uacute</string>
@@ -341,19 +310,13 @@
     <string>nbhyphen</string>
     <string>figuredash</string>
     <string>endash</string>
-    <string>endash.latn</string>
     <string>emdash</string>
-    <string>emdash.latn</string>
     <string>horizontalbar</string>
     <string>quoteleft</string>
-    <string>quoteleft.latn</string>
     <string>quoteright</string>
-    <string>quoteright.latn</string>
     <string>quotesinglbase</string>
     <string>quotedblleft</string>
-    <string>quotedblleft.latn</string>
     <string>quotedblright</string>
-    <string>quotedblright.latn</string>
     <string>quotedblbase</string>
     <string>dagger</string>
     <string>daggerdbl</string>
@@ -379,7 +342,6 @@
     <string>product</string>
     <string>summation</string>
     <string>minus</string>
-    <string>minus.latn</string>
     <string>divisionslash</string>
     <string>bulletoperator</string>
     <string>radical</string>
@@ -571,6 +533,8 @@
     <string>sevengong</string>
     <string>eightgong</string>
     <string>ninegong</string>
+    <string>_dot</string>
+    <string>_imatra-hook</string>
     <string>brevecmb</string>
     <string>dotaccentcmb</string>
     <string>hungarumlautcmb</string>

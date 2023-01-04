@@ -212,16 +212,10 @@
   <string>aring.glif</string>
   <key>asciicircum</key>
   <string>asciicircum.glif</string>
-  <key>asciicircum.latn</key>
-  <string>asciicircum.latn.glif</string>
   <key>asciitilde</key>
   <string>asciitilde.glif</string>
-  <key>asciitilde.latn</key>
-  <string>asciitilde.latn.glif</string>
   <key>asterisk</key>
   <string>asterisk.glif</string>
-  <key>asterisk.latn</key>
-  <string>asterisk.latn.glif</string>
   <key>at</key>
   <string>at.glif</string>
   <key>atilde</key>
@@ -246,12 +240,8 @@
   <string>ba_imatra.glif</string>
   <key>backslash</key>
   <string>backslash.glif</string>
-  <key>backslash.latn</key>
-  <string>backslash.latn.glif</string>
   <key>bar</key>
   <string>bar.glif</string>
-  <key>bar.latn</key>
-  <string>bar.latn.glif</string>
   <key>bha</key>
   <string>bha.glif</string>
   <key>bha.half</key>
@@ -262,20 +252,12 @@
   <string>bha_imatra.glif</string>
   <key>braceleft</key>
   <string>braceleft.glif</string>
-  <key>braceleft.latn</key>
-  <string>braceleft.latn.glif</string>
   <key>braceright</key>
   <string>braceright.glif</string>
-  <key>braceright.latn</key>
-  <string>braceright.latn.glif</string>
   <key>bracketleft</key>
   <string>bracketleft.glif</string>
-  <key>bracketleft.latn</key>
-  <string>bracketleft.latn.glif</string>
   <key>bracketright</key>
   <string>bracketright.glif</string>
-  <key>bracketright.latn</key>
-  <string>bracketright.latn.glif</string>
   <key>breve</key>
   <string>breve.glif</string>
   <key>brevecmb</key>
@@ -330,12 +312,8 @@
   <string>circumflexcmb.cap.glif</string>
   <key>colon</key>
   <string>colon.glif</string>
-  <key>colon.latn</key>
-  <string>colon.latn.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
-  <key>comma.latn</key>
-  <string>comma.latn.glif</string>
   <key>copyright</key>
   <string>copyright.glif</string>
   <key>currency</key>
@@ -392,8 +370,6 @@
   <string>dieresiscmb.cap.glif</string>
   <key>divide</key>
   <string>divide.glif</string>
-  <key>divide.latn</key>
-  <string>divide.latn.glif</string>
   <key>divisionslash</key>
   <string>divisionslash.glif</string>
   <key>dollar</key>
@@ -436,30 +412,22 @@
   <string>ellipsis.glif</string>
   <key>emdash</key>
   <string>emdash.glif</string>
-  <key>emdash.latn</key>
-  <string>emdash.latn.glif</string>
   <key>emquad</key>
   <string>emquad.glif</string>
   <key>emspace</key>
   <string>emspace.glif</string>
   <key>endash</key>
   <string>endash.glif</string>
-  <key>endash.latn</key>
-  <string>endash.latn.glif</string>
   <key>enquad</key>
   <string>enquad.glif</string>
   <key>enspace</key>
   <string>enspace.glif</string>
   <key>equal</key>
   <string>equal.glif</string>
-  <key>equal.latn</key>
-  <string>equal.latn.glif</string>
   <key>eth</key>
   <string>eth.glif</string>
   <key>exclam</key>
   <string>exclam.glif</string>
-  <key>exclam.latn</key>
-  <string>exclam.latn.glif</string>
   <key>exclamdown</key>
   <string>exclamdown.glif</string>
   <key>f</key>
@@ -518,8 +486,6 @@
   <string>gravecmb.cap.glif</string>
   <key>greater</key>
   <string>greater.glif</string>
-  <key>greater.latn</key>
-  <string>greater.latn.glif</string>
   <key>greaterequal</key>
   <string>greaterequal.glif</string>
   <key>guillemetleft</key>
@@ -550,8 +516,6 @@
   <string>hungarumlautcmb.glif</string>
   <key>hyphen</key>
   <string>hyphen.glif</string>
-  <key>hyphen.latn</key>
-  <string>hyphen.latn.glif</string>
   <key>hyphenationpoint</key>
   <string>hyphenationpoint.glif</string>
   <key>hyphentwo</key>
@@ -640,8 +604,6 @@
   <string>la_imatra.glif</string>
   <key>less</key>
   <string>less.glif</string>
-  <key>less.latn</key>
-  <string>less.latn.glif</string>
   <key>lessequal</key>
   <string>lessequal.glif</string>
   <key>lineseparator</key>
@@ -674,14 +636,10 @@
   <string>macroncmb.glif</string>
   <key>minus</key>
   <string>minus.glif</string>
-  <key>minus.latn</key>
-  <string>minus.latn.glif</string>
   <key>mu</key>
   <string>mu.glif</string>
   <key>multiply</key>
   <string>multiply.glif</string>
-  <key>multiply.latn</key>
-  <string>multiply.latn.glif</string>
   <key>n</key>
   <string>n.glif</string>
   <key>na</key>
@@ -722,8 +680,6 @@
   <string>ntilde.glif</string>
   <key>numbersign</key>
   <string>numbersign.glif</string>
-  <key>numbersign.latn</key>
-  <string>numbersign.latn.glif</string>
   <key>o</key>
   <string>o.glif</string>
   <key>o.sups</key>
@@ -794,22 +750,14 @@
   <string>paragraphseparator.glif</string>
   <key>parenleft</key>
   <string>parenleft.glif</string>
-  <key>parenleft.latn</key>
-  <string>parenleft.latn.glif</string>
   <key>parenright</key>
   <string>parenright.glif</string>
-  <key>parenright.latn</key>
-  <string>parenright.latn.glif</string>
   <key>partialdiff</key>
   <string>partialdiff.glif</string>
   <key>percent</key>
   <string>percent.glif</string>
-  <key>percent.latn</key>
-  <string>percent.latn.glif</string>
   <key>period</key>
   <string>period.glif</string>
-  <key>period.latn</key>
-  <string>period.latn.glif</string>
   <key>periodcentered</key>
   <string>periodcentered.glif</string>
   <key>perthousand</key>
@@ -826,8 +774,6 @@
   <string>pi.glif</string>
   <key>plus</key>
   <string>plus.glif</string>
-  <key>plus.latn</key>
-  <string>plus.latn.glif</string>
   <key>plusminus</key>
   <string>plusminus.glif</string>
   <key>product</key>
@@ -838,38 +784,24 @@
   <string>q.glif</string>
   <key>question</key>
   <string>question.glif</string>
-  <key>question.latn</key>
-  <string>question.latn.glif</string>
   <key>questiondown</key>
   <string>questiondown.glif</string>
   <key>quotedbl</key>
   <string>quotedbl.glif</string>
-  <key>quotedbl.latn</key>
-  <string>quotedbl.latn.glif</string>
   <key>quotedblbase</key>
   <string>quotedblbase.glif</string>
   <key>quotedblleft</key>
   <string>quotedblleft.glif</string>
-  <key>quotedblleft.latn</key>
-  <string>quotedblleft.latn.glif</string>
   <key>quotedblright</key>
   <string>quotedblright.glif</string>
-  <key>quotedblright.latn</key>
-  <string>quotedblright.latn.glif</string>
   <key>quoteleft</key>
   <string>quoteleft.glif</string>
-  <key>quoteleft.latn</key>
-  <string>quoteleft.latn.glif</string>
   <key>quoteright</key>
   <string>quoteright.glif</string>
-  <key>quoteright.latn</key>
-  <string>quoteright.latn.glif</string>
   <key>quotesinglbase</key>
   <string>quotesinglbase.glif</string>
   <key>quotesingle</key>
   <string>quotesingle.glif</string>
-  <key>quotesingle.latn</key>
-  <string>quotesingle.latn.glif</string>
   <key>r</key>
   <string>r.glif</string>
   <key>ra</key>
@@ -926,8 +858,6 @@
   <string>section.glif</string>
   <key>semicolon</key>
   <string>semicolon.glif</string>
-  <key>semicolon.latn</key>
-  <string>semicolon.latn.glif</string>
   <key>seven</key>
   <string>seven.glif</string>
   <key>sevengong</key>
@@ -944,14 +874,10 @@
   <string>sixperemspace.glif</string>
   <key>slash</key>
   <string>slash.glif</string>
-  <key>slash.latn</key>
-  <string>slash.latn.glif</string>
   <key>softhyphen</key>
   <string>softhyphen.glif</string>
   <key>space</key>
   <string>space.glif</string>
-  <key>space.latn</key>
-  <string>space.latn.glif</string>
   <key>sterling</key>
   <string>sterling.glif</string>
   <key>summation</key>
@@ -1036,8 +962,6 @@
   <string>umatra.glif</string>
   <key>underscore</key>
   <string>underscore.glif</string>
-  <key>underscore.latn</key>
-  <string>underscore.latn.glif</string>
   <key>uumatra</key>
   <string>uumatra.glif</string>
   <key>uuvowel</key>
