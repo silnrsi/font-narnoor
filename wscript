@@ -25,11 +25,12 @@ for dspace in ('Roman',):
                 target = process('${DS:FILENAME_BASE}.ttf',
                     cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
                 ),
+                # params = '--decomposeComponents --removeOverlaps',
                 opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
                     mapfile = generated + '${DS:FILENAME_BASE}.map',
                     master = 'source/master.feax',
                     make_params = omitaps + ' -L last',
-                    params = '',
+                    params = ''
                     ),
                 # graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',
                 #              master='source/master.gdl',
