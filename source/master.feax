@@ -1,9 +1,6 @@
 languagesystem DFLT dflt;
 languagesystem gong dflt;
 
-@cons = @cligno_aamatra;
-@matras = [aamatra imatra iimatra umatra uumatra eematra aimatra oomatra aumatra];
-
 # GSUB
 
 lookup OnePass {
@@ -26,14 +23,15 @@ feature rlig {
 
 # GPOS
 
-lookup RightGuard {
-do  for c = @cons;
-    for m = @matras;
-    let v = (ADVx(m) - APx(m, "_M")) - (ADVx(c) - APx(c, "M"));
-    if v > 0; {
-        pos $c' $v $m;
-      }
-} RightGuard;
+lookup CVcluster {
+  do
+    for c = @cligno_aamatra; # consonants
+    for m = @C; # spacing matras
+    let v = APx(c, "M") - ADVx(c) - APx(m, "C");
+    {
+        pos $c $m $v;
+    }
+} CVcluster;
 
 lookup Matras {
   lookupflag 0;
@@ -46,7 +44,7 @@ lookup Anusvara {
 } Anusvara;
 
 feature dist {
-    lookup RightGuard;
+    lookup CVcluster;
 } dist;
 
 feature mark {

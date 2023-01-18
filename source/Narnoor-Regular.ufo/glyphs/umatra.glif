@@ -2,7 +2,7 @@
 <glyph name="umatra" format="2">
   <advance width="327"/>
   <unicode hex="11D8D"/>
-  <anchor x="-100" y="645" name="_M"/>
+  <anchor x="-100" y="645" name="C"/>
   <anchor x="0" y="0" name="_U"/>
   <outline>
     <contour>
