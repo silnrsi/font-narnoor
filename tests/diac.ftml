@@ -9,11 +9,6 @@
     <fontsrc label="noto">url(../references/NotoSansGunjalaGondi-Regular.ttf)</fontsrc>
     <title>Diac auto</title>
   </head>
-  <testgroup background="#f0f0f0" label="Rendering Check">
-    <test label="check">
-      <string>RenderingUnknown</string>
-    </test>
-  </testgroup>
   <testgroup label="Representative diacritics on all bases that take diacritics">
     <test label="U+11D60
 U+11D95">

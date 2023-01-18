@@ -29,7 +29,7 @@ do
 	title="\"${test} auto\""
 	ftml=tests/${base}.ftml
 	log=tests/logs/${base}.log
-	eval tools/psfgenftml.py -q -t "$title" --scale 200 -i source/glyph_data.csv --xsl ../tools/ftml.xsl "$fonts" -l $log $ufo $ftml &
+	eval tools/psfgenftml.py -q -t "$title" --prevfont references/Narnoor-Regular.ttf --norendercheck --scale 200 -i source/glyph_data.csv --xsl ../tools/ftml.xsl "$fonts" -l $log $ufo $ftml &
 done
 wait
 echo "done."

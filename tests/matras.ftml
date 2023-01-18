@@ -9,11 +9,6 @@
     <fontsrc label="noto">url(../references/NotoSansGunjalaGondi-Regular.ttf)</fontsrc>
     <title>Matras auto</title>
   </head>
-  <testgroup background="#f0f0f0" label="Rendering Check">
-    <test label="check">
-      <string>RenderingUnknown</string>
-    </test>
-  </testgroup>
   <testgroup label="Consonants with matras">
     <test label="11D6C">
       <comment>ya</comment>

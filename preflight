@@ -5,7 +5,7 @@ psfnormalize -v 3 -p checkfix=fix source/Narnoor-Regular.ufo
 
 # Apply glyph data to Regular UFO
 psfsetpsnames -i source/glyph_data.csv source/Narnoor-Regular.ufo
-psfsetglyphorder -i source/glyph_data.csv source/Narnoor-Regular.ufo
+psfsetglyphorder -i source/glyph_data.csv source/Narnoor-Regular.ufo # --header sort_design
 
 # Rebuild composites
 psfbuildcomp -i source/composites.txt -c -n source/Narnoor-Regular.ufo

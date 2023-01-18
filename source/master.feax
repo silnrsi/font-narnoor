@@ -4,29 +4,7 @@ languagesystem gong dflt;
 @cons = @cligno_aamatra;
 @matras = [aamatra imatra iimatra umatra uumatra eematra aimatra oomatra aumatra];
 
-# For debugging the string "RenderingUnknown" will be rendered as "RenderingOpenType"
-# if the app is using OpenType to render the text.
-lookup FontCheck_Unknow {
-  lookupflag IgnoreMarks;
-    sub [U n k o w ] by [O p e T y];
-} FontCheck_Unknow;
-
-lookup FontCheck_n {
-  lookupflag IgnoreMarks;
-    sub n by p e;
-} FontCheck_n;
-
-lookup FontCheck {
-  lookupflag IgnoreMarks;
-    sub [R] e n d e r i n g
-      U' lookup FontCheck_Unknow
-      n' lookup FontCheck_Unknow
-      k' lookup FontCheck_Unknow
-      n'
-      o' lookup FontCheck_Unknow
-      w' lookup FontCheck_Unknow
-      n' lookup FontCheck_n;
-} FontCheck;
+# GSUB
 
 lookup OnePass {
   lookupflag 0;
@@ -42,6 +20,12 @@ lookup OnePass {
     sub @cno_half' aamatra by @c_half;
 } OnePass;
 
+feature rlig {
+    lookup OnePass;
+} rlig;
+
+# GPOS
+
 lookup RightGuard {
 do  for c = @cons;
     for m = @matras;
@@ -51,37 +35,23 @@ do  for c = @cons;
       }
 } RightGuard;
 
-# lookup lAPs {
-#   lookupflag 0;
-#     pos base @L mark @_L;
-# } lAPs;
-
-lookup mAPs {
+lookup Matras {
   lookupflag 0;
     pos base @M mark @_M;
-} mAPs;
+} Matras;
 
-lookup urAPs {
+lookup Anusvara {
   lookupflag 0;
     pos base @UR mark @_UR;
-} urAPs;
-
-feature ccmp {
-    lookup FontCheck;
-} ccmp;
-
-feature rlig {
-    lookup OnePass;
-} rlig;
+} Anusvara;
 
 feature dist {
     lookup RightGuard;
 } dist;
 
 feature mark {
-    # lookup lAPs;
-    lookup mAPs;
-    lookup urAPs;
+    lookup Matras;
+    lookup Anusvara;
 } mark;
 
 table GDEF {
