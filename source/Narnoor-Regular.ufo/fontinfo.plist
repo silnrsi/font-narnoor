@@ -44,7 +44,7 @@ Latin glyphs copyright (c) 2010, 2012, 2014, 2021 Adobe Systems Incorporated
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/01/18 10:43:50</string>
+  <string>2023/01/19 06:13:00</string>
   <key>openTypeHheaAscender</key>
   <integer>1314</integer>
   <key>openTypeHheaDescender</key>
@@ -257,6 +257,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <string>Narnoor-Regular</string>
   <key>postscriptFullName</key>
   <string>Narnoor Regular</string>
+  <key>postscriptStemSnapH</key>
+  <array/>
+  <key>postscriptStemSnapV</key>
+  <array/>
   <key>postscriptUnderlinePosition</key>
   <integer>-60</integer>
   <key>postscriptUnderlineThickness</key>

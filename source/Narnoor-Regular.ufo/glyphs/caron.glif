@@ -2,7 +2,6 @@
 <glyph name="caron" format="2">
   <advance width="542"/>
   <unicode hex="02C7"/>
-  <anchor x="271" y="509" name="_aboveLC"/>
   <outline>
     <component base="caroncmb" xOffset="271"/>
   </outline>

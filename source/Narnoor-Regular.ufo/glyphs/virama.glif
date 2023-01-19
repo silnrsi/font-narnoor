@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="virama" format="2">
   <unicode hex="11D97"/>
+  <anchor x="0" y="0" name="_none"/>
   <outline>
     <contour>
       <point x="4" y="-206" type="line"/>
