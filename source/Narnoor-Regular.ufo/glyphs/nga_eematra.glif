@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nga_eematra" format="2">
+  <advance width="756"/>
+  <anchor x="0" y="0" name="L"/>
+  <anchor x="666" y="645" name="M"/>
+  <anchor x="756" y="0" name="U"/>
+  <anchor x="674" y="645" name="_M"/>
+  <anchor x="756" y="0" name="_U"/>
+  <outline>
+    <component base="nga"/>
+    <component base="eematra" xOffset="756"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

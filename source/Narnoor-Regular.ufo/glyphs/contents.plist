@@ -342,6 +342,12 @@
   <string>dda.half.glif</string>
   <key>dda_aamatra</key>
   <string>dda_aamatra.glif</string>
+  <key>dda_aimatra</key>
+  <string>dda_aimatra.glif</string>
+  <key>dda_aumatra</key>
+  <string>dda_aumatra.glif</string>
+  <key>dda_eematra</key>
+  <string>dda_eematra.glif</string>
   <key>dda_imatra</key>
   <string>dda_imatra.glif</string>
   <key>ddha</key>
@@ -476,6 +482,10 @@
   <string>gha.half.glif</string>
   <key>gha_aamatra</key>
   <string>gha_aamatra.glif</string>
+  <key>gha_aimatra</key>
+  <string>gha_aimatra.glif</string>
+  <key>gha_eematra</key>
+  <string>gha_eematra.glif</string>
   <key>gha_imatra</key>
   <string>gha_imatra.glif</string>
   <key>grave</key>
@@ -664,6 +674,10 @@
   <string>nga.half.dot.glif</string>
   <key>nga_aamatra</key>
   <string>nga_aamatra.glif</string>
+  <key>nga_aimatra</key>
+  <string>nga_aimatra.glif</string>
+  <key>nga_eematra</key>
+  <string>nga_eematra.glif</string>
   <key>nga_imatra</key>
   <string>nga_imatra.glif</string>
   <key>nine</key>

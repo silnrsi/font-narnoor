@@ -8,7 +8,7 @@ psfsetpsnames -i source/glyph_data.csv source/Narnoor-Regular.ufo
 psfsetglyphorder -i source/glyph_data.csv source/Narnoor-Regular.ufo # --header sort_design
 
 # Rebuild composites
-psfbuildcomp -i source/composites.txt -c -n source/Narnoor-Regular.ufo
+psfbuildcomp -i source/composites.txt --colors g_yellow -n source/Narnoor-Regular.ufo
 
 # Create WOFF metadata file
 psfmakewoffmetadata -n narnoor -i org.sil.fonts -o source/Narnoor-WOFF-metadata.xml source/Narnoor-Regular.ufo

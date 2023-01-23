@@ -435,6 +435,8 @@
     <string>gha.half</string>
     <string>gha_aamatra</string>
     <string>gha_imatra</string>
+    <string>gha_eematra</string>
+    <string>gha_aimatra</string>
     <string>da</string>
     <string>da.half</string>
     <string>da_aamatra</string>
@@ -479,6 +481,9 @@
     <string>dda.half</string>
     <string>dda_aamatra</string>
     <string>dda_imatra</string>
+    <string>dda_eematra</string>
+    <string>dda_aimatra</string>
+    <string>dda_aumatra</string>
     <string>ddha</string>
     <string>ddha.half</string>
     <string>ddha_aamatra</string>
@@ -487,6 +492,8 @@
     <string>nga.half</string>
     <string>nga_aamatra</string>
     <string>nga_imatra</string>
+    <string>nga_eematra</string>
+    <string>nga_aimatra</string>
     <string>pa</string>
     <string>pa.half</string>
     <string>pa_aamatra</string>
@@ -669,6 +676,12 @@
     <string>u11D82.half</string>
     <key>dda_aamatra</key>
     <string>u11D82_u11D8A</string>
+    <key>dda_aimatra</key>
+    <string>u11D82_u11D91</string>
+    <key>dda_aumatra</key>
+    <string>u11D82_u11D94</string>
+    <key>dda_eematra</key>
+    <string>u11D82_u11D90</string>
     <key>dda_imatra</key>
     <string>u11D82_u11D8B</string>
     <key>ddha</key>
@@ -739,6 +752,10 @@
     <string>u11D77.half</string>
     <key>gha_aamatra</key>
     <string>u11D77_u11D8A</string>
+    <key>gha_aimatra</key>
+    <string>u11D77_u11D91</string>
+    <key>gha_eematra</key>
+    <string>u11D77_u11D90</string>
     <key>gha_imatra</key>
     <string>u11D77_u11D8B</string>
     <key>gravecmb</key>
@@ -853,6 +870,10 @@
     <string>u11D84.half</string>
     <key>nga_aamatra</key>
     <string>u11D84_u11D8A</string>
+    <key>nga_aimatra</key>
+    <string>u11D84_u11D91</string>
+    <key>nga_eematra</key>
+    <string>u11D84_u11D90</string>
     <key>nga_imatra</key>
     <string>u11D84_u11D8B</string>
     <key>ninegong</key>
