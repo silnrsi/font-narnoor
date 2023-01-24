@@ -5,7 +5,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3150</string>
+  <string>3169</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/ya_imatra/va_imatra/ba_imatra/bha_imatra/ma_imatra/ka_imatra/kha_imatra/ta_imatra/tha_imatra/la_imatra/ga_imatra/gha_imatra/da_imatra/dha_imatra/na_imatra/_imatra-hook/ca_imatra/cha_imatra/tta_imatra/ttha_imatra/lla_imatra/ja_imatra/jha_imatra/dda_imatra/ddha_imatra/nga_imatra/pa_imatra/pha_imatra/ha_imatra/ra_imatra/sa_imatra/space/imatra</string>
@@ -13,8 +13,10 @@
     <string>/avowel/aavowel/na_aamatra/na_imatra/ivowel/iivowel/uvowel/aamatra/uuvowel/eevowel/aivowel/space/eematra/oovowel/auvowel/aamatra/space/imatra/space/iimatra/space/iimatra_anusvara/space/umatra/space/uumatra 
 /space/eematra/space/eematra_anusvara/space/space/aimatra/space/space/aimatra_anusvara/space/oomatra/space/aumatra/space/anusvara/space/visarga/space/virama/avowel/om/space/space</string>
     <string>/om/zerogong/onegong/twogong/threegong/fourgong/fivegong/sixgong/sevengong/eightgong/ninegong</string>
-    <string>/lla/lla.half/lla_aamatra/lla_imatra/ca/ca.half/ca_aamatra/ca_imatra/ga/ga.half/ga_aamatra/ga_imatra/gha_imatra</string>
     <string>!"',/quoteleft #'()*,-.//:;?[/backslash ]_{}¡«­·»¿/danda/dandadbl/abbreviationsign/hyphentwo/nbhyphen/figuredash/endash/emdash/horizontalbar/quoteleft '/quotesinglbase "/quotedblleft/quotedblright/quotedblbase/bullet/ellipsis/hyphenationpoint/guilsinglleft/guilsinglright</string>
+    <string>/gha/gha.half/gha_aamatra/gha_imatra/gha_eematra/gha_aimatra 
+/dda/dda.half/dda_aamatra/dda_imatra/dda_eematra/dda_aimatra/dda_aumatra/space/aumatra 
+/nga/nga.half/nga_aamatra/nga_imatra/nga_eematra/nga_aimatra/nga</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
