@@ -5,6 +5,7 @@
     <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
     <fontscale>200</fontscale>
     <fontsrc label="refR">url(../references/Narnoor-Regular.ttf)</fontsrc>
+    <fontsrc label="refRv1">url(../references/NarnoorV1-Regular.ttf)</fontsrc>
     <fontsrc label="R">url(../results/Narnoor-Regular.ttf)</fontsrc>
     <fontsrc label="noto">url(../references/NotoSansGunjalaGondi-Regular.ttf)</fontsrc>
     <title>AllChars auto</title>
@@ -392,6 +393,16 @@ U+11D8B">
       <comment>gha imatra</comment>
       <string>\u011D77\u011D8B</string>
     </test>
+    <test label="U+11D77
+U+11D90">
+      <comment>gha eematra</comment>
+      <string>\u011D77\u011D90</string>
+    </test>
+    <test label="U+11D77
+U+11D91">
+      <comment>gha aimatra</comment>
+      <string>\u011D77\u011D91</string>
+    </test>
     <test label="U+11D78
 U+11D8A">
       <comment>da aamatra</comment>
@@ -502,6 +513,21 @@ U+11D8B">
       <comment>dda imatra</comment>
       <string>\u011D82\u011D8B</string>
     </test>
+    <test label="U+11D82
+U+11D90">
+      <comment>dda eematra</comment>
+      <string>\u011D82\u011D90</string>
+    </test>
+    <test label="U+11D82
+U+11D91">
+      <comment>dda aimatra</comment>
+      <string>\u011D82\u011D91</string>
+    </test>
+    <test label="U+11D82
+U+11D94">
+      <comment>dda aumatra</comment>
+      <string>\u011D82\u011D94</string>
+    </test>
     <test label="U+11D83
 U+11D8A">
       <comment>ddha aamatra</comment>
@@ -521,6 +547,16 @@ U+11D8A">
 U+11D8B">
       <comment>nga imatra</comment>
       <string>\u011D84\u011D8B</string>
+    </test>
+    <test label="U+11D84
+U+11D90">
+      <comment>nga eematra</comment>
+      <string>\u011D84\u011D90</string>
+    </test>
+    <test label="U+11D84
+U+11D91">
+      <comment>nga aimatra</comment>
+      <string>\u011D84\u011D91</string>
     </test>
     <test label="U+11D85
 U+11D8A">

@@ -2,9 +2,7 @@
 <glyph name="nga_aimatra" format="2">
   <advance width="893"/>
   <anchor x="0" y="0" name="L"/>
-  <anchor x="666" y="645" name="M"/>
   <anchor x="893" y="0" name="U"/>
-  <anchor x="674" y="645" name="_M"/>
   <anchor x="756" y="0" name="_U"/>
   <outline>
     <contour>

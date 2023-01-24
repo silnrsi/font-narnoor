@@ -3,22 +3,36 @@ languagesystem gong dflt;
 
 # GSUB
 
+@cOmatras = [oomatra aumatra];
+@cEmatras = [eematra aimatra];
+
 lookup OnePass {
   lookupflag 0;
-    sub @cno_half' virama' by @c_half;
-    sub @cligno_anusvara' anusvara' by @clig_anusvara;
-    sub @cligno_aamatra' aamatra' by @clig_aamatra;
-    sub @cligno_imatra' imatra' by @clig_imatra;
+    sub @cno_half virama by @c_half;
+    sub @cligno_anusvara anusvara by @clig_anusvara;
+    sub @cligno_aamatra aamatra by @clig_aamatra;
+    sub @cligno_imatra imatra by @clig_imatra;
+
+    # The next 3 lines are for ligatures that have
+    # been drawn to avoid clashes. They need to be
+    # processed in this pass, otherwise the first line
+    # of the next pass would prevent some of these
+    # ligatures from forming.
+    sub @cligno_eematra eematra by @clig_eematra;
+    sub @cligno_aimatra aimatra by @clig_aimatra;
+    sub dda aumatra by dda_aumatra;
+} OnePass;
+
+lookup TwoPass {
+  lookupflag 0;
     sub @cligno_aamatra' @cOmatras by @clig_aamatra;
     sub @clig_aamatra @cOmatras' by @cEmatras;
-    # we don't need these ligatures at all
-    # sub @cligno_oomatra' oomatra' by @clig_oomatra;
-    # sub @cligno_aumatra' aumatra' by @clig_aumatra;
     sub @cno_half' aamatra by @c_half;
-} OnePass;
+} TwoPass;
 
 feature rlig {
     lookup OnePass;
+    lookup TwoPass;
 } rlig;
 
 # GPOS

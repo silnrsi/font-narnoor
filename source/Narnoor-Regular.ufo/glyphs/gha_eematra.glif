@@ -2,9 +2,7 @@
 <glyph name="gha_eematra" format="2">
   <advance width="810"/>
   <anchor x="0" y="0" name="L"/>
-  <anchor x="720" y="645" name="M"/>
   <anchor x="810" y="0" name="U"/>
-  <anchor x="728" y="645" name="_M"/>
   <anchor x="810" y="0" name="_U"/>
   <outline>
     <component base="gha"/>

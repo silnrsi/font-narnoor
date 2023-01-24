@@ -2,9 +2,7 @@
 <glyph name="dda_aimatra" format="2">
   <advance width="909"/>
   <anchor x="0" y="0" name="L"/>
-  <anchor x="676" y="645" name="M"/>
   <anchor x="909" y="0" name="U"/>
-  <anchor x="685" y="645" name="_M"/>
   <outline>
     <contour>
       <point x="219" y="-2" type="curve" smooth="yes"/>

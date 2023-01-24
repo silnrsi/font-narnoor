@@ -37,7 +37,7 @@ for dspace in ('Roman',):
                 #              make_params=omitaps + ' -l last -p 1',
                 #              params='-e gdlerr-${DS:FILENAME_BASE}.txt',
                 #              depends=[]),
-                classes = 'source/' + 'classes.xml',
+                # classes = 'source/' + 'classes.xml',
                 ap = 'generated/' + '${DS:FILENAME_BASE}.xml',
                 version = VERSION,
                 woff = woff('web/${DS:FILENAME_BASE}',
