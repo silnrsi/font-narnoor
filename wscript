@@ -28,7 +28,7 @@ for dspace in ('Roman',):
                 opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
                     mapfile = generated + '${DS:FILENAME_BASE}.map',
                     master = 'source/master.feax',
-                    make_params = ' -L last',
+                    make_params = '-L last',
                     params = ''
                     ),
                 # graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',
