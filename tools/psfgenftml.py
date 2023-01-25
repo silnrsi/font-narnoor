@@ -153,7 +153,7 @@ def doit(args):
 
         # Representative base and diac chars:
         repDiac = list(filter(lambda x: x in builder.uids(), (0x11D95, 0x11D96)))
-        repBase = list(filter(lambda x: x in builder.uids(), (0x11D6C, 0x11D71, dotted_circle)))
+        repBase = list(filter(lambda x: x in builder.uids(), (0x11D60, 0x11D6C, dotted_circle)))
 
         ftml.startTestGroup('Representative diacritics on all bases that take diacritics')
         for uid in uids:
@@ -189,6 +189,12 @@ def doit(args):
         for c in consonants + [dotted_circle]:
             for m in matras:
                 builder.render((c,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
+        ftml.startTestGroup('Consonants with matras and anusvara')
+        for c in consonants + [dotted_circle]:
+            for m in matras:
+                builder.render((c,m,0x11D95), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
         ftml.startTestGroup('Consonants with matras in a frame')

@@ -10,8 +10,12 @@
 \patterngroup[name="consgong"]{𑵬𑵭𑵮𑵯𑵰𑵱𑵲𑵳𑵴𑵵𑵶𑵷𑵸𑵹𑵺𑵻𑵼𑵽𑵾𑵿𑶀𑶁𑶂𑶃𑶄𑶅𑶆𑶇𑶈𑶉}
 \patterngroup[name="consindic"]{𑵱𑵲𑵶𑵷𑶄𑵻𑵼𑶀𑶁𑵽𑵾𑶂𑶃𑵳𑵴𑵸𑵹𑵺𑶅𑶆𑵮𑵯𑵰𑵬𑶈𑵵𑵿𑵭𑶉𑶇}
 \patterngroup[name="matras"]{‌𑶊𑶋𑶌𑶍𑶎𑶐𑶑𑶓𑶔}
+\patterngroup[name="signs"]{‌𑶕}
 \pattern[chars="C,M",reps="group_consgong,group_matras",heading=Consonant-matra combinations (Gunjala script order)]{CM}
 \pattern[chars="C,M",reps="group_consindic,group_matras",heading=Consonant-matra combinations (Traditional Indic order)]{CM}
+\pattern[chars="C,M",reps="group_consgong,group_matras",heading=Consonant-matra combinations with anusvara (Gunjala script order)]{CM𑶕}
+\pattern[chars="C,M",reps="group_consindic,group_matras",heading=Consonant-matra combinations with anusvara (Traditional Indic order)]{CM𑶕}
+\pattern[chars="V",reps="group_vowels",heading=Vowels with anusvara]{V𑶕}
 \patterngroup[name="digits"]{𑶠𑶡𑶢𑶣𑶤𑶥𑶦𑶧𑶨𑶩}
 \pattern[chars="@",reps="group_digits",heading=Digits]{𑶠@𑶡@𑶢@𑶣@𑶤@𑶥@𑶦@𑶧@𑶨@𑶩}
 \pi[digits=100]

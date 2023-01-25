@@ -3,7 +3,6 @@
   <advance width="585"/>
   <unicode hex="25CC"/>
   <anchor x="585" y="645" name="M"/>
-  <anchor x="585" y="0" name="UR"/>
   <anchor x="293" y="509" name="aboveLC"/>
   <anchor x="473" y="509" name="aboverightLC"/>
   <anchor x="293" y="0" name="baseLC"/>

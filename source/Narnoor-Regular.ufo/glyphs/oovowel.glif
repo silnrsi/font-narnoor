@@ -2,6 +2,7 @@
 <glyph name="oovowel" format="2">
   <advance width="1092"/>
   <unicode hex="11D6A"/>
+  <anchor x="987" y="645" name="A"/>
   <outline>
     <component base="aavowel"/>
     <component base="eematra" xOffset="833"/>

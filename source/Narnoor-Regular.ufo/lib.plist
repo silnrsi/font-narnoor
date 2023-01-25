@@ -1068,6 +1068,9 @@
     <string>oomatra.short</string>
     <string>oomatra_anusvara.short</string>
     <string>virama.alt</string>
+    <string>iimatra_anusvara</string>
+    <string>eematra_anusvara</string>
+    <string>aimatra_anusvara</string>
   </array>
 </dict>
 </plist>

@@ -9,7 +9,6 @@ languagesystem gong dflt;
 lookup OnePass {
   lookupflag 0;
     sub @cno_half virama by @c_half;
-    sub @cligno_anusvara anusvara by @clig_anusvara;
     sub @cligno_aamatra aamatra by @clig_aamatra;
     sub @cligno_imatra imatra by @clig_imatra;
 
@@ -52,10 +51,15 @@ lookup Matras {
     pos base @M mark @_M;
 } Matras;
 
-lookup Anusvara {
+lookup BaseAnusvara {
   lookupflag 0;
-    pos base @UR mark @_UR;
-} Anusvara;
+    pos base @A mark @_A;
+} BaseAnusvara;
+
+lookup MarkAnusvara {
+  lookupflag 0;
+    pos mark @A_MarkBase mark @_A;
+} MarkAnusvara;
 
 feature dist {
     lookup CVcluster;
@@ -63,7 +67,8 @@ feature dist {
 
 feature mark {
     lookup Matras;
-    lookup Anusvara;
+    lookup BaseAnusvara;
+    lookup MarkAnusvara;
 } mark;
 
 table GDEF {

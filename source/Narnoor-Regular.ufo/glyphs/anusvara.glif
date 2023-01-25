@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="anusvara" format="2">
   <unicode hex="11D95"/>
-  <anchor x="0" y="0" name="_U"/>
-  <anchor x="0" y="0" name="_UR"/>
+  <anchor x="-105" y="645" name="_A"/>
   <outline>
     <contour>
       <point x="-105" y="744" type="curve" smooth="yes"/>

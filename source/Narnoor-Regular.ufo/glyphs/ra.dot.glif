@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ra.dot" format="2">
   <advance width="782"/>
-  <anchor x="0" y="0" name="L"/>
   <anchor x="685" y="645" name="M"/>
-  <anchor x="782" y="0" name="U"/>
   <outline>
     <component base="ra"/>
     <component base="_dot" xOffset="357" yOffset="58"/>

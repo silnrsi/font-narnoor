@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aimatra_anusvara" format="2">
   <anchor x="-82" y="645" name="_M"/>
-  <anchor x="0" y="0" name="_U"/>
   <outline>
     <component base="anusvara" xOffset="39" yOffset="24"/>
     <component base="aimatra"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
 </glyph>

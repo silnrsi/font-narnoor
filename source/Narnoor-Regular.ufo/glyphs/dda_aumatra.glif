@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dda_aumatra" format="2">
   <advance width="936"/>
-  <anchor x="0" y="0" name="L"/>
-  <anchor x="936" y="0" name="U"/>
-  <anchor x="936" y="0" name="_U"/>
+  <anchor x="831" y="645" name="A"/>
   <outline>
     <component base="dda_aamatra"/>
     <contour>

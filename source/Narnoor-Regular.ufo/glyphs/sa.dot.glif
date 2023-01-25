@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sa.dot" format="2">
   <advance width="883"/>
-  <anchor x="0" y="0" name="L"/>
   <anchor x="797" y="645" name="M"/>
-  <anchor x="883" y="0" name="U"/>
   <outline>
     <component base="sa"/>
     <component base="_dot" xOffset="70"/>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ca_aamatra" format="2">
   <advance width="968"/>
-  <anchor x="0" y="0" name="L"/>
+  <anchor x="863" y="645" name="A"/>
   <anchor x="877" y="645" name="M"/>
-  <anchor x="968" y="0" name="U"/>
   <outline>
     <contour>
       <point x="398" y="-1" type="curve" smooth="yes"/>

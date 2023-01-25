@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nga.half.dot" format="2">
   <advance width="759"/>
-  <anchor x="39" y="-20" name="L"/>
   <anchor x="623" y="645" name="M"/>
   <outline>
     <component base="nga.half"/>

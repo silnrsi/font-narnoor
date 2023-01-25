@@ -2,9 +2,8 @@
 <glyph name="ddha" format="2">
   <advance width="742"/>
   <unicode hex="11D83"/>
-  <anchor x="0" y="0" name="L"/>
+  <anchor x="637" y="645" name="A"/>
   <anchor x="652" y="645" name="M"/>
-  <anchor x="742" y="0" name="U"/>
   <outline>
     <contour>
       <point x="470" y="-2" type="curve" smooth="yes"/>

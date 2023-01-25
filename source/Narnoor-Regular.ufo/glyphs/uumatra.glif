@@ -2,8 +2,8 @@
 <glyph name="uumatra" format="2">
   <advance width="305"/>
   <unicode hex="11D8E"/>
+  <anchor x="200" y="645" name="A"/>
   <anchor x="-98" y="645" name="C"/>
-  <anchor x="0" y="0" name="_U"/>
   <outline>
     <contour>
       <point x="127" y="34" type="curve" smooth="yes"/>

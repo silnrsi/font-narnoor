@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nga.dot" format="2">
   <advance width="759"/>
-  <anchor x="39" y="-20" name="L"/>
   <anchor x="651" y="645" name="M"/>
-  <anchor x="759" y="0" name="U"/>
   <outline>
     <component base="_dot" xOffset="-9" yOffset="58"/>
     <component base="nga"/>

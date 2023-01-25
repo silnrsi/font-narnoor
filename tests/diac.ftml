@@ -5,6 +5,7 @@
     <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
     <fontscale>200</fontscale>
     <fontsrc label="refR">url(../references/Narnoor-Regular.ttf)</fontsrc>
+    <fontsrc label="refRv1">url(../references/NarnoorV1-Regular.ttf)</fontsrc>
     <fontsrc label="R">url(../results/Narnoor-Regular.ttf)</fontsrc>
     <fontsrc label="noto">url(../references/NotoSansGunjalaGondi-Regular.ttf)</fontsrc>
     <title>Diac auto</title>
@@ -210,6 +211,31 @@ U+11D95">
       <comment>sa anusvara</comment>
       <string>\u011D89\u011D95 \u011D89\u011D96</string>
     </test>
+    <test label="U+11D8A
+U+11D95">
+      <comment>aamatra anusvara</comment>
+      <string>\u011D8A\u011D95 \u011D8A\u011D96</string>
+    </test>
+    <test label="U+11D8B
+U+11D95">
+      <comment>imatra anusvara</comment>
+      <string>\u011D8B\u011D95 \u011D8B\u011D96</string>
+    </test>
+    <test label="U+11D8C
+U+11D95">
+      <comment>iimatra anusvara</comment>
+      <string>\u011D8C\u011D95 \u011D8C\u011D96</string>
+    </test>
+    <test label="U+11D93
+U+11D95">
+      <comment>oomatra anusvara</comment>
+      <string>\u011D93\u011D95 \u011D93\u011D96</string>
+    </test>
+    <test label="U+11D94
+U+11D95">
+      <comment>aumatra anusvara</comment>
+      <string>\u011D94\u011D95 \u011D94\u011D96</string>
+    </test>
     <test label="U+11D98
 U+11D95">
       <comment>om anusvara</comment>
@@ -217,25 +243,25 @@ U+11D95">
     </test>
   </testgroup>
   <testgroup label="All diacritics on representative bases">
-    <test label="U+11D6C
+    <test label="U+11D60
 U+11D90">
-      <comment>ya eematra</comment>
-      <string>\u011D6C\u011D90 \u011D71\u011D90 \u0025CC\u011D90</string>
+      <comment>avowel eematra</comment>
+      <string>\u011D60\u011D90 \u011D6C\u011D90 \u0025CC\u011D90</string>
     </test>
-    <test label="U+11D6C
+    <test label="U+11D60
 U+11D91">
-      <comment>ya aimatra</comment>
-      <string>\u011D6C\u011D91 \u011D71\u011D91 \u0025CC\u011D91</string>
+      <comment>avowel aimatra</comment>
+      <string>\u011D60\u011D91 \u011D6C\u011D91 \u0025CC\u011D91</string>
     </test>
-    <test label="U+11D6C
+    <test label="U+11D60
 U+11D95">
-      <comment>ya anusvara</comment>
-      <string>\u011D6C\u011D95 \u011D71\u011D95 \u0025CC\u011D95</string>
+      <comment>avowel anusvara</comment>
+      <string>\u011D60\u011D95 \u011D6C\u011D95 \u0025CC\u011D95</string>
     </test>
-    <test label="U+11D6C
+    <test label="U+11D60
 U+11D97">
-      <comment>ya virama</comment>
-      <string>\u011D6C\u011D97 \u011D71\u011D97 \u0025CC\u011D97</string>
+      <comment>avowel virama</comment>
+      <string>\u011D60\u011D97 \u011D6C\u011D97 \u0025CC\u011D97</string>
     </test>
   </testgroup>
 </ftml>

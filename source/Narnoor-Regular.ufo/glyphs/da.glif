@@ -2,9 +2,8 @@
 <glyph name="da" format="2">
   <advance width="933"/>
   <unicode hex="11D78"/>
-  <anchor x="0" y="0" name="L"/>
+  <anchor x="828" y="645" name="A"/>
   <anchor x="858" y="645" name="M"/>
-  <anchor x="933" y="0" name="U"/>
   <outline>
     <contour>
       <point x="673" y="-2" type="curve" smooth="yes"/>

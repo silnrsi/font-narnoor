@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dda_aimatra" format="2">
   <advance width="909"/>
-  <anchor x="0" y="0" name="L"/>
-  <anchor x="909" y="0" name="U"/>
+  <anchor x="904" y="645" name="A"/>
   <outline>
     <contour>
       <point x="219" y="-2" type="curve" smooth="yes"/>

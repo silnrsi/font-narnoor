@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="virama.alt" format="2">
   <advance width="12"/>
-  <anchor x="-400" y="66" name="_L"/>
   <outline>
     <component base="anusvara" xOffset="-140" yOffset="-868"/>
   </outline>
