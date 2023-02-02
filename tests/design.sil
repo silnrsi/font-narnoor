@@ -1,0 +1,16 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[]
+
+\patterngroup[name="vowels"]{𑵠𑵡𑵢𑵣𑵤𑵥𑵧𑵨𑵪𑵫}
+\patterngroup[name="cons"]{𑵬𑵭𑵮𑵯𑵰𑵱𑵲𑵳𑵴𑵵𑵶𑵷𑵸𑵹𑵺𑵻𑵼𑵽𑵾𑵿𑶀𑶁𑶂𑶃𑶄𑶅𑶆𑶇𑶈𑶉}
+% \patterngroup[name="matras"]{𑶊𑶋𑶌𑶍𑶎𑶐𑶑𑶓𑶔}
+\patterngroup[name="matras"]{𑶊𑶋𑶐𑶑𑶓𑶔}
+
+\pattern[size="18,36",chars="V",reps="group_vowels",heading=Vowels with anusvara]{V𑶕}
+\pattern[size="18,36",chars="C",reps="group_cons",heading=Consonants with anusvara]{C𑶕}
+
+\pattern[size="18,36",chars="M,C",reps="group_matras,group_cons",heading=Consonant-matra combinations]{CM}
+\pattern[size="18,36",chars="C,M",reps="group_cons,group_matras",heading=Consonant-matra combinations with anusvara]{CM𑶕}
+
+\end{document}

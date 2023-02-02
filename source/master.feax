@@ -36,15 +36,15 @@ feature rlig {
 
 # GPOS
 
-lookup CVcluster {
-  do
-    for c = @cligno_aamatra; # consonants
-    for m = @C; # spacing matras
-    let v = APx(c, "M") - ADVx(c) - APx(m, "C");
-    {
-        pos $c $m $v;
-    }
-} CVcluster;
+# lookup CVcluster {
+#   do
+#     for c = @cligno_aamatra; # consonants
+#     for m = @C; # spacing matras
+#     let v = APx(c, "M") - ADVx(c) - APx(m, "C");
+#     {
+#         pos $c $m $v;
+#     }
+# } CVcluster;
 
 lookup Matras {
   lookupflag 0;
@@ -61,9 +61,9 @@ lookup MarkAnusvara {
     pos mark @A_MarkBase mark @_A;
 } MarkAnusvara;
 
-feature dist {
-    lookup CVcluster;
-} dist;
+# feature dist {
+#     lookup CVcluster;
+# } dist;
 
 feature mark {
     lookup Matras;
