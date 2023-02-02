@@ -24,7 +24,7 @@ for dspace in ('Roman',):
                 target = process('${DS:FILENAME_BASE}.ttf',
                     cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
                 ),
-                # params = '--decomposeComponents --removeOverlaps',
+                params = '--decomposeComponents --removeOverlaps',
                 opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
                     mapfile = generated + '${DS:FILENAME_BASE}.map',
                     master = 'source/master.feax',
