@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ka" format="2">
-  <advance width="978"/>
+  <advance width="997"/>
   <unicode hex="11D71"/>
   <anchor x="873" y="645" name="A"/>
   <anchor x="904" y="645" name="M"/>
@@ -88,8 +88,8 @@
     </contour>
     <contour>
       <point x="-19" y="599" type="line"/>
-      <point x="997" y="599" type="line"/>
-      <point x="997" y="645" type="line"/>
+      <point x="1016" y="599" type="line"/>
+      <point x="1016" y="645" type="line"/>
       <point x="-19" y="645" type="line"/>
     </contour>
   </outline>

@@ -5,7 +5,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3169</string>
+  <string>3176</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/ya_imatra/va_imatra/ba_imatra/bha_imatra/ma_imatra/ka_imatra/kha_imatra/ta_imatra/tha_imatra/la_imatra/ga_imatra/gha_imatra/da_imatra/dha_imatra/na_imatra/_imatra-hook/ca_imatra/cha_imatra/tta_imatra/ttha_imatra/lla_imatra/ja_imatra/jha_imatra/dda_imatra/ddha_imatra/nga_imatra/pa_imatra/pha_imatra/ha_imatra/ra_imatra/sa_imatra/space/imatra</string>
@@ -14,9 +14,17 @@
 /space/eematra/space/eematra_anusvara/space/space/aimatra/space/space/aimatra_anusvara/space/oomatra/space/aumatra/space/anusvara/space/visarga/space/virama/avowel/om/space/space</string>
     <string>/om/zerogong/onegong/twogong/threegong/fourgong/fivegong/sixgong/sevengong/eightgong/ninegong</string>
     <string>!"',/quoteleft #'()*,-.//:;?[/backslash ]_{}¡«­·»¿/danda/dandadbl/abbreviationsign/hyphentwo/nbhyphen/figuredash/endash/emdash/horizontalbar/quoteleft '/quotesinglbase "/quotedblleft/quotedblright/quotedblbase/bullet/ellipsis/hyphenationpoint/guilsinglleft/guilsinglright</string>
-    <string>/gha/gha.half/gha_aamatra/gha_imatra/gha_eematra/gha_aimatra 
-/dda/dda.half/dda_aamatra/dda_imatra/dda_eematra/dda_aimatra/dda_aumatra/space/aumatra 
-/nga/nga.half/nga_aamatra/nga_imatra/nga_eematra/nga_aimatra/nga</string>
+    <string>/cha/imatra/space/da/iimatra/space/cha/umatra/space/ka/uumatra 
+/la/umatra/ma/umatra/kha/umatra/ca/umatra/tha/umatra 
+/ca/iimatra/cha/iimatra/ma/iimatra/sa/iimatra/bha/iimatra 
+/cha/uumatra/ca/uumatra/la/uumatra/ra/uumatra/ha/uumatra</string>
+    <string>/ya/ya.half/ya_aamatra/ya_imatra/space/va/va.half/va_aamatra/va_imatra/space/ba/ba.half/ba_aamatra/ba_imatra/space/bha/bha.half/bha_aamatra/bha_imatra/space/ma/ma.half/ma_aamatra/ma_imatra/space/ka/ka.half/ka_aamatra/ka_imatra/space/kha/kha.half/kha_aamatra/kha_imatra/space/ta/ta.half/ta_aamatra/ta_imatra/space/tha/tha.half/tha_aamatra/tha_imatra/space/la/la.half/la_aamatra/la_imatra/space/ga/ga.half/ga_aamatra/ga_imatra/space/gha/gha.half/gha_aamatra/gha_imatra/gha_eematra/gha_aimatra/space/da/da.half/da_aamatra/da_imatra/space/dha/dha.half/dha_aamatra/dha_imatra/space/na/na.half/na_aamatra/na_imatra/space/ca/ca.half/ca_aamatra/ca_imatra/space/cha/cha.half/cha_aamatra/cha_imatra/space/tta/tta.half/tta_aamatra/tta_imatra/space/ttha/ttha.half/ttha_aamatra/ttha_imatra/space/lla/lla.half/lla_aamatra/lla_imatra/space/ja/ja.half/ja_aamatra/ja_imatra/space/jha/jha.half/jha_aamatra/jha_imatra/space/dda/dda.half/dda_aamatra/dda_imatra/dda_eematra/dda_aimatra/dda_aumatra/space/ddha/ddha.half/ddha_aamatra/ddha_imatra/space/nga/nga.half/nga_aamatra/nga_imatra/nga_eematra/nga_aimatra/space/pa/pa.half/pa_aamatra/pa_imatra/space/pha/pha.half/pha_aamatra/pha_imatra/space/ha/ha.half/ha_aamatra/ha_imatra/space/ra/ra.half/ra_aamatra/ra_imatra/space/sa/sa.half/sa_aamatra/sa_imatra</string>
+    <string>/ya/umatra/va/umatra/ba/umatra/bha/umatra/ma/umatra/ka/umatra/kha/umatra/ta/umatra/tha/umatra/la/umatra 
+/ga/umatra/gha/umatra/da/umatra/dha/umatra/na/umatra/ca/umatra/cha/umatra/tta/umatra/ttha/umatra/lla/umatra/ja/umatra/jha/umatra/dda/umatra/ddha/umatra/nga/umatra/pa/umatra/pha/umatra/ha/umatra/ra/umatra/sa/umatra</string>
+    <string>/ya/iimatra/va/iimatra/ba/iimatra/bha/iimatra/ma/iimatra/ka/iimatra/kha/iimatra/ta/iimatra/tha/iimatra 
+/la/iimatra/ga/iimatra/gha/iimatra/da/iimatra/dha/iimatra/na/iimatra/ca/iimatra/cha/iimatra/tta/iimatra/space/ttha/iimatra/lla/iimatra/ja/iimatra/jha/iimatra/dda/iimatra/ddha/iimatra/nga/iimatra/pa/iimatra/pha/iimatra/ha/iimatra/ra/iimatra/sa/iimatra</string>
+    <string>/ya/uumatra/va/uumatra/ba/uumatra/bha/uumatra/ma/uumatra/ka/uumatra/kha/uumatra/ta/uumatra/tha/uumatra/la/uumatra/space/ga/uumatra/gha/uumatra/da/uumatra/dha/uumatra/na/uumatra/ca/uumatra/cha/uumatra/tta/uumatra/ttha/uumatra/lla/uumatra/ja/uumatra/jha/uumatra/dda/uumatra/ddha/uumatra/nga/uumatra/pa/uumatra/pha/uumatra/ha/uumatra/ra/uumatra/sa/uumatra</string>
+    <string>/uvowel/aamatra/uuvowel/bha</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

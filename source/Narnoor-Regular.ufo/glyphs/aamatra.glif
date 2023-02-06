@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aamatra" format="2">
-  <advance width="414"/>
+  <advance width="423"/>
   <unicode hex="11D8A"/>
   <anchor x="309" y="645" name="A"/>
   <anchor x="16" y="645" name="C"/>
@@ -43,8 +43,8 @@
     </contour>
     <contour>
       <point x="-19" y="599" type="line"/>
-      <point x="433" y="599" type="line"/>
-      <point x="433" y="645" type="line"/>
+      <point x="442" y="599" type="line"/>
+      <point x="442" y="645" type="line"/>
       <point x="-19" y="645" type="line"/>
     </contour>
   </outline>

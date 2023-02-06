@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bha" format="2">
-  <advance width="1020"/>
+  <advance width="1039"/>
   <unicode hex="11D6F"/>
   <anchor x="915" y="645" name="A"/>
   <anchor x="949" y="645" name="M"/>
@@ -83,8 +83,8 @@
     </contour>
     <contour>
       <point x="-19" y="599" type="line"/>
-      <point x="1039" y="599" type="line"/>
-      <point x="1039" y="645" type="line"/>
+      <point x="1058" y="599" type="line"/>
+      <point x="1058" y="645" type="line"/>
       <point x="-19" y="645" type="line"/>
     </contour>
   </outline>

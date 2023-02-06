@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tha" format="2">
-  <advance width="1002"/>
+  <advance width="1021"/>
   <unicode hex="11D74"/>
   <anchor x="897" y="645" name="A"/>
   <anchor x="931" y="645" name="M"/>
@@ -99,8 +99,8 @@
     </contour>
     <contour>
       <point x="406" y="599" type="line"/>
-      <point x="1021" y="599" type="line"/>
-      <point x="1021" y="645" type="line"/>
+      <point x="1040" y="599" type="line"/>
+      <point x="1040" y="645" type="line"/>
       <point x="406" y="645" type="line"/>
     </contour>
   </outline>
