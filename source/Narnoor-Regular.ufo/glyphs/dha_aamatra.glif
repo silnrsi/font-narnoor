@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dha_aamatra" format="2">
   <advance width="1051"/>
-  <anchor x="946" y="645" name="A"/>
+  <anchor x="961" y="645" name="A"/>
   <anchor x="960" y="645" name="M"/>
   <outline>
     <contour>
@@ -43,16 +43,16 @@
       <point x="771" y="174"/>
       <point x="771" y="229" type="curve" smooth="yes"/>
       <point x="771" y="375"/>
-      <point x="1001" y="360"/>
-      <point x="1001" y="544" type="curve" smooth="yes"/>
-      <point x="1001" y="570"/>
+      <point x="999" y="360"/>
+      <point x="999" y="544" type="curve" smooth="yes"/>
+      <point x="999" y="570"/>
       <point x="999" y="586"/>
-      <point x="995" y="610" type="curve"/>
-      <point x="917" y="610" type="line"/>
-      <point x="922" y="603"/>
-      <point x="929" y="568"/>
-      <point x="929" y="551" type="curve" smooth="yes"/>
-      <point x="929" y="402"/>
+      <point x="997" y="610" type="curve"/>
+      <point x="924" y="610" type="line"/>
+      <point x="926" y="594"/>
+      <point x="927" y="568"/>
+      <point x="927" y="551" type="curve" smooth="yes"/>
+      <point x="927" y="402"/>
       <point x="698" y="412"/>
       <point x="698" y="227" type="curve" smooth="yes"/>
       <point x="698" y="124"/>

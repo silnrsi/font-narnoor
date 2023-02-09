@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lla_aamatra" format="2">
   <advance width="901"/>
-  <anchor x="796" y="645" name="A"/>
+  <anchor x="811" y="645" name="A"/>
   <anchor x="810" y="645" name="M"/>
   <outline>
     <contour>
@@ -62,11 +62,11 @@
       <point x="851" y="360"/>
       <point x="851" y="544" type="curve" smooth="yes"/>
       <point x="851" y="570"/>
-      <point x="849" y="586"/>
-      <point x="845" y="610" type="curve"/>
-      <point x="767" y="610" type="line"/>
-      <point x="772" y="603"/>
-      <point x="779" y="568"/>
+      <point x="850" y="596"/>
+      <point x="849" y="610" type="curve"/>
+      <point x="776" y="610" type="line"/>
+      <point x="777" y="599"/>
+      <point x="779" y="575"/>
       <point x="779" y="551" type="curve" smooth="yes"/>
       <point x="779" y="402"/>
       <point x="548" y="412"/>

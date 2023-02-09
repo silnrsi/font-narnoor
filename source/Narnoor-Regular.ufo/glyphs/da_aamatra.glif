@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="da_aamatra" format="2">
   <advance width="1140"/>
-  <anchor x="1035" y="645" name="A"/>
+  <anchor x="1026" y="645" name="A"/>
   <anchor x="1056" y="645" name="M"/>
   <outline>
     <contour>

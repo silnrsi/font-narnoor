@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kha_aamatra" format="2">
   <advance width="1134"/>
-  <anchor x="1029" y="645" name="A"/>
+  <anchor x="1020" y="645" name="A"/>
   <anchor x="1040" y="645" name="M"/>
   <outline>
     <contour>

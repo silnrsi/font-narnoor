@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ca_imatra" format="2">
   <advance width="998"/>
-  <anchor x="993" y="645" name="A"/>
+  <anchor x="1003" y="655" name="A"/>
   <outline>
     <component base="_imatra-hook" xOffset="629"/>
     <contour>

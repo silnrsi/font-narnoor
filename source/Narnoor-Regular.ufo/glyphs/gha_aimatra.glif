@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gha_aimatra" format="2">
   <advance width="880"/>
-  <anchor x="875" y="645" name="A"/>
+  <anchor x="881" y="652" name="A"/>
   <outline>
     <contour>
       <point x="752" y="628" type="curve"/>

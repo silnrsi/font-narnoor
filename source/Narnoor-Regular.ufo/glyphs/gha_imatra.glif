@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gha_imatra" format="2">
   <advance width="1094"/>
-  <anchor x="1089" y="645" name="A"/>
+  <anchor x="1099" y="655" name="A"/>
   <outline>
     <component base="_imatra-hook" xOffset="725" yOffset="-122"/>
     <contour>
@@ -140,8 +140,8 @@
       <point x="966" y="509"/>
     </contour>
     <contour>
-      <point x="422" y="598" type="line"/>
-      <point x="1113" y="598" type="line"/>
+      <point x="422" y="599" type="line"/>
+      <point x="1113" y="599" type="line"/>
       <point x="1113" y="645" type="line"/>
       <point x="422" y="645" type="line"/>
     </contour>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ca_aamatra" format="2">
   <advance width="968"/>
-  <anchor x="863" y="645" name="A"/>
-  <anchor x="877" y="645" name="M"/>
+  <anchor x="879" y="645" name="A"/>
+  <anchor x="878" y="645" name="M"/>
   <outline>
     <contour>
       <point x="398" y="-1" type="curve" smooth="yes"/>
@@ -60,14 +60,14 @@
       <point x="688" y="229" type="curve" smooth="yes"/>
       <point x="688" y="375"/>
       <point x="918" y="360"/>
-      <point x="918" y="544" type="curve" smooth="yes"/>
-      <point x="918" y="570"/>
-      <point x="916" y="589"/>
-      <point x="912" y="613" type="curve"/>
-      <point x="834" y="613" type="line"/>
-      <point x="839" y="606"/>
-      <point x="846" y="568"/>
-      <point x="846" y="551" type="curve" smooth="yes"/>
+      <point x="918" y="545" type="curve" smooth="yes"/>
+      <point x="918" y="575"/>
+      <point x="917" y="595"/>
+      <point x="916" y="613" type="curve"/>
+      <point x="843" y="613" type="line"/>
+      <point x="844" y="599"/>
+      <point x="846" y="573"/>
+      <point x="846" y="552" type="curve" smooth="yes"/>
       <point x="846" y="402"/>
       <point x="615" y="412"/>
       <point x="615" y="227" type="curve" smooth="yes"/>

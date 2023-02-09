@@ -2,7 +2,7 @@
 <glyph name="cha" format="2">
   <advance width="677"/>
   <unicode hex="11D7C"/>
-  <anchor x="572" y="645" name="A"/>
+  <anchor x="585" y="645" name="A"/>
   <anchor x="587" y="645" name="M"/>
   <outline>
     <contour>
