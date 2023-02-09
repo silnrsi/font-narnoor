@@ -2,7 +2,7 @@
 <glyph name="uuvowel" format="2">
   <advance width="773"/>
   <unicode hex="11D65"/>
-  <anchor x="668" y="645" name="A"/>
+  <anchor x="688" y="645" name="A"/>
   <outline>
     <component base="aamatra" xOffset="359"/>
     <contour>

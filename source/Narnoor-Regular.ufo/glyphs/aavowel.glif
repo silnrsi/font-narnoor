@@ -2,7 +2,7 @@
 <glyph name="aavowel" format="2">
   <advance width="1092"/>
   <unicode hex="11D61"/>
-  <anchor x="987" y="645" name="A"/>
+  <anchor x="747" y="645" name="A"/>
   <outline>
     <contour>
       <point x="538" y="-2" type="curve" smooth="yes"/>

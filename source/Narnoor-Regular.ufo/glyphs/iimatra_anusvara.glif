@@ -3,7 +3,7 @@
   <advance width="431"/>
   <anchor x="-137" y="645" name="C"/>
   <outline>
-    <component base="anusvara" xOffset="341" yOffset="-30"/>
+    <component base="anusvara" xOffset="359" yOffset="-69"/>
     <component base="iimatra"/>
   </outline>
   <lib>
