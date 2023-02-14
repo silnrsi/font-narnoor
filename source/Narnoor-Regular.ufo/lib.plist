@@ -18,6 +18,7 @@
     <string>/ya/va/ba/bha/ma/ka/kha/ta/tha/la/ga/gha/da/dha/na/ca/cha/tta/ttha/lla/ja/jha/dda/ddha/nga/pa/pha/ha/ra/sa</string>
     <string>/gha_eematra/gha_aimatra/dda_eematra/dda_aimatra/dda_aumatra/nga_eematra/nga_aimatra</string>
     <string>/bha_aamatra/ma_aamatra/ta_aamatra/tha_aamatra/ga_aamatra/gha_aamatra/dha_aamatra/ca_aamatra/lla_aamatra/ja_aamatra/jha_aamatra/dda_aamatra/ddha_aamatra/nga_aamatra/pha_aamatra/ha_aamatra</string>
+    <string>/da_imatra/tta_imatra/ttha_imatra/sa_imatra/space/space/jha_imatra/dda_imatra</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
