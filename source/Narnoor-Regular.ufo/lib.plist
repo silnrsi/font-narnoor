@@ -521,13 +521,10 @@
     <string>aamatra</string>
     <string>imatra</string>
     <string>iimatra</string>
-    <string>iimatra_anusvara</string>
     <string>umatra</string>
     <string>uumatra</string>
     <string>eematra</string>
-    <string>eematra_anusvara</string>
     <string>aimatra</string>
-    <string>aimatra_anusvara</string>
     <string>oomatra</string>
     <string>aumatra</string>
     <string>anusvara</string>
@@ -602,8 +599,6 @@
     <string>acutecomb.cap</string>
     <key>aimatra</key>
     <string>u11D91</string>
-    <key>aimatra_anusvara</key>
-    <string>u11D91_u11D95</string>
     <key>aivowel</key>
     <string>u11D68</string>
     <key>anusvara</key>
@@ -714,8 +709,6 @@
     <string>uni25CC</string>
     <key>eematra</key>
     <string>u11D90</string>
-    <key>eematra_anusvara</key>
-    <string>u11D90_u11D95</string>
     <key>eevowel</key>
     <string>u11D67</string>
     <key>eightgong</key>
@@ -788,8 +781,6 @@
     <string>uni2010</string>
     <key>iimatra</key>
     <string>u11D8C</string>
-    <key>iimatra_anusvara</key>
-    <string>u11D8C_u11D95</string>
     <key>iivowel</key>
     <string>u11D63</string>
     <key>imatra</key>
