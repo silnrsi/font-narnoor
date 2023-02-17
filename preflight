@@ -14,4 +14,4 @@ psfbuildcomp -i source/composites.txt --colors g_yellow -n source/Narnoor-Regula
 psfmakewoffmetadata -n narnoor -i org.sil.fonts -o source/Narnoor-WOFF-metadata.xml source/Narnoor-Regular.ufo
 
 # Update FEA in UFO
-psfmakefea -o source/Narnoor-Regular.ufo/features.fea -i source/master.feax -L last -c source/classes.xml source/Narnoor-Regular.ufo
+psfmakefea -o source/Narnoor-Regular.ufo/features.fea -i source/master.feax -L last --omitaps "C" source/Narnoor-Regular.ufo
