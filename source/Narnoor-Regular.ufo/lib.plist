@@ -309,6 +309,7 @@
     <string>hairspace</string>
     <string>zwsp</string>
     <string>zwnj</string>
+    <string>zwnj.visible</string>
     <string>zwj</string>
     <string>hyphentwo</string>
     <string>nbhyphen</string>
@@ -382,14 +383,17 @@
     <string>objectReplacementCharacter</string>
     <string>replacementCharacter</string>
     <string>avowel</string>
+    <string>avowel.chandrabindu</string>
     <string>aavowel</string>
     <string>ivowel</string>
     <string>iivowel</string>
     <string>uvowel</string>
     <string>uuvowel</string>
     <string>eevowel</string>
+    <string>eevowel.short</string>
     <string>aivowel</string>
     <string>oovowel</string>
+    <string>oovowel.short</string>
     <string>auvowel</string>
     <string>ya</string>
     <string>ya.half</string>
@@ -415,6 +419,8 @@
     <string>ka.half</string>
     <string>ka_aamatra</string>
     <string>ka_imatra</string>
+    <string>ka_virama_jha</string>
+    <string>ka_virama_sa</string>
     <string>kha</string>
     <string>kha.half</string>
     <string>kha_aamatra</string>
@@ -428,7 +434,9 @@
     <string>tha_aamatra</string>
     <string>tha_imatra</string>
     <string>la</string>
+    <string>la.dot</string>
     <string>la.half</string>
+    <string>la.half.dot</string>
     <string>la_aamatra</string>
     <string>la_imatra</string>
     <string>ga</string>
@@ -493,7 +501,9 @@
     <string>ddha_aamatra</string>
     <string>ddha_imatra</string>
     <string>nga</string>
+    <string>nga.dot</string>
     <string>nga.half</string>
+    <string>nga.half.dot</string>
     <string>nga_aamatra</string>
     <string>nga_imatra</string>
     <string>nga_eematra</string>
@@ -511,25 +521,42 @@
     <string>ha_aamatra</string>
     <string>ha_imatra</string>
     <string>ra</string>
+    <string>ra.dot</string>
     <string>ra.half</string>
+    <string>ra.half.dot</string>
     <string>ra_aamatra</string>
     <string>ra_imatra</string>
+    <string>ra_umatra.dot</string>
+    <string>ra_uumatra.dot</string>
     <string>sa</string>
+    <string>sa.2dots</string>
+    <string>sa.dot</string>
     <string>sa.half</string>
+    <string>sa.half.2dots</string>
+    <string>sa.half.dot</string>
     <string>sa_aamatra</string>
     <string>sa_imatra</string>
     <string>aamatra</string>
     <string>imatra</string>
+    <string>imatra.short</string>
     <string>iimatra</string>
+    <string>iimatra_anusvara</string>
     <string>umatra</string>
     <string>uumatra</string>
     <string>eematra</string>
+    <string>eematra.short</string>
+    <string>eematra_anusvara</string>
+    <string>eematra_anusvara.short</string>
     <string>aimatra</string>
+    <string>aimatra_anusvara</string>
     <string>oomatra</string>
+    <string>oomatra.short</string>
+    <string>oomatra_anusvara.short</string>
     <string>aumatra</string>
     <string>anusvara</string>
     <string>visarga</string>
     <string>virama</string>
+    <string>virama.alt</string>
     <string>om</string>
     <string>zerogong</string>
     <string>onegong</string>
@@ -587,6 +614,8 @@
     <string>uniFE07</string>
     <key>VS9</key>
     <string>uniFE08</string>
+    <key>_imatra-hook</key>
+    <string>_imatrahook</string>
     <key>aamatra</key>
     <string>u11D8A</string>
     <key>aavowel</key>
@@ -599,6 +628,8 @@
     <string>acutecomb.cap</string>
     <key>aimatra</key>
     <string>u11D91</string>
+    <key>aimatra_anusvara</key>
+    <string>u11D91_u11D95</string>
     <key>aivowel</key>
     <string>u11D68</string>
     <key>anusvara</key>
@@ -609,6 +640,8 @@
     <string>u11D6B</string>
     <key>avowel</key>
     <string>u11D60</string>
+    <key>avowel.chandrabindu</key>
+    <string>u11D60.chandrabindu</string>
     <key>ba</key>
     <string>u11D6E</string>
     <key>ba.half</key>
@@ -709,8 +742,16 @@
     <string>uni25CC</string>
     <key>eematra</key>
     <string>u11D90</string>
+    <key>eematra.short</key>
+    <string>u11D90.short</string>
+    <key>eematra_anusvara</key>
+    <string>u11D90_u11D95</string>
+    <key>eematra_anusvara.short</key>
+    <string>u11D90_u11D95.short</string>
     <key>eevowel</key>
     <string>u11D67</string>
+    <key>eevowel.short</key>
+    <string>u11D67.short</string>
     <key>eightgong</key>
     <string>u11DA8</string>
     <key>emquad</key>
@@ -781,10 +822,14 @@
     <string>uni2010</string>
     <key>iimatra</key>
     <string>u11D8C</string>
+    <key>iimatra_anusvara</key>
+    <string>u11D8C_u11D95</string>
     <key>iivowel</key>
     <string>u11D63</string>
     <key>imatra</key>
     <string>u11D8B</string>
+    <key>imatra.short</key>
+    <string>u11D8B.short</string>
     <key>inrupee</key>
     <string>uni20B9</string>
     <key>ivowel</key>
@@ -813,6 +858,10 @@
     <string>u11D71_u11D8A</string>
     <key>ka_imatra</key>
     <string>u11D71_u11D8B</string>
+    <key>ka_virama_jha</key>
+    <string>u11D71_u11D97_u11D81</string>
+    <key>ka_virama_sa</key>
+    <string>u11D71_u11D97_u11D89</string>
     <key>kha</key>
     <string>u11D72</string>
     <key>kha.half</key>
@@ -823,8 +872,12 @@
     <string>u11D72_u11D8B</string>
     <key>la</key>
     <string>u11D75</string>
+    <key>la.dot</key>
+    <string>u11D75.dot</string>
     <key>la.half</key>
     <string>u11D75.half</string>
+    <key>la.half.dot</key>
+    <string>u11D75.half.dot</string>
     <key>la_aamatra</key>
     <string>u11D75_u11D8A</string>
     <key>la_imatra</key>
@@ -861,8 +914,12 @@
     <string>uni00A0</string>
     <key>nga</key>
     <string>u11D84</string>
+    <key>nga.dot</key>
+    <string>u11D84.dot</string>
     <key>nga.half</key>
     <string>u11D84.half</string>
+    <key>nga.half.dot</key>
+    <string>u11D84.half.dot</string>
     <key>nga_aamatra</key>
     <string>u11D84_u11D8A</string>
     <key>nga_aimatra</key>
@@ -885,8 +942,14 @@
     <string>uni00B9</string>
     <key>oomatra</key>
     <string>u11D93</string>
+    <key>oomatra.short</key>
+    <string>u11D93.short</string>
+    <key>oomatra_anusvara.short</key>
+    <string>u11D93_u11D95.short</string>
     <key>oovowel</key>
     <string>u11D6A</string>
+    <key>oovowel.short</key>
+    <string>u11D6A.short</string>
     <key>openbox</key>
     <string>uni2423</string>
     <key>pa</key>
@@ -911,12 +974,20 @@
     <string>uni2008</string>
     <key>ra</key>
     <string>u11D88</string>
+    <key>ra.dot</key>
+    <string>u11D88.dot</string>
     <key>ra.half</key>
     <string>u11D88.half</string>
+    <key>ra.half.dot</key>
+    <string>u11D88.half.dot</string>
     <key>ra_aamatra</key>
     <string>u11D88_u11D8A</string>
     <key>ra_imatra</key>
     <string>u11D88_u11D8B</string>
+    <key>ra_umatra.dot</key>
+    <string>u11D88_u11D8D.dot</string>
+    <key>ra_uumatra.dot</key>
+    <string>u11D88_u11D8E.dot</string>
     <key>replacementCharacter</key>
     <string>uniFFFD</string>
     <key>ringcmb</key>
@@ -927,8 +998,16 @@
     <string>uni20A8</string>
     <key>sa</key>
     <string>u11D89</string>
+    <key>sa.2dots</key>
+    <string>u11D89.2dots</string>
+    <key>sa.dot</key>
+    <string>u11D89.dot</string>
     <key>sa.half</key>
     <string>u11D89.half</string>
+    <key>sa.half.2dots</key>
+    <string>u11D89.half.2dots</string>
+    <key>sa.half.dot</key>
+    <string>u11D89.half.dot</string>
     <key>sa_aamatra</key>
     <string>u11D89_u11D8A</string>
     <key>sa_imatra</key>
@@ -1011,6 +1090,8 @@
     <string>u11D6D_u11D8B</string>
     <key>virama</key>
     <string>u11D97</string>
+    <key>virama.alt</key>
+    <string>u11D97.alt</string>
     <key>visarga</key>
     <string>u11D96</string>
     <key>wj</key>
@@ -1031,6 +1112,8 @@
     <string>uniFEFF</string>
     <key>zwnj</key>
     <string>uni200C</string>
+    <key>zwnj.visible</key>
+    <string>uni200C.visible</string>
     <key>zwsp</key>
     <string>uni200B</string>
   </dict>
@@ -1064,6 +1147,28 @@
     <string>iimatra_anusvara</string>
     <string>eematra_anusvara</string>
     <string>aimatra_anusvara</string>
+    <string>_dot</string>
+    <string>_imatra-hook</string>
+    <string>zero.dnom</string>
+    <string>a.sups</string>
+    <string>acutecmb.cap</string>
+    <string>brevecmb</string>
+    <string>dotaccentcmb</string>
+    <string>four.dnom</string>
+    <string>gravecmb.cap</string>
+    <string>hungarumlautcmb</string>
+    <string>macroncmb</string>
+    <string>o.sups</string>
+    <string>ogonekcmb</string>
+    <string>one.dnom</string>
+    <string>three.dnom</string>
+    <string>tildecmb.cap</string>
+    <string>two.dnom</string>
+    <string>circumflexcmb.cap</string>
+    <string>dieresiscmb.cap</string>
+    <string>ringcmb.cap</string>
+    <string>caroncmb.cap</string>
+    <string>cedillacmb.cap</string>
   </array>
 </dict>
 </plist>
