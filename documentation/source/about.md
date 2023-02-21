@@ -1,6 +1,6 @@
 ---
 title: Narnoor - About
-fontversion: 2.000
+fontversion: 2.100
 ---
 
 ![Narnoor - Banner](assets/images/narnoor_banner.png){.fullsize}

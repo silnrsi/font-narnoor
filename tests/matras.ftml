@@ -5,7 +5,6 @@
     <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
     <fontscale>200</fontscale>
     <fontsrc label="refR">url(../references/Narnoor-Regular.ttf)</fontsrc>
-    <fontsrc label="refRv1">url(../references/NarnoorV1-Regular.ttf)</fontsrc>
     <fontsrc label="R">url(../results/Narnoor-Regular.ttf)</fontsrc>
     <fontsrc label="noto">url(../references/NotoSansGunjalaGondi-Regular.ttf)</fontsrc>
     <title>Matras auto</title>

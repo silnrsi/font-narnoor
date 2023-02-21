@@ -1,4 +1,4 @@
-fontversion: 2.000
+fontversion: 2.100
 
 - Redraw all Gunjala Gondi glyphs
 - Replace Latin characters with Source Sans

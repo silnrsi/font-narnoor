@@ -1,6 +1,6 @@
 ---
 title: Narnoor - Versions and Changes
-fontversion: 2.000
+fontversion: 2.100
 ---
 
 ## Announcement list

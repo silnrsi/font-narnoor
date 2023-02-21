@@ -5,7 +5,6 @@
     <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
     <fontscale>200</fontscale>
     <fontsrc label="refR">url(../references/Narnoor-Regular.ttf)</fontsrc>
-    <fontsrc label="refRv1">url(../references/NarnoorV1-Regular.ttf)</fontsrc>
     <fontsrc label="R">url(../results/Narnoor-Regular.ttf)</fontsrc>
     <fontsrc label="noto">url(../references/NotoSansGunjalaGondi-Regular.ttf)</fontsrc>
     <title>AllChars auto</title>
@@ -51,35 +50,23 @@
       <comment>breve</comment>
       <string>\u0002D8 \u0002D9 \u0002DA \u0002DB \u0002DC \u0002DD</string>
     </test>
-    <test background="#f0fff0" label="U+0300">
+    <test label="U+0300">
       <comment>gravecmb</comment>
-      <string>\u011D6C\u000300</string>
+      <string>\u011D6C\u000300 \u011D6C\u000301 \u011D6C\u000302 \u011D6C\u000303</string>
     </test>
-    <test background="#f0fff0" label="U+0301">
-      <comment>acutecmb</comment>
-      <string>\u011D6C\u000301</string>
-    </test>
-    <test background="#f0fff0" label="U+0302">
-      <comment>circumflexcmb</comment>
-      <string>\u011D6C\u000302</string>
-    </test>
-    <test background="#f0fff0" label="U+0303">
-      <comment>tildecmb</comment>
-      <string>\u011D6C\u000303</string>
-    </test>
-    <test background="#f0fff0" label="U+0308">
+    <test label="U+0308">
       <comment>dieresiscmb</comment>
       <string>\u011D6C\u000308</string>
     </test>
-    <test background="#f0fff0" label="U+030A">
+    <test label="U+030A">
       <comment>ringcmb</comment>
       <string>\u011D6C\u00030A</string>
     </test>
-    <test background="#f0fff0" label="U+030C">
+    <test label="U+030C">
       <comment>caroncmb</comment>
       <string>\u011D6C\u00030C</string>
     </test>
-    <test background="#f0fff0" label="U+0327">
+    <test label="U+0327">
       <comment>cedillacmb</comment>
       <string>\u011D6C\u000327</string>
     </test>
@@ -87,7 +74,7 @@
       <comment>cgj</comment>
       <string>\u011D6C\u00034F</string>
     </test>
-    <test background="#f0fff0" label="U+03A9">
+    <test label="U+03A9">
       <comment>Omegagreek</comment>
       <string>\u0003A9</string>
     </test>
@@ -143,7 +130,7 @@
       <comment>wj</comment>
       <string>\u002060</string>
     </test>
-    <test background="#f0fff0" label="U+2074">
+    <test label="U+2074">
       <comment>foursuperior</comment>
       <string>\u002074</string>
     </test>
@@ -183,7 +170,7 @@
       <comment>summation</comment>
       <string>\u002211 \u002212</string>
     </test>
-    <test background="#f0fff0" label="U+2215">
+    <test label="U+2215">
       <comment>divisionslash</comment>
       <string>\u002215</string>
     </test>
@@ -211,7 +198,7 @@
       <comment>lessequal</comment>
       <string>\u002264 \u002265</string>
     </test>
-    <test background="#f0fff0" label="U+2423">
+    <test label="U+2423">
       <comment>openbox</comment>
       <string>\u002423</string>
     </test>
@@ -223,13 +210,9 @@
       <comment>dottedcircle</comment>
       <string>\u0025CC</string>
     </test>
-    <test background="#f0fff0" label="U+F130">
+    <test label="U+F130">
       <comment>sidebearingleft</comment>
-      <string>\u00F130</string>
-    </test>
-    <test background="#f0fff0" label="U+F131">
-      <comment>sidebearingright</comment>
-      <string>\u00F131</string>
+      <string>\u00F130 \u00F131</string>
     </test>
     <test label="U+FB01">
       <comment>fi</comment>
@@ -332,6 +315,18 @@ U+11D8A">
 U+11D8B">
       <comment>ka imatra</comment>
       <string>\u011D71\u011D8B</string>
+    </test>
+    <test label="U+11D71
+U+11D97
+U+11D81">
+      <comment>ka virama jha</comment>
+      <string>\u011D71\u011D97\u011D81</string>
+    </test>
+    <test label="U+11D71
+U+11D97
+U+11D89">
+      <comment>ka virama sa</comment>
+      <string>\u011D71\u011D97\u011D89</string>
     </test>
     <test label="U+11D72
 U+11D8A">

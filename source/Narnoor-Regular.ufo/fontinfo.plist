@@ -168,7 +168,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Narnoor Regular: 2023</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.000</string>
+  <string>Version 2.100</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -274,7 +274,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>2</integer>
   <key>versionMinor</key>
-  <integer>0</integer>
+  <integer>100</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>
