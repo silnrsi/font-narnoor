@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nga.half.dot" format="2">
+  <advance width="759"/>
+  <anchor x="623" y="645" name="M"/>
+  <outline>
+    <component base="nga.half"/>
+    <component base="_dot" xOffset="-10" yOffset="58"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

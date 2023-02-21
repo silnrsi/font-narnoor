@@ -25,7 +25,7 @@
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.uniqueID</key>
-  <string>SIL International: Narnoor Regular: 2022</string>
+  <string>SIL International: Narnoor Regular: 2023</string>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
@@ -1150,25 +1150,6 @@
     <string>_dot</string>
     <string>_imatra-hook</string>
     <string>zero.dnom</string>
-    <string>a.sups</string>
-    <string>acutecmb.cap</string>
-    <string>brevecmb</string>
-    <string>dotaccentcmb</string>
-    <string>four.dnom</string>
-    <string>gravecmb.cap</string>
-    <string>hungarumlautcmb</string>
-    <string>macroncmb</string>
-    <string>o.sups</string>
-    <string>ogonekcmb</string>
-    <string>one.dnom</string>
-    <string>three.dnom</string>
-    <string>tildecmb.cap</string>
-    <string>two.dnom</string>
-    <string>circumflexcmb.cap</string>
-    <string>dieresiscmb.cap</string>
-    <string>ringcmb.cap</string>
-    <string>caroncmb.cap</string>
-    <string>cedillacmb.cap</string>
   </array>
 </dict>
 </plist>

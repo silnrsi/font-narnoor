@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colon" format="2">
+  <advance width="321"/>
+  <unicode hex="003A"/>
+  <outline>
+    <component base="period" xOffset="47" yOffset="321"/>
+    <component base="period" xOffset="49" yOffset="-4"/>
+  </outline>
+</glyph>

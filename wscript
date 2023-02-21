@@ -10,7 +10,7 @@ FAMILY = APPNAME
 DESC_SHORT = "Font for the Gunjala Gondi script"
 
 # Get version and authorship information from Regular UFO (canonical metadata); must be first function call:
-getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
+getufoinfo('source/masters/' + FAMILY + '-Regular' + '.ufo')
 # BUILDLABEL = 'beta1'
 
 # Set up the FTML tests
@@ -20,12 +20,12 @@ omitaps = '--omitaps "C"'
 generated = 'generated/'
 
 # set up the build parameters from the designspace file(s)
-for dspace in ('Roman',):
+for dspace in ('',):
     designspace('source/' + FAMILY + dspace + '.designspace',
                 target = process('${DS:FILENAME_BASE}.ttf',
-                    cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
+                    cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}'])
                 ),
-                params = '--decomposeComponents --removeOverlaps',
+                # params = '--decomposeComponents --removeOverlaps',
                 opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
                     mapfile = generated + '${DS:FILENAME_BASE}.map',
                     master = 'source/master.feax',

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oomatra.short" format="2">
+  <advance width="427"/>
+  <anchor x="-9" y="645" name="C"/>
+  <outline>
+    <component base="aamatra"/>
+    <contour>
+      <point x="295" y="629" type="line"/>
+      <point x="368" y="629" type="line"/>
+      <point x="368" y="897" type="line"/>
+      <point x="295" y="897" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

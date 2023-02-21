@@ -1,3 +1,3 @@
 #!/bin/sh
 
-psfufo2glyphs source/NarnoorRoman.designspace
+psfufo2glyphs --nofea source/Narnoor.designspace source/masters/Narnoor.glyphs

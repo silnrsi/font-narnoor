@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ra.dot" format="2">
+  <advance width="782"/>
+  <anchor x="685" y="645" name="M"/>
+  <outline>
+    <component base="ra"/>
+    <component base="_dot" xOffset="357" yOffset="58"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

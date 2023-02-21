@@ -1,4 +1,6 @@
 #!/bin/sh
 
-psffixffglifs -p checkfix=fix source/Narnoor-Regular.ufo
+psffixffglifs -p checkfix=fix source/masters/Narnoor-Regular.ufo   &
+psffixffglifs -p checkfix=fix source/masters/Narnoor-ExtraBold.ufo &
+wait
 ./preflight

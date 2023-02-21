@@ -1,17 +1,26 @@
 #!/bin/sh
 
 # This normalization will also run check and fix routines
-psfnormalize -v 3 -p checkfix=fix source/Narnoor-Regular.ufo
+psfnormalize -v 3 -p checkfix=fix source/masters/Narnoor-Regular.ufo   &
+psfnormalize -v 3 -p checkfix=fix source/masters/Narnoor-ExtraBold.ufo &
+wait
 
 # Apply glyph data to Regular UFO
-psfsetpsnames -i source/glyph_data.csv source/Narnoor-Regular.ufo
-psfsetglyphorder -i source/glyph_data.csv source/Narnoor-Regular.ufo # --header sort_design
+psfsetpsnames -i source/glyph_data.csv source/masters/Narnoor-Regular.ufo
+psfsetglyphorder -i source/glyph_data.csv source/masters/Narnoor-Regular.ufo # --header sort_design
+
+# Sync glyph orders, psnames, and other metadata
+psfsyncmasters --complex -q source/Narnoor.designspace
 
 # Rebuild composites
-psfbuildcomp -i source/composites.txt --colors g_yellow -n source/Narnoor-Regular.ufo
+psfbuildcomp -i source/composites.txt --colors g_yellow -n source/masters/Narnoor-Regular.ufo   &
+psfbuildcomp -i source/composites.txt --colors g_yellow -n source/masters/Narnoor-ExtraBold.ufo &
+wait
 
 # Create WOFF metadata file
-psfmakewoffmetadata -n narnoor -i org.sil.fonts -o source/Narnoor-WOFF-metadata.xml source/Narnoor-Regular.ufo
+psfmakewoffmetadata -n narnoor -i org.sil.fonts -o source/Narnoor-WOFF-metadata.xml source/masters/Narnoor-Regular.ufo
 
 # Update FEA in UFO
-psfmakefea -o source/Narnoor-Regular.ufo/features.fea -i source/master.feax -L last --omitaps "C" source/Narnoor-Regular.ufo
+psfmakefea -o source/masters/Narnoor-Regular.ufo/features.fea   -i source/master.feax -L last --omitaps "C" source/masters/Narnoor-Regular.ufo   &
+psfmakefea -o source/masters/Narnoor-ExtraBold.ufo/features.fea -i source/master.feax -L last --omitaps "C" source/masters/Narnoor-ExtraBold.ufo &
+wait
