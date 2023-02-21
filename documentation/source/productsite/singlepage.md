@@ -7,24 +7,7 @@ The Gunjala Gondi script is used by the [Gondi (Adilabad) language](https://www.
 
 *Narnoor* is a Unicode font based on typographer S. Sridhara Murthy’s original font for the Gunjala script. With the generous permission of CDAST at HCU we have re-engineered and released this font under the [SIL Open Font License (OFL)](https://scripts.sil.org/OFL). The name “Narnoor” reflects the name of the mandal in Adilabad district of Telangana, where the Gunjala Gondi script is actively being revived.
 
-### Supported character ranges
-
-Unicode block | Narnoor support
-------------- | ---------------
-Gunjala Gondi (complete)|U+11D60..U+11DA9
-Devanagari|U+0965..U+0965
-
-A selection of characters from various other Unicode blocks is included in Narnoor. The font also includes the legacy Rupee Sign (U+20A8) and the Indian Rupee Sign (U+20B9) from the Currency Symbols block. Some characters from the General Punctuation block, such as various-sized spaces, are also supported.
-
 This [Type Sample](https://software.sil.org/downloads/r/narnoor/Narnoor-Font-Sample.pdf) document demonstrates the characters and a sample text.
-
-## Rendering and application support
-
-The Narnoor font has been tested to work on Microsoft Word, Microsoft Edge, Notepad, LibreOffice, Firefox, and Adobe InDesign. There may be some settings which must be modified in order for the font to work. For example, in Microsoft Word, go to the *Font / Advanced* menu and select *Ligatures / All*. In Adobe InDesign, select *Paragraph / Adobe World-Ready Paragraph Composer*.
-
-Narnoor is designed to work with [Graphite](https://graphite.sil.org/) or OpenType advanced font technologies. To take advantage of the advanced typographic capabilities of this font, you must be using applications that provide an adequate level of support for Graphite or OpenType.
-
-The font has been tested in Microsoft Word, Notepad, LibreOffice, and Adobe InDesign. It also works in Microsoft Edge and Firefox.
 
 ## Data Conversion
 
@@ -58,11 +41,16 @@ These fonts are licensed under the [SIL Open Font License (OFL)](https://scripts
 
 [sil_download style="table" sort="name" where="info.type == 'font'"]
 
-### Release Notes for v1.000
+### Release Notes for v2.000
 
-- This font has both OpenType and Graphite smart positioning rules for conjuncts
-- Added Latin characters to support [Recommended characters for Non-Roman fonts](https://scriptsource.org/entry/gg5wm9hhd3)
-- Added Indic currency symbols U+20A8 and U+20B9
+- Redraw all Gunjala Gondi glyphs
+- Replace Latin characters with Source Sans
+- Remove Graphite shaping
+- Improve OpenType shaping
+
+### Previous Versions
+
+[sil_download style="table" sort="-date" where="info.type == 'prev font'"]
 
 [top]
 

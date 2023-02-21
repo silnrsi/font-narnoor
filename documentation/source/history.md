@@ -3,6 +3,15 @@ title: Narnoor - Version History
 fontversion: 2.000
 ---
 
+### 21 Feb 2023 (SIL International) Narnoor font version 2.000
+- Redraw all Gunjala Gondi glyphs
+- Resolve Font Bakery issues
+- Remove Graphite shaping
+- Improve OpenType shaping
+- Improve Gunjala Gondi glyphs
+- Replaced Latin characters with Source Sans Regular at 100%
+- Some geometric characters (U+2423, U+F130, U+F131) are from Andika Regular at 90%
+
 ### 01 Oct 2019 (SIL International) Narnoor font version 1.000
 - An extra attachment point class caused builds to be be non-deterministic,
   so that attachment point class is now excluded from the font build.
