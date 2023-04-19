@@ -186,7 +186,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass aivowel <anchor 727 662> @A;
 # baseClass aumatra <anchor 376 662> @A;
 # baseClass auvowel <anchor 797 662> @A;
-# baseClass avowel <anchor 673 645> @A;
+# baseClass avowel <anchor 733 655> @A;
 # baseClass ba <anchor 563 655> @A;
 # baseClass ba_aamatra <anchor 633 645> @A;
 # baseClass ba_imatra <anchor 1030 655> @A;
@@ -578,7 +578,7 @@ lookup BaseAnusvara {
     pos base aivowel <anchor 727 662> mark @_A;
     pos base aumatra <anchor 376 662> mark @_A;
     pos base auvowel <anchor 797 662> mark @_A;
-    pos base avowel <anchor 673 645> mark @_A;
+    pos base avowel <anchor 733 655> mark @_A;
     pos base ba <anchor 563 655> mark @_A;
     pos base ba_aamatra <anchor 633 645> mark @_A;
     pos base ba_imatra <anchor 1030 655> mark @_A;

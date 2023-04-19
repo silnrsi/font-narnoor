@@ -2,7 +2,7 @@
 <glyph name="avowel" format="2">
   <advance width="854"/>
   <unicode hex="11D60"/>
-  <anchor x="673" y="645" name="A"/>
+  <anchor x="733" y="655" name="A"/>
   <outline>
     <contour>
       <point x="604" y="-2" type="curve" smooth="yes"/>
@@ -25,8 +25,6 @@
       <point x="483" y="-2"/>
     </contour>
     <contour>
-      <point x="34" y="64"/>
-      <point x="137" y="-2"/>
       <point x="247" y="-2" type="curve" smooth="yes"/>
       <point x="329" y="-2"/>
       <point x="415" y="35"/>
@@ -51,6 +49,8 @@
       <point x="123" y="385"/>
       <point x="34" y="310"/>
       <point x="34" y="192" type="curve" smooth="yes"/>
+      <point x="34" y="64"/>
+      <point x="137" y="-2"/>
     </contour>
     <contour>
       <point x="-19" y="589" type="line"/>
