@@ -5,6 +5,8 @@
     <fontscale>200</fontscale>
     <fontsrc label="refR">url(../references/Narnoor-Regular.ttf)</fontsrc>
     <fontsrc label="R">url(../results/Narnoor-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/Narnoor-Bold.ttf)</fontsrc>
+    <fontsrc label="XB">url(../results/Narnoor-ExtraBold.ttf)</fontsrc>
     <fontsrc label="noto">url(../references/NotoSansGunjalaGondi-Regular.ttf)</fontsrc>
     <title>Issues</title>
   </head>

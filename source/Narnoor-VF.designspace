@@ -9,14 +9,6 @@
             <map input="800.0" output="800.0" />
             <labelname xml:lang="en">Weight</labelname>
         </axis>
-        <axis default="100.0" maximum="100.0" minimum="100.0" name="width" tag="wdth">
-            <map input="100.0" output="100.0" />
-            <labelname xml:lang="en">Width</labelname>
-        </axis>
-        <axis default="0.0" maximum="0.0" minimum="0.0" name="custom" tag="XXXX">
-            <map input="0.0" output="0.0" />
-            <labelname xml:lang="en">Custom</labelname>
-        </axis>
     </axes>
     <sources>
         <source familyname="Narnoor" filename="masters/Narnoor-Regular.ufo" name="Narnoor Regular" stylename="Regular">
@@ -26,51 +18,39 @@
             <info copy="1" />
             <location>
                 <dimension name="weight" xvalue="400.0" />
-                <dimension name="width" xvalue="100.0" />
-                <dimension name="custom" xvalue="0.0" />
             </location>
         </source>
         <source familyname="Narnoor" filename="masters/Narnoor-ExtraBold.ufo" name="Narnoor ExtraBold" stylename="ExtraBold">
             <location>
                 <dimension name="weight" xvalue="800.0" />
-                <dimension name="width" xvalue="100.0" />
-                <dimension name="custom" xvalue="0.0" />
             </location>
         </source>
     </sources>
     <instances>
-        <instance familyname="Narnoor" filename="instances/Narnoor-Regular.ufo" name="Narnoor Regular" stylemapfamilyname="Narnoor" stylemapstylename="regular" stylename="Regular" postscriptfontname="Narnoor-Regular">
+        <instance familyname="Narnoor" filename="instances/Narnoor-Regular.ufo" name="Narnoor Regular" stylename="Regular" postscriptfontname="Narnoor-Regular">
             <location>
                 <dimension name="weight" xvalue="400.0" />
-                <dimension name="width" xvalue="100.0" />
-                <dimension name="custom" xvalue="0.0" />
             </location>
             <info />
             <kerning />
         </instance>
-        <instance familyname="Narnoor" filename="instances/Narnoor-Medium.ufo" name="Narnoor Medium" stylemapfamilyname="Narnoor Medium" stylemapstylename="regular" stylename="Medium" postscriptfontname="Narnoor-Medium">
+        <instance familyname="Narnoor" filename="instances/Narnoor-Medium.ufo" name="Narnoor Medium" stylename="Medium" postscriptfontname="Narnoor-Medium">
             <location>
                 <dimension name="weight" xvalue="500.0" />
-                <dimension name="width" xvalue="100.0" />
-                <dimension name="custom" xvalue="0.0" />
             </location>
             <info />
             <kerning />
         </instance>
-        <instance familyname="Narnoor" filename="instances/Narnoor-SemiBold.ufo" name="Narnoor SemiBold" stylemapfamilyname="Narnoor SemiBold" stylemapstylename="regular" stylename="SemiBold" postscriptfontname="Narnoor-SemiBold">
+        <instance familyname="Narnoor" filename="instances/Narnoor-SemiBold.ufo" name="Narnoor SemiBold" stylename="SemiBold" postscriptfontname="Narnoor-SemiBold">
             <location>
                 <dimension name="weight" xvalue="600.0" />
-                <dimension name="width" xvalue="100.0" />
-                <dimension name="custom" xvalue="0.0" />
             </location>
             <info />
             <kerning />
         </instance>
-        <instance familyname="Narnoor" filename="instances/Narnoor-Bold.ufo" name="Narnoor Bold" stylemapfamilyname="Narnoor" stylemapstylename="bold" stylename="Bold" postscriptfontname="Narnoor-Bold">
+        <instance familyname="Narnoor" filename="instances/Narnoor-Bold.ufo" name="Narnoor Bold" stylename="Bold" postscriptfontname="Narnoor-Bold">
             <location>
                 <dimension name="weight" xvalue="700.0" />
-                <dimension name="width" xvalue="100.0" />
-                <dimension name="custom" xvalue="0.0" />
             </location>
             <info />
             <kerning />
@@ -78,8 +58,6 @@
         <instance familyname="Narnoor" filename="instances/Narnoor-ExtraBold.ufo" name="Narnoor ExtraBold" stylemapfamilyname="Narnoor ExtraBold" stylemapstylename="regular" stylename="ExtraBold"  postscriptfontname="Narnoor-ExtraBold">
             <location>
                 <dimension name="weight" xvalue="800.0" />
-                <dimension name="width" xvalue="100.0" />
-                <dimension name="custom" xvalue="0.0" />
             </location>
             <info />
             <kerning />

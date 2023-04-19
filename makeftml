@@ -12,8 +12,8 @@ fi
 
 # configure tests
 tests="AllChars Diac Matras"
-urls='url(../references/Narnoor-Regular.ttf)=refR url(../results/Narnoor-Regular.ttf)=R url(../references/NotoSansGunjalaGondi-Regular.ttf)=noto'
-ufo='source/Narnoor-Regular.ufo'
+urls='url(../references/Narnoor-Regular.ttf)=refR url(../results/Narnoor-Regular.ttf)=R url(../results/Narnoor-Bold.ttf)=B url(../results/Narnoor-ExtraBold.ttf)=XB url(../references/NotoSansGunjalaGondi-Regular.ttf)=noto'
+ufo='source/masters/Narnoor-Regular.ufo'
 
 # list all the fonts to test
 fonts=''
