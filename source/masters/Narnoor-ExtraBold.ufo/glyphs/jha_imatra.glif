@@ -3,7 +3,7 @@
   <advance width="1150"/>
   <anchor x="1155" y="655" name="A"/>
   <outline>
-    <component base="_imatra-hook" xOffset="781" yOffset="215"/>
+    <component base="_imatra-hook" xOffset="781" yOffset="225"/>
     <contour>
       <point x="612" y="48" type="curve" smooth="yes"/>
       <point x="690" y="48"/>

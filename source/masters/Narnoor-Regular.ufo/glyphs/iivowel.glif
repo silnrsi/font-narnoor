@@ -5,6 +5,12 @@
   <anchor x="812" y="645" name="A"/>
   <outline>
     <contour>
+      <point x="-19" y="599" type="line"/>
+      <point x="1080" y="599" type="line"/>
+      <point x="1080" y="645" type="line"/>
+      <point x="-19" y="645" type="line"/>
+    </contour>
+    <contour>
       <point x="679" y="0" type="curve"/>
       <point x="752" y="0" type="line"/>
       <point x="752" y="621" type="line" smooth="yes"/>
@@ -77,12 +83,6 @@
       <point x="953" y="115"/>
       <point x="933" y="71"/>
       <point x="891" y="43" type="curve"/>
-    </contour>
-    <contour>
-      <point x="-19" y="599" type="line"/>
-      <point x="1080" y="599" type="line"/>
-      <point x="1080" y="645" type="line"/>
-      <point x="-19" y="645" type="line"/>
     </contour>
   </outline>
 </glyph>

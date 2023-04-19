@@ -5,6 +5,12 @@
   <outline>
     <component base="_imatra-hook" xOffset="564"/>
     <contour>
+      <point x="-19" y="599" type="line"/>
+      <point x="952" y="599" type="line"/>
+      <point x="952" y="645" type="line"/>
+      <point x="-19" y="645" type="line"/>
+    </contour>
+    <contour>
       <point x="326" y="-2" type="curve" smooth="yes"/>
       <point x="405" y="-2"/>
       <point x="485" y="50"/>
@@ -41,28 +47,28 @@
       <point x="412" y="215"/>
       <point x="412" y="152" type="curve" smooth="yes"/>
       <point x="412" y="97"/>
-      <point x="368" y="70"/>
-      <point x="324" y="70" type="curve" smooth="yes"/>
-      <point x="281" y="70"/>
-      <point x="239" y="96"/>
-      <point x="239" y="147" type="curve" smooth="yes"/>
-      <point x="239" y="300"/>
-      <point x="563" y="306"/>
+      <point x="368" y="71"/>
+      <point x="324" y="71" type="curve" smooth="yes"/>
+      <point x="281" y="71"/>
+      <point x="241" y="96"/>
+      <point x="241" y="147" type="curve" smooth="yes"/>
+      <point x="241" y="211"/>
+      <point x="303" y="254"/>
+      <point x="374" y="298" type="curve" smooth="yes"/>
+      <point x="463" y="353"/>
+      <point x="563" y="415"/>
       <point x="563" y="552" type="curve" smooth="yes"/>
       <point x="563" y="615" type="line"/>
       <point x="490" y="615" type="line"/>
       <point x="490" y="552" type="line" smooth="yes"/>
-      <point x="490" y="351"/>
-      <point x="168" y="341"/>
+      <point x="490" y="459"/>
+      <point x="421" y="409"/>
+      <point x="346" y="361" type="curve" smooth="yes"/>
+      <point x="260" y="305"/>
+      <point x="168" y="244"/>
       <point x="168" y="147" type="curve" smooth="yes"/>
       <point x="168" y="49"/>
       <point x="247" y="-2"/>
-    </contour>
-    <contour>
-      <point x="-19" y="599" type="line"/>
-      <point x="952" y="599" type="line"/>
-      <point x="952" y="645" type="line"/>
-      <point x="-19" y="645" type="line"/>
     </contour>
     <contour>
       <point x="805" y="306" type="curve"/>
