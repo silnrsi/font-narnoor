@@ -56,7 +56,7 @@ Latin glyphs copyright (c) 2010, 2012, 2014, 2021 Adobe Systems Incorporated
   <key>openTypeNameDesigner</key>
   <string>S. Sridhar Murthy</string>
   <key>openTypeNameDesignerURL</key>
-  <string>http://scripts.sil.org/</string>
+  <string>https://software.sil.org/wstech/</string>
   <key>openTypeNameLicense</key>
   <string>Original font copyright (c) 2014-2017 CDAST, University of Hyderabad, Hyderabad (cdast@uohyd.ernet.in).
 Additions and modifications copyright (c) 2015-2023 SIL International (http://www.sil.org/).
@@ -160,7 +160,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameManufacturer</key>
   <string>SIL International</string>
   <key>openTypeNameManufacturerURL</key>
-  <string>http://scripts.sil.org/</string>
+  <string>https://software.sil.org/wstech/</string>
   <key>openTypeNamePreferredFamilyName</key>
   <string>Narnoor</string>
   <key>openTypeNamePreferredSubfamilyName</key>
