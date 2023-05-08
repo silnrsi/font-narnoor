@@ -5,6 +5,12 @@
   <anchor x="861" y="645" name="M"/>
   <outline>
     <contour>
+      <point x="-19" y="599" type="line"/>
+      <point x="995" y="599" type="line"/>
+      <point x="995" y="645" type="line"/>
+      <point x="-19" y="645" type="line"/>
+    </contour>
+    <contour>
       <point x="789" y="-2" type="curve" smooth="yes"/>
       <point x="887" y="-2"/>
       <point x="940" y="74"/>
@@ -128,12 +134,6 @@
       <point x="46" y="172" type="curve" smooth="yes"/>
       <point x="46" y="82"/>
       <point x="107" y="-2"/>
-    </contour>
-    <contour>
-      <point x="-19" y="599" type="line"/>
-      <point x="995" y="599" type="line"/>
-      <point x="995" y="645" type="line"/>
-      <point x="-19" y="645" type="line"/>
     </contour>
   </outline>
 </glyph>

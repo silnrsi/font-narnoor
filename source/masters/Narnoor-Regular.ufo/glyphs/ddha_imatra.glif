@@ -5,6 +5,32 @@
   <outline>
     <component base="_imatra-hook" xOffset="705"/>
     <contour>
+      <point x="-19" y="599" type="line"/>
+      <point x="1093" y="599" type="line"/>
+      <point x="1093" y="645" type="line"/>
+      <point x="-19" y="645" type="line"/>
+    </contour>
+    <contour>
+      <point x="207" y="259" type="curve" smooth="yes"/>
+      <point x="290" y="259"/>
+      <point x="359" y="321"/>
+      <point x="359" y="432" type="curve" smooth="yes"/>
+      <point x="359" y="615" type="line"/>
+      <point x="286" y="615" type="line"/>
+      <point x="286" y="431" type="line" smooth="yes"/>
+      <point x="286" y="365"/>
+      <point x="254" y="332"/>
+      <point x="207" y="332" type="curve" smooth="yes"/>
+      <point x="161" y="332"/>
+      <point x="128" y="365"/>
+      <point x="128" y="431" type="curve" smooth="yes"/>
+      <point x="128" y="615" type="line"/>
+      <point x="55" y="615" type="line"/>
+      <point x="55" y="428" type="line" smooth="yes"/>
+      <point x="55" y="318"/>
+      <point x="127" y="259"/>
+    </contour>
+    <contour>
       <point x="470" y="-2" type="curve" smooth="yes"/>
       <point x="555" y="-2"/>
       <point x="633" y="53"/>
@@ -45,32 +71,6 @@
       <point x="312" y="152" type="curve" smooth="yes"/>
       <point x="312" y="53"/>
       <point x="390" y="-2"/>
-    </contour>
-    <contour>
-      <point x="207" y="259" type="curve" smooth="yes"/>
-      <point x="290" y="259"/>
-      <point x="359" y="321"/>
-      <point x="359" y="432" type="curve" smooth="yes"/>
-      <point x="359" y="615" type="line"/>
-      <point x="286" y="615" type="line"/>
-      <point x="286" y="431" type="line" smooth="yes"/>
-      <point x="286" y="365"/>
-      <point x="254" y="332"/>
-      <point x="207" y="332" type="curve" smooth="yes"/>
-      <point x="161" y="332"/>
-      <point x="128" y="365"/>
-      <point x="128" y="431" type="curve" smooth="yes"/>
-      <point x="128" y="615" type="line"/>
-      <point x="55" y="615" type="line"/>
-      <point x="55" y="428" type="line" smooth="yes"/>
-      <point x="55" y="318"/>
-      <point x="127" y="259"/>
-    </contour>
-    <contour>
-      <point x="-19" y="599" type="line"/>
-      <point x="1093" y="599" type="line"/>
-      <point x="1093" y="645" type="line"/>
-      <point x="-19" y="645" type="line"/>
     </contour>
     <contour>
       <point x="946" y="317" type="line"/>

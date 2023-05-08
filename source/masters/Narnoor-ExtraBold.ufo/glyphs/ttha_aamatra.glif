@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ttha_aamatra" format="2">
-  <advance width="1161"/>
-  <anchor x="1052" y="645" name="A"/>
-  <anchor x="1077" y="645" name="M"/>
+  <advance width="1258"/>
+  <anchor x="1122" y="655" name="A"/>
+  <anchor x="1147" y="655" name="M"/>
   <outline>
     <component base="tta_aamatra"/>
     <contour>
-      <point x="70" y="320" type="line"/>
-      <point x="70" y="247" type="line"/>
-      <point x="441" y="247" type="line"/>
-      <point x="441" y="320" type="line"/>
+      <point x="90" y="332" type="line"/>
+      <point x="90" y="235" type="line"/>
+      <point x="461" y="235" type="line"/>
+      <point x="461" y="332" type="line"/>
     </contour>
   </outline>
 </glyph>

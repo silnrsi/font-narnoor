@@ -5,6 +5,12 @@
   <outline>
     <component base="_imatra-hook" xOffset="671" yOffset="215"/>
     <contour>
+      <point x="-19" y="599" type="line"/>
+      <point x="1059" y="599" type="line"/>
+      <point x="1059" y="645" type="line"/>
+      <point x="-19" y="645" type="line"/>
+    </contour>
+    <contour>
       <point x="534" y="66" type="curve" smooth="yes"/>
       <point x="603" y="66"/>
       <point x="674" y="117"/>
@@ -101,12 +107,6 @@
       <point x="46" y="172" type="curve" smooth="yes"/>
       <point x="46" y="82"/>
       <point x="107" y="-2"/>
-    </contour>
-    <contour>
-      <point x="-19" y="599" type="line"/>
-      <point x="1059" y="599" type="line"/>
-      <point x="1059" y="645" type="line"/>
-      <point x="-19" y="645" type="line"/>
     </contour>
     <contour>
       <point x="912" y="517" type="line"/>
