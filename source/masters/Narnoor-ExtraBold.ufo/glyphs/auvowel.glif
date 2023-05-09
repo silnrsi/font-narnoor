@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="auvowel" format="2">
-  <advance width="1092"/>
+  <advance width="1232"/>
   <unicode hex="11D6B"/>
-  <anchor x="797" y="662" name="A"/>
+  <anchor x="913" y="662" name="A"/>
   <outline>
     <component base="aavowel"/>
-    <component base="aimatra" xOffset="834"/>
+    <component base="aimatra" xOffset="959"/>
   </outline>
 </glyph>

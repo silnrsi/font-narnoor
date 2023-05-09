@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eevowel" format="2">
-  <advance width="765"/>
+  <advance width="854"/>
   <unicode hex="11D67"/>
-  <anchor x="636" y="712" name="A"/>
+  <anchor x="783" y="722" name="A"/>
   <outline>
     <component base="avowel"/>
-    <component base="eematra" xOffset="760"/>
+    <component base="eematra" xOffset="839"/>
   </outline>
 </glyph>

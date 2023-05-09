@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oomatra" format="2">
-  <advance width="414"/>
+  <advance width="485"/>
   <unicode hex="11D93"/>
-  <anchor x="292" y="712" name="A"/>
-  <anchor x="16" y="645" name="C"/>
+  <anchor x="368" y="722" name="A"/>
+  <anchor x="16" y="655" name="C"/>
   <outline>
     <component base="aamatra"/>
-    <component base="eematra" xOffset="413"/>
+    <component base="eematra" xOffset="469"/>
   </outline>
 </glyph>

@@ -2,7 +2,7 @@
 <glyph name="eematra_anusvara" format="2">
   <anchor x="-82" y="645" name="_M"/>
   <outline>
-    <component base="anusvara" xOffset="-1" yOffset="43"/>
+    <component base="anusvara" xOffset="39" yOffset="43"/>
     <component base="eematra"/>
   </outline>
   <lib>

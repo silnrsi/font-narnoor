@@ -284,7 +284,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass va_aamatra <anchor 586 645> @A;
 # baseClass va_imatra <anchor 983 655> @A;
 # baseClass ya <anchor 738 665> @A;
-# baseClass ya_aamatra <anchor 993 645> @A;
+# baseClass ya_aamatra <anchor 971 645> @A;
 # baseClass ya_imatra <anchor 1110 655> @A;
 # baseClass aimatra <anchor -36 662> @A_MarkBase;
 # baseClass eematra <anchor -125 712> @A_MarkBase;
@@ -358,7 +358,7 @@ markClass anusvara <anchor -105 645> @_A;
 # baseClass ttha_aamatra <anchor 1077 645> @M;
 # baseClass va <anchor 514 645> @M;
 # baseClass ya <anchor 740 665> @M;
-# baseClass ya_aamatra <anchor 1000 645> @M;
+# baseClass ya_aamatra <anchor 978 645> @M;
 
 # AP: _baseLC
 markClass [cedillacmb cedillacmb.cap] <anchor 0 0> @_baseLC;
@@ -562,7 +562,7 @@ lookup Matras {
     pos base ttha_aamatra <anchor 1077 645> mark @_M;
     pos base va <anchor 514 645> mark @_M;
     pos base ya <anchor 740 665> mark @_M;
-    pos base ya_aamatra <anchor 1000 645> mark @_M;
+    pos base ya_aamatra <anchor 978 645> mark @_M;
 } Matras;
 
 lookup BaseAnusvara {
@@ -670,7 +670,7 @@ lookup BaseAnusvara {
     pos base va_aamatra <anchor 586 645> mark @_A;
     pos base va_imatra <anchor 983 655> mark @_A;
     pos base ya <anchor 738 665> mark @_A;
-    pos base ya_aamatra <anchor 993 645> mark @_A;
+    pos base ya_aamatra <anchor 971 645> mark @_A;
     pos base ya_imatra <anchor 1110 655> mark @_A;
 } BaseAnusvara;
 

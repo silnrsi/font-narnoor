@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oomatra_anusvara.short" format="2">
-  <advance width="566"/>
+  <advance width="616"/>
   <anchor x="-9" y="645" name="C"/>
   <outline>
     <component base="aamatra"/>
-    <component base="anusvara" xOffset="593" yOffset="-30"/>
+    <component base="anusvara" xOffset="653" yOffset="-20"/>
     <contour>
-      <point x="295" y="629" type="line"/>
-      <point x="368" y="629" type="line"/>
-      <point x="368" y="897" type="line"/>
-      <point x="295" y="897" type="line"/>
+      <point x="316" y="629" type="line"/>
+      <point x="429" y="629" type="line"/>
+      <point x="429" y="897" type="line"/>
+      <point x="316" y="897" type="line"/>
     </contour>
     <contour>
-      <point x="381" y="599" type="line"/>
-      <point x="585" y="599" type="line"/>
-      <point x="585" y="645" type="line"/>
-      <point x="381" y="645" type="line"/>
+      <point x="381" y="589" type="line"/>
+      <point x="635" y="589" type="line"/>
+      <point x="635" y="655" type="line"/>
+      <point x="381" y="655" type="line"/>
     </contour>
   </outline>
   <lib>

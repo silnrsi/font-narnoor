@@ -4,6 +4,18 @@
   <anchor x="881" y="652" name="A"/>
   <outline>
     <contour>
+      <point x="-19" y="599" type="line"/>
+      <point x="41" y="599" type="line"/>
+      <point x="41" y="645" type="line"/>
+      <point x="-19" y="645" type="line"/>
+    </contour>
+    <contour>
+      <point x="430" y="599" type="line"/>
+      <point x="899" y="599" type="line"/>
+      <point x="899" y="645" type="line"/>
+      <point x="430" y="645" type="line"/>
+    </contour>
+    <contour>
       <point x="752" y="628" type="curve"/>
       <point x="825" y="628" type="line"/>
       <point x="815" y="758"/>
@@ -90,18 +102,6 @@
       <point x="426" y="265" type="curve" smooth="yes"/>
       <point x="426" y="174"/>
       <point x="495" y="128"/>
-    </contour>
-    <contour>
-      <point x="-19" y="599" type="line"/>
-      <point x="41" y="599" type="line"/>
-      <point x="41" y="645" type="line"/>
-      <point x="-19" y="645" type="line"/>
-    </contour>
-    <contour>
-      <point x="430" y="599" type="line"/>
-      <point x="899" y="599" type="line"/>
-      <point x="899" y="645" type="line"/>
-      <point x="430" y="645" type="line"/>
     </contour>
     <contour>
       <point x="219" y="-94" type="curve" smooth="yes"/>

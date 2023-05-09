@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oomatra.short" format="2">
-  <advance width="427"/>
+  <advance width="485"/>
   <anchor x="-9" y="645" name="C"/>
   <outline>
     <component base="aamatra"/>
     <contour>
-      <point x="295" y="629" type="line"/>
-      <point x="368" y="629" type="line"/>
-      <point x="368" y="897" type="line"/>
-      <point x="295" y="897" type="line"/>
+      <point x="316" y="629" type="line"/>
+      <point x="429" y="629" type="line"/>
+      <point x="429" y="897" type="line"/>
+      <point x="316" y="897" type="line"/>
     </contour>
   </outline>
   <lib>
