@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zerogong" format="2">
   <advance width="553"/>
-  <unicode hex="11DA0"/>
   <outline>
     <contour>
       <point x="276" y="-2" type="curve" smooth="yes"/>

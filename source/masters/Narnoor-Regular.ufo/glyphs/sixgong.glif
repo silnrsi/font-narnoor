@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sixgong" format="2">
   <advance width="511"/>
-  <unicode hex="11DA6"/>
   <outline>
     <contour>
       <point x="292" y="-2" type="curve" smooth="yes"/>

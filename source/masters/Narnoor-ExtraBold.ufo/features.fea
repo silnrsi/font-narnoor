@@ -184,9 +184,9 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass aamatra <anchor 362 655> @A;
 # baseClass aavowel <anchor 867 655> @A;
 # baseClass aivowel <anchor 821 672> @A;
-# baseClass aumatra <anchor 440 672> @A;
+# baseClass aumatra <anchor 470 672> @A;
 # baseClass auvowel <anchor 913 662> @A;
-# baseClass avowel <anchor 733 655> @A;
+# baseClass avowel <anchor 743 655> @A;
 # baseClass ba <anchor 563 655> @A;
 # baseClass ba_aamatra <anchor 680 655> @A;
 # baseClass ba_imatra <anchor 1030 655> @A;
@@ -279,15 +279,16 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass tta_imatra <anchor 1148 665> @A;
 # baseClass ttha_aamatra <anchor 1122 655> @A;
 # baseClass ttha_imatra <anchor 1064 655> @A;
-# baseClass [umatra uumatra] <anchor -89 645> @A;
+# baseClass umatra <anchor -69 655> @A;
+# baseClass uumatra <anchor -59 655> @A;
 # baseClass uuvowel <anchor 771 655> @A;
-# baseClass uvowel <anchor 716 655> @A;
+# baseClass uvowel <anchor 756 655> @A;
 # baseClass va <anchor 532 655> @A;
-# baseClass va_aamatra <anchor 649 655> @A;
+# baseClass va_aamatra <anchor 648 655> @A;
 # baseClass ya <anchor 693 655> @A;
 # baseClass ya_aamatra <anchor 1091 655> @A;
 # baseClass ya_imatra <anchor 1180 655> @A;
-# baseClass aimatra <anchor -6 672> @A_MarkBase;
+# baseClass aimatra <anchor 12 672> @A_MarkBase;
 # baseClass eematra <anchor -125 712> @A_MarkBase;
 
 # AP: _aboveLC
@@ -305,7 +306,7 @@ markClass eematra <anchor -105 655> @_M;
 markClass anusvara <anchor -105 645> @_A;
 
 # AP: M
-@M = [ba ba_aamatra bha bha_aamatra ca ca_aamatra cha cha_aamatra da da_aamatra dda dda_aamatra ddha ddha_aamatra dha ga ma dha_aamatra dottedcircle ga_aamatra gha gha_aamatra ha ha_aamatra ja ja_aamatra jha jha_aamatra ka ka_aamatra kha kha_aamatra la la_aamatra lla lla_aamatra ma_aamatra na na_aamatra nga nga_aamatra pa pa_aamatra pha pha_aamatra ra ta ra_aamatra sa sa_aamatra ya_aamatra ta_aamatra tha tha_aamatra tta ttha tta_aamatra ttha_aamatra va va_aamatra ya];
+@M = [ba ba_aamatra bha bha_aamatra ca ca_aamatra cha cha_aamatra da da_aamatra dda dda_aamatra ddha ddha_aamatra dha ga ma dha_aamatra dottedcircle ga_aamatra gha gha_aamatra ha ha_aamatra ja ja_aamatra jha jha_aamatra ka ka_aamatra kha kha_aamatra la la_aamatra lla lla_aamatra ma_aamatra na na_aamatra nga nga_aamatra pa pa_aamatra pha pha_aamatra ra ra_aamatra sa sa_aamatra ya_aamatra ta ta_aamatra tha tha_aamatra tta ttha tta_aamatra ttha_aamatra va va_aamatra ya];
 # baseClass ba <anchor 565 655> @M;
 # baseClass ba_aamatra <anchor 682 655> @M;
 # baseClass bha <anchor 1025 655> @M;
@@ -349,10 +350,11 @@ markClass anusvara <anchor -105 645> @_A;
 # baseClass pa_aamatra <anchor 1199 655> @M;
 # baseClass pha <anchor 896 655> @M;
 # baseClass pha_aamatra <anchor 1248 655> @M;
-# baseClass [ra ta] <anchor 708 655> @M;
+# baseClass ra <anchor 701 655> @M;
 # baseClass ra_aamatra <anchor 1050 655> @M;
 # baseClass sa <anchor 835 655> @M;
 # baseClass [sa_aamatra ya_aamatra] <anchor 1098 655> @M;
+# baseClass ta <anchor 708 655> @M;
 # baseClass ta_aamatra <anchor 1038 655> @M;
 # baseClass tha <anchor 1010 655> @M;
 # baseClass tha_aamatra <anchor 1151 645> @M;
@@ -360,7 +362,7 @@ markClass anusvara <anchor -105 645> @_A;
 # baseClass tta_aamatra <anchor 1162 655> @M;
 # baseClass ttha_aamatra <anchor 1147 655> @M;
 # baseClass va <anchor 534 655> @M;
-# baseClass va_aamatra <anchor 650 655> @M;
+# baseClass va_aamatra <anchor 646 655> @M;
 # baseClass ya <anchor 695 655> @M;
 
 # AP: _baseLC
@@ -554,10 +556,11 @@ lookup Matras {
     pos base pa_aamatra <anchor 1199 655> mark @_M;
     pos base pha <anchor 896 655> mark @_M;
     pos base pha_aamatra <anchor 1248 655> mark @_M;
-    pos base [ra ta] <anchor 708 655> mark @_M;
+    pos base ra <anchor 701 655> mark @_M;
     pos base ra_aamatra <anchor 1050 655> mark @_M;
     pos base sa <anchor 835 655> mark @_M;
     pos base [sa_aamatra ya_aamatra] <anchor 1098 655> mark @_M;
+    pos base ta <anchor 708 655> mark @_M;
     pos base ta_aamatra <anchor 1038 655> mark @_M;
     pos base tha <anchor 1010 655> mark @_M;
     pos base tha_aamatra <anchor 1151 645> mark @_M;
@@ -565,7 +568,7 @@ lookup Matras {
     pos base tta_aamatra <anchor 1162 655> mark @_M;
     pos base ttha_aamatra <anchor 1147 655> mark @_M;
     pos base va <anchor 534 655> mark @_M;
-    pos base va_aamatra <anchor 650 655> mark @_M;
+    pos base va_aamatra <anchor 646 655> mark @_M;
     pos base ya <anchor 695 655> mark @_M;
 } Matras;
 
@@ -574,9 +577,9 @@ lookup BaseAnusvara {
     pos base aamatra <anchor 362 655> mark @_A;
     pos base aavowel <anchor 867 655> mark @_A;
     pos base aivowel <anchor 821 672> mark @_A;
-    pos base aumatra <anchor 440 672> mark @_A;
+    pos base aumatra <anchor 470 672> mark @_A;
     pos base auvowel <anchor 913 662> mark @_A;
-    pos base avowel <anchor 733 655> mark @_A;
+    pos base avowel <anchor 743 655> mark @_A;
     pos base ba <anchor 563 655> mark @_A;
     pos base ba_aamatra <anchor 680 655> mark @_A;
     pos base ba_imatra <anchor 1030 655> mark @_A;
@@ -669,11 +672,12 @@ lookup BaseAnusvara {
     pos base tta_imatra <anchor 1148 665> mark @_A;
     pos base ttha_aamatra <anchor 1122 655> mark @_A;
     pos base ttha_imatra <anchor 1064 655> mark @_A;
-    pos base [umatra uumatra] <anchor -89 645> mark @_A;
+    pos base umatra <anchor -69 655> mark @_A;
+    pos base uumatra <anchor -59 655> mark @_A;
     pos base uuvowel <anchor 771 655> mark @_A;
-    pos base uvowel <anchor 716 655> mark @_A;
+    pos base uvowel <anchor 756 655> mark @_A;
     pos base va <anchor 532 655> mark @_A;
-    pos base va_aamatra <anchor 649 655> mark @_A;
+    pos base va_aamatra <anchor 648 655> mark @_A;
     pos base ya <anchor 693 655> mark @_A;
     pos base ya_aamatra <anchor 1091 655> mark @_A;
     pos base ya_imatra <anchor 1180 655> mark @_A;
@@ -681,7 +685,7 @@ lookup BaseAnusvara {
 
 lookup MarkAnusvara {
     lookupflag 0;
-    pos mark aimatra <anchor -6 672> mark @_A;
+    pos mark aimatra <anchor 12 672> mark @_A;
     pos mark eematra <anchor -125 712> mark @_A;
 } MarkAnusvara;
 

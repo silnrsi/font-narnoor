@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="avowel" format="2">
   <advance width="765"/>
-  <unicode hex="11D60"/>
   <anchor x="742" y="665" name="A"/>
   <outline>
     <contour>
