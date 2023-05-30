@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE glyphData [
+<!ELEMENT glyphData (glyph)+>
+<!ATTLIST glyphData
+	format			CDATA		#IMPLIED>
+<!ELEMENT glyph EMPTY>
+<!ATTLIST glyph
+	unicode			CDATA		#IMPLIED
+	unicodeLegacy	CDATA		#IMPLIED
+	name			CDATA		#REQUIRED
+	sortName		CDATA		#IMPLIED
+	sortNameKeep	CDATA		#IMPLIED
+	category		CDATA		#REQUIRED
+	subCategory		CDATA		#IMPLIED
+	case			CDATA		#IMPLIED
+	direction		CDATA		#IMPLIED
+	script			CDATA		#IMPLIED
+	description		CDATA		#IMPLIED
+	production		CDATA		#IMPLIED
+	altNames		CDATA		#IMPLIED
+	decompose		CDATA		#IMPLIED
+	anchors			CDATA		#IMPLIED
+	marks			CDATA		#IMPLIED>
+]>
+<glyphData format="2">
+	<glyph unicode="11D60" name="avowel-gong" sortName="0001" category="Letter" script="gunjala gondi" production="u11D60" direction="LTR" description="GUNJALA GONDI LETTER A" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D61" name="aavowel-gong" sortName="0002" category="Letter" script="gunjala gondi" production="u11D61" direction="LTR" description="GUNJALA GONDI LETTER AA" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D62" name="ivowel-gong" sortName="0003" category="Letter" script="gunjala gondi" production="u11D62" direction="LTR" description="GUNJALA GONDI LETTER I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D63" name="iivowel-gong" sortName="0004" category="Letter" script="gunjala gondi" production="u11D63" direction="LTR" description="GUNJALA GONDI LETTER II" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D64" name="uvowel-gong" sortName="0005" category="Letter" script="gunjala gondi" production="u11D64" direction="LTR" description="GUNJALA GONDI LETTER U" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D65" name="uuvowel-gong" sortName="0006" category="Letter" script="gunjala gondi" production="u11D65" direction="LTR" description="GUNJALA GONDI LETTER UU" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D67" name="eevowel-gong" sortName="0007" decompose="avowel-gong, eematra-gong" category="Letter" script="gunjala gondi" production="u11D67" direction="LTR" description="GUNJALA GONDI LETTER EE" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D68" name="aivowel-gong" sortName="0008" decompose="avowel-gong, aimatra-gong" category="Letter" script="gunjala gondi" production="u11D68" direction="LTR" description="GUNJALA GONDI LETTER AI" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D6A" name="oovowel-gong" sortName="0009" decompose="aavowel-gong, eematra-gong" category="Letter" script="gunjala gondi" production="u11D6A" direction="LTR" description="GUNJALA GONDI LETTER OO" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D6B" name="auvowel-gong" sortName="0010" decompose="aavowel-gong, aimatra-gong" category="Letter" script="gunjala gondi" production="u11D6B" direction="LTR" description="GUNJALA GONDI" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D6C" name="ya-gong" sortName="0011" category="Letter" script="gunjala gondi" production="u11D6C" direction="LTR" description="GUNJALA GONDI LETTER YA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ya-gong.half" sortName="0011.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER Y" />
+	<glyph name="ya_aamatra-gong" sortName="0011.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER YA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ya_imatra-gong" sortName="0011.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER YA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D6D" name="va-gong" sortName="0012" category="Letter" script="gunjala gondi" production="u11D6D" direction="LTR" description="GUNJALA GONDI LETTER VA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="va-gong.half" sortName="0012.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER V" />
+	<glyph name="va_aamatra-gong" sortName="0012.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER VA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="va_imatra-gong" sortName="0012.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER VA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D6E" name="ba-gong" sortName="0013" category="Letter" script="gunjala gondi" production="u11D6E" direction="LTR" description="GUNJALA GONDI LETTER BA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ba-gong.half" sortName="0013.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER B" />
+	<glyph name="ba_aamatra-gong" sortName="0013.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER BA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ba_imatra-gong" sortName="0013.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER BA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D6F" name="bha-gong" sortName="0014" category="Letter" script="gunjala gondi" production="u11D6F" direction="LTR" description="GUNJALA GONDI LETTER BHA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="bha-gong.half" sortName="0014.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER BH" />
+	<glyph name="bha_aamatra-gong" sortName="0014.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER BHA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="bha_imatra-gong" sortName="0014.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER BHA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D70" name="ma-gong" sortName="0015" category="Letter" script="gunjala gondi" production="u11D70" direction="LTR" description="GUNJALA GONDI LETTER MA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ma-gong.half" sortName="0015.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER M" />
+	<glyph name="ma_aamatra-gong" sortName="0015.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER MA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ma_imatra-gong" sortName="0015.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER MA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D71" name="ka-gong" sortName="0016" category="Letter" script="gunjala gondi" production="u11D71" direction="LTR" description="GUNJALA GONDI LETTER KA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ka-gong.half" sortName="0016.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER K" />
+	<glyph name="ka_aamatra-gong" sortName="0016.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER KA VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ka_imatra-gong" sortName="0016.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER KA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D72" name="kha-gong" sortName="0017" category="Letter" script="gunjala gondi" production="u11D72" direction="LTR" description="GUNJALA GONDI LETTER KHA" anchors="A, M " marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="kha-gong.half" sortName="0017.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER KH" />
+	<glyph name="kha_aamatra-gong" sortName="0017.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER KHA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="kha_imatra-gong" sortName="0017.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER KHA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D73" name="ta-gong" sortName="0018" category="Letter" script="gunjala gondi" production="u11D73" direction="LTR" description="GUNJALA GONDI LETTER TA" anchors="A, M " marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ta-gong.half" sortName="0018.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER T" />
+	<glyph name="ta_aamatra-gong" sortName="0018.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER TA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ta_imatra-gong" sortName="0018.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER TA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D74" name="tha-gong" sortName="0019" category="Letter" script="gunjala gondi" production="u11D74" direction="LTR" description="GUNJALA GONDI LETTER THA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="tha-gong.half" sortName="0019.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER TH" />
+	<glyph name="tha_aamatra-gong" sortName="0019.2" category="Letter" subCategory="Ligature" script="gunjala gondi " direction="LTR" description="GUNJALA GONDI LETTER THA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong-gong, eematra-gong, aimatra-gong" />
+	<glyph name="tha_imatra-gong" sortName="0019.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER THA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D75" name="la-gong" sortName="0020" category="Letter" script="gunjala gondi" production="u11D75" direction="LTR" description="GUNJALA GONDI LETTER LA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="la-gong.half" sortName="0020.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER L" />
+	<glyph name="la_aamatra-gong" sortName="0020.2" category="Letter" subCategory="Ligature" script="gunjala gondi " direction="LTR" description="GUNJALA GONDI LETTER LA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="la_imatra-gong" sortName="0020.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER LA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D76" name="ga-gong" sortName="0021" category="Letter" script="gunjala gondi" production="u11D76" direction="LTR" description="GUNJALA GONDI LETTER GA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ga-gong.half" sortName="0021.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER G" />
+	<glyph name="ga_aamatra-gong" sortName="0021.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER GA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ga_imatra-gong" sortName="0021.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER GA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D77" name="gha-gong" sortName="0022" category="Letter" script="gunjala gondi" production="u11D77" direction="LTR" description="GUNJALA GONDI LETTER GHA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="gha-gong.half" sortName="0022.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER GH" />
+	<glyph name="gha_aamatra-gong" sortName="0022.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER GHA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="gha_imatra-gong" sortName="0022.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER GHA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph name="gha_eematra-gong" sortName="0022.4" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER GHA WITH VOWEL SIGN EE" anchors="A" marks="anusvara-gong" />
+	<glyph name="gha_aimatra-gong" sortName="0022.5" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER GHA WITH VOWEL SIGN AI" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D78" name="da-gong" sortName="0023" category="Letter" script="gunjala gondi" production="u11D78" direction="LTR" description="GUNJALA GONDI LETTER DA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="da-gong.half" sortName="0023.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER D" />
+	<glyph name="da_aamatra-gong" sortName="0023.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER DA WITH VOWEL AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="da_imatra-gong" sortName="0023.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER DA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D79" name="dha-gong" sortName="0024" category="Letter" script="gunjala gondi" production="u11D79" direction="LTR" description="GUNJALA GONDI LETTER DHA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="dha-gong.half" sortName="0024.1" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER DH" />
+	<glyph name="dha.aamatra-gong" sortName="0024.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER DHA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="dha.imatra-gong" sortName="0024.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER DHA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D7A" name="na-gong" sortName="0025" category="Letter" script="gunjala gondi" production="u11D7A" direction="LTR" description="GUNJALA GONDI LETTER NA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="na-gong.half" sortName="0025.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER N" />
+	<glyph name="na_aamatra-gong" sortName="0025.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER NA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="na_imatra-gong" sortName="0025.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER NA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D7B" name="ca-gong" sortName="0026" category="Letter" script="gunjala gondi" production="u11D7B" direction="LTR" description="GUNJALA GONDI LETTER CA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ca-gong.half" sortName="0026.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER C" />
+	<glyph name="ca_aamatra-gong" sortName="0026.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER CA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ca_imatra-gong" sortName="0026.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER CA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D7C" name="cha-gong" sortName="0027" category="Letter" script="gunjala gondi" production="u11D7C" direction="LTR" description="GUNJALA GONDI LETTER CHA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="cha-gong.half" sortName="0027.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER CH" />
+	<glyph name="cha_aamatra-gong" sortName="0027.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER CHA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="cha_imatra-gong" sortName="0027.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER CHA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D7D" name="tta-gong" sortName="0028" category="Letter" script="gunjala gondi" production="u11D7D" direction="LTR" description="GUNJALA GONDI LETTER TTA" anchors="A, M " marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="tta-gong.half" sortName="0028.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER TT" />
+	<glyph name="tta_aamatra-gong" sortName="0028.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER TTA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="tta_imatra-gong" sortName="0028.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER TTA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D7E" name="ttha-gong" sortName="0029" category="Letter" script="gunjala gondi" production="u11D7E" direction="LTR" description="GUNJALA GONDI LETTER TTHA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ttha-gong.half" sortName="0029.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER TTH" />
+	<glyph name="ttha_aamatra-gong" sortName="0029.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER TTHA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ttha_imatra-gong" sortName="0029.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER TTHA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D7F" name="lla-gong" sortName="0030" category="Letter" script="gunjala gondi" production="u11D7F" direction="LTR" description="GUNJALA GONDI LETTER LLA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="lla-gong.half" sortName="0030.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER LL" />
+	<glyph name="lla_aamatra-gong" sortName="0030.2" category="Letter" subCategory="Ligature" script="gunjala gondi " direction="LTR" description="GUNJALA GONDI LETTER LLA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="lla_imatra-gong" sortName="0030.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER LLA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D80" name="ja-gong" sortName="0031" category="Letter" script="gunjala gondi" production="u11D80" direction="LTR" description="GUNJALA GONDI LETTER JA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ja-gong.half" sortName="0031.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER J" />
+	<glyph name="ja_aamatra-gong" sortName="0031.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER JA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ja_imatra-gong" sortName="0031.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER JA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D81" name="jha-gong" sortName="0032" category="Letter" script="gunjala gondi" production="u11D81" direction="LTR" description="GUNJALA GONDI LETTER JHA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="jha-gong.half" sortName="0032.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER JH" />
+	<glyph name="jha_aamatra-gong" sortName="0032.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER JHA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="jha_imatra-gong" sortName="0032.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER JHA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D82" name="dda-gong" sortName="0033" category="Letter" script="gunjala gondi" production="u11D82" direction="LTR" description="GUNJALA GONDI LETTER DDA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="dda-gong.half" sortName="0033.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER DD" />
+	<glyph name="dda_aamatra-gong" sortName="0033.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER DDA WITH VOWEL AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="dda_imatra-gong" sortName="0033.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER DDA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph name="dda_eematra-gong" sortName="0033.4" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER DDA WITH VOWEL SIGN EE" anchors="A" marks="anusvara-gong" />
+	<glyph name="dda_aimatra-gong" sortName="0033.5" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER DDA WITH VOWEL SIGN AI" anchors="A" marks="anusvara-gong" />
+	<glyph name="dda_aumatra-gong" sortName="0033.6" category="Letter" subCategory="Ligature" script="gunjala gondi " direction="LTR" description="GUNJALA GONDI LETTER DDA WITH VOWEL SIGN AU" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D83" name="ddha-gong" sortName="0034" category="Letter" script="gunjala gondi" production="u11D83" direction="LTR" description="GUNJALA GONDI LETTER DDHA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ddha-gong.half" sortName="0034.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER DDH" />
+	<glyph name="ddha_aamatra-gong" sortName="0034.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER DDHA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ddha_imatra-gong" sortName="0034.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER DDHA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D84" name="nga-gong" sortName="0035" category="Letter" script="gunjala gondi" production="u11D84" direction="LTR" description="GUNJALA GONDI LETTER NGA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="nga-gong.half" sortName="0035.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER NG" />
+	<glyph name="nga_aamatra-gong" sortName="0035.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER NGA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="nga_imatra-gong" sortName="0035.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER NGA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph name="nga_eematra-gong" sortName="0035.4" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER NGA WITH VOWEL SIGN EE" anchors="A" marks="anusvara-gong" />
+	<glyph name="nga_aimatra-gong" sortName="0035.5" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER NGA WITH VOWEL SIGN AI" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D85" name="pa-gong" sortName="0036" category="Letter" script="gunjala gondi" production="u11D85" direction="LTR" description="GUNJALA GONDI LETTER PA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="pa-gong.half" sortName="0036.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER P" />
+	<glyph name="pa_aamatra-gong" sortName="0036.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER PA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="pa_imatra-gong" sortName="0036.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER PA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D86" name="pha-gong" sortName="0037" category="Letter" script="gunjala gondi" production="u11D86" direction="LTR" description="GUNJALA GONDI LETTER PHA" anchors="A, M " marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="pha-gong.half" sortName="0037.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER PH" />
+	<glyph name="pha_aamatra-gong" sortName="0037.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER PHA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="pha_imatra-gong" sortName="0037.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER PHA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D87" name="ha-gong" sortName="0038" category="Letter" script="gunjala gondi" production="u11D87" direction="LTR" description="GUNJALA GONDI LETTER HA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ha-gong.half" sortName="0038.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER H" />
+	<glyph name="ha_aamatra-gong" sortName="0038.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER HA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ha_imatra-gong" sortName="0038.3" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER HA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D88" name="ra-gong" sortName="0039" category="Letter" script="gunjala gondi " production="u11D88" direction="LTR" description="GUNJALA GONDI LETTER RA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ra-gong.half" sortName="0039.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER R" />
+	<glyph name="ra_aamatra-gong" sortName="0039.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER RA AND VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="ra_imatra-gong" sortName="0039.3" category="Letter" subCategory="Ligature" script="gunjala gondi " direction="LTR" description="GUNJALA GONDI LETTER RA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D89" name="sa-gong" sortName="0040" category="Letter" script="gunjala gondi" production="u11D89" direction="LTR" description="GUNJALA GONDI LETTER SA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="sa-gong.half" sortName="0040.1" category="Letter" subCategory="Halfform" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER S" />
+	<glyph name="sa_aamatra-gong" sortName="0040.2" category="Letter" subCategory="Ligature" script="gunjala gondi" direction="LTR" description="GUNJALA GONDI LETTER SA WITH VOWEL SIGN AA" anchors="A, M" marks="anusvara-gong, eematra-gong, aimatra-gong" />
+	<glyph name="sa_imatra-gong" sortName="0040.3" category="Letter" subCategory="Ligature" script="gunjala gondi " direction="LTR" description="GUNJALA GONDI LETTER SA WITH VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D8A" name="aamatra-gong" sortName="0041" category="Letter" subCategory="Matra" script="gunjala gondi" production="u11D8A" direction="LTR" description="GUNJALA GONDI VOWEL SIGN AA" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D8B" name="imatra-gong" sortName="0042" category="Letter" subCategory="Matra" script="gunjala gondi" production="u11D8B" direction="LTR" description="GUNJALA GONDI VOWEL SIGN I" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D8C" name="iimatra-gong" sortName="0043" category="Letter" subCategory="Matra" script="gunjala gondi" production="u11D8C" direction="LTR" description="GUNJALA GONDI VOWEL SIGN II" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D8D" name="umatra-gong" sortName="0044" category="Letter" subCategory="Matra" script="gunjala gondi" production="u11D8D" direction="LTR" description="GUNJALA GONDI VOWEL SIGN U" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D8E" name="uumatra-gong" sortName="0045" category="Letter" subCategory="Matra" script="gunjala gondi" production="u11D8E" direction="LTR" description="GUNJALA GONDI VOWEL SIGN UU" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D90" name="eematra-gong" sortName="0046" category="Letter" subCategory="Matra" script="gunjala gondi " production="u11D90" direction="LTR" description="GUNJALA GONDI VOWEL SIGN EE" anchors="A, _M" marks="anusvara-gong" />
+	<glyph unicode="11D91" name="aimatra-gong" sortName="0048" category="Letter" subCategory="Matra" script="gunjala gondi" production="u11D91" direction="LTR" description="GUNJALA GONDI VOWEL SIGN AI" anchors="A, _M" marks="anusvara-gong" />
+	<glyph unicode="11D93" name="oomatra-gong" sortName="0049" decompose="aamatra-gong, eematra-gong" category="Letter" subCategory="Matra" script="gunjala gondi" production="u11D93" direction="LTR" description="GUNJALA GONDI VOWEL SIGN OO" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D94" name="aumatra-gong" sortName="0050" decompose="aamatra-gong, aimatra-gong" category="Letter" subCategory="Matra" script="gunjala gondi" production="u11D94" direction="LTR" description="GUNJALA GONDI VOWEL SIGN AU" anchors="A" marks="anusvara-gong" />
+	<glyph unicode="11D95" name="anusvara-gong" sortName="0051" category="Mark" subCategory="Nonspacing" script="gunjala gondi" production="u11D95" direction="LTR" description="GUNJALA GONDI SIGN anusvara-gong" anchors="_A" />
+	<glyph unicode="11D96" name="visarga-gong" sortName="0052" category="Mark" subCategory="Spacing" script="gunjala gondi" production="u11D96" direction="LTR" description="GUNJALA GONDI SIGN VISARGA" />
+	<glyph unicode="11D97" name="virama-gong" sortName="0053" category="Mark" subCategory="Nonspacing" script="gunjala gondi" production="u11D97" direction="LTR" description="GUNJALA GONDI VIRAMA" />
+	<glyph unicode="11D98" name="om-gong" sortName="0054" category="Symbol" script="gunjala gondi" production="u11D98" direction="LTR" description="GUNJALA GONDI OM" />
+	<glyph unicode="11DA0" name="zero-gong" sortName="0055" category="Number" subCategory="Decimal Digit" case="lower" script="gunjala gondi " production="u11DA0" direction="LTR" description="GUNJALA GONDI DIGIT ZERO" />
+	<glyph unicode="11DA1" name="one-gong" sortName="0056" category="Number" subCategory="Decimal Digit" script="gunjala gondi" production="u11DA1" direction="LTR" description="GUNJALA GONDI DIGIT ONE" />
+	<glyph unicode="11DA2" name="two-gong" sortName="0057" category="Number" subCategory="Decimal Digit" script="gunjala gondi" production="u11DA2" direction="LTR" description="GUNJALA GONDI DIGIT TWO" />
+	<glyph unicode="11DA3" name="three-gong" sortName="0058" category="Number" subCategory="Decimal Digit" script="gunjala gondi" production="u11DA3" direction="LTR" description="GUNJALA GONDI DIGIT THREE" />
+	<glyph unicode="11DA4" name="four-gong" sortName="0059" category="Number" subCategory="Decimal Digit" script="gunjala gondi" production="u11DA4" direction="LTR" description="GUNJALA GONDI DIGIT FOUR" />
+	<glyph unicode="11DA5" name="five-gong" sortName="0060" category="Number" subCategory="Decimal Digit" script="gunjala gondi" production="u11DA5" direction="LTR" description="GUNJALA GONDI DIGIT FIVE" />
+	<glyph unicode="11DA6" name="six-gong" sortName="0061" category="Number" subCategory="Decimal Digit" script="gunjala gondi" production="u11DA6" direction="LTR" description="GUNJALA GONDI DIGIT SIX" />
+	<glyph unicode="11DA7" name="seven-gong" sortName="0062" category="Number" subCategory="Decimal Digit" script="gunjala gondi" production="u11DA7" direction="LTR" description="GUNJALA GONDI DIGIT SEVEN" />
+	<glyph unicode="11DA8" name="eight-gong" sortName="0063" category="Number" subCategory="Decimal Digit" script="gunjala gondi" production="u11DA8" direction="LTR" description="GUNJALA GONDI DIGIT EIGHT" />
+	<glyph unicode="11DA9" name="nine-gong" sortName="0064" category="Number" subCategory="Decimal Digit" script="gunjala gondi" production="u11DA9" direction="LTR" description="GUNJALA GONDI DIGIT NINE" />
+</glyphData>
