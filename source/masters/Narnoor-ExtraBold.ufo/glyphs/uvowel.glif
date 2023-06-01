@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uvowel" format="2">
   <advance width="869"/>
+  <unicode hex="11D64"/>
   <anchor x="756" y="655" name="A"/>
   <outline>
     <component base="aamatra" xOffset="384"/>

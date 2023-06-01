@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aimatra" format="2">
+  <unicode hex="11D91"/>
   <anchor x="-36" y="662" name="A"/>
   <anchor x="-82" y="645" name="_M"/>
   <outline>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="twogong" format="2">
   <advance width="781"/>
+  <unicode hex="11DA2"/>
   <outline>
     <contour>
       <point x="274" y="-2" type="curve" smooth="yes"/>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eightgong" format="2">
   <advance width="802"/>
+  <unicode hex="11DA8"/>
   <outline>
     <contour>
       <point x="590" y="205" type="curve" smooth="yes"/>

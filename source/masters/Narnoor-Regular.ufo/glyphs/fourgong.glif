@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fourgong" format="2">
   <advance width="687"/>
+  <unicode hex="11DA4"/>
   <outline>
     <contour>
       <point x="224" y="-2" type="curve" smooth="yes"/>

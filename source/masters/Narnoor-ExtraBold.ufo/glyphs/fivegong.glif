@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fivegong" format="2">
   <advance width="537"/>
+  <unicode hex="11DA5"/>
   <outline>
     <contour>
       <point x="283" y="-2" type="curve" smooth="yes"/>

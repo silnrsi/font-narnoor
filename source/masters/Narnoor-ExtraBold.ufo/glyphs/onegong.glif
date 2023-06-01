@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onegong" format="2">
   <advance width="557"/>
+  <unicode hex="11DA1"/>
   <outline>
     <contour>
       <point x="262" y="-2" type="curve" smooth="yes"/>

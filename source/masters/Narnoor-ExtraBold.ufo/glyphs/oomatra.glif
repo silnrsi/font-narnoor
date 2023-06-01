@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oomatra" format="2">
   <advance width="485"/>
+  <unicode hex="11D93"/>
   <anchor x="368" y="722" name="A"/>
   <anchor x="16" y="655" name="C"/>
   <outline>
