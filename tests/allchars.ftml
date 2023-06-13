@@ -676,9 +676,10 @@ U+11D8E
 U+11D90
 U+11D91
 U+11D93
-U+11D94">
-      <comment>aamatra imatra iimatra umatra uumatra eematra aimatra oomatra aumatra</comment>
-      <string>\u011D8A\u011D8B\u011D8C\u011D8D\u011D8E\u011D90\u011D91\u011D93\u011D94</string>
+U+11D94
+U+11D97">
+      <comment>aamatra imatra iimatra umatra uumatra eematra aimatra oomatra aumatra virama</comment>
+      <string>\u011D8A\u011D8B\u011D8C\u011D8D\u011D8E\u011D90\u011D91\u011D93\u011D94\u011D97</string>
     </test>
     <test label="U+11DA0
 U+11DA1

@@ -55,8 +55,11 @@ def doit(args):
     vowels = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Vowel_Independent']
     consonants = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Consonant']
     matras = [uid for uid in uids if 'VOWEL SIGN' in get_ucd(uid, 'na')]
+    virama = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Invisible_Stacker'][0]
     digits = [uid for uid in uids if builder.char(uid).general == 'Nd' and uid in block]
     punct = [uid for uid in uids if get_ucd(uid, 'gc').startswith('P')]
+
+    matra_like = matras + [virama]
 
     # Initialize FTML document:
     # Default name for test: AllChars or something based on the csvdata file:
@@ -144,7 +147,7 @@ def doit(args):
 
         # Characters used to create SILE test data
         ftml.startTestGroup('Proof')
-        for section in (vowels, consonants, matras, digits, punct):
+        for section in (vowels, consonants, matra_like, digits, punct):
             builder.render(section, ftml)
             ftml.closeTest()
 
@@ -187,7 +190,7 @@ def doit(args):
     if test.lower().startswith("matras"):
         ftml.startTestGroup('Consonants with matras')
         for c in consonants + [dotted_circle]:
-            for m in matras:
+            for m in matra_like:
                 builder.render((c,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
@@ -199,7 +202,7 @@ def doit(args):
 
         ftml.startTestGroup('Consonants with matras in a frame')
         for c in consonants:
-            for m in matras:
+            for m in matra_like:
                 builder.render((c,m,c), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 

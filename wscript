@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 # this is a smith configuration file
 
+# command line options
+opts = preprocess_args(
+    {'opt': '-r'}, # only build the regular font
+    )
+
 # override the default folders
 DOCDIR = ["documentation", "web"]
 
@@ -22,6 +27,7 @@ generated = 'generated/'
 # set up the build parameters from the designspace file(s)
 for dspace in ('',):
     designspace('source/' + FAMILY + dspace + '.designspace',
+                instances = ['Narnoor Regular'] if '-r' in opts else None,
                 target = process('${DS:FILENAME_BASE}.ttf',
                     cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}'])
                 ),
