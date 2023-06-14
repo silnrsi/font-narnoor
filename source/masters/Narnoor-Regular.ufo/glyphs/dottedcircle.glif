@@ -5,12 +5,7 @@
   <anchor x="293" y="645" name="A"/>
   <anchor x="585" y="645" name="M"/>
   <anchor x="293" y="509" name="aboveLC"/>
-  <anchor x="473" y="509" name="aboverightLC"/>
   <anchor x="293" y="0" name="baseLC"/>
-  <anchor x="293" y="-22" name="belowLC"/>
-  <anchor x="293" y="244" name="center"/>
-  <anchor x="409" y="486" name="hornLC"/>
-  <anchor x="293" y="0" name="ogonekLC"/>
   <outline>
     <contour>
       <point x="108" y="97" type="curve" smooth="yes"/>

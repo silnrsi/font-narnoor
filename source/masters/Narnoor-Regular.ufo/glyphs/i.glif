@@ -3,8 +3,6 @@
   <advance width="246"/>
   <unicode hex="0069"/>
   <anchor x="123" y="694" name="aboveLC"/>
-  <anchor x="123" y="-22" name="belowLC"/>
-  <anchor x="152" y="0" name="ogonekLC"/>
   <outline>
     <contour>
       <point x="82" y="0" type="line"/>

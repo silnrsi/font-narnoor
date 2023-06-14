@@ -3,7 +3,6 @@
   <advance width="652"/>
   <unicode hex="0048"/>
   <anchor x="325" y="678" name="aboveUC"/>
-  <anchor x="325" y="-22" name="belowLC"/>
   <outline>
     <contour>
       <point x="90" y="0" type="line"/>

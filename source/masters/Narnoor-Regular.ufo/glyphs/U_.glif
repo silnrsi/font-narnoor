@@ -3,9 +3,6 @@
   <advance width="645"/>
   <unicode hex="0055"/>
   <anchor x="322" y="678" name="aboveUC"/>
-  <anchor x="322" y="-22" name="belowLC"/>
-  <anchor x="525" y="666" name="hornLC"/>
-  <anchor x="322" y="0" name="ogonekUC"/>
   <outline>
     <contour>
       <point x="323" y="-12" type="curve" smooth="yes"/>

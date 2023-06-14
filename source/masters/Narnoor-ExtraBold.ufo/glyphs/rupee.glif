@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rupee" format="2">
-  <advance width="988"/>
+  <advance width="1023"/>
   <unicode hex="20A8"/>
-  <anchor x="788" y="509" name="aboveLC"/>
-  <anchor x="295" y="678" name="aboveUC"/>
-  <anchor x="792" y="0" name="baseLC"/>
-  <anchor x="792" y="-22" name="belowLC"/>
+  <anchor x="820" y="514" name="aboveLC"/>
+  <anchor x="302" y="676" name="aboveUC"/>
+  <anchor x="820" y="0" name="baseLC"/>
   <outline>
     <component base="R"/>
-    <component base="s" xOffset="569"/>
+    <component base="s" xOffset="592"/>
   </outline>
   <lib>
     <dict>

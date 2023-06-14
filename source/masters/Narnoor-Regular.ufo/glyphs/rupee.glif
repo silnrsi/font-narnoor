@@ -5,7 +5,6 @@
   <anchor x="788" y="509" name="aboveLC"/>
   <anchor x="295" y="678" name="aboveUC"/>
   <anchor x="792" y="0" name="baseLC"/>
-  <anchor x="792" y="-22" name="belowLC"/>
   <outline>
     <component base="R"/>
     <component base="s" xOffset="569"/>
