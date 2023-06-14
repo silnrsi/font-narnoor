@@ -3,3 +3,14 @@ Omegagreek = Ohm | 03A9
 softhyphen = hyphen | 00AD
 hyphentwo = hyphen | 2010
 nbhyphen = hyphen | 2011
+
+# clashes
+# gha_eematra = gha & eematra
+# gha_aimatra = gha & aimatra
+
+# dda_eematra = dda & eematra
+# dda_aimatra = dda & aimatra
+# dda_aumatra = dda_aamatra & aimatra
+
+# nga_eematra = nga & eematra
+# nga_aimatra = nga & aimatra
