@@ -65,7 +65,7 @@
 # baseClass t <anchor 217 0> @baseLC;
 
 # AP: _none
-markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 virama] <anchor 0 0> @_none;
+markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 cgj virama] <anchor 0 0> @_none;
 
 # AP: aboveLC
 @aboveLC = [a ae b k thorn breve c u circumflex d dotlessi dottedcircle e f g h i j l m n p o oslash oe q r rupee s t v w x y z];
@@ -216,7 +216,6 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 
 # AP: _aboveLC
 markClass [acutecmb brevecmb caroncmb circumflexcmb dieresiscmb dotaccentcmb gravecmb hungarumlautcmb macroncmb ringcmb tildecmb] <anchor 0 509> @_aboveLC;
-markClass cgj <anchor 0 0> @_aboveLC;
 
 # AP: _aboveUC
 markClass [acutecmb.cap caroncmb.cap circumflexcmb.cap dieresiscmb.cap gravecmb.cap ringcmb.cap tildecmb.cap] <anchor 0 678> @_aboveUC;

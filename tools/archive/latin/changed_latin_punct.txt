@@ -1,0 +1,6 @@
+currency
+exclamdown
+guilsinglright
+perthousand
+questiondown
+quotedblbase

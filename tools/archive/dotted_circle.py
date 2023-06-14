@@ -16,8 +16,8 @@ for glyph in font:
         continue
     (xmin, ymin, xmax, ymax) = bounds
     xcenter = (xmin + xmax) / 2
-    glyph.appendAnchor('M', (xmax, ymax))
-    glyph.appendAnchor('UR', (xmax, ymin))
+    glyph.appendAnchor('M', (glyph.width, 645))
+    glyph.appendAnchor('A', (xcenter, 645))
 
 # Save UFO
 font.changed()

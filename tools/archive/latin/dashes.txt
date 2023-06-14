@@ -1,0 +1,6 @@
+hyphen
+figuredash
+endash
+emdash
+horizontalbar
+minus

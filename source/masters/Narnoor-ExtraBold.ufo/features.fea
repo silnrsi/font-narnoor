@@ -65,7 +65,7 @@
 # baseClass t <anchor 227 0> @baseLC;
 
 # AP: _none
-markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 virama] <anchor 0 0> @_none;
+markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 cgj virama] <anchor 0 0> @_none;
 
 # AP: aboveLC
 @aboveLC = [a c ae b k thorn breve circumflex d dotlessi dottedcircle e f g h l i j m n p o oslash oe q r rupee s t u v w x y z];
@@ -120,7 +120,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass ca <anchor 652 655> @A;
 # baseClass ca_aamatra <anchor 949 655> @A;
 # baseClass ca_imatra <anchor 1003 655> @A;
-# baseClass cha <anchor 728 -181> @A;
+# baseClass cha <anchor 605 655> @A;
 # baseClass cha_aamatra <anchor 726 655> @A;
 # baseClass cha_imatra <anchor 1040 655> @A;
 # baseClass da <anchor 837 655> @A;
@@ -217,7 +217,6 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 
 # AP: _aboveLC
 markClass [acutecmb brevecmb caroncmb circumflexcmb dieresiscmb dotaccentcmb gravecmb hungarumlautcmb macroncmb ringcmb tildecmb] <anchor 0 514> @_aboveLC;
-markClass cgj <anchor 0 0> @_aboveLC;
 
 # AP: _aboveUC
 markClass [acutecmb.cap caroncmb.cap circumflexcmb.cap dieresiscmb.cap gravecmb.cap ringcmb.cap tildecmb.cap] <anchor 0 676> @_aboveUC;
@@ -502,7 +501,7 @@ lookup BaseAnusvara {
     pos base ca <anchor 652 655> mark @_A;
     pos base ca_aamatra <anchor 949 655> mark @_A;
     pos base ca_imatra <anchor 1003 655> mark @_A;
-    pos base cha <anchor 728 -181> mark @_A;
+    pos base cha <anchor 605 655> mark @_A;
     pos base cha_aamatra <anchor 726 655> mark @_A;
     pos base cha_imatra <anchor 1040 655> mark @_A;
     pos base da <anchor 837 655> mark @_A;
