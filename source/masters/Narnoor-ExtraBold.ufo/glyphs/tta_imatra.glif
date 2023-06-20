@@ -5,9 +5,9 @@
   <outline>
     <component base="_imatra-hook" xOffset="750" yOffset="225"/>
     <contour>
-      <point x="-18" y="589" type="line"/>
+      <point x="-19" y="589" type="line"/>
       <point x="1162" y="589" type="line"/>
-      <point x="1161" y="655" type="line"/>
+      <point x="1162" y="655" type="line"/>
       <point x="-19" y="655" type="line"/>
     </contour>
     <contour>

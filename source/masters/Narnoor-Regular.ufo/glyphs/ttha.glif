@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ttha" format="2">
-  <advance width="960"/>
+  <advance width="950"/>
   <unicode hex="11D7E"/>
   <anchor x="869" y="645" name="A"/>
   <anchor x="874" y="645" name="M"/>

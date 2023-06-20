@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ca" format="2">
-  <advance width="734"/>
+  <advance width="724"/>
   <unicode hex="11D7B"/>
   <anchor x="652" y="655" name="A"/>
   <anchor x="657" y="655" name="M"/>
@@ -67,8 +67,8 @@
     </contour>
     <contour>
       <point x="-19" y="589" type="line"/>
-      <point x="753" y="589" type="line"/>
-      <point x="753" y="655" type="line"/>
+      <point x="743" y="589" type="line"/>
+      <point x="743" y="655" type="line"/>
       <point x="-19" y="655" type="line"/>
     </contour>
   </outline>

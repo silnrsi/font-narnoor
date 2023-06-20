@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jha_aamatra" format="2">
   <advance width="1216"/>
-  <anchor x="982" y="645" name="A"/>
-  <anchor x="981" y="645" name="M"/>
+  <anchor x="1102" y="655" name="A"/>
+  <anchor x="1090" y="655" name="M"/>
   <outline>
     <contour>
       <point x="-19" y="589" type="line"/>
-      <point x="1233" y="589" type="line"/>
+      <point x="1235" y="589" type="line"/>
       <point x="1235" y="655" type="line"/>
       <point x="-19" y="655" type="line"/>
     </contour>

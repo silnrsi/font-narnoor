@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lla.half" format="2">
-  <advance width="613"/>
+  <advance width="603"/>
   <outline>
     <contour>
       <point x="-19" y="589" type="line"/>
-      <point x="632" y="589" type="line"/>
-      <point x="632" y="655" type="line"/>
+      <point x="622" y="589" type="line"/>
+      <point x="622" y="655" type="line"/>
       <point x="-19" y="655" type="line"/>
     </contour>
     <contour>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nga" format="2">
-  <advance width="836"/>
+  <advance width="826"/>
   <unicode hex="11D84"/>
   <anchor x="720" y="655" name="A"/>
   <anchor x="732" y="655" name="M"/>
@@ -79,8 +79,8 @@
     </contour>
     <contour>
       <point x="439" y="589" type="line"/>
-      <point x="855" y="589" type="line"/>
-      <point x="855" y="655" type="line"/>
+      <point x="845" y="589" type="line"/>
+      <point x="845" y="655" type="line"/>
       <point x="439" y="655" type="line"/>
     </contour>
   </outline>

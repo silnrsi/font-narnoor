@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sa_aamatra" format="2">
   <advance width="1194"/>
-  <anchor x="1068" y="655" name="A"/>
-  <anchor x="1098" y="655" name="M"/>
+  <anchor x="1067" y="655" name="A"/>
+  <anchor x="1063" y="655" name="M"/>
   <outline>
     <contour>
       <point x="-19" y="589" type="line"/>
@@ -76,7 +76,7 @@
       <point x="925" y="295" type="curve" smooth="yes"/>
       <point x="925" y="383"/>
       <point x="1001" y="503"/>
-      <point x="1158" y="608" type="curve"/>
+      <point x="1135" y="608" type="curve"/>
       <point x="995" y="608" type="line"/>
       <point x="879" y="528"/>
       <point x="812" y="401"/>

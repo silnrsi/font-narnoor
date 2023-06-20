@@ -8,8 +8,8 @@
     <component base="ma"/>
     <contour>
       <point x="237" y="315" type="line"/>
-      <point x="311" y="336" type="line"/>
-      <point x="206" y="512" type="line"/>
+      <point x="305" y="336" type="line"/>
+      <point x="200" y="512" type="line"/>
       <point x="138" y="484" type="line"/>
     </contour>
   </outline>

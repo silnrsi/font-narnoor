@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nga_eematra" format="2">
   <advance width="919"/>
-  <anchor x="705" y="712" name="A"/>
+  <anchor x="796" y="712" name="A"/>
   <outline>
     <contour>
       <point x="569" y="-2" type="curve" smooth="yes"/>

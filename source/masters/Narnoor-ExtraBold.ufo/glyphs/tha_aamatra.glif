@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tha_aamatra" format="2">
   <advance width="1415"/>
-  <anchor x="1152" y="645" name="A"/>
-  <anchor x="1151" y="645" name="M"/>
+  <anchor x="1297" y="655" name="A"/>
+  <anchor x="1289" y="655" name="M"/>
   <outline>
     <contour>
       <point x="475" y="589" type="line"/>

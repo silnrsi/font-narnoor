@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ddha" format="2">
-  <advance width="818"/>
+  <advance width="808"/>
   <unicode hex="11D83"/>
   <anchor x="703" y="655" name="A"/>
   <anchor x="705" y="655" name="M"/>
   <outline>
     <contour>
       <point x="-19" y="589" type="line"/>
-      <point x="837" y="589" type="line"/>
-      <point x="837" y="655" type="line"/>
+      <point x="827" y="589" type="line"/>
+      <point x="827" y="655" type="line"/>
       <point x="-19" y="655" type="line"/>
     </contour>
     <contour>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="va" format="2">
-  <advance width="654"/>
+  <advance width="640"/>
   <unicode hex="11D6D"/>
   <anchor x="532" y="655" name="A"/>
   <anchor x="534" y="655" name="M"/>
   <outline>
     <contour>
       <point x="-19" y="589" type="line"/>
-      <point x="673" y="589" type="line"/>
-      <point x="673" y="655" type="line"/>
+      <point x="659" y="589" type="line"/>
+      <point x="659" y="655" type="line"/>
       <point x="-19" y="655" type="line"/>
     </contour>
     <contour>

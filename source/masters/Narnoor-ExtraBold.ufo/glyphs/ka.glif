@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ka" format="2">
-  <advance width="1067"/>
+  <advance width="1097"/>
   <unicode hex="11D71"/>
   <anchor x="922" y="655" name="A"/>
   <anchor x="924" y="655" name="M"/>
@@ -56,19 +56,19 @@
       <point x="692" y="205"/>
       <point x="692" y="251" type="curve" smooth="yes"/>
       <point x="692" y="295"/>
-      <point x="719" y="349"/>
-      <point x="809" y="394" type="curve" smooth="yes"/>
-      <point x="958" y="469"/>
-      <point x="1012" y="531"/>
-      <point x="1012" y="600" type="curve" smooth="yes"/>
-      <point x="1012" y="604"/>
-      <point x="1011" y="611"/>
-      <point x="1009" y="617" type="curve"/>
-      <point x="896" y="617" type="line"/>
-      <point x="898" y="610"/>
-      <point x="899" y="603"/>
-      <point x="899" y="598" type="curve" smooth="yes"/>
-      <point x="899" y="503"/>
+      <point x="747" y="349"/>
+      <point x="837" y="394" type="curve" smooth="yes"/>
+      <point x="986" y="469"/>
+      <point x="1052" y="531"/>
+      <point x="1052" y="600" type="curve" smooth="yes"/>
+      <point x="1052" y="604"/>
+      <point x="1051" y="611"/>
+      <point x="1049" y="617" type="curve"/>
+      <point x="936" y="617" type="line"/>
+      <point x="938" y="610"/>
+      <point x="939" y="603"/>
+      <point x="939" y="598" type="curve" smooth="yes"/>
+      <point x="939" y="503"/>
       <point x="579" y="460"/>
       <point x="579" y="252" type="curve" smooth="yes"/>
       <point x="579" y="130"/>
@@ -88,8 +88,8 @@
     </contour>
     <contour>
       <point x="-19" y="589" type="line"/>
-      <point x="1086" y="589" type="line"/>
-      <point x="1086" y="655" type="line"/>
+      <point x="1116" y="589" type="line"/>
+      <point x="1116" y="655" type="line"/>
       <point x="-19" y="655" type="line"/>
     </contour>
   </outline>

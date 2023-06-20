@@ -2,7 +2,7 @@
 <glyph name="ttha_aamatra" format="2">
   <advance width="1258"/>
   <anchor x="1122" y="655" name="A"/>
-  <anchor x="1147" y="655" name="M"/>
+  <anchor x="1122" y="655" name="M"/>
   <outline>
     <component base="tta_aamatra"/>
     <contour>

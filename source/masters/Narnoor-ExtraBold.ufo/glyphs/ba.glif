@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ba" format="2">
-  <advance width="693"/>
+  <advance width="669"/>
   <unicode hex="11D6E"/>
   <anchor x="563" y="655" name="A"/>
   <anchor x="565" y="655" name="M"/>
   <outline>
     <contour>
       <point x="-19" y="589" type="line"/>
-      <point x="712" y="589" type="line"/>
-      <point x="712" y="655" type="line"/>
+      <point x="688" y="589" type="line"/>
+      <point x="688" y="655" type="line"/>
       <point x="-19" y="655" type="line"/>
     </contour>
     <contour>

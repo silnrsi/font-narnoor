@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bha_imatra" format="2">
   <advance width="1401"/>
-  <anchor x="1395" y="655" name="A"/>
+  <anchor x="1405" y="665" name="A"/>
   <outline>
-    <component base="_imatra-hook" xOffset="1006" yOffset="10"/>
+    <component base="_imatra-hook" xOffset="1008" yOffset="10"/>
     <contour>
       <point x="-19" y="589" type="line"/>
       <point x="1420" y="589" type="line"/>

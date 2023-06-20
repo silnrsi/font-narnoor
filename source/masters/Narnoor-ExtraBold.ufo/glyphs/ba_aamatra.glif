@@ -2,7 +2,7 @@
 <glyph name="ba_aamatra" format="2">
   <advance width="1034"/>
   <anchor x="680" y="655" name="A"/>
-  <anchor x="682" y="655" name="M"/>
+  <anchor x="676" y="655" name="M"/>
   <outline>
     <contour>
       <point x="-19" y="589" type="line"/>

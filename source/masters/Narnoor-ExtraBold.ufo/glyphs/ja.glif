@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ja" format="2">
-  <advance width="809"/>
+  <advance width="799"/>
   <unicode hex="11D80"/>
   <anchor x="691" y="655" name="A"/>
   <anchor x="693" y="655" name="M"/>
@@ -95,8 +95,8 @@
     </contour>
     <contour>
       <point x="-19" y="589" type="line"/>
-      <point x="828" y="589" type="line"/>
-      <point x="828" y="655" type="line"/>
+      <point x="818" y="589" type="line"/>
+      <point x="818" y="655" type="line"/>
       <point x="-19" y="655" type="line"/>
     </contour>
   </outline>

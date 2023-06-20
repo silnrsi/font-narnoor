@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ga" format="2">
-  <advance width="815"/>
+  <advance width="805"/>
   <unicode hex="11D76"/>
   <anchor x="705" y="655" name="A"/>
   <anchor x="710" y="655" name="M"/>
@@ -91,8 +91,8 @@
     </contour>
     <contour>
       <point x="-19" y="589" type="line"/>
-      <point x="834" y="589" type="line"/>
-      <point x="834" y="655" type="line"/>
+      <point x="824" y="589" type="line"/>
+      <point x="824" y="655" type="line"/>
       <point x="-19" y="655" type="line"/>
     </contour>
   </outline>

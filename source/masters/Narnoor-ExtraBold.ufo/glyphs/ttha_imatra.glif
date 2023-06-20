@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ttha_imatra" format="2">
   <advance width="1143"/>
-  <anchor x="1064" y="655" name="A"/>
+  <anchor x="1147" y="665" name="A"/>
   <outline>
     <component base="tta_imatra"/>
     <contour>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gha_eematra" format="2">
   <advance width="810"/>
-  <anchor x="701" y="712" name="A"/>
+  <anchor x="711" y="712" name="A"/>
   <outline>
     <component base="gha"/>
     <contour>

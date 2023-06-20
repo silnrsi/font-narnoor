@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ba.half" format="2">
-  <advance width="675"/>
+  <advance width="665"/>
   <outline>
     <contour>
       <point x="-19" y="589" type="line"/>
-      <point x="694" y="589" type="line"/>
-      <point x="694" y="655" type="line"/>
+      <point x="684" y="589" type="line"/>
+      <point x="684" y="655" type="line"/>
       <point x="-19" y="655" type="line"/>
     </contour>
     <contour>

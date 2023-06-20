@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cha.half" format="2">
-  <advance width="717"/>
+  <advance width="707"/>
   <outline>
     <contour>
       <point x="87" y="-33" type="line"/>
@@ -40,8 +40,8 @@
     </contour>
     <contour>
       <point x="-19" y="589" type="line"/>
-      <point x="736" y="589" type="line"/>
-      <point x="736" y="655" type="line"/>
+      <point x="726" y="589" type="line"/>
+      <point x="726" y="655" type="line"/>
       <point x="-19" y="655" type="line"/>
     </contour>
   </outline>
