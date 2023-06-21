@@ -2,8 +2,8 @@
 <glyph name="ttha" format="2">
   <advance width="980"/>
   <unicode hex="11D7E"/>
-  <anchor x="889" y="655" name="A"/>
-  <anchor x="894" y="655" name="M"/>
+  <anchor x="881" y="655" name="A"/>
+  <anchor x="876" y="655" name="M"/>
   <outline>
     <component base="tta"/>
     <contour>

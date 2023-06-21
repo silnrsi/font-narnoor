@@ -2,8 +2,8 @@
 <glyph name="dha" format="2">
   <advance width="820"/>
   <unicode hex="11D79"/>
-  <anchor x="708" y="655" name="A"/>
-  <anchor x="710" y="655" name="M"/>
+  <anchor x="715" y="655" name="A"/>
+  <anchor x="711" y="655" name="M"/>
   <outline>
     <component base="ma"/>
     <contour>

@@ -2,8 +2,8 @@
 <glyph name="kha" format="2">
   <advance width="978"/>
   <unicode hex="11D72"/>
-  <anchor x="891" y="655" name="A"/>
-  <anchor x="883" y="655" name="M"/>
+  <anchor x="876" y="655" name="A"/>
+  <anchor x="877" y="655" name="M"/>
   <outline>
     <contour>
       <point x="-19" y="589" type="line"/>
