@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brevecmb" format="2">
-  <anchor x="0" y="514" name="_aboveLC"/>
+  <anchor x="0" y="490" name="_aboveLC"/>
   <outline>
     <contour>
-      <point x="0" y="571" type="curve" smooth="yes"/>
-      <point x="111" y="571"/>
-      <point x="158" y="644"/>
-      <point x="163" y="726" type="curve"/>
-      <point x="95" y="737" type="line"/>
-      <point x="88" y="690"/>
-      <point x="59" y="645"/>
-      <point x="0" y="645" type="curve" smooth="yes"/>
-      <point x="-59" y="645"/>
-      <point x="-88" y="690"/>
-      <point x="-95" y="737" type="curve"/>
-      <point x="-163" y="726" type="line"/>
-      <point x="-158" y="644"/>
-      <point x="-111" y="571"/>
+      <point x="0" y="542" type="curve" smooth="yes"/>
+      <point x="107" y="542"/>
+      <point x="153" y="610"/>
+      <point x="157" y="690" type="curve"/>
+      <point x="86" y="702" type="line"/>
+      <point x="80" y="659"/>
+      <point x="53" y="619"/>
+      <point x="0" y="619" type="curve" smooth="yes"/>
+      <point x="-53" y="619"/>
+      <point x="-80" y="659"/>
+      <point x="-86" y="702" type="curve"/>
+      <point x="-157" y="690" type="line"/>
+      <point x="-153" y="610"/>
+      <point x="-106" y="542"/>
     </contour>
   </outline>
   <lib>

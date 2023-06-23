@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotlessi" format="2">
-  <advance width="262"/>
+  <advance width="254"/>
   <unicode hex="0131"/>
-  <anchor x="131" y="514" name="aboveLC"/>
+  <anchor x="127" y="490" name="aboveLC"/>
   <outline>
     <contour>
-      <point x="73" y="0" type="line"/>
-      <point x="188" y="0" type="line"/>
-      <point x="188" y="491" type="line"/>
-      <point x="73" y="491" type="line"/>
+      <point x="66" y="0" type="line"/>
+      <point x="187" y="0" type="line"/>
+      <point x="187" y="468" type="line"/>
+      <point x="66" y="468" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="z" format="2">
-  <advance width="425"/>
+  <advance width="412"/>
   <unicode hex="007A"/>
-  <anchor x="229" y="509" name="aboveLC"/>
+  <anchor x="221" y="486" name="aboveLC"/>
   <outline>
     <contour>
       <point x="31" y="0" type="line"/>
-      <point x="399" y="0" type="line"/>
-      <point x="399" y="67" type="line"/>
-      <point x="135" y="67" type="line"/>
-      <point x="391" y="442" type="line"/>
-      <point x="391" y="486" type="line"/>
-      <point x="59" y="486" type="line"/>
-      <point x="59" y="419" type="line"/>
-      <point x="287" y="419" type="line"/>
-      <point x="31" y="44" type="line"/>
+      <point x="388" y="0" type="line"/>
+      <point x="388" y="75" type="line"/>
+      <point x="149" y="75" type="line"/>
+      <point x="380" y="414" type="line"/>
+      <point x="380" y="464" type="line"/>
+      <point x="56" y="464" type="line"/>
+      <point x="56" y="388" type="line"/>
+      <point x="262" y="388" type="line"/>
+      <point x="31" y="50" type="line"/>
     </contour>
   </outline>
   <lib>

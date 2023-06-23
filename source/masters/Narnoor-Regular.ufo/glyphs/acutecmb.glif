@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutecmb" format="2">
   <unicode hex="0301"/>
-  <anchor x="0" y="509" name="_aboveLC"/>
+  <anchor x="0" y="486" name="_aboveLC"/>
   <outline>
     <contour>
-      <point x="-14" y="573" type="line"/>
-      <point x="143" y="726" type="line"/>
-      <point x="85" y="781" type="line"/>
-      <point x="-56" y="614" type="line"/>
+      <point x="-7" y="544" type="line"/>
+      <point x="147" y="690" type="line"/>
+      <point x="82" y="752" type="line"/>
+      <point x="-54" y="590" type="line"/>
     </contour>
   </outline>
   <lib>

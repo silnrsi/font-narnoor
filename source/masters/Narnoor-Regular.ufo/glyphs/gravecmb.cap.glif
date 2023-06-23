@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravecmb.cap" format="2">
-  <anchor x="0" y="678" name="_aboveUC"/>
+  <anchor x="0" y="643" name="_aboveUC"/>
   <outline>
     <contour>
-      <point x="17" y="697" type="line"/>
-      <point x="54" y="739" type="line"/>
-      <point x="-88" y="867" type="line"/>
-      <point x="-135" y="812" type="line"/>
+      <point x="14" y="657" type="line"/>
+      <point x="56" y="705" type="line"/>
+      <point x="-85" y="830" type="line"/>
+      <point x="-137" y="768" type="line"/>
     </contour>
   </outline>
   <lib>

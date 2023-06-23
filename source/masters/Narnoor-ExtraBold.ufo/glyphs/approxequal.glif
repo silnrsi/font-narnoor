@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="approxequal" format="2">
-  <advance width="513"/>
+  <advance width="492"/>
   <unicode hex="2248"/>
   <outline>
-    <component base="asciitilde" yOffset="112"/>
-    <component base="asciitilde" yOffset="-112"/>
+    <component base="asciitilde" yOffset="108"/>
+    <component base="asciitilde" yOffset="-108"/>
   </outline>
   <lib>
     <dict>

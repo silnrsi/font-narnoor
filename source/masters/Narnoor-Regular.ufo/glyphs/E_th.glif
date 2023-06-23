@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eth" format="2">
-  <advance width="638"/>
+  <advance width="611"/>
   <unicode hex="00D0"/>
   <outline>
-    <component base="D" xOffset="22"/>
+    <component base="D" xOffset="21"/>
     <contour>
-      <point x="33" y="321" type="line"/>
-      <point x="344" y="321" type="line"/>
-      <point x="344" y="368" type="line"/>
-      <point x="114" y="368" type="line"/>
-      <point x="33" y="364" type="line"/>
+      <point x="29" y="299" type="line"/>
+      <point x="334" y="299" type="line"/>
+      <point x="334" y="350" type="line"/>
+      <point x="105" y="350" type="line"/>
+      <point x="29" y="346" type="line"/>
     </contour>
   </outline>
   <lib>

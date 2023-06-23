@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="T" format="2">
-  <advance width="546"/>
+  <advance width="522"/>
   <unicode hex="0054"/>
-  <anchor x="272" y="676" name="aboveUC"/>
-  <anchor x="273" y="0" name="baseLC"/>
+  <anchor x="260" y="641" name="aboveUC"/>
+  <anchor x="261" y="0" name="baseLC"/>
   <outline>
     <contour>
-      <point x="215" y="0" type="line"/>
-      <point x="331" y="0" type="line"/>
-      <point x="331" y="556" type="line"/>
-      <point x="520" y="556" type="line"/>
-      <point x="520" y="654" type="line"/>
-      <point x="26" y="654" type="line"/>
-      <point x="26" y="556" type="line"/>
-      <point x="215" y="556" type="line"/>
+      <point x="200" y="0" type="line"/>
+      <point x="322" y="0" type="line"/>
+      <point x="322" y="517" type="line"/>
+      <point x="498" y="517" type="line"/>
+      <point x="498" y="620" type="line"/>
+      <point x="24" y="620" type="line"/>
+      <point x="24" y="517" type="line"/>
+      <point x="200" y="517" type="line"/>
     </contour>
   </outline>
   <lib>
