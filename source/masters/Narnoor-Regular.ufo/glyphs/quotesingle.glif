@@ -5,11 +5,17 @@
   <outline>
     <contour>
       <point x="137" y="600" type="line"/>
-      <point x="172" y="813" type="line"/>
-      <point x="86" y="833" type="line"/>
-      <point x="86" y="765"/>
+      <point x="172" y="820" type="line"/>
+      <point x="86" y="828" type="line"/>
+      <point x="86" y="760"/>
       <point x="110" y="672"/>
       <point x="110" y="600" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
 </glyph>

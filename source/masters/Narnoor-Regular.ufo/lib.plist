@@ -5,7 +5,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3201</string>
+  <string>3202</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/ya_imatra/va_imatra/ba_imatra/bha_imatra/ma_imatra/ka_imatra/kha_imatra/ta_imatra/tha_imatra/la_imatra/ga_imatra/gha_imatra/da_imatra/dha_imatra/na_imatra/_imatra-hook/ca_imatra/cha_imatra/tta_imatra/ttha_imatra/lla_imatra/ja_imatra/jha_imatra/dda_imatra/ddha_imatra/nga_imatra/pa_imatra/pha_imatra/ha_imatra/ra_imatra/sa_imatra/space/ya/tta/va/imatra</string>
@@ -18,8 +18,7 @@
 /la/umatra/ga/umatra/gha/umatra/da/umatra/dha/umatra/na/umatra/ca/umatra/cha/umatra/tta/umatra/ttha/umatra/lla/umatra/ja/umatra/jha/umatra/dda/umatra/ddha/umatra/nga/umatra/pa/umatra/pha/umatra/ha/umatra/ra/umatra/sa/umatra 
 /ya/uumatra/va/uumatra/ba/uumatra/bha/uumatra/ma/uumatra/ka/uumatra/kha/uumatra/ta/uumatra/tha/uumatra 
 /la/uumatra/ga/uumatra/gha/uumatra/da/uumatra/dha/uumatra/na/uumatra/ca/uumatra/cha/uumatra/tta/uumatra/ttha/uumatra/lla/uumatra/ja/uumatra/jha/uumatra/dda/uumatra/ddha/uumatra/nga/uumatra/pa/uumatra/pha/uumatra/ha/uumatra/ra/uumatra/sa/uumatra</string>
-    <string>/ca/tta/imatra/ca_aamatra/tta_imatra/ha/ha_imatra/ha</string>
-    <string>/fivegong</string>
+    <string>/ya_aamatra/la/ma_imatra !"#%'(/ga/pa )*+,-.//:;&lt;=&gt;/ba/tha_aamatra ?[/ra/tta/na_aamatra ]/backslash ^_{|}~+×÷/abbreviationsign 6/figuredash/endash/emdash/horizontalbar/quoteleft/quoteright/quotedblleft/quotedblright/inrupee/onegong/fourgong 82/minus/openbox/sidebearingleft/space/sidebearingright</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
