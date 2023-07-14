@@ -8,6 +8,7 @@ opts = preprocess_args(
 
 # override the default folders
 DOCDIR = ["documentation", "web"]
+TESTDIR = ['tests', '../font-narnoor-private/tests']
 
 # set the font name and description
 APPNAME = 'Narnoor'
