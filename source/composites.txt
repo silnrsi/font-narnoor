@@ -1,8 +1,8 @@
 rupee = R & s | 20A8
-Omegagreek = Ohm | 03A9
+Omega = Ohm | 03A9
 softhyphen = hyphen | 00AD
 hyphentwo = hyphen | 2010
-nbhyphen = hyphen | 2011
+nonbreakinghyphen = hyphen | 2011
 
 # clashes
 # gha_eematra = gha & eematra

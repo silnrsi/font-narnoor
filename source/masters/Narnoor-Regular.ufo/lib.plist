@@ -1127,7 +1127,6 @@
   </dict>
   <key>public.skipExportGlyphs</key>
   <array>
-    <string>zerowidthjoiner.visible</string>
     <string>zerowidthnonjoiner.visible</string>
     <string>avowel.chandrabindu</string>
     <string>eevowel.short</string>
