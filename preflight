@@ -13,8 +13,8 @@ psfsetglyphorder -i source/glyph_data.csv source/masters/Narnoor-Regular.ufo # -
 psfsyncmasters --complex -q source/Narnoor.designspace
 
 # Rebuild composites
-psfbuildcomp -i source/composites.txt --colors g_blue -n source/masters/Narnoor-Regular.ufo   &
-psfbuildcomp -i source/composites.txt --colors g_blue -n source/masters/Narnoor-ExtraBold.ufo &
+psfbuildcomp -i source/composites.txt -c -n source/masters/Narnoor-Regular.ufo   &
+psfbuildcomp -i source/composites.txt -c -n source/masters/Narnoor-ExtraBold.ufo &
 wait
 
 # Create WOFF metadata file
