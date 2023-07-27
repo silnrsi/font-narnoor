@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Omegagreek" format="2">
-  <advance width="666"/>
-  <unicode hex="03A9"/>
+<glyph name="nonbreakinghyphen" format="2">
+  <advance width="638"/>
+  <unicode hex="2011"/>
   <outline>
-    <component base="Ohm"/>
+    <component base="hyphen"/>
   </outline>
   <lib>
     <dict>

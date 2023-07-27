@@ -30,8 +30,6 @@
   <string>C_cedilla.glif</string>
   <key>D</key>
   <string>D_.glif</string>
-  <key>Delta</key>
-  <string>D_elta.glif</string>
   <key>E</key>
   <string>E_.glif</string>
   <key>Eacute</key>
@@ -44,8 +42,6 @@
   <string>E_grave.glif</string>
   <key>Eth</key>
   <string>E_th.glif</string>
-  <key>Euro</key>
-  <string>E_uro.glif</string>
   <key>F</key>
   <string>F_.glif</string>
   <key>G</key>
@@ -88,8 +84,8 @@
   <string>O_grave.glif</string>
   <key>Ohm</key>
   <string>O_hm.glif</string>
-  <key>Omegagreek</key>
-  <string>O_megagreek.glif</string>
+  <key>Omega</key>
+  <string>O_mega.glif</string>
   <key>Oslash</key>
   <string>O_slash.glif</string>
   <key>Otilde</key>
@@ -250,6 +246,8 @@
   <string>bha_aamatra.glif</string>
   <key>bha_imatra</key>
   <string>bha_imatra.glif</string>
+  <key>blank</key>
+  <string>blank.glif</string>
   <key>braceleft</key>
   <string>braceleft.glif</string>
   <key>braceright</key>
@@ -294,8 +292,6 @@
   <string>cedillacmb.cap.glif</string>
   <key>cent</key>
   <string>cent.glif</string>
-  <key>cgj</key>
-  <string>cgj.glif</string>
   <key>cha</key>
   <string>cha.glif</string>
   <key>cha.half</key>
@@ -384,10 +380,8 @@
   <string>dotaccent.glif</string>
   <key>dotaccentcmb</key>
   <string>dotaccentcmb.glif</string>
-  <key>dotlessi</key>
-  <string>dotlessi.glif</string>
-  <key>dottedcircle</key>
-  <string>dottedcircle.glif</string>
+  <key>dottedCircle</key>
+  <string>dottedC_ircle.glif</string>
   <key>e</key>
   <string>e.glif</string>
   <key>eacute</key>
@@ -432,6 +426,8 @@
   <string>equal.glif</string>
   <key>eth</key>
   <string>eth.glif</string>
+  <key>euro</key>
+  <string>euro.glif</string>
   <key>exclam</key>
   <string>exclam.glif</string>
   <key>exclamdown</key>
@@ -488,6 +484,8 @@
   <string>gha_eematra.glif</string>
   <key>gha_imatra</key>
   <string>gha_imatra.glif</string>
+  <key>graphemejoinercomb</key>
+  <string>graphemejoinercomb.glif</string>
   <key>grave</key>
   <string>grave.glif</string>
   <key>gravecmb</key>
@@ -538,6 +536,8 @@
   <string>icircumflex.glif</string>
   <key>idieresis</key>
   <string>idieresis.glif</string>
+  <key>idotless</key>
+  <string>idotless.glif</string>
   <key>igrave</key>
   <string>igrave.glif</string>
   <key>iimatra</key>
@@ -550,10 +550,10 @@
   <string>imatra.glif</string>
   <key>imatra.short</key>
   <string>imatra.short.glif</string>
+  <key>increment</key>
+  <string>increment.glif</string>
   <key>infinity</key>
   <string>infinity.glif</string>
-  <key>inrupee</key>
-  <string>inrupee.glif</string>
   <key>integral</key>
   <string>integral.glif</string>
   <key>ivowel</key>
@@ -644,10 +644,10 @@
   <string>macron.glif</string>
   <key>macroncmb</key>
   <string>macroncmb.glif</string>
+  <key>micro</key>
+  <string>micro.glif</string>
   <key>minus</key>
   <string>minus.glif</string>
-  <key>mu</key>
-  <string>mu.glif</string>
   <key>multiply</key>
   <string>multiply.glif</string>
   <key>n</key>
@@ -660,8 +660,8 @@
   <string>na_aamatra.glif</string>
   <key>na_imatra</key>
   <string>na_imatra.glif</string>
-  <key>nbhyphen</key>
-  <string>nbhyphen.glif</string>
+  <key>narrownbspace</key>
+  <string>narrownbspace.glif</string>
   <key>nbspace</key>
   <string>nbspace.glif</string>
   <key>nga</key>
@@ -684,8 +684,8 @@
   <string>nine.glif</string>
   <key>ninegong</key>
   <string>ninegong.glif</string>
-  <key>nnbspace</key>
-  <string>nnbspace.glif</string>
+  <key>nonbreakinghyphen</key>
+  <string>nonbreakinghyphen.glif</string>
   <key>nonmarkingreturn</key>
   <string>nonmarkingreturn.glif</string>
   <key>notequal</key>
@@ -738,8 +738,6 @@
   <string>oovowel.glif</string>
   <key>oovowel.short</key>
   <string>oovowel.short.glif</string>
-  <key>openbox</key>
-  <string>openbox.glif</string>
   <key>ordfeminine</key>
   <string>ordfeminine.glif</string>
   <key>ordmasculine</key>
@@ -848,6 +846,8 @@
   <string>ringcmb.cap.glif</string>
   <key>rupee</key>
   <string>rupee.glif</string>
+  <key>rupeeIndian</key>
+  <string>rupeeI_ndian.glif</string>
   <key>s</key>
   <string>s.glif</string>
   <key>sa</key>
@@ -1000,8 +1000,8 @@
   <string>visarga.glif</string>
   <key>w</key>
   <string>w.glif</string>
-  <key>wj</key>
-  <string>wj.glif</string>
+  <key>wordjoiner</key>
+  <string>wordjoiner.glif</string>
   <key>x</key>
   <string>x.glif</string>
   <key>y</key>
@@ -1028,17 +1028,17 @@
   <string>zero.glif</string>
   <key>zero.dnom</key>
   <string>zero.dnom.glif</string>
+  <key>zeroWidthNoBreakSpace</key>
+  <string>zeroW_idthN_oB_reakS_pace.glif</string>
   <key>zerogong</key>
   <string>zerogong.glif</string>
-  <key>zwj</key>
-  <string>zwj.glif</string>
-  <key>zwnbsp</key>
-  <string>zwnbsp.glif</string>
-  <key>zwnj</key>
-  <string>zwnj.glif</string>
-  <key>zwnj.visible</key>
-  <string>zwnj.visible.glif</string>
-  <key>zwsp</key>
-  <string>zwsp.glif</string>
+  <key>zerowidthjoiner</key>
+  <string>zerowidthjoiner.glif</string>
+  <key>zerowidthnonjoiner</key>
+  <string>zerowidthnonjoiner.glif</string>
+  <key>zerowidthnonjoiner.visible</key>
+  <string>zerowidthnonjoiner.visible.glif</string>
+  <key>zerowidthspace</key>
+  <string>zerowidthspace.glif</string>
 </dict>
 </plist>

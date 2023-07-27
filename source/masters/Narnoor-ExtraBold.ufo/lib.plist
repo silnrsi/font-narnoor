@@ -14,13 +14,13 @@
     <string>/ya_aamatra/ba_aamatra/bha_aamatra/ma_aamatra/ka_aamatra/kha_aamatra/ta_aamatra/tha_aamatra/la_aamatra/ga_aamatra/gha_aamatra/da_aamatra/dha_aamatra/na_aamatra/ca_aamatra/cha_aamatra/tta_aamatra/ttha_aamatra/lla_aamatra/ja_aamatra/jha_aamatra/dda_aamatra/ddha_aamatra/nga_aamatra/pa_aamatra/pha_aamatra/ha_aamatra/ra_aamatra/sa_aamatra</string>
     <string>/aavowel/na_aamatra/na_imatra/cha_imatra/ivowel/iivowel/uuvowel/eevowel/aivowel/space/oovowel/auvowel/aamatra/space/imatra/space/iimatra/space/iimatra_anusvara/space/umatra/space/sa/uumatra/space/space/eematra/space/space/aimatra 
 /space/space/space/space/space/space/space/space/space/space/space/space/space</string>
-    <string>!"',/quoteleft #'()*,-.//:;?[/backslash ]_{}¡«­·»¿/danda/dandadbl/abbreviationsign/hyphentwo/nbhyphen/figuredash/endash/emdash/horizontalbar/quoteleft '/quotesinglbase "/quotedblleft/quotedblright/quotedblbase/bullet/ellipsis/hyphenationpoint/guilsinglleft/guilsinglright</string>
+    <string>!"',/quoteleft #'()*,-.//:;?[/backslash ]_{}¡«­·»¿/danda/dandadbl/abbreviationsign/hyphentwo/nonbreakinghyphen/figuredash/endash/emdash/horizontalbar/quoteleft '/quotesinglbase "/quotedblleft/quotedblright/quotedblbase/bullet/ellipsis/hyphenationpoint/guilsinglleft/guilsinglright</string>
     <string>/ya/ya.half/ya_aamatra/ya_imatra/space/va/va.half/va_aamatra/va_imatra/space/ba/ba.half/ba_aamatra/ba_imatra/space/bha/bha.half/bha_aamatra/bha_imatra/tha_aamatra/space/ma/ma.half/ma_aamatra/ma_imatra/dha_aamatra/space/ka/ka.half/ka_aamatra/ka_imatra/space/kha/kha.half/kha_aamatra/kha_imatra/space/ta/ta.half/ta_aamatra/umatra/ta_imatra/ra_aamatra/la_aamatra/space/tha/tha.half/tha_aamatra/tha_imatra/pa_aamatra/space/la/la.half/la_aamatra/la_imatra/space/ga/ga.half/ga_aamatra/ga_imatra/space/gha/gha.half/gha_aamatra/gha_imatra/gha/gha_eematra/gha_aimatra/space/space/space/da/da.half/da_aamatra/da_imatra/sa_aamatra/space/dha/dha.half/dha_aamatra/dha_imatra/space/na/na.half/na_aamatra/na_imatra/space/ca/ca.half/ca_aamatra/ca_imatra/lla_aamatra/nga_aamatra/ddha_aamatra/space/cha/cha.half/cha_aamatra/cha_imatra/na_aamatra/ba_aamatra/va_aamatra/space/tta/tta.half/tta_aamatra/tta_imatra/space/ttha/ttha.half/tta_aamatra/ttha_aamatra/ttha_imatra/space/lla/lla.half/lla_aamatra/lla_imatra/space/ja/ja.half/ja_aamatra/ja_imatra/space/jha/jha.half/jha_aamatra/jha_imatra/space/dda/dda.half/dda_aamatra/dda_imatra/gha_aamatra/dda_eematra/dda_aimatra/dda_aumatra/space/ddha/ddha.half/ddha_aamatra/ddha_imatra/space/nga/nga.half/nga_aamatra/nga_imatra/nga_eematra/nga_aimatra/space/space/space/space/space/pa/pa.half/pa_aamatra/pa_imatra/space/pha/pha.half/pha_aamatra/pha_imatra/space/ha/ha.half/ha_aamatra/ha_imatra/space/ra.half/ra_aamatra/ra_imatra/ya_imatra/space/sa/sa_aamatra/sa_imatra</string>
     <string>/ya/umatra/va/umatra/ba/umatra/bha/umatra/ma/umatra/ka/umatra/kha/umatra/ta/umatra/tha/umatra 
 /la/umatra/ga/umatra/gha/umatra/da/umatra/dha/umatra/na/umatra/ca/umatra/cha/umatra/tta/umatra/ttha/umatra/lla/umatra/ja/umatra/jha/umatra/dda/umatra/ddha/umatra/nga/umatra/pa/umatra/pha/umatra/ha/umatra/ra/umatra/sa/umatra 
 /ya/uumatra/va/uumatra/ba/uumatra/bha/uumatra/ma/uumatra/ka/uumatra/kha/uumatra/ta/uumatra/tha/uumatra 
 /la/uumatra/ga/uumatra/gha/uumatra/da/uumatra/dha/uumatra/na/uumatra/ca/uumatra/cha/uumatra/tta/uumatra/ttha/uumatra/lla/uumatra/ja/uumatra/jha/uumatra/dda/uumatra/ddha/uumatra/nga/uumatra/pa/uumatra/pha/uumatra/ha/uumatra/ra/uumatra/sa/uumatra</string>
-    <string>/ya_aamatra/la/ma_imatra !"#%'(/ga/pa )*+,-.//:;&lt;=&gt;/ba/tha_aamatra ?[/ra/tta/na_aamatra ]/backslash ^_{|}~+×÷/abbreviationsign 6/figuredash/endash/emdash/horizontalbar/quoteleft/quoteright/quotedblleft/quotedblright/inrupee/onegong/fourgong 82/minus/openbox/sidebearingleft/space/sidebearingright</string>
+    <string>/ya_aamatra/la/ma_imatra !"#%'(/ga/pa )*+,-.//:;&lt;=&gt;/ba/tha_aamatra ?[/ra/tta/na_aamatra ]/backslash ^_{|}~+×÷/abbreviationsign 6/figuredash/endash/emdash/horizontalbar/quoteleft/quoteright/quotedblleft/quotedblright/rupeeIndian/onegong/fourgong 82/minus/blank/sidebearingleft/space/sidebearingright</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -184,7 +184,7 @@
     <string>twosuperior</string>
     <string>threesuperior</string>
     <string>acute</string>
-    <string>mu</string>
+    <string>micro</string>
     <string>paragraph</string>
     <string>periodcentered</string>
     <string>cedilla</string>
@@ -259,7 +259,7 @@
     <string>yacute</string>
     <string>thorn</string>
     <string>ydieresis</string>
-    <string>dotlessi</string>
+    <string>idotless</string>
     <string>OE</string>
     <string>oe</string>
     <string>Scaron</string>
@@ -292,8 +292,8 @@
     <string>caroncmb.cap</string>
     <string>cedillacmb</string>
     <string>cedillacmb.cap</string>
-    <string>cgj</string>
-    <string>Omegagreek</string>
+    <string>graphemejoinercomb</string>
+    <string>Omega</string>
     <string>pi</string>
     <string>danda</string>
     <string>dandadbl</string>
@@ -309,12 +309,12 @@
     <string>punctuationspace</string>
     <string>thinspace</string>
     <string>hairspace</string>
-    <string>zwsp</string>
-    <string>zwnj</string>
-    <string>zwnj.visible</string>
-    <string>zwj</string>
+    <string>zerowidthspace</string>
+    <string>zerowidthnonjoiner</string>
+    <string>zerowidthnonjoiner.visible</string>
+    <string>zerowidthjoiner</string>
     <string>hyphentwo</string>
-    <string>nbhyphen</string>
+    <string>nonbreakinghyphen</string>
     <string>figuredash</string>
     <string>endash</string>
     <string>emdash</string>
@@ -332,20 +332,20 @@
     <string>hyphenationpoint</string>
     <string>lineseparator</string>
     <string>paragraphseparator</string>
-    <string>nnbspace</string>
+    <string>narrownbspace</string>
     <string>perthousand</string>
     <string>guilsinglleft</string>
     <string>guilsinglright</string>
     <string>fraction</string>
-    <string>wj</string>
+    <string>wordjoiner</string>
     <string>foursuperior</string>
     <string>rupee</string>
-    <string>Euro</string>
-    <string>inrupee</string>
+    <string>euro</string>
+    <string>rupeeIndian</string>
     <string>trademark</string>
     <string>Ohm</string>
     <string>partialdiff</string>
-    <string>Delta</string>
+    <string>increment</string>
     <string>product</string>
     <string>summation</string>
     <string>minus</string>
@@ -358,9 +358,9 @@
     <string>notequal</string>
     <string>lessequal</string>
     <string>greaterequal</string>
-    <string>openbox</string>
+    <string>blank</string>
     <string>lozenge</string>
-    <string>dottedcircle</string>
+    <string>dottedCircle</string>
     <string>sidebearingleft</string>
     <string>sidebearingright</string>
     <string>fi</string>
@@ -381,7 +381,7 @@
     <string>VS14</string>
     <string>VS15</string>
     <string>VS16</string>
-    <string>zwnbsp</string>
+    <string>zeroWidthNoBreakSpace</string>
     <string>objectReplacementCharacter</string>
     <string>replacementCharacter</string>
     <string>avowel</string>
@@ -582,7 +582,7 @@
   <dict>
     <key>Ohm</key>
     <string>Omega</string>
-    <key>Omegagreek</key>
+    <key>Omega</key>
     <string>uni03A9</string>
     <key>VS1</key>
     <string>uniFE00</string>
@@ -660,6 +660,8 @@
     <string>u11D6F_u11D8A</string>
     <key>bha_imatra</key>
     <string>u11D6F_u11D8B</string>
+    <key>blank</key>
+    <string>uni2423</string>
     <key>bulletoperator</key>
     <string>uni2219</string>
     <key>ca</key>
@@ -678,8 +680,6 @@
     <string>uni0327</string>
     <key>cedillacmb.cap</key>
     <string>uni0327.cap</string>
-    <key>cgj</key>
-    <string>uni034F</string>
     <key>cha</key>
     <string>u11D7C</string>
     <key>cha.half</key>
@@ -740,7 +740,7 @@
     <string>uni0308.cap</string>
     <key>divisionslash</key>
     <string>uni2215</string>
-    <key>dottedcircle</key>
+    <key>dottedCircle</key>
     <string>uni25CC</string>
     <key>eematra</key>
     <string>u11D90</string>
@@ -764,6 +764,8 @@
     <string>uni2000</string>
     <key>enspace</key>
     <string>uni2002</string>
+    <key>euro</key>
+    <string>Euro</string>
     <key>fi</key>
     <string>uniFB01</string>
     <key>figurespace</key>
@@ -798,6 +800,8 @@
     <string>u11D77_u11D90</string>
     <key>gha_imatra</key>
     <string>u11D77_u11D8B</string>
+    <key>graphemejoinercomb</key>
+    <string>uni034F</string>
     <key>gravecmb</key>
     <string>gravecomb</string>
     <key>gravecmb.cap</key>
@@ -822,6 +826,8 @@
     <string>uni2027</string>
     <key>hyphentwo</key>
     <string>uni2010</string>
+    <key>idotless</key>
+    <string>dotlessi</string>
     <key>iimatra</key>
     <string>u11D8C</string>
     <key>iimatra_anusvara</key>
@@ -832,8 +838,8 @@
     <string>u11D8B</string>
     <key>imatra.short</key>
     <string>u11D8B.short</string>
-    <key>inrupee</key>
-    <string>uni20B9</string>
+    <key>increment</key>
+    <string>Delta</string>
     <key>ivowel</key>
     <string>u11D62</string>
     <key>ja</key>
@@ -902,6 +908,8 @@
     <string>u11D70_u11D8A</string>
     <key>ma_imatra</key>
     <string>u11D70_u11D8B</string>
+    <key>micro</key>
+    <string>mu</string>
     <key>na</key>
     <string>u11D7A</string>
     <key>na.half</key>
@@ -910,8 +918,8 @@
     <string>u11D7A_u11D8A</string>
     <key>na_imatra</key>
     <string>u11D7A_u11D8B</string>
-    <key>nbhyphen</key>
-    <string>uni2011</string>
+    <key>narrownbspace</key>
+    <string>uni202F</string>
     <key>nbspace</key>
     <string>uni00A0</string>
     <key>nga</key>
@@ -932,8 +940,8 @@
     <string>u11D84_u11D8B</string>
     <key>ninegong</key>
     <string>u11DA9</string>
-    <key>nnbspace</key>
-    <string>uni202F</string>
+    <key>nonbreakinghyphen</key>
+    <string>uni2011</string>
     <key>objectReplacementCharacter</key>
     <string>uniFFFC</string>
     <key>om</key>
@@ -952,8 +960,6 @@
     <string>u11D6A</string>
     <key>oovowel.short</key>
     <string>u11D6A.short</string>
-    <key>openbox</key>
-    <string>uni2423</string>
     <key>pa</key>
     <string>u11D85</string>
     <key>pa.half</key>
@@ -998,6 +1004,8 @@
     <string>uni030A.cap</string>
     <key>rupee</key>
     <string>uni20A8</string>
+    <key>rupeeIndian</key>
+    <string>uni20B9</string>
     <key>sa</key>
     <string>u11D89</string>
     <key>sa.2dots</key>
@@ -1096,7 +1104,7 @@
     <string>u11D97.alt</string>
     <key>visarga</key>
     <string>u11D96</string>
-    <key>wj</key>
+    <key>wordjoiner</key>
     <string>uni2060</string>
     <key>ya</key>
     <string>u11D6C</string>
@@ -1106,23 +1114,23 @@
     <string>u11D6C_u11D8A</string>
     <key>ya_imatra</key>
     <string>u11D6C_u11D8B</string>
+    <key>zeroWidthNoBreakSpace</key>
+    <string>uniFEFF</string>
     <key>zerogong</key>
     <string>u11DA0</string>
-    <key>zwj</key>
+    <key>zerowidthjoiner</key>
     <string>uni200D</string>
-    <key>zwnbsp</key>
-    <string>uniFEFF</string>
-    <key>zwnj</key>
+    <key>zerowidthnonjoiner</key>
     <string>uni200C</string>
-    <key>zwnj.visible</key>
+    <key>zerowidthnonjoiner.visible</key>
     <string>uni200C.visible</string>
-    <key>zwsp</key>
+    <key>zerowidthspace</key>
     <string>uni200B</string>
   </dict>
   <key>public.skipExportGlyphs</key>
   <array>
-    <string>zwj.visible</string>
-    <string>zwnj.visible</string>
+    <string>zerowidthjoiner.visible</string>
+    <string>zerowidthnonjoiner.visible</string>
     <string>avowel.chandrabindu</string>
     <string>eevowel.short</string>
     <string>oovowel.short</string>
