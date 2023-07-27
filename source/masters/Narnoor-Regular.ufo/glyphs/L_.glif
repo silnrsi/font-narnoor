@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="L" format="2">
-  <advance width="469"/>
+  <advance width="475"/>
   <unicode hex="004C"/>
-  <anchor x="131" y="643" name="aboveUC"/>
+  <anchor x="132" y="654" name="aboveUC"/>
   <outline>
     <contour>
-      <point x="82" y="0" type="line"/>
-      <point x="441" y="0" type="line"/>
-      <point x="441" y="79" type="line"/>
-      <point x="176" y="79" type="line"/>
-      <point x="176" y="622" type="line"/>
-      <point x="82" y="622" type="line"/>
+      <point x="84" y="0" type="line"/>
+      <point x="448" y="0" type="line"/>
+      <point x="448" y="77" type="line"/>
+      <point x="176" y="77" type="line"/>
+      <point x="176" y="633" type="line"/>
+      <point x="84" y="633" type="line"/>
     </contour>
   </outline>
   <lib>

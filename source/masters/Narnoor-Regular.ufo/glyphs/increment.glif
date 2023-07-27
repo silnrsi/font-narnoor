@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="increment" format="2">
-  <advance width="571"/>
+  <advance width="577"/>
   <unicode hex="2206"/>
   <outline>
     <contour>
       <point x="29" y="0" type="line"/>
-      <point x="541" y="0" type="line"/>
-      <point x="541" y="56" type="line"/>
-      <point x="340" y="622" type="line"/>
-      <point x="230" y="622" type="line"/>
-      <point x="29" y="56" type="line"/>
+      <point x="547" y="0" type="line"/>
+      <point x="547" y="54" type="line"/>
+      <point x="341" y="633" type="line"/>
+      <point x="235" y="633" type="line"/>
+      <point x="29" y="54" type="line"/>
     </contour>
     <contour>
-      <point x="131" y="79" type="line"/>
-      <point x="220" y="345" type="line"/>
-      <point x="282" y="541" type="line"/>
-      <point x="286" y="541" type="line"/>
-      <point x="348" y="345" type="line"/>
-      <point x="437" y="79" type="line"/>
+      <point x="128" y="77" type="line"/>
+      <point x="221" y="353" type="line"/>
+      <point x="285" y="554" type="line"/>
+      <point x="289" y="554" type="line"/>
+      <point x="353" y="353" type="line"/>
+      <point x="447" y="77" type="line"/>
     </contour>
   </outline>
   <lib>

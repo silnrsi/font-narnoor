@@ -24,83 +24,82 @@
 # Positioning classes and statements
 
 # AP: aboveUC
-@aboveUC = [A AE B C D E F G H N I J K L M O Q OE Oslash P R rupee S T U V W X Y Z];
-# baseClass A <anchor 265 641> @aboveUC;
-# baseClass AE <anchor 517 659> @aboveUC;
-# baseClass B <anchor 281 641> @aboveUC;
-# baseClass C <anchor 321 641> @aboveUC;
-# baseClass D <anchor 299 641> @aboveUC;
-# baseClass [E F] <anchor 273 641> @aboveUC;
-# baseClass G <anchor 344 641> @aboveUC;
-# baseClass [H N] <anchor 315 641> @aboveUC;
-# baseClass I <anchor 137 641> @aboveUC;
-# baseClass J <anchor 338 641> @aboveUC;
-# baseClass K <anchor 300 641> @aboveUC;
-# baseClass L <anchor 140 641> @aboveUC;
-# baseClass M <anchor 356 641> @aboveUC;
-# baseClass [O Q] <anchor 322 641> @aboveUC;
-# baseClass OE <anchor 503 641> @aboveUC;
-# baseClass Oslash <anchor 328 641> @aboveUC;
-# baseClass P <anchor 296 641> @aboveUC;
-# baseClass [R rupee] <anchor 290 641> @aboveUC;
-# baseClass S <anchor 272 641> @aboveUC;
-# baseClass T <anchor 260 641> @aboveUC;
-# baseClass U <anchor 312 641> @aboveUC;
-# baseClass V <anchor 258 641> @aboveUC;
-# baseClass W <anchor 382 641> @aboveUC;
-# baseClass X <anchor 262 641> @aboveUC;
-# baseClass Y <anchor 242 641> @aboveUC;
-# baseClass Z <anchor 268 641> @aboveUC;
+@aboveUC = [A Z AE B C D E F G H I J K L M N O Q OE Oslash P R rupee S T V U W X Y];
+# baseClass [A Z] <anchor 273 651> @aboveUC;
+# baseClass AE <anchor 518 670> @aboveUC;
+# baseClass B <anchor 289 651> @aboveUC;
+# baseClass C <anchor 331 651> @aboveUC;
+# baseClass D <anchor 307 651> @aboveUC;
+# baseClass E <anchor 278 651> @aboveUC;
+# baseClass F <anchor 279 651> @aboveUC;
+# baseClass G <anchor 354 651> @aboveUC;
+# baseClass H <anchor 324 651> @aboveUC;
+# baseClass I <anchor 145 651> @aboveUC;
+# baseClass J <anchor 347 651> @aboveUC;
+# baseClass K <anchor 308 651> @aboveUC;
+# baseClass L <anchor 148 651> @aboveUC;
+# baseClass M <anchor 368 651> @aboveUC;
+# baseClass N <anchor 322 651> @aboveUC;
+# baseClass [O Q] <anchor 330 651> @aboveUC;
+# baseClass OE <anchor 511 651> @aboveUC;
+# baseClass Oslash <anchor 338 651> @aboveUC;
+# baseClass P <anchor 305 651> @aboveUC;
+# baseClass [R rupee] <anchor 299 651> @aboveUC;
+# baseClass S <anchor 281 651> @aboveUC;
+# baseClass [T V] <anchor 268 651> @aboveUC;
+# baseClass U <anchor 321 651> @aboveUC;
+# baseClass W <anchor 393 651> @aboveUC;
+# baseClass X <anchor 274 651> @aboveUC;
+# baseClass Y <anchor 253 651> @aboveUC;
 
 # AP: baseLC
 @baseLC = [C S T c dottedCircle rupee s t];
-# baseClass C <anchor 330 0> @baseLC;
-# baseClass S <anchor 263 0> @baseLC;
-# baseClass T <anchor 261 0> @baseLC;
-# baseClass c <anchor 259 0> @baseLC;
-# baseClass dottedCircle <anchor 275 0> @baseLC;
-# baseClass rupee <anchor 788 0> @baseLC;
-# baseClass s <anchor 218 0> @baseLC;
-# baseClass t <anchor 219 0> @baseLC;
+# baseClass C <anchor 337 0> @baseLC;
+# baseClass S <anchor 270 0> @baseLC;
+# baseClass T <anchor 268 0> @baseLC;
+# baseClass c <anchor 265 0> @baseLC;
+# baseClass dottedCircle <anchor 279 0> @baseLC;
+# baseClass rupee <anchor 816 0> @baseLC;
+# baseClass s <anchor 224 0> @baseLC;
+# baseClass t <anchor 228 0> @baseLC;
 
 # AP: _none
 markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 graphemejoinercomb virama] <anchor 0 0> @_none;
 
 # AP: aboveLC
-@aboveLC = [a ae b k thorn breve c circumflex d dottedCircle e f g h l i idotless j m n p o oslash oe q r rupee s t u v w x y z];
+@aboveLC = [a ae b k thorn breve c o oslash circumflex d dottedCircle e f g h l i idotless j m n p oe q r rupee s t u v w x y z];
 @aboveLC_MarkBase = [circumflexcmb dieresiscmb dotaccentcmb];
-# baseClass a <anchor 263 490> @aboveLC;
-# baseClass ae <anchor 390 490> @aboveLC;
-# baseClass [b k thorn] <anchor 129 693> @aboveLC;
-# baseClass breve <anchor 261 677> @aboveLC;
-# baseClass c <anchor 262 490> @aboveLC;
-# baseClass circumflex <anchor 261 692> @aboveLC;
-# baseClass d <anchor 383 693> @aboveLC;
-# baseClass dottedCircle <anchor 275 490> @aboveLC;
-# baseClass e <anchor 254 490> @aboveLC;
-# baseClass f <anchor 213 703> @aboveLC;
-# baseClass g <anchor 253 490> @aboveLC;
-# baseClass [h l] <anchor 126 693> @aboveLC;
-# baseClass i <anchor 126 678> @aboveLC;
-# baseClass idotless <anchor 127 490> @aboveLC;
-# baseClass j <anchor 129 678> @aboveLC;
-# baseClass m <anchor 411 490> @aboveLC;
-# baseClass [n p] <anchor 287 490> @aboveLC;
-# baseClass [o oslash] <anchor 261 490> @aboveLC;
-# baseClass oe <anchor 408 490> @aboveLC;
-# baseClass q <anchor 273 490> @aboveLC;
-# baseClass r <anchor 225 490> @aboveLC;
-# baseClass rupee <anchor 789 490> @aboveLC;
-# baseClass s <anchor 219 490> @aboveLC;
-# baseClass t <anchor 151 620> @aboveLC;
-# baseClass u <anchor 267 490> @aboveLC;
-# baseClass v <anchor 242 490> @aboveLC;
-# baseClass w <anchor 361 490> @aboveLC;
-# baseClass x <anchor 234 490> @aboveLC;
-# baseClass y <anchor 246 490> @aboveLC;
-# baseClass z <anchor 228 490> @aboveLC;
-# baseClass circumflexcmb <anchor 0 699> @aboveLC_MarkBase;
-# baseClass [dieresiscmb dotaccentcmb] <anchor 0 676> @aboveLC_MarkBase;
+# baseClass a <anchor 271 501> @aboveLC;
+# baseClass ae <anchor 397 501> @aboveLC;
+# baseClass [b k thorn] <anchor 135 705> @aboveLC;
+# baseClass breve <anchor 268 692> @aboveLC;
+# baseClass [c o oslash] <anchor 268 501> @aboveLC;
+# baseClass circumflex <anchor 268 709> @aboveLC;
+# baseClass d <anchor 394 705> @aboveLC;
+# baseClass dottedCircle <anchor 279 501> @aboveLC;
+# baseClass e <anchor 260 501> @aboveLC;
+# baseClass f <anchor 219 716> @aboveLC;
+# baseClass g <anchor 262 501> @aboveLC;
+# baseClass [h l] <anchor 132 705> @aboveLC;
+# baseClass i <anchor 133 698> @aboveLC;
+# baseClass idotless <anchor 133 501> @aboveLC;
+# baseClass j <anchor 136 698> @aboveLC;
+# baseClass m <anchor 424 501> @aboveLC;
+# baseClass [n p] <anchor 297 501> @aboveLC;
+# baseClass oe <anchor 411 501> @aboveLC;
+# baseClass q <anchor 282 501> @aboveLC;
+# baseClass r <anchor 238 501> @aboveLC;
+# baseClass rupee <anchor 819 501> @aboveLC;
+# baseClass s <anchor 227 501> @aboveLC;
+# baseClass t <anchor 161 636> @aboveLC;
+# baseClass u <anchor 275 501> @aboveLC;
+# baseClass v <anchor 254 501> @aboveLC;
+# baseClass w <anchor 375 501> @aboveLC;
+# baseClass x <anchor 248 501> @aboveLC;
+# baseClass y <anchor 257 501> @aboveLC;
+# baseClass z <anchor 237 501> @aboveLC;
+# baseClass circumflexcmb <anchor 0 713> @aboveLC_MarkBase;
+# baseClass [dieresiscmb dotaccentcmb] <anchor 0 696> @aboveLC_MarkBase;
 
 # AP: A
 @A = [aamatra aavowel aivowel aumatra auvowel avowel ba ba_aamatra ba_imatra bha bha_aamatra bha_imatra ca ca_aamatra ca_imatra cha cha_aamatra cha_imatra da ttha da_aamatra da_imatra dda dda_aamatra dda_aimatra dda_aumatra dda_eematra dda_imatra ddha ddha_aamatra ddha_imatra ja_imatra dha dha_aamatra dha_imatra ma_imatra dottedCircle eevowel ga ga_aamatra ga_imatra gha gha_aamatra gha_aimatra gha_eematra gha_imatra ha ha_aamatra ha_imatra iimatra iivowel imatra ivowel ja ja_aamatra jha jha_aamatra jha_imatra ka ka_aamatra ka_imatra kha kha_aamatra kha_imatra la la_aamatra la_imatra lla lla_aamatra lla_imatra ma ma_aamatra na na_aamatra na_imatra nga nga_aamatra nga_aimatra nga_eematra nga_imatra oomatra oovowel pa pa_aamatra pa_imatra pha pha_aamatra pha_imatra ra ra_aamatra ra_imatra sa sa_aamatra sa_imatra ta ta_aamatra ta_imatra tha tha_aamatra tha_imatra tta tta_aamatra tta_imatra ttha_aamatra ttha_imatra umatra uumatra uuvowel uvowel va va_aamatra va_imatra ya ya_aamatra ya_imatra];
@@ -138,7 +137,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass dha <anchor 715 655> @A;
 # baseClass dha_aamatra <anchor 1032 655> @A;
 # baseClass [dha_imatra ma_imatra] <anchor 1124 665> @A;
-# baseClass dottedCircle <anchor 275 645> @A;
+# baseClass dottedCircle <anchor 279 655> @A;
 # baseClass eevowel <anchor 733 722> @A;
 # baseClass ga <anchor 699 655> @A;
 # baseClass ga_aamatra <anchor 1039 655> @A;
@@ -220,10 +219,10 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass eematra <anchor -125 712> @A_MarkBase;
 
 # AP: _aboveLC
-markClass [acutecmb brevecmb caroncmb circumflexcmb dieresiscmb dotaccentcmb gravecmb hungarumlautcmb macroncmb ringcmb tildecmb] <anchor 0 490> @_aboveLC;
+markClass [acutecmb brevecmb caroncmb circumflexcmb dieresiscmb dotaccentcmb gravecmb hungarumlautcmb macroncmb ringcmb tildecmb] <anchor 0 501> @_aboveLC;
 
 # AP: _aboveUC
-markClass [acutecmb.cap caroncmb.cap circumflexcmb.cap dieresiscmb.cap gravecmb.cap ringcmb.cap tildecmb.cap] <anchor 0 641> @_aboveUC;
+markClass [acutecmb.cap caroncmb.cap circumflexcmb.cap dieresiscmb.cap gravecmb.cap ringcmb.cap tildecmb.cap] <anchor 0 651> @_aboveUC;
 
 # AP: _M
 markClass aimatra <anchor -94 655> @_M;
@@ -249,7 +248,7 @@ markClass anusvara <anchor -105 645> @_A;
 # baseClass ddha <anchor 705 655> @M;
 # baseClass dha <anchor 711 655> @M;
 # baseClass dha_aamatra <anchor 1023 655> @M;
-# baseClass dottedCircle <anchor 550 645> @M;
+# baseClass dottedCircle <anchor 557 655> @M;
 # baseClass ga <anchor 698 655> @M;
 # baseClass ga_aamatra <anchor 1039 655> @M;
 # baseClass gha <anchor 811 655> @M;
@@ -447,7 +446,7 @@ lookup Matras {
     pos base ddha <anchor 705 655> mark @_M;
     pos base dha <anchor 711 655> mark @_M;
     pos base dha_aamatra <anchor 1023 655> mark @_M;
-    pos base dottedCircle <anchor 550 645> mark @_M;
+    pos base dottedCircle <anchor 557 655> mark @_M;
     pos base ga <anchor 698 655> mark @_M;
     pos base ga_aamatra <anchor 1039 655> mark @_M;
     pos base gha <anchor 811 655> mark @_M;
@@ -529,7 +528,7 @@ lookup BaseAnusvara {
     pos base dha <anchor 715 655> mark @_A;
     pos base dha_aamatra <anchor 1032 655> mark @_A;
     pos base [dha_imatra ma_imatra] <anchor 1124 665> mark @_A;
-    pos base dottedCircle <anchor 275 645> mark @_A;
+    pos base dottedCircle <anchor 279 655> mark @_A;
     pos base eevowel <anchor 733 722> mark @_A;
     pos base ga <anchor 699 655> mark @_A;
     pos base ga_aamatra <anchor 1039 655> mark @_A;

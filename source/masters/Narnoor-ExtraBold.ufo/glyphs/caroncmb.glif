@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="caroncmb" format="2">
   <unicode hex="030C"/>
-  <anchor x="0" y="490" name="_aboveLC"/>
+  <anchor x="0" y="501" name="_aboveLC"/>
   <outline>
     <contour>
-      <point x="-61" y="547" type="line"/>
-      <point x="61" y="547" type="line"/>
-      <point x="166" y="674" type="line"/>
-      <point x="118" y="718" type="line"/>
-      <point x="1" y="624" type="line"/>
-      <point x="-1" y="624" type="line"/>
-      <point x="-118" y="718" type="line"/>
-      <point x="-166" y="674" type="line"/>
+      <point x="-72" y="557" type="line"/>
+      <point x="72" y="557" type="line"/>
+      <point x="176" y="684" type="line"/>
+      <point x="122" y="735" type="line"/>
+      <point x="1" y="646" type="line"/>
+      <point x="-1" y="646" type="line"/>
+      <point x="-122" y="735" type="line"/>
+      <point x="-176" y="684" type="line"/>
     </contour>
   </outline>
   <lib>

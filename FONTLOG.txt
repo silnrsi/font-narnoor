@@ -14,7 +14,7 @@ This project provides a free and open font for the Gunjala Gondi script.
 (This should list both major and minor changes, most recent first.)
 
 ### dd Jun 2023 (SIL International) Narnoor font version 3.000
-- ExtraBold Latin characters are from Source Sans Semibold at 100%
+- Latin characters are from Source Sans at 96.67%
 
 ### 21 Feb 2023 (SIL International) Narnoor font version 2.000
 - Redraw all Gunjala Gondi glyphs

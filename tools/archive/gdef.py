@@ -20,10 +20,10 @@ for glyph in font:
             if anchor.name.startswith('_'):
                 glyph.removeAnchor(anchor)
     # if glyph.unicode == 0x11D97: # virama
-    if glyph.unicode in vs:
-        glyph.appendAnchor('_none', (0, 0))
-    if glyph.unicode == cgj:
-        glyph.appendAnchor('_aboveLC', (0, 0))
+    # if glyph.unicode in vs:
+    #     glyph.appendAnchor('_none', (0, 0))
+    # if glyph.unicode == cgj:
+    #     glyph.appendAnchor('_aboveLC', (0, 0))
 
 # Save UFO
 font.changed()

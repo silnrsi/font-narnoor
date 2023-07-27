@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hungarumlautcmb" format="2">
-  <anchor x="0" y="490" name="_aboveLC"/>
+  <anchor x="0" y="501" name="_aboveLC"/>
   <outline>
     <contour>
-      <point x="-48" y="537" type="line"/>
-      <point x="51" y="698" type="line"/>
-      <point x="-30" y="736" type="line"/>
-      <point x="-113" y="566" type="line"/>
+      <point x="-49" y="546" type="line"/>
+      <point x="54" y="712" type="line"/>
+      <point x="-40" y="754" type="line"/>
+      <point x="-125" y="579" type="line"/>
     </contour>
     <contour>
-      <point x="113" y="537" type="line"/>
-      <point x="213" y="698" type="line"/>
-      <point x="131" y="736" type="line"/>
-      <point x="48" y="566" type="line"/>
+      <point x="123" y="546" type="line"/>
+      <point x="228" y="712" type="line"/>
+      <point x="132" y="754" type="line"/>
+      <point x="48" y="579" type="line"/>
     </contour>
   </outline>
   <lib>

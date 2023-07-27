@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="I" format="2">
-  <advance width="275"/>
+  <advance width="291"/>
   <unicode hex="0049"/>
-  <anchor x="137" y="641" name="aboveUC"/>
+  <anchor x="145" y="651" name="aboveUC"/>
   <outline>
     <contour>
-      <point x="76" y="0" type="line"/>
-      <point x="198" y="0" type="line"/>
-      <point x="198" y="620" type="line"/>
-      <point x="76" y="620" type="line"/>
+      <point x="74" y="0" type="line"/>
+      <point x="216" y="0" type="line"/>
+      <point x="216" y="630" type="line"/>
+      <point x="74" y="630" type="line"/>
     </contour>
   </outline>
   <lib>
