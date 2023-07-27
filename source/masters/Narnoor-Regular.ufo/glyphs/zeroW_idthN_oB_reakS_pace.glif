@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="nnbspace" format="2">
-  <advance width="118"/>
-  <unicode hex="202F"/>
+<glyph name="zeroWidthNoBreakSpace" format="2">
+  <unicode hex="FEFF"/>
   <outline/>
   <lib>
     <dict>

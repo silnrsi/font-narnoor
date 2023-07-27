@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="zwsp" format="2">
-  <unicode hex="200B"/>
+<glyph name="wordjoiner" format="2">
+  <unicode hex="2060"/>
   <outline/>
   <lib>
     <dict>

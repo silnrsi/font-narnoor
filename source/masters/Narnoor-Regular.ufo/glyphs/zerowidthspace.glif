@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="zwj" format="2">
-  <unicode hex="200D"/>
+<glyph name="zerowidthspace" format="2">
+  <unicode hex="200B"/>
   <outline/>
   <lib>
     <dict>
