@@ -2,14 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>com.github.googlei18n.ufo2ft.featureWriters</key>
+  <array>
+    <dict>
+      <key>class</key>
+      <string>KernFeatureWriter</string>
+    </dict>
+    <dict>
+      <key>class</key>
+      <string>ContextualMarkFeatureWriter</string>
+      <key>module</key>
+      <string>glyphsLib.featureWriters.markFeatureWriter</string>
+    </dict>
+    <dict>
+      <key>class</key>
+      <string>GdefFeatureWriter</string>
+    </dict>
+    <dict>
+      <key>class</key>
+      <string>CursFeatureWriter</string>
+    </dict>
+  </array>
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3202</string>
+  <string>3208</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/ya_imatra/va_imatra/ba_imatra/bha_imatra/ma_imatra/ka_imatra/kha_imatra/ta_imatra/tha_imatra/la_imatra/ga_imatra/gha_imatra/da_imatra/dha_imatra/na_imatra/_imatra-hook/ca_imatra/cha_imatra/tta_imatra/ttha_imatra/lla_imatra/ja_imatra/jha_imatra/dda_imatra/ddha_imatra/nga_imatra/pa_imatra/pha_imatra/ha_imatra/ra_imatra/sa_imatra/space/ya/tta/va/imatra</string>
-    <string>/ya_aamatra/ba_aamatra/bha_aamatra/ma_aamatra/ka_aamatra/kha_aamatra/ta_aamatra/tha_aamatra/la_aamatra/ga_aamatra/gha_aamatra/da_aamatra/dha_aamatra/na_aamatra/ca_aamatra/cha_aamatra/tta_aamatra/ttha_aamatra/lla_aamatra/ja_aamatra/jha_aamatra/dda_aamatra/ddha_aamatra/nga_aamatra/pa_aamatra/pha_aamatra/ha_aamatra/ra_aamatra/sa_aamatra</string>
+    <string>/ya_aamatra/ba_aamatra/bha_aamatra/space/ma_aamatra/ka_aamatra/space/kha_aamatra/ta_aamatra/space/tha_aamatra/la_aamatra/space/ga_aamatra/gha_aamatra/da_aamatra/dha_aamatra/space/na_aamatra/ca_aamatra/cha_aamatra/tta_aamatra/danda/space/ttha_aamatra/lla_aamatra/ja_aamatra/jha_aamatra/space/dda_aamatra/ddha_aamatra/nga_aamatra/pa_aamatra/pha_aamatra/space/ha_aamatra/ra_aamatra/sa_aamatra/dandadbl</string>
     <string>/aavowel/na_aamatra/na_imatra/cha_imatra/ivowel/iivowel/uuvowel/eevowel/aivowel/space/oovowel/auvowel/aamatra/space/imatra/space/iimatra/space/iimatra_anusvara/space/umatra/space/sa/uumatra/space/space/eematra/space/space/aimatra 
 /space/space/space/space/space/space/space/space/space/space/space/space/space</string>
     <string>!"',/quoteleft #'()*,-.//:;?[/backslash ]_{}¡«­·»¿/danda/dandadbl/abbreviationsign/hyphentwo/nonbreakinghyphen/figuredash/endash/emdash/horizontalbar/quoteleft '/quotesinglbase "/quotedblleft/quotedblright/quotedblbase/bullet/ellipsis/hyphenationpoint/guilsinglleft/guilsinglright</string>

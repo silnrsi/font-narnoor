@@ -3,17 +3,7 @@
   <advance width="612"/>
   <unicode hex="0965"/>
   <outline>
-    <contour>
-      <point x="398" y="-52" type="line"/>
-      <point x="484" y="-52" type="line"/>
-      <point x="484" y="678" type="line"/>
-      <point x="398" y="678" type="line"/>
-    </contour>
-    <contour>
-      <point x="203" y="-52" type="line"/>
-      <point x="289" y="-52" type="line"/>
-      <point x="289" y="678" type="line"/>
-      <point x="203" y="678" type="line"/>
-    </contour>
+    <component base="danda"/>
+    <component base="danda" xOffset="195"/>
   </outline>
 </glyph>
