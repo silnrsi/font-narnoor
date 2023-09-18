@@ -21,7 +21,7 @@
       <string>\u00F130\u0000A0\u00F131 \u0000A1 \u0000A2 \u0000A3 \u0000A4 \u0000A5 \u0000A6 \u0000A7 \u0000A8 \u0000A9 \u0000AA \u0000AB \u0000AC \u0000AD \u0000AE \u0000AF \u0000B0 \u0000B1 \u0000B2 \u0000B3 \u0000B4 \u0000B5 \u0000B6 \u0000B7 \u0000B8 \u0000B9 \u0000BA \u0000BB \u0000BC \u0000BD \u0000BE \u0000BF \u0000C0 \u0000C1 \u0000C2 \u0000C3 \u0000C4 \u0000C5 \u0000C6 \u0000C7 \u0000C8 \u0000C9 \u0000CA \u0000CB \u0000CC \u0000CD \u0000CE \u0000CF \u0000D0 \u0000D1 \u0000D2 \u0000D3 \u0000D4 \u0000D5 \u0000D6 \u0000D7 \u0000D8 \u0000D9 \u0000DA \u0000DB \u0000DC \u0000DD \u0000DE \u0000DF \u0000E0 \u0000E1 \u0000E2 \u0000E3 \u0000E4 \u0000E5 \u0000E6 \u0000E7 \u0000E8 \u0000E9 \u0000EA \u0000EB \u0000EC \u0000ED \u0000EE \u0000EF \u0000F0 \u0000F1 \u0000F2 \u0000F3 \u0000F4 \u0000F5 \u0000F6 \u0000F7 \u0000F8 \u0000F9 \u0000FA \u0000FB \u0000FC \u0000FD \u0000FE \u0000FF</string>
     </test>
     <test label="U+0131">
-      <comment>dotlessi</comment>
+      <comment>idotless</comment>
       <string>\u000131</string>
     </test>
     <test label="U+0152">
@@ -73,11 +73,11 @@
       <string>\u011D6C\u000327</string>
     </test>
     <test label="U+034F">
-      <comment>cgj</comment>
+      <comment>graphemejoinercomb</comment>
       <string>\u011D6C\u00034F</string>
     </test>
     <test label="U+03A9">
-      <comment>Omegagreek</comment>
+      <comment>Omega</comment>
       <string>\u0003A9</string>
     </test>
     <test label="U+03C0">
@@ -117,7 +117,7 @@
       <string>\u002026 \u002027 \u00F130\u002028\u00F131 \u00F130\u002029\u00F131</string>
     </test>
     <test label="U+202F">
-      <comment>nnbspace</comment>
+      <comment>narrownbspace</comment>
       <string>\u00F130\u00202F\u00F131 \u002030</string>
     </test>
     <test label="U+2039">
@@ -129,7 +129,7 @@
       <string>\u002044</string>
     </test>
     <test label="U+2060">
-      <comment>wj</comment>
+      <comment>wordjoiner</comment>
       <string>\u002060</string>
     </test>
     <test label="U+2074">
@@ -141,11 +141,11 @@
       <string>\u0020A8</string>
     </test>
     <test label="U+20AC">
-      <comment>Euro</comment>
+      <comment>euro</comment>
       <string>\u0020AC</string>
     </test>
     <test label="U+20B9">
-      <comment>inrupee</comment>
+      <comment>rupeeIndian</comment>
       <string>\u0020B9</string>
     </test>
     <test label="U+2122">
@@ -161,7 +161,7 @@
       <string>\u002202</string>
     </test>
     <test label="U+2206">
-      <comment>Delta</comment>
+      <comment>increment</comment>
       <string>\u002206</string>
     </test>
     <test label="U+220F">
@@ -201,7 +201,7 @@
       <string>\u002264 \u002265</string>
     </test>
     <test label="U+2423">
-      <comment>openbox</comment>
+      <comment>blank</comment>
       <string>\u002423</string>
     </test>
     <test label="U+25CA">
@@ -209,7 +209,7 @@
       <string>\u0025CA</string>
     </test>
     <test label="U+25CC">
-      <comment>dottedcircle</comment>
+      <comment>dottedCircle</comment>
       <string>\u0025CC</string>
     </test>
     <test label="U+F130">
@@ -225,7 +225,7 @@
       <string>\u011D6C\u00FE00 \u011D6C\u00FE01 \u011D6C\u00FE02 \u011D6C\u00FE03 \u011D6C\u00FE04 \u011D6C\u00FE05 \u011D6C\u00FE06 \u011D6C\u00FE07 \u011D6C\u00FE08 \u011D6C\u00FE09 \u011D6C\u00FE0A \u011D6C\u00FE0B \u011D6C\u00FE0C \u011D6C\u00FE0D \u011D6C\u00FE0E \u011D6C\u00FE0F</string>
     </test>
     <test label="U+FEFF">
-      <comment>zwnbsp</comment>
+      <comment>zeroWidthNoBreakSpace</comment>
       <string>\u00FEFF</string>
     </test>
     <test label="U+FFFC">
@@ -747,7 +747,7 @@ U+2027
 U+2030
 U+2039
 U+203A">
-      <comment>exclam quotedbl numbersign percent ampersand quotesingle parenleft parenright asterisk comma hyphen period slash colon semicolon question at bracketleft backslash bracketright underscore braceleft braceright exclamdown section guillemetleft paragraph periodcentered guillemetright questiondown danda dandadbl abbreviationsign hyphentwo nbhyphen figuredash endash emdash horizontalbar quoteleft quoteright quotesinglbase quotedblleft quotedblright quotedblbase dagger daggerdbl bullet ellipsis hyphenationpoint perthousand guilsinglleft guilsinglright</comment>
+      <comment>exclam quotedbl numbersign percent ampersand quotesingle parenleft parenright asterisk comma hyphen period slash colon semicolon question at bracketleft backslash bracketright underscore braceleft braceright exclamdown section guillemetleft paragraph periodcentered guillemetright questiondown danda dandadbl abbreviationsign hyphentwo nonbreakinghyphen figuredash endash emdash horizontalbar quoteleft quoteright quotesinglbase quotedblleft quotedblright quotedblbase dagger daggerdbl bullet ellipsis hyphenationpoint perthousand guilsinglleft guilsinglright</comment>
       <string>!"#%&amp;'()*,-./:;?@[\]_{}\u0000A1\u0000A7\u0000AB\u0000B6\u0000B7\u0000BB\u0000BF\u000964\u000965\u000970\u002010\u002011\u002012\u002013\u002014\u002015\u002018\u002019\u00201A\u00201C\u00201D\u00201E\u002020\u002021\u002022\u002026\u002027\u002030\u002039\u00203A</string>
     </test>
   </testgroup>
