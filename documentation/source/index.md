@@ -1,6 +1,6 @@
 ---
 title: Narnoor - Documentation
-fontversion: 2.100
+fontversion: 3.000
 ---
 
 <span class='narnoor-R normal'>𑵺𑶊𑶈𑵺𑶎𑶈</span>&nbsp;&nbsp;&nbsp;Regular<br>
@@ -15,6 +15,7 @@ This documentation is a set of HTML pages that can be viewed in any modern web b
 
 - [About](about.md) — Information about this project and SIL International
 - [Resources](resources.md) — Help with installation and use
+- [FAQ](faq.md) — Common questions and answers
 - [Character set support](charset.md) — Details of Unicode characters that are supported
 - [Support](support.md) — How to get additional support
 - [Developer information](developer.md) — How to modify and build the fonts

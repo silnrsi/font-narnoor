@@ -1,6 +1,6 @@
 ---
 title: Narnoor - About
-fontversion: 2.100
+fontversion: 3.000
 ---
 
 ## About this project
