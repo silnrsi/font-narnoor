@@ -10,7 +10,7 @@ psfsetpsnames -i source/glyph_data.csv source/masters/Narnoor-Regular.ufo
 psfsetglyphorder -i source/glyph_data.csv source/masters/Narnoor-Regular.ufo # --header sort_design
 
 # Sync glyph orders, psnames, and other metadata
-psfsyncmasters --complex -q source/Narnoor.designspace
+psfsyncmasters -q source/Narnoor.designspace
 
 # Rebuild composites
 psfbuildcomp -i source/composites.txt -c -n source/masters/Narnoor-Regular.ufo   &
