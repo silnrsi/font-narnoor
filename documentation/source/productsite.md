@@ -1,6 +1,6 @@
 ---
 title: Narnoor - Product Site
-fontversion: 3.000
+fontversion: 3.001
 ---
 
 ![Narnoor - Banner](assets/images/narnoor_banner.png){.fullsize}
@@ -22,7 +22,10 @@ A compiled and uncompiled TECkit conversion table can be downloaded which maps d
 
 ## Keyboarding
 
-Narnoor can be used with any Unicode Gunjala keyboarding program. Mark Penny’s freely downloadable [Gunjala Gondi keyboard](https://keyman.com/keyboards/gondi_gunjala) for iPhone and iPad, Linux, macOS, Android, Windows, Mobile web, and Web is based on a phonetic representation of the script.
+Narnoor can be used with any Unicode Gunjala keyboarding program. Two keyboards are freely available:
+
+- [Gunjala Gondi keyboard](https://keyman.com/keyboards/gondi_gunjala) – based on a phonetic representation of the script (for iPhone and iPad, Linux, macOS, Android, Windows, Mobile web, and Web)
+- [Gondi INSCRIPT](https://keyman.com/keyboards/gondi_gunjala_inscript) – an INSCRIPT-based layout (for Windows, Linux, macOS, and Web)
 
 ## FAQs
 
@@ -47,12 +50,10 @@ These fonts are licensed under the [SIL Open Font License (OFL)](https://scripts
 
 [sil_download style="table" sort="name" where="info.type == 'font'"]
 
-### Release Notes for v2.000
+### Release Notes for v3.000
 
-- Redraw all Gunjala Gondi glyphs
-- Replace Latin characters with Source Sans
-- Remove Graphite shaping
-- Improve OpenType shaping
+- Add more weights (Medium, SemiBold, Bold, ExtraBold)
+- Latin characters are darker and smaller that the v2.000 release
 
 ### Previous Versions
 

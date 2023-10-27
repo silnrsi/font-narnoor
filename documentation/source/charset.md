@@ -1,6 +1,6 @@
 ---
 title: Narnoor - Character Set Support
-fontversion: 3.000
+fontversion: 3.001
 ---
 
 Narnoor support the Gunjala Gondi script, dandas from Devanagari, and a basic set of Latin characters.

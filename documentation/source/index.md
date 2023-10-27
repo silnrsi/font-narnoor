@@ -1,6 +1,6 @@
 ---
 title: Narnoor - Documentation
-fontversion: 3.000
+fontversion: 3.001
 ---
 
 <span class='narnoor-R normal'>𑵺𑶊𑶈𑵺𑶎𑶈</span>&nbsp;&nbsp;&nbsp;Regular<br>

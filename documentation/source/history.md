@@ -1,6 +1,6 @@
 ---
 title: Narnoor - Version History
-fontversion: 3.000
+fontversion: 3.001
 ---
 
 ### 29 Sep 2023 (SIL International) Narnoor font version 3.000
