@@ -10,7 +10,7 @@ fontversion: 3.001
 
 The Gunjala Gondi script is used by the [Gondi (Adilabad) language](https://www.ethnologue.com/language/wsg) of South Asia. This script has been in [Unicode](https://www.unicode.org/charts/PDF/U11D60.pdf) since Unicode 11 but dates back to 1750. It was named after Gunjala, the village where Professor Jayadhir Tirumal Rao, a visiting professor at the Centre for Dalit and Adivasi Studies and Translation (CDAST), discovered an ancient hand-written manuscript. CDAST is a department of Hyderabad Central University (HCU) in India, where scholars are working to increase use of the Gunjala Gondi script, also known as Koytura Gunjala lipi. Teaching materials and textbooks are now in use in schools in the Gondi-speaking villages of Adilabad District.
 
-*Narnoor* is a Unicode font based on typographer S. Sridhara Murthy’s original font for the Gunjala script. With the generous permission of CDAST at HCU we have re-engineered and released this font under the [SIL Open Font License (OFL)](https://scripts.sil.org/OFL). The name “Narnoor” reflects the name of the mandal in Adilabad district of Telangana, where the Gunjala Gondi script is actively being revived.
+*Narnoor* is a Unicode font based on typographer S. Sridhara Murthy’s original font for the Gunjala script. With the generous permission of CDAST at HCU we have re-engineered and released this font under the [SIL Open Font License (OFL)](https://openfontlicense.org). The name “Narnoor” reflects the name of the mandal in Adilabad district of Telangana, where the Gunjala Gondi script is actively being revived.
 
 This [Type Sample](https://software.sil.org/downloads/r/narnoor/Narnoor-Font-Sample.pdf) document demonstrates the characters and a sample text.
 
@@ -35,13 +35,13 @@ Yes. You can create web pages that request that Narnoor be used to display them.
 
 ### Can I make changes to the Narnoor font?
 
-Yes! That is allowed as long as you abide by the conditions of the [SIL Open Font License (OFL)](https://scripts.sil.org/OFL).
+Yes! That is allowed as long as you abide by the conditions of the [SIL Open Font License (OFL)](https://openfontlicense.org).
 
 <h2 id="downloads">Downloads</h2>
 
 ### License
 
-These fonts are licensed under the [SIL Open Font License (OFL)](https://scripts.sil.org/OFL)
+These fonts are licensed under the [SIL Open Font License (OFL)](https://openfontlicense.org)
 
 ![SIL Open Font License (OFL)](assets/images/OFL_logo_rect_color.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/wp/wp-content/uploads/2019/03/OFL_logo_rect_color.png -->

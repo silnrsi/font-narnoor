@@ -7,7 +7,7 @@ fontversion: 3.001
 
 The Gunjala Gondi script is used by the Gondi (Adilabad) language of South Asia. This script has been in Unicode since Unicode 11 but dates back to 1750. It was named after Gunjala, the village where Professor Jayadhir Tirumal Rao, a visiting professor at the Centre for Dalit and Adivasi Studies and Translation (CDAST), discovered an ancient hand-written manuscript. CDAST is a department of Hyderabad Central University (HCU) in India, where scholars are working to increase use of the Gunjala Gondi script, also known as Koytura Gunjala lipi. Teaching materials and textbooks are now in use in schools in the Gondi-speaking villages of Adilabad District.
 
-Narnoor is a Unicode font based on typographer S. Sridhara Murthy’s original font for the Gunjala script. With the generous permission of CDAST at HCU we have re-engineered and released this font under the [SIL Open Font License (OFL)](https://scripts.sil.org/OFL). The name “Narnoor” reflects the name of the mandal in Adilabad district of Telangana, where the Gunjala Gondi script is actively being revived.
+Narnoor is a Unicode font based on typographer S. Sridhara Murthy’s original font for the Gunjala script. With the generous permission of CDAST at HCU we have re-engineered and released this font under the [SIL Open Font License (OFL)](https://openfontlicense.org). The name “Narnoor” reflects the name of the mandal in Adilabad district of Telangana, where the Gunjala Gondi script is actively being revived.
 
 ## Future plans
 
