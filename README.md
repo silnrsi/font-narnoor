@@ -1,4 +1,4 @@
-## Narnoor [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Narnoor/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Narnoor&guest=1)
+## Narnoor [![Build Status](https://build.palaso.org/app/rest/builds/buildType:Fonts_Narnoor/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Narnoor&guest=1)
 
 This project provides a free and open font for the Gunjala Gondi script.
 This project uses a UFO-based design and production workflow, with all sources in open formats and a completely open-source build toolkit.
