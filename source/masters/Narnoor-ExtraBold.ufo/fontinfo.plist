@@ -8,7 +8,7 @@
   <integer>735</integer>
   <key>copyright</key>
   <string>Original font copyright (c) 2014-2017 CDAST, University of Hyderabad, Hyderabad (cdast@uohyd.ernet.in).
-Additions and modifications copyright (c) 2015-2023 SIL International (https://www.sil.org/).
+Additions and modifications copyright (c) 2015-2024 SIL International (https://www.sil.org/).
 Latin glyphs copyright (c) 2010, 2012, 2014, 2021 Adobe Systems Incorporated
 (https://www.adobe.com/), with Reserved Font Name 'Source'.
 </string>
@@ -44,7 +44,7 @@ Latin glyphs copyright (c) 2010, 2012, 2014, 2021 Adobe Systems Incorporated
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/09/19 16:33:56</string>
+  <string>2024/03/05 09:58:39</string>
   <key>openTypeHheaAscender</key>
   <integer>1314</integer>
   <key>openTypeHheaDescender</key>
@@ -59,7 +59,7 @@ Latin glyphs copyright (c) 2010, 2012, 2014, 2021 Adobe Systems Incorporated
   <string>https://software.sil.org/wstech/</string>
   <key>openTypeNameLicense</key>
   <string>Original font copyright (c) 2014-2017 CDAST, University of Hyderabad, Hyderabad (cdast@uohyd.ernet.in).
-Additions and modifications copyright (c) 2015-2023 SIL International (https://www.sil.org/).
+Additions and modifications copyright (c) 2015-2024 SIL International (https://www.sil.org/).
 Latin glyphs copyright (c) 2010, 2012, 2014, 2021 Adobe Systems Incorporated
 (https://www.adobe.com/), with Reserved Font Name 'Source'.
 
@@ -166,7 +166,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>ExtraBold</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Narnoor ExtraBold: 2023</string>
+  <string>SIL International: Narnoor ExtraBold: 2024</string>
   <key>openTypeNameVersion</key>
   <string>Version 3.001</string>
   <key>openTypeOS2CodePageRanges</key>
