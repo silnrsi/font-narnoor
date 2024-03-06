@@ -1,0 +1,10 @@
+sources:
+  - source/Narnoor-VF.designspace
+axisOrder:
+  - wght
+familyName: Narnoor GF
+autohintTTF: false
+
+buildOTF: false
+buildTTF: false
+outputDir: gf

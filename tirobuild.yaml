@@ -1,0 +1,5 @@
+vf-suffix: TB
+formats: [ttf, woff2]
+fonts:
+  Narnoor-TB:
+    source: source/Narnoor-VF.designspace
